@@ -391,7 +391,7 @@
       </div>
     </section>
     <section id="step-4" class="4mockup bg-grey-darkest text-md">
-      <div class="container font-color-light">
+      <div class="container font-color-lighter">
         <div class="content mt-16 mb-16">
           <div class="project-title col">
             <div class="title-group">

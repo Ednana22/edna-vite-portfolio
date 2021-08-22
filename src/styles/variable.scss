@@ -31,20 +31,20 @@ padding: 0px;
 }
 }
 .gradient-border:after {
-content: '';
-position: absolute;
-top: calc(-1 * var(--borderWidth));
-left: calc(-1 * var(--borderWidth));
-height: calc(100% + var(--borderWidth) * 2);
-width: calc(100% + var(--borderWidth) * 2);
-background: linear-gradient(60deg, #f8f8f8, #edeff1, #ffffff);
-border-radius: calc(2 * var(--borderWidth));
-z-index: -1;
-background-size: 300% 300%;
-box-shadow: 22px 25px 34px -20px rgb(187, 187, 190);
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #f8f8f8, #edeff1, #ffffff);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    background-size: 300% 300%;
+    box-shadow: 22px 25px 34px -20px rgb(187, 187, 190);
 }
 .border-thin {
-border: 2px solid $color_grey-lightest;
+    border: 2px solid $color_grey-lightest;
 }
 
 ///DARK-SECTION
@@ -62,13 +62,13 @@ border: 2px solid $color_grey-lightest;
   
 ///BUTTON
 .btn {
-font-size: 16px;
-background-color: $color_white;
-color: $color_grey-dark;
-border: initial;
-padding: 10px 0px;
-font-weight: 600;
-margin-top: 16px;
+    font-size: 16px;
+    background-color: $color_white;
+    color: $color_grey-dark;
+    border: initial;
+    padding: 10px 0px;
+    font-weight: 600;
+    margin-top: 16px;
 &:hover {
     background-color: $color_white;
     color: $color_blue-dark;
@@ -88,3 +88,4 @@ margin-top: 16px;
     color: $color_blue-dark;
 }
 }
+

@@ -478,7 +478,7 @@
     </div>
   </section>
   <section class="5result bg-grey-darkest text-md mb-16">
-    <div class="container font-color-light">
+    <div class="container font-color-lighter">
       <div class="row">
         <div class="col-md-6 content-pr-48 mb-48">
           <div class="project-title">

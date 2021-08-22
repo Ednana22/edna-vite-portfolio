@@ -3,15 +3,14 @@
   <section class="title container">
     <h1 class="mb-24">PMS鋪價功能規劃</h1>
     <p class="text-md mb-4">
-      <span class="color_grey-light">負責內容 | </span>UX研究、UI
-      設計、重整網站架構
+      <span class="color_grey-light">負責內容 | </span>UX研究、UI 設計
     </p>
     <p class="text-md mb-4">
       <span class="color_grey-light">專案規模 | </span>跨二部門，約8人
     </p>
     <p class="text-md mb-4">
       <span class="color_grey-light">專案角色 | </span>UI/UX
-      Designer
+      Designer、工程部門對外窗口
     </p>
   </section>
   <section class="banner container">
@@ -265,7 +264,7 @@
     </div>
   </section>
   <section class="5result bg-grey-darkest text-md mb-16">
-    <div class="container font-color-light">
+    <div class="container font-color-lighter">
       <div class="col-md-6 content-pr-48 mb-48">
         <div class="project-title">
           <div class="title-group">

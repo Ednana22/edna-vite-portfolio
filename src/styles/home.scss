@@ -28,10 +28,6 @@ $grid-breakpoints: (
   }
 }
 
-
-
-
-
 ///文字設定///
 @media (min-width: 0px) {
   h1 {
@@ -48,20 +44,11 @@ $grid-breakpoints: (
     font-size: 20px;
     font-weight: 700;
   }
-  .text-md {
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 1.8;
-  }
-  .text-sm {
-    font-size: 14px;
-    font-weight: 400;
-    margin-bottom: 24px;
-  }
+
 }
 @media (min-width: 768px) {
   h1 {
-    font-size: 20px;
+    font-size: 18px;
   }
   h2 {
     font-size: 60px;
@@ -72,12 +59,7 @@ $grid-breakpoints: (
     font-size: 20x;
     font-weight: 700;
   }
-  .text-md {
-    font-family: sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.8;
-  }
+
 }
 
 ///---PROTECT---
