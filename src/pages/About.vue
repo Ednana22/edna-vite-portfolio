@@ -125,13 +125,34 @@ alt="..."
         </p>
       </div>
       <div class="col-md-6 content-pl-48">
-        <figure class="figure md-32">
+        <figure class="figure">
           <img
-          src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/hotel+front+desk.jpg"
-          class="figure-img img-fluid"
-          alt="..."
-        />
+          src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/nngroup.png"
+          class="figure-img img-fluid" width="200px"
+          alt="..."/>
         </figure>
+        <div class="emoji flex">
+          <figure class="figure">
+            <img
+            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/heart.png"
+            class="figure-img img-fluid mr-24" width="40px"
+            alt="..."/>
+          </figure>    
+          <figure class="figure">
+            <img
+            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/chicken.png"
+            class="figure-img img-fluid mr-24" width="40px"
+            alt="..."/>
+          </figure>    
+          <figure class="figure">
+            <img
+            src=" https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/soup.png"
+            
+            class="figure-img img-fluid" width="40px"
+            alt="..."/>
+          </figure>                        
+                
+        </div>
       </div>
 
     </div>
@@ -147,11 +168,45 @@ alt="..."
       <div class="col-md-6 content-pl-48">
         <figure class="figure md-32">
           <img
-        src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/hotel+front+desk.jpg"
-        class="figure-img img-fluid"
-        alt="..."
-      />
+          src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/swiss-flag.png"
+          class="figure-img img-fluid" width="80px"
+          alt="..."/>
         </figure>
+        <div class="emoji flex">
+          <figure class="figure">
+            <img
+            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/book.png"
+            class="figure-img img-fluid mr-24" width="40px"
+            alt="..."/>
+          </figure>    
+          <figure class="figure">
+            <img
+            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/student.png"
+            class="figure-img img-fluid mr-24" width="40px"
+            alt="..."/>
+          </figure>    
+          <figure class="figure">
+            <img
+            src=" https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/artist-palette.png"
+            
+            class="figure-img img-fluid" width="40px"
+            alt="..."/>
+          </figure>                        
+          <figure class="figure">
+            <img
+            src=" https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/speech-balloon.png"
+            
+            class="figure-img img-fluid" width="40px"
+            alt="..."/>
+          </figure>   
+          <figure class="figure">
+            <img
+            src=" https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/france.png"
+            
+            class="figure-img img-fluid" width="40px"
+            alt="..."/>
+          </figure>                             
+        </div>
       </div>
 
     </div>
@@ -168,11 +223,45 @@ alt="..."
       <div class="col-md-6 content-pl-48">
         <figure class="figure md-32">
           <img
-      src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/hotel+front+desk.jpg"
-      class="figure-img img-fluid"
-      alt="..."
-    />
+          src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/app-icon.png"
+          class="figure-img img-fluid" width="80px"
+          alt="..."/>
         </figure>
+        <div class="emoji flex">
+          <figure class="figure">
+            <img
+            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/relex-w.png"
+            class="figure-img img-fluid mr-24" width="40px"
+            alt="..."/>
+          </figure>    
+          <figure class="figure">
+            <img
+            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/relex-m.png"
+            class="figure-img img-fluid mr-24" width="40px"
+            alt="..."/>
+          </figure>    
+          <figure class="figure">
+            <img
+            src=" https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/phone.png"
+            
+            class="figure-img img-fluid" width="40px"
+            alt="..."/>
+          </figure>                        
+          <figure class="figure">
+            <img
+            src=" https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/speech-balloon.png"
+            
+            class="figure-img img-fluid" width="40px"
+            alt="..."/>
+          </figure>   
+          <figure class="figure">
+            <img
+            src=" https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/france.png"
+            
+            class="figure-img img-fluid" width="40px"
+            alt="..."/>
+          </figure>                             
+        </div>
       </div>
 
     </div>

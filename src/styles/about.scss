@@ -9,21 +9,12 @@ $grid-breakpoints: (
   xxl: 1400px
 );
 
-.plan_border {
-  padding: 10px 16px;
-  border: 1px solid $color_grey-light;
-  border-radius: 4px;
-  width: 120px;
-  text-align: center;
-  margin: auto;
-}
-
 ///文字設定///
 @media (min-width: 0px) {
   h1 {
-    font-size: 32px;
-    letter-spacing: 1px;
-    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: 1.6px;
+    font-weight: 400px;
   }
   h2 {
     font-size: 17px;
@@ -42,6 +33,38 @@ $grid-breakpoints: (
     margin: initial;
     line-height: initial;
   }
+  .text-xxl {
+    @media (max-width: 2680px) {
+      font-size: 80px;
+      font-weight: 300;
+      font-family: 'rubik';
+      line-height: 1;
+    }
+    @media (max-width: 1440px) {
+      font-size: 64px;
+      font-weight: 300;
+      font-family: 'rubik';
+      line-height: 1;
+    }
+    @media (max-width: 576px) {
+      font-size: 48px;
+      font-weight: 300;
+      font-family: 'rubik';
+      line-height: 1;
+    }
+  }
+  .text-xl {
+    font-size: 48px;
+    font-weight: 300;
+    font-family: 'rubik';
+    line-height: 1;
+  }
+  .text-l {
+    font-size: 32px;
+    font-weight: 300;
+    font-family: 'rubik';
+    line-height: 1;
+  }
   .text-md {
     font-size: 15px;
     font-weight: 400;
@@ -58,17 +81,11 @@ $grid-breakpoints: (
     font-size: 14px;
     font-weight: 400;
   }
-  .text-sm-bold {
-    font-size: 14px;
-    font-weight: 600;
-  }
 }
-@media (min-width: 768px) {
+@media (max-width: 2680px) {
   h1 {
-    font-size: 40px;
-    font-family: Rubik;
-    font-weight: 300;
-    letter-spacing: 0px;
+    font-size: 28px;
+    font-weight: 400px !important;
   }
   h2 {
     font-size: 18px;
@@ -88,9 +105,7 @@ $grid-breakpoints: (
     font-weight: 600;
   }
 }
-.line-through {
-  text-decoration: line-through;
-}
+
 .border-circle {
   padding: 20px;
   border-radius: 100px;
@@ -99,16 +114,6 @@ $grid-breakpoints: (
   height: 74px;
   background-color: $color_grey-darker;
   z-index: 3;
-}
-.through-line::after {
-  content: ' ';
-  border: 1px solid $color_grey-light;
-  width: 200px;
-  z-index: 2;
-  position: absolute;
-}
-.line-height-2 {
-  line-height: 2.1;
 }
 
 
