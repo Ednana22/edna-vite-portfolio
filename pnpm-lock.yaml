@@ -7,11 +7,13 @@ specifiers:
   vite: ^2.4.4
   vue: ^3.0.5
   vue-router: ^4.0.11
+  vue3-click-away: ^1.2.1
 
 dependencies:
   sass: 1.38.0
   vue: 3.2.4
   vue-router: 4.0.11_vue@3.2.4
+  vue3-click-away: 1.2.1
 
 devDependencies:
   '@vitejs/plugin-vue': 1.4.0_@vue+compiler-sfc@3.2.4
@@ -513,6 +515,10 @@ packages:
       '@vue/compiler-dom': 3.2.4
       '@vue/runtime-dom': 3.2.4
       '@vue/shared': 3.2.4
+    dev: false
+
+  /vue3-click-away/1.2.1:
+    resolution: {integrity: sha512-8GA3rfFlwIS9oCqFzqGdk7CvUz7JwvoiBJQLW4BxrVQEgzTB9oo/lWMazz4XwouA8tnquIHa2ZBHLix689RpAg==}
     dev: false
 
   /yallist/3.1.1:
