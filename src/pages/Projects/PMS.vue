@@ -14,7 +14,7 @@
       Designer
     </p>
   </section>
-  <div class="banner container">
+  <section class="banner container">
     <figure class="figure col-md-12">
       <img
         src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/pms-hero.png"
@@ -23,7 +23,7 @@
       />
       <div class="bnanner"></div>
     </figure>
-  </div>
+  </section>
   <section class="story container text-md ">
     <p class="text-md mb-80"> OwlNest是一款為旅宿業打造的B2B三合一整合型訂房系統，提供前台官網訂房系統、PMS訂單管理系統、線上銷售平台通路串接，用戶遍及亞洲、美洲國家，旅宿用戶達上千家。
     </p>
