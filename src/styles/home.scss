@@ -1,0 +1,444 @@
+///BREAKPOINTS
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+//COLOR
+//---GREY---
+$color_white: #fff;
+$color_grey-lightest: #f2f2f2;
+$color_grey-lighter: #dcdcdc;
+$color_grey-light: #807c7c;
+$color_grey-base: #333333;
+$color_grey-dark: #2d2929;
+//---BLUE---
+$color_blue-lightest: #ebf4ff;
+$color_blue-lighter: #d0e4fb;
+$color_blue-light: #9fcbff;
+$color_blue-base: #51a1ff;
+$color_blue-dark: #2c72c3;
+
+//左上logo hover
+
+//---全域---
+.navbar {
+  .dropdown-toggle::after {
+    border: none;
+  }
+  .navbar-toggler {
+    border: initial;
+    &:hover {
+      background-color: $color_grey-lightest;
+    }
+    &:focus {
+      outline: 10px auto $color_grey-lighter;
+    }
+    .navbar-toggler-icon {
+      width: 24px;
+    }
+  }
+  .la-angle-down {
+    margin-left: 8px;
+  }
+  .collapse {
+    flex-grow: initial;
+    font-size: 14px;
+    .nav-link {
+      color: $color_grey-dark;
+      &:hover {
+        background-color: $color_grey-lightest;
+        border-radius: 4px;
+        color: $color_grey-dark;
+      }
+    }
+  }
+  @media (min-width: 320px) {
+    font-size: 14px;
+    color: $color_grey-dark;
+    padding: 4px 16px;
+    background-color: $color_white;
+    box-shadow: 0 5px 15px -5px rgb(92 101 107 / 15%);
+  }
+  @media (max-width: 768px) {
+    padding: 4px 40px;
+    box-shadow: 0 5px 15px -5px rgb(92 101 107 / 15%);
+  }
+  @media (min-width: 1440px) {
+    padding: 4px 80px;
+    box-shadow: 0 5px 15px -5px rgb(92 101 107 / 15%);
+  }
+}
+
+section {
+  padding: 60px 0px 60px 0px;
+}
+.container-hero {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: sans-serif;
+  color: $color_grey-dark;
+  @media (max-width: 2680px) {
+    max-width: 1000px;
+  }
+  @media (max-width: 1024px) {
+    max-width: 900px;
+  }
+  @media (max-width: 1024px) {
+    max-width: 700px;
+  }
+}
+.container {
+  @media (max-width: 2680px) {
+    max-width: 1440x;
+    font-family: sans-serif;
+    color: $color_grey-dark;
+  }
+  @media (max-width: 1024px) {
+    max-width: 1000px;
+    font-family: sans-serif;
+    color: $color_grey-dark;
+  }
+  @media (max-width: 992px) {
+    max-width: 840px;
+    font-family: sans-serif;
+    color: $color_grey-dark;
+  }
+  @media (max-width: 768px) {
+    max-width: 700px;
+    font-family: sans-serif;
+    color: $color_grey-dark;
+  }
+}
+
+.btn {
+  font-size: 16px;
+  background-color: $color_white;
+  color: $color_grey-dark;
+  border: initial;
+  padding: 10px 0px;
+  font-weight: 600;
+  margin-top: 16px;
+  &:hover {
+    background-color: $color_white;
+    color: $color_blue-dark;
+    text-decoration: none;
+    i {
+      transform: translateX(5px);
+      transition-duration: (0.5s);
+    }
+  }
+  &:active {
+    transform: scale(0.99);
+    color: $color_blue-dark !important;
+  }
+  &:focus {
+  }
+  .la-long-arrow-alt-right {
+    margin-left: 8px;
+    color: $color_blue-dark;
+  }
+}
+.text-color-light {
+  color: $color_grey-light;
+}
+///MARGIN
+///mb---
+.mb-4 {
+  margin-bottom: 4px !important;
+}
+.mb-8 {
+  margin-bottom: 8px !important;
+}
+.mb-16 {
+  margin-bottom: 16px !important;
+}
+.mb-24 {
+  margin-bottom: 24px;
+}
+.mb-32 {
+  margin-bottom: 32px;
+}
+.mb-48 {
+  margin-bottom: 48px;
+}
+.mb-60 {
+  margin-bottom: 60px;
+}
+.mb-80 {
+  margin-bottom: 80px;
+}
+///-mt
+.mt-16 {
+  margin-top: 16px;
+}
+.mt-60 {
+  margin-top: 60px;
+}
+///mr---
+.mr-4 {
+  margin-right: 4px !important;
+}
+.mr-8 {
+  margin-right: 8px !important;
+}
+.mr-16 {
+  margin-right: 16px !important;
+}
+.mr-24 {
+  margin-right: 24px;
+}
+//////ml---
+.ml-4 {
+  margin-left: 4px;
+}
+.ml-8 {
+  margin-left: 8px;
+}
+.ml-16 {
+  margin-left: 16px;
+}
+.ml-24 {
+  margin-left: 24px;
+}
+.ml-32 {
+  margin-left: 32px;
+}
+.ml-40 {
+  margin-left: 40px;
+}
+.ml-auto {
+  margin-left: auto;
+}
+///PADDING
+.pt-60 {
+  padding-top: 60px;
+}
+///CONTENT-PADDING-RIGHT
+.content-pr-48 {
+  @media (max-width: 1920px) {
+    padding-right: 48px;
+  }
+  @media (max-width: 992px) {
+    padding: 15px;
+  }
+}
+.content-p-15 {
+  @media (max-width: 992px) {
+    padding: 15px;
+  }
+}
+
+///文字設定///
+@media (min-width: 0px) {
+  h1 {
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: 400;
+  }
+  h2 {
+    font-size: 48px;
+    font-family: 'rubik';
+    font-weight: 300;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .text-md {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+  }
+  .text-sm {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 24px;
+  }
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 60px;
+    font-family: 'rubik';
+    font-weight: 300;
+  }
+  h3 {
+    font-size: 20x;
+    font-weight: 700;
+  }
+  .text-md {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+  }
+}
+
+///---ROJECT---
+.project {
+  align-items: center;
+}
+
+//--MARKET_漸層邊框
+.gradient-border {
+  --borderWidth: 8px;
+  position: relative;
+  border-radius: var(--borderWidth);
+}
+.gradient-border:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #fdfdfd, #eef1f5, #e6f0f7);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+  box-shadow: 22px 25px 34px -12px rgb(170, 174, 179);
+}
+
+///--MARKET---
+.market-device-section {
+  display: flex;
+  align-items: flex-end;
+  .web {
+    margin-right: 32px;
+  }
+  @media (max-width: 2680px) {
+    padding: 20px 20px 20px 0px;
+    .web {
+      width: 1000px;
+      height: 440px;
+      background-image: url(https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/market-web-hp.gif);
+    }
+    .mobile {
+      width: 300px;
+      height: 280px;
+      background-image: url(https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/market-m-hp-short.gif);
+    }
+  }
+  @media (max-width: 1200px) {
+    padding: 20px 20px 20px 0px;
+    .web {
+      width: 900px;
+      height: 360px;
+      background-image: url(https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/market-web-hp.gif);
+    }
+    .mobile {
+      width: 260px;
+      height: 220px;
+      background-image: url(https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/market-m-hp-short.gif);
+    }
+  }
+  @media (max-width: 1024px) {
+    .web {
+      width: 700px;
+      height: 350px;
+      background-image: url(https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/market-web-hp.gif);
+    }
+    .mobile {
+      width: 240px;
+      height: 246px;
+      background-image: url(https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market-m-hp-short.gif);
+    }
+  }
+  @media (max-width: 990px) {
+    padding: 16px;
+    margin-bottom: 40px;
+    .web {
+      width: 1000px;
+      height: 500px;
+      background-image: url(https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/market-web-hp.gif);
+    }
+    .mobile {
+      width: 280px;
+      height: 280px;
+      background-image: url(https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/market-m-hp-short.gif);
+    }
+  }
+  @media (max-width: 768px) {
+    padding: 16px;
+    margin-bottom: 40px;
+    .web {
+      width: 1000px;
+      height: 360px;
+      background-image: url(https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/market-web-hp.gif);
+    }
+    .mobile {
+      width: 280px;
+      height: 230px;
+      background-image: url(https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/market-m-hp-short.gif);
+    }
+  }
+  @media (max-width: 576px) {
+    .web {
+      margin-right: 0px;
+      width: 100%;
+      height: 300px;
+      background-image: url(https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market-web-hp.gif);
+    }
+    .mobile {
+      display: none;
+      // width: 100px;
+      // height: 140px;
+      // background-image: url(https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market-m-hp-short.gif);
+    }
+  }
+}
+.img-container {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+///---官網---
+.owl-device-section {
+  position: relative;
+  @media (max-width: 2680px) {
+    padding: 20px 20px 20px 0px;
+  }
+  @media (max-width: 576px) {
+    padding: 15px;
+    margin-bottom: 32px;
+  }
+}
+.owl-device-section::before {
+  content: ' ';
+  width: 180px;
+  height: 180px;
+  background: #baddf1;
+  filter: blur(38px);
+  position: absolute;
+  bottom: 60px;
+  left: -45px;
+  z-index: -1;
+}
+.owl-device-section::after {
+  content: ' ';
+  width: 100px;
+  height: 100px;
+  background: rgb(147, 172, 255);
+  filter: blur(38px);
+  position: absolute;
+
+  top: 0px;
+  right: -20px;
+  z-index: -1;
+}
+
+.figure-img {
+  margin-bottom: initial;
+}

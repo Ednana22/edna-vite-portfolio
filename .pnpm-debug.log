@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_NO_SCRIPT",
+    "err": {
+      "name": "Error",
+      "message": "Missing script: install",
+      "code": "ERR_PNPM_NO_SCRIPT",
+      "stack": "Error: Missing script: install\n    at Object.handler (/Users/edna/.nvm/versions/node/v14.17.5/lib/node_modules/pnpm/dist/pnpm.cjs:122921:15)\n    at async /Users/edna/.nvm/versions/node/v14.17.5/lib/node_modules/pnpm/dist/pnpm.cjs:126966:20\n    at async run (/Users/edna/.nvm/versions/node/v14.17.5/lib/node_modules/pnpm/dist/pnpm.cjs:126941:34)\n    at async runPnpm (/Users/edna/.nvm/versions/node/v14.17.5/lib/node_modules/pnpm/dist/pnpm.cjs:127151:5)\n    at async /Users/edna/.nvm/versions/node/v14.17.5/lib/node_modules/pnpm/dist/pnpm.cjs:127143:7"
+    }
+  }
+}
