@@ -44,7 +44,7 @@
 import { reactive, ref } from 'vue'
 
 const state = reactive({ count: 0 })
-const isDropDownOpen = ref(true)
+const isDropDownOpen = ref(false)
 const handleDropDownOutside = () => (isDropDownOpen.value = false)
 
 </script>
