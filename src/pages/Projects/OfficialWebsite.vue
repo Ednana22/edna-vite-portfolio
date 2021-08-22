@@ -251,7 +251,7 @@
     </div>
   </section>
   <section class="4procress bg-grey-darkest text-md ">
-    <div class="container font-color-light pt-60">
+    <div class="container font-color-lighter pt-60">
       <div class="content mt-16 mb-16">
         <div class="project-title">
           <div class="title-group col">

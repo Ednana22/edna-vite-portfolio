@@ -249,7 +249,7 @@
       </div>
     </section>
     <section id="step-3" class="3precress bg-grey-darkest text-md">
-      <div class="container font-color-light">
+      <div class="container font-color-lighter">
         <div class="content mt-16 mb-16">
           <div class="project-title">
             <div class="title-group col">

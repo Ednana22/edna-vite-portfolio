@@ -203,7 +203,7 @@
     </div>
   </section>
   <section class="4procress bg-grey-darkest text-md ">
-    <div class="container font-color-light">
+    <div class="container font-color-lighter">
       <div class="project-title">
         <div class="title-group">
           <h4 class="mr-8">4</h4>
