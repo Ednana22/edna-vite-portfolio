@@ -36,13 +36,13 @@
             <h3>奧丁丁市集電子商務平台改版</h3>
             <div class="text-md mb-24">
                 品牌再造
-                <span class="text-color-light"> | </span>
+                <span class="font-color-lighter"> | </span>
                 網站重構
-                <span class="text-color-light"> | </span>
+                <span class="font-color-lighter"> | </span>
                 APP規劃
-                <span class="text-color-light"> | </span>
+                <span class="font-color-lighter"> | </span>
                 UX研究
-                <span class="text-color-light"> | </span>
+                <span class="font-color-lighter"> | </span>
                 UI設計
             </div>
             <div class="text-md">
@@ -72,18 +72,18 @@
             <div class="col-lg-4">
             <h3>奧丁丁集團官方網站重構</h3>
             <div class="text-md mb-24">
-                網站重構<span class="text-color-light"> | </span>UX研究<span
-                class="text-color-light"
+                網站重構<span class="font-color-lighter"> | </span>UX研究<span
+                class="font-color-lighter"
                 >
-                | </span>UI設計<span class="text-color-light"> | </span>形象官網
+                | </span>UI設計<span class="font-color-lighter"> | </span>形象官網
             </div>
 
             <div class="text-md">
                 重構奧丁丁集團官網，將集團理念以及各事業體介紹更清楚的傳達給使用者。跨集團七個事業體進行資訊整合，並從集團VI延伸為網站定義風格。
             </div>
-            <button type="button" class="btn btn-link">
+            <router-link class="btn btn-link" :to="{ name: 'ProjectWeb' }">
                 瀏覽專案<i class="las la-long-arrow-alt-right"></i>
-            </button>
+            </router-link>
             </div>
         </div>
         </div>
@@ -105,18 +105,18 @@
             <div class="col-lg-4">
             <h3>奧丁丁集團官方網站重構</h3>
             <div class="text-md mb-24">
-                網站重構<span class="text-color-light"> | </span>UX研究<span
-                class="text-color-light"
+                網站重構<span class="font-color-lighter"> | </span>UX研究<span
+                class="font-color-lighter"
                 >
-                | </span>UI設計<span class="text-color-light"> | </span>形象官網
+                | </span>UI設計<span class="font-color-lighter"> | </span>形象官網
             </div>
 
             <div class="text-md">
                 重構奧丁丁集團官網，將集團理念以及各事業體介紹更清楚的傳達給使用者。跨集團七個事業體進行資訊整合，並從集團VI延伸為網站定義風格。
             </div>
-            <button type="button" class="btn btn-link">
+            <router-link class="btn btn-link" :to="{ name: 'ProjectPMS' }">
                 瀏覽專案<i class="las la-long-arrow-alt-right"></i>
-            </button>
+            </router-link>
             </div>
         </div>
         </div>
