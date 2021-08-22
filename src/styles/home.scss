@@ -80,7 +80,7 @@ $grid-breakpoints: (
   }
 }
 
-///---ROJECT---
+///---PROTECT---
 .project {
   align-items: center;
 }
@@ -101,7 +101,6 @@ $grid-breakpoints: (
   background: linear-gradient(60deg, #fdfdfd, #eef1f5, #e6f0f7);
   border-radius: calc(2 * var(--borderWidth));
   z-index: -1;
-  animation: animatedgradient 3s ease alternate infinite;
   background-size: 300% 300%;
   box-shadow: 22px 25px 34px -12px rgb(170, 174, 179);
 }

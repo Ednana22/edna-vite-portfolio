@@ -40,7 +40,6 @@ width: calc(100% + var(--borderWidth) * 2);
 background: linear-gradient(60deg, #f8f8f8, #edeff1, #ffffff);
 border-radius: calc(2 * var(--borderWidth));
 z-index: -1;
-animation: animatedgradient 3s ease alternate infinite;
 background-size: 300% 300%;
 box-shadow: 22px 25px 34px -20px rgb(187, 187, 190);
 }
@@ -86,8 +85,7 @@ margin-top: 16px;
     transform: scale(0.99);
     color: $color_blue-dark !important;
 }
-&:focus {
-}
+
 .la-long-arrow-alt-right {
     margin-left: 8px;
     color: $color_blue-dark;

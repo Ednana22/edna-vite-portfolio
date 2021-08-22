@@ -166,8 +166,7 @@ $grid-breakpoints: (
 }
 .user-journey-image {
   @media (max-width: 2680px) {
-    .user-journey-web {
-    }
+
     .user-journey-mobile {
       display: none;
     }
