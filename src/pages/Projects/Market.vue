@@ -1,46 +1,8 @@
 <template>
+  <div id="page-elevator">
+    <a v-for="i in 7" :key="`elevator-${i}`" @click.prevent="onElevatorClick(`#step-${i}`)">{{ i }}</a>
+  </div>
   <main class="project-market" >
-    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="">
-          <img
-        width="38"
-        alt="EdnaWei"
-        src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/EW.svg"
-        data-v-e2fa79a4=""
-      />
-        </a>
-        <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"> </span>
-    </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                專案設計<i class="las la-angle-down"></i>
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">關於我</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
     <section class="title container">
       <h1 class="mb-24">奧丁丁市集電子商務平台改版</h1>
       <p class="text-md mb-4">
@@ -127,7 +89,7 @@
     />
       </figure>
     </section>
-    <section class="1task container text-md">
+    <section id="step-1" class="1task container text-md">
       <div class="row content mt-16 mb-16">
         <div class="col-md-6 content-pr-48 mb-48">
           <div class="project-title">
@@ -248,7 +210,7 @@
         </div>
       </div>
     </section>
-    <section class="2define container text-md">
+    <section id="step-2" class="2define container text-md">
       <div class="row content mt-16 mb-16">
         <div class="col-md-6 content-pr-48">
           <div class="project-title">
@@ -286,7 +248,7 @@
         </div>
       </div>
     </section>
-    <section class="3precress bg-grey-darkest text-md">
+    <section id="step-3" class="3precress bg-grey-darkest text-md">
       <div class="container font-color-light">
         <div class="content mt-16 mb-16">
           <div class="project-title">
@@ -428,7 +390,7 @@
         </div>
       </div>
     </section>
-    <section class="4mockup bg-grey-darkest text-md">
+    <section id="step-4" class="4mockup bg-grey-darkest text-md">
       <div class="container font-color-light">
         <div class="content mt-16 mb-16">
           <div class="project-title col">
@@ -493,7 +455,7 @@
         </div>
       </div>
     </section>
-    <section class="5iterate container text-md">
+    <section id="step-5" class="5iterate container text-md">
       <div class="project-title col">
         <div class="title-group">
           <h4 class="mr-8">5</h4>
@@ -518,7 +480,7 @@
         </figure>
       </div>
     </section>
-    <section class="6takeaway container text-md">
+    <section id="step-6" class="6takeaway container text-md">
       <div class="content mt-16 mb-16">
         <div class="project-title">
           <div class="title-group">
@@ -549,7 +511,7 @@
         </div>
       </div>
     </section>
-    <section class="7app container text-md">
+    <section id="step-7" class="7app container text-md">
       <div class="project-title col">
         <div class="title-group">
           <h4 class="mr-8">7</h4>
@@ -579,9 +541,20 @@
 
 <script>
 export default {
-  name: 'projectMarket'
+  name: 'projectMarket',
+  methods: {
+    onElevatorClick (anchor) {
+      const offsetTop = document.querySelector(anchor).offsetTop;
+      console.log(offsetTop)
+
+      window.scroll({
+        top: offsetTop,
+        behavior: 'smooth'
+      })
+    }
+  }
 }
 </script>
 
-<style lang="scss" src="../../styles/market.scss" >
+<style lang="scss" src="../../styles/market.scss" scoped>
 </style>

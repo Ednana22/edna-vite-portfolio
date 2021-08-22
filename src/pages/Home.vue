@@ -1,46 +1,5 @@
 <template>
   <main>
-    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
-    <div class="container-fluid">
-    <a class="navbar-brand" href="">
-        <img
-        width="38"
-        alt="EdnaWei"
-        src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/EW.svg"
-        data-v-e2fa79a4=""
-    />
-    </a>
-    <button
-    class="navbar-toggler"
-    type="button"
-    data-bs-toggle="collapse"
-    data-bs-target="#navbarNavDropdown"
-    aria-controls="navbarNavDropdown"
-    aria-expanded="false"
-    aria-label="Toggle navigation"
-    >
-    <span class="navbar-toggler-icon"> </span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-            data-bs-toggle="dropdown" aria-expanded="false">
-            專案設計<i class="las la-angle-down"></i>
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">關於我</a>
-        </li>
-        </ul>
-    </div>
-    </div>
-</nav>
 <section class="hero mt-60">
     <div class="container-hero">
     <div class="row hero">
@@ -138,6 +97,6 @@ export default {
 }
 </script>
 
-<style lang="scss" src="../styles/home.scss">
+<style lang="scss" src="../styles/home.scss" scoped>
 
 </style>

@@ -586,3 +586,19 @@ p {
     }
   }
 }
+
+#page-elevator {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  background: #fff;
+  border: solid 1px #000;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  a {
+    padding: 0.25rem;
+    cursor: pointer;
+  }
+}

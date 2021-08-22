@@ -1,46 +1,5 @@
 <template>
   <main class="project-pms">
-      <nav class="navbar navbar-expand-sm navbar-light sticky-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="">
-        <img
-        width="38"
-        alt="EdnaWei"
-        src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/EW.svg"
-        data-v-e2fa79a4=""
-      />
-      </a>
-      <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"> </span>
-    </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              專案設計<i class="las la-angle-down"></i>
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">關於我</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
   <section class="title container">
     <h1 class="mb-24">PMS鋪價功能規劃</h1>
     <p class="text-md mb-4">
@@ -394,5 +353,5 @@ export default {
 }
 </script>
 
-<style lang="scss" src="../../styles/pms.scss">
+<style lang="scss" src="../../styles/pms.scss" scoped>
 </style>

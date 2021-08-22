@@ -6,6 +6,9 @@ import ProjectPMS from './pages/Projects/PMS.vue'
 
 const router = createRouter({
     history: createWebHistory(),
+    scrollBehavior (to, from, savedPosition) {
+        return savedPosition ?? { top: 0 }
+    },
     routes: [
         {
             path: '/',
