@@ -1,0 +1,95 @@
+
+//COLOR
+//---GREY---
+$color_white: #fff;
+$color_grey-lightest: #f2f2f2;
+$color_grey-lighter: #dbdce0;
+$color_grey-light: #777c88;
+$color_grey-base: #36363c;
+$color_grey-dark: #25252e;
+$color_grey-darker: #1b1b1e;
+$color_grey-darkest: #19191d;
+
+//---BLUE---
+$color_blue-lightest: #ebf4ff;
+$color_blue-lighter: #d0e4fb;
+$color_blue-light: #9fcbff;
+$color_blue-base: #51a1ff;
+$color_blue-dark: #2c72c3;
+
+///BORDER
+.gradient-border {
+--borderWidth: 12px;
+position: relative;
+border-radius: var(--borderWidth);
+padding: 0px;
+@media (max-width: 2680px) {
+    --borderWidth: 12px;
+}
+@media (max-width: 576px) {
+    --borderWidth: 6px;
+}
+}
+.gradient-border:after {
+content: '';
+position: absolute;
+top: calc(-1 * var(--borderWidth));
+left: calc(-1 * var(--borderWidth));
+height: calc(100% + var(--borderWidth) * 2);
+width: calc(100% + var(--borderWidth) * 2);
+background: linear-gradient(60deg, #f8f8f8, #edeff1, #ffffff);
+border-radius: calc(2 * var(--borderWidth));
+z-index: -1;
+animation: animatedgradient 3s ease alternate infinite;
+background-size: 300% 300%;
+box-shadow: 22px 25px 34px -20px rgb(187, 187, 190);
+}
+.border-thin {
+border: 2px solid $color_grey-lightest;
+}
+
+///DARK-SECTION
+.bg-grey-darkest {
+    background-color: $color_grey-darkest;
+}
+.font-color-light {
+    color: $color_grey-lighter;
+}
+.font-color-blue {
+    color: $color_blue-base;
+}  
+
+///FONT-COLOR
+  .color_grey-light {
+    color: $color_grey-light;
+  }
+  
+///BUTTON
+.btn {
+font-size: 16px;
+background-color: $color_white;
+color: $color_grey-dark;
+border: initial;
+padding: 10px 0px;
+font-weight: 600;
+margin-top: 16px;
+&:hover {
+    background-color: $color_white;
+    color: $color_blue-dark;
+    text-decoration: none;
+    i {
+    transform: translateX(5px);
+    transition-duration: (0.5s);
+    }
+}
+&:active {
+    transform: scale(0.99);
+    color: $color_blue-dark !important;
+}
+&:focus {
+}
+.la-long-arrow-alt-right {
+    margin-left: 8px;
+    color: $color_blue-dark;
+}
+}
