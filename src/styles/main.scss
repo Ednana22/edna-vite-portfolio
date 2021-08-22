@@ -295,6 +295,69 @@ border-radius: 20px;
       padding: 15px;
     }
   }
+///TEXT
+///文字設定///
+@media (min-width: 0px) {
+    h1 {
+      font-size: 24px;
+      letter-spacing: 1.6px;
+    }
+    h2 {
+      font-size: 17px;
+      font-weight: 600;
+      margin: initial;
+    }
+    h3 {
+      font-size: 14px;
+      font-weight: 400;
+    }
+    h4 {
+      font-size: 72px;
+      font-family: 'rubik';
+      font-weight: 300;
+      margin: initial;
+      line-height: initial;
+    }
+    
+    .text-md {
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 1.8;
+      text-align: justify;
+      text-justify: auto;
+    }
+    .text-md-bold {
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 1.8;
+    }
+    .text-sm {
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 28px;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .text-md {
+      font-family: sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 2;
+    }
+    .text-md-bold {
+      font-family: sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 2;
+      font-weight: 600;
+    }
+  }
 
 ///P
 p {
@@ -351,3 +414,20 @@ text-align: left;
   align-items: center;
   margin-bottom: 16px;
 }
+
+.content-pl-48 {
+    @media (max-width: 1920px) {
+      padding-left: 48px;
+    }
+    @media (max-width: 992px) {
+      padding: 15px;
+    }
+  }
+  .content-pr-48 {
+    @media (max-width: 1920px) {
+      padding-right: 48px;
+    }
+    @media (max-width: 992px) {
+      padding: 15px;
+    }
+  }

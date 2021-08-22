@@ -102,19 +102,4 @@ $grid-breakpoints: (
 }
 
 
-.content-pl-48 {
-  @media (max-width: 1920px) {
-    padding-left: 48px;
-  }
-  @media (max-width: 992px) {
-    padding: 15px;
-  }
-}
-.content-pr-48 {
-  @media (max-width: 1920px) {
-    padding-right: 48px;
-  }
-  @media (max-width: 992px) {
-    padding: 15px;
-  }
-}
+
