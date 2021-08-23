@@ -146,7 +146,7 @@ alt="..."
           </figure>    
           <figure class="figure">
             <img
-            src=" https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/soup.png"
+            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/soup.png"
             
             class="figure-img img-fluid" width="40px"
             alt="..."/>
@@ -187,21 +187,21 @@ alt="..."
           </figure>    
           <figure class="figure">
             <img
-            src=" https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/artist-palette.png"
+            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/artist-palette.png"
             
             class="figure-img img-fluid" width="40px"
             alt="..."/>
           </figure>                        
           <figure class="figure">
             <img
-            src=" https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/speech-balloon.png"
+            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/speech-balloon.png"
             
             class="figure-img img-fluid" width="40px"
             alt="..."/>
           </figure>   
           <figure class="figure">
             <img
-            src=" https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/france.png"
+            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/france.png"
             
             class="figure-img img-fluid" width="40px"
             alt="..."/>
@@ -242,21 +242,21 @@ alt="..."
           </figure>    
           <figure class="figure">
             <img
-            src=" https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/phone.png"
+            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/phone.png"
             
             class="figure-img img-fluid" width="40px"
             alt="..."/>
           </figure>                        
           <figure class="figure">
             <img
-            src=" https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/speech-balloon.png"
+            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/speech-balloon.png"
             
             class="figure-img img-fluid" width="40px"
             alt="..."/>
           </figure>   
           <figure class="figure">
             <img
-            src=" https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/france.png"
+            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/france.png"
             
             class="figure-img img-fluid" width="40px"
             alt="..."/>

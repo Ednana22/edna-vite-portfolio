@@ -321,7 +321,7 @@
               </div>
               <div class="col">
                 <figure class=" figure ">
-                  <img src=" https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/element4.png"
+                  <img src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/element4.png"
                       class="figure-img img-fluid" alt="..."/>
                 </figure>
               </div>
@@ -401,7 +401,7 @@
               </div>
               <div class="col-xs-3">
                 <figure class=" figure ">
-                  <img src=" https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/planet-OwlPay.png"
+                  <img src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/planet-OwlPay.png"
                     class="figure-img img-fluid" alt="..." width="160" height="140" />
                 </figure>
               </div>
