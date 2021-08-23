@@ -124,14 +124,14 @@ alt="..."
           在某次專案遇到瓶頸時從NNgroup找到相關文獻，自從那次之後我就養成定期閱讀NNgroup的習慣，比較有空時就讀文章，時間較零碎時可以改看影片，跟著大師走可以少走很多冤枉路。也利用工程部門技術交流會與同事分享十大易用性原則。
         </p>
       </div>
-      <div class="col-md-6 content-pl-48">
-        <figure class="figure">
+      <div class="col-md-6 flex-center column content-pl-48">
+        <figure class="figure mb-16 flex-center">
           <img
           src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/nngroup.png"
           class="figure-img img-fluid" width="200px"
           alt="..."/>
         </figure>
-        <div class="emoji flex">
+        <div class="emoji flex-center">
           <figure class="figure">
             <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/heart.png"
@@ -165,14 +165,14 @@ alt="..."
           在大四時留學瑞士一年並取得歐盟美術學士證書。回台灣花了三年的假日到台大進修部補法文，終於在2019年如願拿到法文B1鑑定證書，非常想再訪瑞士跟當時的同學當面用法文聊天。
         </p>
       </div>
-      <div class="col-md-6 content-pl-48">
-        <figure class="figure md-32">
+      <div class="col-md-6 flex-center column content-pl-48">
+        <figure class="figure mb-24 flex-center">
           <img
           src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/swiss-flag.png"
-          class="figure-img img-fluid" width="80px"
+          class="figure-img img-fluid" width="90px"
           alt="..."/>
         </figure>
-        <div class="emoji flex">
+        <div class="emoji flex-center">
           <figure class="figure">
             <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/book.png"
@@ -181,34 +181,32 @@ alt="..."
           </figure>    
           <figure class="figure">
             <img
-            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/student.png"
+            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/artist-palette.png"
             class="figure-img img-fluid mr-24" width="40px"
             alt="..."/>
           </figure>    
           <figure class="figure">
             <img
-            src=" https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/artist-palette.png"
+            src=" https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/student.png"
             
-            class="figure-img img-fluid" width="40px"
+            class="figure-img img-fluid mr-24" width="40px"
             alt="..."/>
           </figure>                        
           <figure class="figure">
             <img
-            src=" https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/speech-balloon.png"
-            
-            class="figure-img img-fluid" width="40px"
+            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/speech-balloon.png"
+            class="figure-img img-fluid mr-24" width="40px"
             alt="..."/>
-          </figure>   
+          </figure>    
           <figure class="figure">
             <img
             src=" https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/france.png"
             
-            class="figure-img img-fluid" width="40px"
+            class="figure-img img-fluid mr-24" width="40px"
             alt="..."/>
-          </figure>                             
+          </figure>                    
         </div>
       </div>
-
     </div>
   </section>
   <section class="side_project container">
@@ -220,14 +218,20 @@ alt="..."
           Project買了一本穴位按摩圖典。為什麼是app不是web？因為我還規劃希望能做到局部掃描穴位功能，如果你對這個APP有興趣歡迎與我聯繫！
         </p>
       </div>
-      <div class="col-md-6 content-pl-48">
-        <figure class="figure md-32">
+      <div class="col-md-6 flex-center column content-pl-48">
+        <figure class="figure mb-24 flex-center">
           <img
           src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/app-icon.png"
-          class="figure-img img-fluid" width="80px"
+          class="figure-img img-fluid" width="90px"
           alt="..."/>
         </figure>
-        <div class="emoji flex">
+        <div class="emoji flex-center">
+          <figure class="figure">
+            <img
+            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/muscle.png"
+            class="figure-img img-fluid mr-24" width="40px"
+            alt="..."/>
+          </figure>    
           <figure class="figure">
             <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/relex-w.png"
@@ -236,31 +240,16 @@ alt="..."
           </figure>    
           <figure class="figure">
             <img
-            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/relex-m.png"
+            src=" https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/relex-m.png"
             class="figure-img img-fluid mr-24" width="40px"
-            alt="..."/>
-          </figure>    
-          <figure class="figure">
-            <img
-            src=" https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/phone.png"
-            
-            class="figure-img img-fluid" width="40px"
             alt="..."/>
           </figure>                        
           <figure class="figure">
             <img
-            src=" https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/speech-balloon.png"
-            
-            class="figure-img img-fluid" width="40px"
+            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/phone.png"
+            class="figure-img img-fluid mr-24" width="40px"
             alt="..."/>
-          </figure>   
-          <figure class="figure">
-            <img
-            src=" https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/france.png"
-            
-            class="figure-img img-fluid" width="40px"
-            alt="..."/>
-          </figure>                             
+          </figure>                   
         </div>
       </div>
 
