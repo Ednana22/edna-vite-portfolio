@@ -323,20 +323,24 @@ justify-content: flex-end;
 display: flex;
 justify-content: flex-start;
 }
-
 .space-between {
 display: flex;
 justify-content: space-between;
 }
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
 
 .text-align-center {
-text-align: center;
+    text-align: center;
 }
 .text-align-right {
-text-align: right;
+    text-align: right;
 }
 .text-align-left {
-text-align: left;
+    text-align: left;
 }
 
 ///---banner---
