@@ -3,8 +3,8 @@
     <a v-for="i in 7" :key="`elevator-${i}`" @click.prevent="onElevatorClick(`#step-${i}`)">{{ i }}</a>
   </div>
   <main class="project-market" >
-    <section class="title container">
-      <h1 class="mb-24">奧丁丁市集電子商務平台改版</h1>
+    <section class="title container pt-120">
+      <h1 class="mb-24">奧丁丁市集平台改版</h1>
       <p class="text-md mb-4">
         <span class="color_grey-light">負責內容 | </span>品牌再造、網站重構、UX研究、UI設計、使用者測試
       </p>
@@ -302,14 +302,12 @@
               />
               </div>
               <div class="talk-dialog ml-8">
-                什麼！哪個電商不用輪播Banner？這不就是使用者最習慣的一種版型嗎？
+                什麼！哪個電商不用輪播Banner？<br>這不就是使用者最習慣的一種版型嗎？
               </div>
             </div>
             <div class="row">
               <p class="col-md-6 text-md content-pr-48 mb-48">
-                上述是我在做Ｗireframe時遇到的情境，CEO提出了與以往我們習慣的電商完全背離的需求，從討論中得知CEO認為巨大的輪播Banner浪費了最精華的頁面且轉換率差。為了佐證CEO的論點，我請負責行銷的同仁幫忙整理先前輪播Banner的點擊率以及熱點分布圖，得知除了前兩張Banner點擊率略高以外之後的點擊率都非常低，也查到NNGroup”Carousel
-                Usability: Designing an Effective UI for Websites with Content
-                Overload”文獻指出對Carousel Design有效性的質疑。
+                上述是我在做Ｗireframe時遇到的情境，CEO提出了與以往我們習慣的電商完全背離的需求，從討論中得知CEO認為巨大的輪播Banner浪費了最精華的頁面且轉換率差。為了佐證CEO的論點，我請負責行銷的同仁幫忙整理先前輪播Banner的點擊率以及熱點分布圖，得知除了前兩張Banner點擊率略高以外之後的點擊率都非常低，也查到NNGroup文獻指出對Carousel Design有效性的質疑。
                 在嘗試了幾種非輪播版型的設計後內部一致認同現在採用的版型，也跨部門的達成不要給使用者過多的促銷資訊，最多四張Banner的共識。
               </p>
               <div class="col-md-6 content-pl-48">

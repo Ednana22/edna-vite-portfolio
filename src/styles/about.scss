@@ -21,18 +21,7 @@ $grid-breakpoints: (
     font-weight: 600;
     margin: initial;
   }
-  h3 {
-    font-size: 14px;
-    font-weight: 400;
-  }
-  h4 {
-    color: $color_blue-base;
-    font-size: 72px;
-    font-family: 'rubik';
-    font-weight: 300;
-    margin: initial;
-    line-height: initial;
-  }
+
   .text-xxl {
     @media (max-width: 2680px) {
       font-size: 80px;
@@ -60,10 +49,10 @@ $grid-breakpoints: (
     line-height: 1;
   }
   .text-l {
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 300;
     font-family: 'rubik';
-    line-height: 1;
+    line-height: none;
   }
   .text-md {
     font-size: 15px;

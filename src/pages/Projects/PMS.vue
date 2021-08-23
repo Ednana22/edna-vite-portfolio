@@ -1,19 +1,18 @@
 <template>
   <main class="project-pms">
-  <section class="title container">
-    <h1 class="mb-24">PMS鋪價功能規劃</h1>
+  <section class="title container pt-120">
+    <h1 class="mb-24">旅宿管理系統功能規劃</h1>
     <p class="text-md mb-4">
-      <span class="color_grey-light">負責內容 | </span>UX研究、UI 設計
+      <span class="color_grey-light">負責內容 | </span>UX研究、UI設計
     </p>
     <p class="text-md mb-4">
       <span class="color_grey-light">專案規模 | </span>跨二部門，約8人
     </p>
     <p class="text-md mb-4">
-      <span class="color_grey-light">專案角色 | </span>UI/UX
-      Designer、工程部門對外窗口
+      <span class="color_grey-light">專案角色 | </span>UI/UX Designer
     </p>
   </section>
-  <section class="banner container">
+  <div class="banner container">
     <figure class="figure col-md-12">
       <img
         src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/pms-hero.png"
@@ -22,7 +21,7 @@
       />
       <div class="bnanner"></div>
     </figure>
-  </section>
+  </div>
   <section class="story container text-md ">
     <p class="text-md mb-80"> OwlNest是一款為旅宿業打造的B2B三合一整合型訂房系統，提供前台官網訂房系統、PMS訂單管理系統、線上銷售平台通路串接，用戶遍及亞洲、美洲國家，旅宿用戶達上千家。
     </p>
@@ -265,7 +264,7 @@
   </section>
   <section class="5result bg-grey-darkest text-md mb-16">
     <div class="container font-color-lighter">
-      <div class="col-md-6 content-pr-48 mb-48">
+      <div class="col-md-6 content-pr-48">
         <div class="project-title">
           <div class="title-group">
             <h4 class="mr-8">5</h4>
@@ -309,39 +308,35 @@
   </section>
   <section class="6iterate container text-md mb-60">
     <div class="col-md-6 content-pr-48">
-      <div class="row">
-        <div class="project-title">
-          <div class="title-group">
-            <h4 class="mr-8">6</h4>
-            <div class="">
-              <h3 class="mb-8">迭代</h3>
-              <h2>由使用者回饋中進行產品優化</h2>
-            </div>
+      <div class="project-title">
+        <div class="title-group">
+          <h4 class="mr-8">6</h4>
+          <div class="">
+            <h3 class="mb-8">迭代</h3>
+            <h2>由使用者回饋中進行產品優化</h2>
           </div>
         </div>
-        <p class="text-md ">
-          批次鋪價功能推出後獲得使旅宿業者的正面反饋，不只大量節省了人力，對於國定假日可自動帶入的功能也表示是項極為方便的操作，終於不用開著人事行政局的連假一一鋪價了。業務端也表示在一開始做競品分析就知道國內並沒擁有國定假日鋪價功能的旅宿管理系統，因此這也是銷售的一大賣點。
-        </p>
       </div>
+      <p class="text-md ">
+        批次鋪價功能推出後獲得使旅宿業者的正面反饋，不只大量節省了人力，對於國定假日可自動帶入的功能也表示是項極為方便的操作，終於不用開著人事行政局的連假一一鋪價了。業務端也表示在一開始做競品分析就知道國內並沒擁有國定假日鋪價功能的旅宿管理系統，因此這也是銷售的一大賣點。
+      </p>
     </div>
   </section>
   <section class="7takeaway container text-md mb-60">
     <div class="col-md-6 content-pr-48">
-      <div class="row">
-        <div class="project-title">
-          <div class="title-group">
-            <h4 class="mr-8">7</h4>
-            <div class="">
-              <h3 class="mb-8">反思</h3>
-              <h2>後台須顧及的層面更廣</h2>
-            </div>
+      <div class="project-title">
+        <div class="title-group">
+          <h4 class="mr-8">7</h4>
+          <div class="">
+            <h3 class="mb-8">反思</h3>
+            <h2>後台須顧及的層面更廣</h2>
           </div>
         </div>
-        <p class="text-md ">
-          在規劃後台系統新功能時最重要的是要顧及現存使用者的習慣，使用者通常不喜歡變動，所以在規劃新功能時盡量以不要影響到目前使用者的操作為最高原則。
-        </p>
       </div>
-    </div>
+      <p class="text-md ">
+        在規劃後台系統新功能時最重要的是要顧及現存使用者的習慣，使用者通常不喜歡變動，所以在規劃新功能時盡量以不要影響到目前使用者的操作為最高原則。
+      </p>
+  </div>
   </section>
   </main>
 </template>

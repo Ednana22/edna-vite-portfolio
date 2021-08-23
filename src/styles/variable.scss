@@ -19,12 +19,14 @@ $color_blue-dark: #2c72c3;
 
 ///BORDER
 .gradient-border {
---borderWidth: 12px;
 position: relative;
 border-radius: var(--borderWidth);
 padding: 0px;
 @media (max-width: 2680px) {
     --borderWidth: 12px;
+}
+@media (max-width: 1440px) {
+    --borderWidth: 8px;
 }
 @media (max-width: 576px) {
     --borderWidth: 6px;
@@ -41,7 +43,7 @@ padding: 0px;
     border-radius: calc(2 * var(--borderWidth));
     z-index: -1;
     background-size: 300% 300%;
-    box-shadow: 22px 25px 34px -20px rgb(187, 187, 190);
+    box-shadow: 24px 20px 30px -20px rgba(120, 120, 171, 0.581);
 }
 .border-thin {
     border: 2px solid $color_grey-lightest;

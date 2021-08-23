@@ -67,25 +67,7 @@ $grid-breakpoints: (
   align-items: center;
 }
 
-//--MARKET_漸層邊框
-.gradient-border {
-  --borderWidth: 8px;
-  position: relative;
-  border-radius: var(--borderWidth);
-}
-.gradient-border:after {
-  content: '';
-  position: absolute;
-  top: calc(-1 * var(--borderWidth));
-  left: calc(-1 * var(--borderWidth));
-  height: calc(100% + var(--borderWidth) * 2);
-  width: calc(100% + var(--borderWidth) * 2);
-  background: linear-gradient(60deg, #fdfdfd, #eef1f5, #e6f0f7);
-  border-radius: calc(2 * var(--borderWidth));
-  z-index: -1;
-  background-size: 300% 300%;
-  box-shadow: 22px 25px 34px -12px rgb(170, 174, 179);
-}
+
 
 ///--MARKET---
 .market-device-section {

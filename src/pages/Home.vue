@@ -2,25 +2,31 @@
   <main>
     <section class="hero mt-60">
         <div class="container-hero">
-        <div class="row hero">
-            <div class="col-md-8">
-            <h2 class="mb-32">
-                Hello! 👋
-                <br />
-            I'm Edna Wei
-            </h2>
-            <h1>
-                我是一名在科技業的UI/UX，擁有前端基礎技能
-                <br />
-            秉持以用戶為中心設計出符合易用性的產品
-                <br />
-            解決問題時以80%思考；20%實作
-            </h1>
+            <div class="row hero">
+                <div class="col-lg-6 mb-32">
+                <h2 class="mb-32">
+                    Hello! 👋
+                    <br />
+                I'm Edna Wei
+                </h2>
+                <h1>
+                    我是一名在科技業的UI/UX，擁有前端基礎技能
+                    <br />
+                秉持以用戶為中心設計出符合易用性的產品
+                    <br />
+                解決問題時以80%思考；20%實作
+                </h1>
+                </div>
+                <div class="col-lg-6">
+                <figure class="figure flex-center">
+                    <img
+                        src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/hero.png"
+                        class="figure-img img-fluid " width="400px"
+                        alt="..."
+                    />
+                    </figure>
+                </div>
             </div>
-            <div class="col-md-4">
-            emoji
-            </div>
-        </div>
         </div>
     </section>
     <section class="market">
@@ -33,7 +39,7 @@
             </div>
             </div>
             <div class="col-lg-4">
-            <h3>奧丁丁市集電子商務平台改版</h3>
+            <h3>奧丁丁市集平台改版</h3>
             <div class="text-md mb-24">
                 品牌再造
                 <span class="font-color-lighter"> | </span>
@@ -46,7 +52,7 @@
                 UI設計
             </div>
             <div class="text-md">
-            為奧丁丁市集進行品牌再造跨部門合作，重構一個響應式的電子商務網站，方便用戶瀏覽和購買，重構網站同時一定要考量現有用戶的使用者習慣。以優質生鮮電商幫助在地優質小農推廣用心製造的產品。
+                為奧丁丁市集重構電子商務網站，並進行品牌再造跨部門合作，以優質生鮮電商幫助在地優質小農推廣用心製造的產品。
             </div>
             <router-link class="btn btn-link" :to="{ name: 'ProjectMarket' }">
                 瀏覽專案<i class="las la-long-arrow-alt-right"></i>
@@ -59,18 +65,18 @@
         <div class="container">
         <div class="row project">
             <div class="col-lg-8 content-pr-48">
-            <div class="owl-device-section">
+            <div class="owl-device-section  mb-32">
                 <figure class="figure gradient-border">
                 <img
                     src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/website-homepage.gif"
-                    class="figure-img img-fluid"
+                    class="figure-img img-fluid "
                     alt="..."
                 />
                 </figure>
             </div>
             </div>
             <div class="col-lg-4">
-            <h3>奧丁丁集團官方網站重構</h3>
+            <h3>奧丁丁集團官網重構</h3>
             <div class="text-md mb-24">
                 網站重構<span class="font-color-lighter"> | </span>UX研究<span
                 class="font-color-lighter"
@@ -103,16 +109,16 @@
             </div>
             </div>
             <div class="col-lg-4">
-            <h3>奧丁丁集團官方網站重構</h3>
+            <h3>旅宿管理系統功能規劃</h3>
             <div class="text-md mb-24">
-                網站重構<span class="font-color-lighter"> | </span>UX研究<span
+                UX研究<span class="font-color-lighter"> | </span>UI設計<span
                 class="font-color-lighter"
                 >
-                | </span>UI設計<span class="font-color-lighter"> | </span>形象官網
+                | </span>B2B
             </div>
 
             <div class="text-md">
-                重構奧丁丁集團官網，將集團理念以及各事業體介紹更清楚的傳達給使用者。跨集團七個事業體進行資訊整合，並從集團VI延伸為網站定義風格。
+                對於OwlNest旅宿管理系統的鋪價功能進行擴充以及優化，達成便捷快速及可彈性修改的目的。
             </div>
             <router-link class="btn btn-link" :to="{ name: 'ProjectPMS' }">
                 瀏覽專案<i class="las la-long-arrow-alt-right"></i>

@@ -72,7 +72,7 @@ html, body {
 .col-xl-8,
 .col-xl-9,
 .col-xl-auto {
-  padding: 0px;
+  padding: 0px !important;
 }
 
 ///SECTION
@@ -141,10 +141,6 @@ border-radius: 20px;
     border-radius: 4px;
 }
 
-///PADDING
-.pt-60 {
-    padding-top: 60px;
-}
 
 ///MARGIN
 ///mr---
@@ -214,7 +210,7 @@ border-radius: 20px;
     margin-bottom: 8px;
 }
 .mb-16 {
-    margin-bottom: 16px;
+    margin-bottom: 16px !important;
 }
 .mb-24 {
     margin-bottom: 24px;
@@ -279,23 +275,9 @@ border-radius: 20px;
 .pt-60 {
     padding-top: 60px;
 }
-///CONTENT-PADDING-RIGHT
-.content-pr-48 {
-@media (max-width: 1920px) {
-    padding-right: 48px;
+.pt-120 {
+    padding-top: 120px;
 }
-@media (max-width: 992px) {
-    padding: 15px;
-}
-}
-.content-p-15 {
-@media (max-width: 992px) {
-    padding: 15px;
-}
-}
-
-
-
 ///P
 p {
     margin: initial;
@@ -326,6 +308,10 @@ justify-content: flex-start;
 .space-between {
 display: flex;
 justify-content: space-between;
+}
+.space-around {
+    display: flex;
+    justify-content: space-around;
 }
 .column{
     display: flex;
@@ -358,17 +344,17 @@ justify-content: space-between;
 
 .content-pl-48 {
     @media (max-width: 1920px) {
-      padding-left: 48px;
+      padding-left: 48px !important;
     }
     @media (max-width: 992px) {
-      padding: 15px;
+      padding-right: 15px !important;
     }
   }
   .content-pr-48 {
     @media (max-width: 1920px) {
-      padding-right: 48px;
+      padding-right: 48px !important;
     }
     @media (max-width: 992px) {
-      padding: 15px;
+      padding-right: 15px !important;
     }
   }

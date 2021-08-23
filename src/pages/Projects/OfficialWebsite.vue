@@ -1,7 +1,7 @@
 <template>
   <main class="project-official-website">
-  <section class="title container">
-    <h1 class="mb-24">奧丁丁集團官方網站重構</h1>
+  <section class="title container pt-120">
+    <h1 class="mb-24">奧丁丁集團官網重構</h1>
     <p class="text-md mb-4">
       <span class="color_grey-light">負責內容 | </span>UX研究、UI
       設計、重整網站架構
@@ -492,25 +492,37 @@
           </div>
         </div>
         <div class="col-md-9 mb-80">
+          <p class="text-md-bold mb-16">首頁主視覺</p>
           <img
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/mockup-banner.gif"
               class="figure-img img-fluid border-radius-16 shadow"
               alt="..."
             />
+          <p class="text-md mt-16 mb-16">
+            將集團產品多元性以及貓頭鷹展翅的理念傳達給視覺設計部門後，由視覺設計師製作出的svg動畫動態效果非常吸睛。
+          </p> 
         </div>
         <div class="col-md-9 ml-auto mb-80">
+          <p class="text-md-bold mb-16">產品輪播簡介</p>
           <img
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/mockup-carousel.gif"
               class="figure-img img-fluid border-radius-16 shadow"
               alt="..."
             />
+          <p class="text-md mt-16 mb-16">
+            需一眼讓使用者理解集團旗下眾多服務，並選出最具代表性的背景圖呈現服務類別。
+          </p>             
         </div>
         <div class="col-md-9 mb-80">
+          <p class="text-md-bold mb-16">動態據點呈現</p>
           <img
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/mockup-global.gif"
               class="figure-img img-fluid border-radius-16 shadow"
               alt="..."
             />
+          <p class="text-md mt-16 mb-16">
+            UIUX出設計圖後由視覺設計師協助完成據點動畫，非常感謝同事的協助讓動畫得以完美呈現。
+          </p>               
         </div>
       </div>
     </div>
