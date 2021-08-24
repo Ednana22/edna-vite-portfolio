@@ -109,6 +109,7 @@ section {
 .row {
     margin-right: 0px !important;
     margin-left: 0px !important;
+    padding: 0px !important;
 }
 ///FIGURE
 .figure {
@@ -383,7 +384,7 @@ justify-content: space-between;
     @media (max-width: 1920px) {
       padding-right: 8px !important;
     }
-    @media (max-width: 516px) {
+    @media (max-width: 768px) {
       padding-right: 0px !important;
     }
 }
@@ -391,7 +392,7 @@ justify-content: space-between;
     @media (max-width: 1920px) {
       padding-left: 8px !important;
     }
-    @media (max-width: 516px) {
+    @media (max-width: 768px) {
       padding-left: 0px !important;
     }
 }
