@@ -4,6 +4,7 @@
 set -e
 
 # build
+rm -rf dist
 pnpm run build
 
 # navigate into the build output directory
