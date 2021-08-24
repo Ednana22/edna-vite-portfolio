@@ -15,7 +15,7 @@
         <span class="color_grey-light">專案角色 | </span>UI/UX deaigner
       </p>
     </section>
-    <div class="banner container">
+    <section class="banner container p-0">
       <figure class="figure col-mb-12">
         <img
       src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/market-hero.png"
@@ -24,19 +24,19 @@
     />
         <div class="bnanner"></div>
       </figure>
-    </div>
-    <section class="story container text-md ">
+    </section>
+    <section class="story container text-md mt-24">
       <h2 class="mb-16">成果搶先看 👀</h2>
       <div class="highlight row mb-80">
-        <div class="col-md-4 new_user mb-48">
+        <div class="col-md-4 new_user mb-24">
           <p class="text-xxl font-color-blue">230<span class="text-l">%</span></p>
           <p>新使用者增加</p>
         </div>
-        <div class="col-md-4 viewing_time mb-48">
+        <div class="col-md-4 viewing_time mb-24">
           <p class="text-xxl font-color-blue">81<span class="text-l">%</span></p>
           <p>工作平均長度增加</p>
         </div>
-        <div class="col-md-4 bounce_rate mb-48">
+        <div class="col-md-4 bounce_rate mb-24">
           <p class="text-xxl font-color-blue">-24<span class="text-l">%</span></p>
           <p>跳出率明顯優化</p>
         </div>
@@ -231,7 +231,7 @@
           <figure class="figure user-journey-mobile">
             <img
           src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/user-journey_M.png"
-          class="figure-img img-fluid border-1 border-radius-8"
+          class="figure-img img-fluid  border-thinner border-radius-4"
           alt="..."
           width="340px"
         />
@@ -311,16 +311,16 @@
                 在嘗試了幾種非輪播版型的設計後內部一致認同現在採用的版型，也跨部門的達成不要給使用者過多的促銷資訊，最多四張Banner的共識。
               </p>
               <div class="col-md-6 content-pl-48">
-                <div class="mb-48">
+                <div class="mb-16">
                   <div class="flex">
-                    <div class="col">
+                    <div class="col mr-8">
                       <img
                     src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/wireframe1.png"
                     class="figure-img img-fluid"
                     alt="..."
                   />
                     </div>
-                    <div class="col">
+                    <div class="col mr-8">
                       <img
                     src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/wireframe2.png"
                     class="figure-img img-fluid"
@@ -373,7 +373,7 @@
               V. Prototype 釐清畫面與使用者的互動
             </p>
             <div class="row">
-              <p class="text-md col-md-6 content-pr-48">
+              <p class="text-md col-md-6 content-pr-48 mb-48">
                 使用Figma將元件都系統性的設定為component，使wireframe精緻化的過程迅速也方便討論後立即修改。邀請公司內部的市集使用者進行新版面任務測試，根據螢幕錄影及熱點分析再進行介面優化，聆聽反饋確保舊用戶在新介面中獲得高品質的使用者體驗。
               </p>
               <figure class="figure col-md-6 content-pl-48">
@@ -525,13 +525,64 @@
             奧丁丁市集APP是由於2021年5月台灣COVID-19疫情升溫而催產出來的，將不改既有使用者操作行為為目標，以網站的基本架構做Flutter雙平台的開發，開發時也特別規劃了APP獨有的短影片宣傳功能。
           </p>
         </div>
-        <figure class="figure col-md-6 content-pl-48">
+        <figure class="figure col-md-9">
           <img
-      src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/market-app.png"
-      class="figure-img img-fluid border-radius-4"
-      alt="..."
-    />
+            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/market-app.png"
+            class="figure-img img-fluid border-radius-4 shadow-sm"
+            alt="..."
+          />
         </figure>
+      </div>
+    </section>
+    <section class="more-project  bg-grey-lightest">
+      <div class="container">
+        <h2 class="">其他專案</h2>
+        <div class="row mt-24">
+          <div class="col-md-6 content-pr-8">
+            <div class="card-border-grey border-radius-4 ">
+              <img
+                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/official_website-hero.png"
+                class="figure-img img-fluid border-radius-4 shadow-sm"
+                alt="..."
+              />
+              <div class="text-md-bold mt-24">  
+                奧丁丁集團官網重構
+              </div> 
+              <div class="text-md">
+                  網站重構
+                  <span class="font-color-lighter"> | </span>
+                  UX研究 
+                  <span class="font-color-lighter"> | </span>
+                  UI設計
+                  <span class="font-color-lighter"> | </span>
+                  形象官網
+              </div>  
+              <router-link class="btn btn-link" :to="{ name: 'ProjectWeb' }">
+                  瀏覽專案<i class="las la-long-arrow-alt-right"></i>
+              </router-link>                  
+            </div>
+          </div>
+          <div class="col-md-6 content-pl-8">
+            <img
+              src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/pms-hero.png"
+              class="figure-img img-fluid border-radius-4 shadow-sm"
+              alt="..."
+            />
+            <div class="text-md-bold mt-24">  
+              旅宿管理系統功能規劃
+            </div> 
+            <div class="text-md">
+                UX研究
+                <span class="font-color-lighter"> | </span>
+                UI設計 
+                <span class="font-color-lighter"> | </span>
+                B2B
+            </div>  
+            <router-link class="btn btn-link" :to="{ name: 'ProjectPMS' }">
+                瀏覽專案<i class="las la-long-arrow-alt-right"></i>
+            </router-link>                  
+          </div>        
+        </div>
       </div>
     </section>
   </main>
