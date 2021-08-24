@@ -536,9 +536,9 @@
     </section>
     <section class="more-project  bg-grey-lightest">
       <div class="container">
-        <h2 class="">其他專案</h2>
+        <h2 class="h2">更多設計專案</h2>
         <div class="row mt-24">
-          <div class="col-md-6 content-pr-8">
+          <div class="col-md-6 content-pr-8 mb-56">
             <div class="card-border-grey border-radius-4 ">
               <img
                 src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/official_website-hero.png"
@@ -550,11 +550,11 @@
               </div> 
               <div class="text-md">
                   網站重構
-                  <span class="font-color-lighter"> | </span>
+                  <span class="font-color-light"> | </span>
                   UX研究 
-                  <span class="font-color-lighter"> | </span>
+                  <span class="font-color-light"> | </span>
                   UI設計
-                  <span class="font-color-lighter"> | </span>
+                  <span class="font-color-light"> | </span>
                   形象官網
               </div>  
               <router-link class="btn btn-link" :to="{ name: 'ProjectWeb' }">
@@ -573,9 +573,9 @@
             </div> 
             <div class="text-md">
                 UX研究
-                <span class="font-color-lighter"> | </span>
+                <span class="font-color-light"> | </span>
                 UI設計 
-                <span class="font-color-lighter"> | </span>
+                <span class="font-color-light"> | </span>
                 B2B
             </div>  
             <router-link class="btn btn-link" :to="{ name: 'ProjectPMS' }">
