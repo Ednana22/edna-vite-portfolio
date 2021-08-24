@@ -13,6 +13,7 @@
           <li class="is-dropdown">
             <span v-click-away="handleDropDownOutside" class="is-nav-link" @click="isDropDownOpen = !isDropDownOpen">
               作品
+              <i class="las" :class="isDropDownOpen ? 'la-angle-up' : 'la-angle-down'"></i>
               <ul v-show="isDropDownOpen" class="is-dropdown__context">
                 <li>
                   <router-link :to="{ name: 'ProjectMarket' }">市集</router-link>
