@@ -1,3 +1,5 @@
+@import './transition.scss';
+
 html, body {
     scroll-behavior: unset !important;
 }
@@ -303,26 +305,26 @@ p {
     display: flex;
 }
 .flex-center {
-display: flex;
-align-items: center;
-justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .flex-top {
-display: flex;
-align-items: top;
-justify-content: center;
+    display: flex;
+    align-items: top;
+    justify-content: center;
 }
 .flex-end {
-display: flex;
-justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
 }
 .flex-start {
-display: flex;
-justify-content: flex-start;
+    display: flex;
+    justify-content: flex-start;
 }
 .space-between {
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 .space-around {
     display: flex;
