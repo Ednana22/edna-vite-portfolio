@@ -3,13 +3,13 @@
     <section class="title container pt-120">
       <h1 class="mb-24">旅宿管理系統功能規劃</h1>
       <p class="text-md mb-4">
-        <span class="color_grey-light">負責內容 | </span>UX研究、UI設計
+        負責內容<span class="font-color-light"> | </span>UX研究、UI設計
       </p>
       <p class="text-md mb-4">
-        <span class="color_grey-light">專案規模 | </span>跨二部門，約8人
+        專案規模<span class="font-color-light"> | </span>跨二部門，約8人
       </p>
       <p class="text-md mb-4">
-        <span class="color_grey-light">專案角色 | </span>UI/UX Designer
+        專案角色<span class="font-color-light"> | </span>UI/UX Designer
       </p>
     </section>
     <section class="banner container p-0">
@@ -363,28 +363,30 @@
                   <span class="font-color-light"> | </span>
                   UI設計                 
               </div>  
-              <router-link class="btn btn-link" :to="{ name: 'ProjectWeb' }">
+              <router-link class="btn btn-link" :to="{ name: 'ProjectMarket' }">
                   瀏覽專案<i class="las la-long-arrow-alt-right"></i>
               </router-link>                  
             </div>
           </div>
           <div class="col-md-6 content-pl-8">
             <img
-              src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/pms-hero.png"
+              src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/official_website-hero.png"
               class="figure-img img-fluid border-radius-4 shadow-sm"
               alt="..."
             />
             <div class="text-md-bold mt-24">  
-              旅宿管理系統功能規劃
+              奧丁丁集團官網重構
             </div> 
             <div class="text-md">
-                UX研究
+                網站重構
                 <span class="font-color-light"> | </span>
-                UI設計 
+                UX研究 
                 <span class="font-color-light"> | </span>
-                B2B
+                UI設計
+                <span class="font-color-light"> | </span>
+                形象官網                
             </div>  
-            <router-link class="btn btn-link" :to="{ name: 'ProjectPMS' }">
+            <router-link class="btn btn-link" :to="{ name: 'ProjectWeb' }">
                 瀏覽專案<i class="las la-long-arrow-alt-right"></i>
             </router-link>                  
           </div>        
