@@ -6,13 +6,13 @@
     <section class="title container pt-120">
       <h1 class="mb-24">奧丁丁市集平台改版</h1>
       <p class="text-md mb-4">
-        <span class="color_grey-light">負責內容 | </span>品牌再造、網站重構、UX研究、UI設計、使用者測試
+        負責內容<span class="font-color-light"> | </span>品牌再造、網站重構、UX研究、UI設計、使用者測試
       </p>
       <p class="text-md mb-4">
-        <span class="color_grey-light">專案規模 | </span>跨五部門，約15人
+        專案規模<span class="font-color-light"> | </span>跨五部門，約15人
       </p>
       <p class="text-md mb-4">
-        <span class="color_grey-light">專案角色 | </span>UI/UX deaigner
+        專案角色<span class="font-color-light"> | </span>UI/UX deaigner
       </p>
     </section>
     <section class="banner container p-0">

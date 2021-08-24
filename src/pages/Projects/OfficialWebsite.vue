@@ -3,14 +3,14 @@
     <section class="title container pt-120">
       <h1 class="mb-24">奧丁丁集團官網重構</h1>
       <p class="text-md mb-4">
-        <span class="font-color-light">負責內容 | </span>UX研究、UI
+        負責內容<span class="font-color-light"> | </span>UX研究、UI
         設計、重整網站架構
       </p>
       <p class="text-md mb-4">
-        <span class="font-color-light">專案規模 | </span>跨十三部門，約20人
+        專案規模<span class="font-color-light"> | </span>跨十三部門，約20人
       </p>
       <p class="text-md mb-4">
-        <span class="font-color-light">專案角色 | </span>UI/UX
+        專案角色<span class="font-color-light"> | </span>UI/UX
         Designer、工程部門對外窗口
       </p>
     </section>
