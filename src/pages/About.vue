@@ -1,6 +1,6 @@
 <template>
   <main class="page-about">
-      <div class="banner container">
+      <div class="banner">
     <figure class="figure col-12">
       <div class="pic"></div>
     </figure>
