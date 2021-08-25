@@ -14,7 +14,7 @@
         Designer、工程部門對外窗口
       </p>
     </section>
-    <div class="banner container p-0">
+    <section class="banner container p-0">
       <figure class="figure col-md-12">
         <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/official_website-hero.png"
@@ -23,7 +23,7 @@
           />
         <div class="bnanner"></div>
       </figure>
-    </div>
+    </section>
     <section class="story container text-md mt-24">
       <p class="text-md mb-80">
         奧丁丁集團創立於2010年，是一間以區塊鏈技術為核心的科技公司，其產品涵蓋B2B商業服務、B2B管理後台、B2C電商平台、實體旅宿等共七大事業體。
@@ -552,11 +552,13 @@
         <div class="row mt-24">
           <div class="col-md-6 content-pr-8 mb-56">
             <div class="card-border-grey border-radius-4 ">
-              <img
-                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/market-hero.png"
-                class="figure-img img-fluid border-radius-4 shadow-sm"
-                alt="..."
-              />
+              <router-link class="" :to="{ name: 'ProjectMarket' }">
+                <img
+                  src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/market-hero.png"
+                  class="figure-img img-fluid border-radius-4 shadow-sm"
+                  alt="..."
+                />
+              </router-link>   
               <div class="text-md-bold mt-24">  
                 奧丁丁市集平台改版
               </div> 
@@ -577,11 +579,13 @@
             </div>
           </div>
           <div class="col-md-6 content-pl-8">
-            <img
-              src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/pms-hero.png"
-              class="figure-img img-fluid border-radius-4 shadow-sm"
-              alt="..."
-            />
+            <router-link class="" :to="{ name: 'ProjectPMS' }">
+              <img
+                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/pms-hero.png"
+                class="figure-img img-fluid border-radius-4 shadow-sm"
+                alt="..."
+              />
+            </router-link>  
             <div class="text-md-bold mt-24">  
               旅宿管理系統功能規劃
             </div> 

@@ -109,7 +109,7 @@
           <figure class="figure border-thin border-radius-4">
             <img
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/painpoint.gif"
-              class="figure-img img-fluid border-radius-3"
+              class="figure-img img-fluid border-radius-4"
               alt="..."
             />
           </figure>
@@ -222,7 +222,7 @@
             <figure class="figure">
               <img
                 src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/wireframe.jpg"
-                class="figure-img img-fluid"
+                class="figure-img img-fluid border-radius-4"
                 alt="..."
               />
             </figure>
@@ -283,8 +283,8 @@
         <div class="col-md-9 mb-80">
           <p class="text-md-bold mb-16">鋪設多專案</p>
           <img
-              src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/result1.gif"
-              class="figure-img img-fluid border-radius-4 shadow mb-16"
+              src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/mutipul-plans-chose.png"
+              class="figure-img img-fluid border-radius-16 shadow mb-16"
               alt="..."
         />
           <p class="text-md mb-16">
@@ -292,17 +292,27 @@
           </p>
         </div>
         <div class="col-md-9 mb-80 ml-auto">
-          <p class="text-md-bold mb-16">鋪設國定假日</p>
+          <p class="text-md-bold mb-16">快速設定國定假日</p>
           <img
-            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/result2.gif"
-            class="figure-img img-fluid border-radius-4 shadow mb-16"
+            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/nationai-holiday.png"
+            class="figure-img img-fluid border-radius-16 shadow mb-16"
             alt="..."
         />
           <p class="text-md mb-16">
             使用者可以直接選擇欲鋪價的國定假日，以介面設定來解決使用者需記憶或是來回比對的負擔。
           </p>
         </div>
-
+        <div class="col-md-9 mb-80">
+          <p class="text-md-bold mb-16">優化下拉月曆內容</p>
+          <img
+              src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/price_calendar.png"
+              class="figure-img img-fluid border-radius-16 shadow mb-16"
+              alt="..."
+        />
+          <p class="text-md mb-16">
+            將當國國定假日也呈現在下拉月曆上，讓使用者在鋪價時可隨時留意。
+          </p>
+        </div>
       </div>
 
     </section>
@@ -344,11 +354,13 @@
         <div class="row mt-24">
           <div class="col-md-6 content-pr-8 mb-56">
             <div class="card-border-grey border-radius-4 ">
-              <img
-                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/market-hero.png"
-                class="figure-img img-fluid border-radius-4 shadow-sm"
-                alt="..."
-              />
+              <router-link class="" :to="{ name: 'ProjectMarket' }">
+                <img
+                  src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/market-hero.png"
+                  class="figure-img img-fluid border-radius-4 shadow-sm"
+                  alt="..."
+                />
+              </router-link>                   
               <div class="text-md-bold mt-24">  
                 奧丁丁市集平台改版
               </div> 
@@ -369,11 +381,13 @@
             </div>
           </div>
           <div class="col-md-6 content-pl-8">
-            <img
-              src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/official_website-hero.png"
-              class="figure-img img-fluid border-radius-4 shadow-sm"
-              alt="..."
-            />
+            <router-link class="" :to="{ name: 'ProjectWeb' }">
+              <img
+                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/official_website-hero.png"
+                class="figure-img img-fluid border-radius-4 shadow-sm"
+                alt="..."
+              />
+            </router-link>     
             <div class="text-md-bold mt-24">  
               奧丁丁集團官網重構
             </div> 
