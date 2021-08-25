@@ -419,32 +419,43 @@
           </div>
         </div>
         <div class="col-md-9 mb-80">
-          <p class="text-md-bold mb-16">首頁瀏覽以及分類下拉</p>
+          <p class="text-md-bold mb-16">首頁瀏覽</p>
           <img
-        src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/mockup-homepage.gif"
-        class="figure-img img-fluid border-radius-8 shadow mb-16"
-        alt="..."
-      />
+          src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/mockup-homepage.gif"
+          class="figure-img img-fluid border-radius-16 shadow mb-16"
+          alt="..."
+          />
           <p class="text-md mb-16">
-            將使用者常點的熱門分類排序至前，並將各分類細項歸納，讓使用者能清楚找到需購買的商品。
+            參考GA數據以使用者的喜好做網頁內容的排序。
           </p>
         </div>
         <div class="col-md-9 mb-80 ml-auto">
+          <p class="text-md-bold mb-16">Navbar產品分類</p>
+          <img
+          src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/mockup-homepage.png"
+          class="figure-img img-fluid border-radius-16 shadow mb-16"
+          alt="..."
+          />
+          <p class="text-md mb-16">
+            依照使用者最感興趣的分類排序至前並將各分類細項歸納，讓使用者能清楚找到需購買的商品。
+          </p>
+        </div>        
+        <div class="col-md-9 mb-80">
           <p class="text-md-bold mb-16">分類頁瀏覽</p>
           <img
-        src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/mockup-category.gif"
-        class="figure-img img-fluid border-radius-8 shadow mb-16"
-        alt="..."
-      />
+          src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/mockup-category.gif"
+          class="figure-img img-fluid border-radius-16 shadow mb-16"
+          alt="..."
+          />
           <p class="text-md mb-16">
-            因分類標觸控範圍有特別加大讓使用者更容易點擊，因此加上hover標示給使用者更安心的操作。
+            左側分類標觸控範圍有特別加大並加上hover效果，提供使用者更安心的操作。
           </p>
         </div>
-        <div class="col-md-9 mb-80">
+        <div class="col-md-9 mb-80 ml-auto">
           <p class="text-md-bold mb-16">404頁面</p>
           <img
-        src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/mockup-404.gif"
-        class="figure-img img-fluid border-radius-8 shadow mb-16"
+        src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/mockup-404.png"
+        class="figure-img img-fluid border-radius-16 shadow mb-16"
         alt="..."
       />
           <p class="text-md mb-16">
@@ -538,13 +549,14 @@
       <div class="container">
         <h2 class="h2">更多設計專案</h2>
         <div class="row mt-24">
-          <div class="col-md-6 content-pr-8 mb-56">
-            <div class="card-border-grey border-radius-4 ">
-              <img
-                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/official_website-hero.png"
-                class="figure-img img-fluid border-radius-4 shadow-sm"
-                alt="..."
-              />
+          <div class="col-md-6 content-pr-8 mb-56">       
+              <router-link class="" :to="{ name: 'ProjectWeb' }">
+                <img
+                  src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/official_website-hero.png"
+                  class="figure-img img-fluid border-radius-4 shadow-sm"
+                  alt="..."
+                />
+              </router-link>                  
               <div class="text-md-bold mt-24">  
                 奧丁丁集團官網重構
               </div> 
@@ -560,14 +572,15 @@
               <router-link class="btn btn-link" :to="{ name: 'ProjectWeb' }">
                   瀏覽專案<i class="las la-long-arrow-alt-right"></i>
               </router-link>                  
-            </div>
           </div>
           <div class="col-md-6 content-pl-8">
-            <img
-              src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/pms-hero.png"
-              class="figure-img img-fluid border-radius-4 shadow-sm"
-              alt="..."
-            />
+            <router-link class="" :to="{ name: 'ProjectPMS' }">
+              <img
+                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/pms-hero.png"
+                class="figure-img img-fluid border-radius-4 shadow-sm"
+                alt="..."
+              />
+            </router-link>                 
             <div class="text-md-bold mt-24">  
               旅宿管理系統功能規劃
             </div> 
