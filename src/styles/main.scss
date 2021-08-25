@@ -86,7 +86,7 @@ section {
     @media (max-width: 768px) {
       padding: 40px 0px 40px 0px;
     }
-    @media (max-width: 414px) {
+    @media (max-width: 576px) {
       padding: 32px 0px 32px 0px;
     }
 }
@@ -95,15 +95,19 @@ section {
 .container {
     font-family: sans-serif;
     @media (max-width: 2680px) {
-      max-width: 1100px;
+        max-width: 1100px;
     }
     @media (max-width: 1200px) {
-      max-width: 1000px;
+        max-width: 1000px;
     }
     @media (max-width: 1024px) {
-      max-width: 800px;
+    max-width: 800px;
+    padding-right: 24px !important;
+    padding-left: 24px !important;    
     }
     @media (max-width: 768px) {
+        padding-right: 24px !important;
+        padding-left: 24px !important;
     }
 }
 
@@ -231,8 +235,8 @@ border-radius: 20px;
 }
 .mb-48 {
     margin-bottom: 48px;
-    @media (max-width: 516px) {
-        margin-bottom: 24px;        
+    @media (max-width: 576px) {
+        margin-bottom: 32px;        
     }
 }
 .mb-56 {
@@ -246,7 +250,7 @@ border-radius: 20px;
 }
 .mb-80 {
     margin-bottom: 80px;
-    @media (max-width: 516px) {
+    @media (max-width: 576px) {
         margin-bottom: 40px;
     }
 }
@@ -346,13 +350,6 @@ p {
     text-align: left;
 }
 
-///---banner---
-.title-section,
-.story-section,
-.process-section,
-.other_projects-section {
-  margin: 32px 0px;
-}
 .title-group {
   display: flex;
   align-items: center;
