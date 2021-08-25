@@ -151,6 +151,54 @@
         </div>
         </div>
     </section>
+    <section class="connect-section">
+        <div class="container">
+            <div class="connection-area">
+                <p class="text-md-bold mb-16 say-hi">很期待認識你！有任何想法都歡迎隨時與我交流 ⭐</p>
+                    <div class="row connect-way">
+                        <div class="mail mb-8 col-sm-6 content-pl-48">
+                            <figure class="figure mr-8">
+                                <img
+                                    src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/icon-mail.svg"
+                                    class="figure-img img-fluid"
+                                    alt="..."
+                                />
+                            </figure>
+                            <a href="">w.ehsien@gmail.com</a>
+                        </div>  
+                        <div class="linkedin mb-8 col-sm-6 content-pl-48">
+                            <figure class="figure mr-8">
+                                <img
+                                    src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/icon-linkedin.svg"
+                                    class="figure-img img-fluid"
+                                    alt="..."
+                                />
+                            </figure>
+                            <a href="">LinkedIn Profile</a>
+                        </div>                
+                    </div>  
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <div class="flex-center">
+            <figure class="figure mr-24">
+                <img
+                    src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/icon-mail.svg"
+                    class="figure-img img-fluid"
+                    alt="..."
+                />
+            </figure>
+            <figure class="figure">
+                <img
+                    src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/icon-linkedin.svg"
+                    class="figure-img img-fluid"
+                    alt="..."
+                />
+            </figure>        
+        </div>
+        <p class="text-sm text-align-center mt-8">Copyright © EdnaWei, All Rights Reserved.</p>
+    </div>
   </main>
 </template>
 

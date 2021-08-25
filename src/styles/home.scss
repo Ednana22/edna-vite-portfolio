@@ -59,21 +59,71 @@ $grid-breakpoints: (
   }
 
 }
-@media (min-width: 768px) {
-  h1 {
-    font-size: 18px;
-  }
-  h2 {
-    font-size: 40px;
-    font-family: 'rubik, roboto';
-    font-weight: 300;
-  }
-  h3 {
-    font-size: 20x;
-    font-weight: 700;
-  }
 
+@media (min-width: 0px) {
+  .text-xxl {
+    @media (max-width: 2680px) {
+      font-size: 80px;
+      font-weight: 300;
+      font-family: 'rubik';
+      line-height: 1;
+    }
+    @media (max-width: 1440px) {
+      font-size: 64px;
+      font-weight: 300;
+      font-family: 'rubik';
+      line-height: 1;
+    }
+    @media (max-width: 576px) {
+      font-size: 48px;
+      font-weight: 300;
+      font-family: 'rubik';
+      line-height: 1;
+    }
+  }
+  .text-xl {
+    font-size: 48px;
+    font-weight: 300;
+    font-family: 'rubik';
+    line-height: 1;
+  }
+  .text-l-bold {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .text-md {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+    text-align: justify;
+    text-justify: auto;
+  }
+  .text-md-bold {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.8;
+  }
+  .text-sm {
+    font-size: 14px;
+    font-weight: 400;
+  }
 }
+@media (max-width: 2680px) {
+  .text-md {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+  }
+  .text-md-bold {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+    font-weight: 600;
+  }
+}
+
 
 ///---PROTECT---
 .project {
@@ -170,3 +220,28 @@ $grid-breakpoints: (
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.connection-area{
+  padding: 24px;
+  border-radius: 14px;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), linear-gradient(129.95deg, rgba(234, 239, 255, 0.8) 12.7%, rgba(219, 233, 255, 0.8) 60%, rgba(226, 216, 255, 0.8) 84.78%);
+}
+.say-hi{
+  @media (min-width: 576px) {
+    text-align: center;
+  }
+}
+.connect-way{
+  @media (min-width: 576px) {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+  }
+  @media (max-width: 576px) {
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
