@@ -3,7 +3,7 @@
     <section class="hero mt-60">
         <div class="container-hero">
             <div class="row hero">
-                <div class="col-md-6 mb-32">
+                <div class="col-md-6 mb-56">
                 <h2 class="mb-32">
                     Hello! 👋
                     <br />
@@ -33,7 +33,7 @@
         <div class="container">
         <div class="row project">
             <div class="col-lg-8 content-pr-48">
-            <div class="market-device-section mb-32">
+            <div class="market-device-section mb-56">
                 <div class="img-container web gradient-border"></div>
                 <div class="img-container mobile gradient-border"></div>
             </div>
@@ -51,7 +51,7 @@
                 <span class="font-color-lighter"> | </span>
                 UI設計
             </div>
-            <div class="display-on-mobile col mb-32">
+            <div class="display-on-mobile mb-32">
                 <figure class="figure gradient-border">
                 <img
                     src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/market-web-hp.gif"
@@ -60,7 +60,7 @@
                 />
                 </figure>
             </div>
-            <div class="text-md mt-32">
+            <div class="text-md">
                 為奧丁丁市集重構電子商務網站，並進行品牌再造跨部門合作，以優質生鮮電商幫助在地優質小農推廣用心製造的產品。
             </div>
             <router-link class="btn btn-link" :to="{ name: 'ProjectMarket' }">
@@ -70,15 +70,15 @@
         </div>
     </div>
     </section>
-    <section class="official-web">
+    <section class="offcial-web">
         <div class="container">
         <div class="row project">
             <div class="col-lg-8 content-pr-48">
-            <div class="owl-device-section mb-32">
+            <div class="pms-device-section mb-56">
                 <figure class="figure gradient-border">
                 <img
                     src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/website-homepage.gif"
-                    class="figure-img img-fluid "
+                    class="figure-img img-fluid"
                     alt="..."
                 />
                 </figure>
@@ -88,21 +88,20 @@
             <h3>奧丁丁集團官網重構</h3>
             <div class="text-md mb-24">
                 網站重構<span class="font-color-lighter"> | </span>UX研究<span
-                class="font-color-lighter"
-                >
-                | </span>UI設計<span class="font-color-lighter"> | </span>形象官網
+                class="font-color-lighter" > | </span>UI設計<span class="font-color-lighter"> | </span>形象官網
             </div>
-            <div class="display-on-mobile flex-center mb-32">
+            <div class="display-on-mobile mb-32">
                 <figure class="figure gradient-border">
                 <img
                     src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/website-homepage.gif"
-                    class="figure-img img-fluid "
+                    class="figure-img img-fluid"
                     alt="..."
                 />
                 </figure>
             </div>
             <div class="text-md">
                 重構奧丁丁集團官網，將集團理念以及各事業體介紹更清楚的傳達給使用者。跨集團七個事業體進行資訊整合，並從集團VI延伸為網站定義風格。
+
             </div>
             <router-link class="btn btn-link" :to="{ name: 'ProjectWeb' }">
                 瀏覽專案<i class="las la-long-arrow-alt-right"></i>
@@ -110,7 +109,7 @@
             </div>
         </div>
         </div>
-    </section>
+    </section>    
     <section class="pms">
         <div class="container">
         <div class="row project">
