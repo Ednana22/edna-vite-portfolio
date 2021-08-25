@@ -182,7 +182,7 @@
     </section>
     <div class="footer">
         <div class="flex-center">
-            <figure class="figure mr-24">
+            <!-- <figure class="figure mr-24">
                 <img
                     src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/icon-mail.svg"
                     class="figure-img img-fluid"
@@ -195,9 +195,9 @@
                     class="figure-img img-fluid"
                     alt="..."
                 />
-            </figure>        
+            </figure>         -->
         </div>
-        <p class="text-sm text-align-center mt-8">Copyright © EdnaWei, All Rights Reserved.</p>
+        <p class="text-sm text-align-center font-color-light">Copyright © EdnaWei, All Rights Reserved.</p>
     </div>
   </main>
 </template>
