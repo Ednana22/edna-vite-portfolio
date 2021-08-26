@@ -11,18 +11,16 @@
         我叫魏依嫻，我一位擁有基礎前端技能並直持續學習的UIUX設計師，設計產品包含B2C電商、B2B SasS產品後台、形象官網等。工作時總是在功能與美學、通用性與工程實作中找尋最佳平衡。
         在規劃UX的任何一步心中都需要有一個合理的解答，因為問題的解法很多也沒有一定正確的，所以你需要更清楚自己的解法。
       </p>
-      <div class="mail flex">   
-        <div class="icon text-l mr-8">
-          <i class="las la-envelope"></i>
-        </div>
-        <a href="">w.ehsien@gmail.com</a>
-      </div>
-      <div class="resume flex">   
-        <div class="icon text-l mr-8">
-          <i class="las la-address-card"></i>
-        </div>
-        <a href="">瀏覽履歷</a>
-      </div>    
+      <div class="res mb-8 col-sm-6 content-pl-48">
+          <figure class="figure mr-8">
+              <img
+                  src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/icon-resume.svg"
+                  class="figure-img img-fluid"
+                  alt="..."
+              />
+          </figure>
+          <a href="https://www.linkedin.com/in/edna-wei-90292b97/" target="_blank">履歷瀏覽</a>
+      </div>   
     </section>
     <section class="time_line container">
       <h2 class="mb-16">人生沒有白走的路，每一步都算數</h2>
@@ -220,7 +218,7 @@
       </div>
     </section>
     <section class="side_project container">
-      <div class="row mb-48">
+      <div class="row">
         <div class="col-md-6 content-pr-48 mb-48">
           <h2 class="mb-16">最想完成的Side Project是一款筋絡APP</h2>
           <p class="text-md ">

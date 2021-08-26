@@ -70,6 +70,10 @@ $grid-breakpoints: (
     font-size: 14px;
     font-weight: 400;
   }
+  .text-sm-bold {
+    font-size: 14px;
+    font-weight: 600;
+  }  
 }
 @media (max-width: 2680px) {
   h1 {
