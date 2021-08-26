@@ -101,9 +101,39 @@ padding: 0px;
 a{
     text-decoration: none;
     color: $color_grey-base;
+    &:hover{
+        color: $color_grey-base;
+        text-decoration: underline;
+    }
 }
 
 .footer{
     padding: 8px;
     border-top: 1px solid $color_grey-lighter ;
+  }
+
+  .connection-area{
+    padding: 24px;
+    border-radius: 14px;
+    color: $color_grey-dark;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), linear-gradient(129.95deg, rgba(234, 239, 255, 0.8) 12.7%, rgba(219, 233, 255, 0.8) 60%, rgba(226, 216, 255, 0.8) 84.78%);
+    .say-hi{
+        @media (min-width: 576px) {
+            text-align: center;
+        }
+    }
+    .connect-way{
+        @media (min-width: 576px) {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            
+        }
+        @media (max-width: 576px) {
+            text-align: left;
+            display: flex;
+            justify-content: flex-start;
+        }
+    }
+        
   }

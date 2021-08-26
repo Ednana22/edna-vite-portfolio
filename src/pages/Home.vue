@@ -87,8 +87,9 @@
             <div class="col-lg-4">
             <h3>奧丁丁集團官網重構</h3>
             <div class="text-md mb-24">
-                網站重構<span class="font-color-lighter"> | </span>UX研究<span
-                class="font-color-lighter" > | </span>UI設計<span class="font-color-lighter"> | </span>形象官網
+                網站重構<span class="font-color-lighter"> | </span>
+                UX研究<span class="font-color-lighter" > | </span>
+                UI設計<span class="font-color-lighter"> | </span>形象官網
             </div>
             <div class="display-on-mobile mb-32">
                 <figure class="figure gradient-border">
@@ -128,9 +129,7 @@
             <h3>旅宿管理系統功能規劃</h3>
             <div class="text-md mb-24">
                 UX研究<span class="font-color-lighter"> | </span>UI設計<span
-                class="font-color-lighter"
-                >
-                | </span>B2B
+                class="font-color-lighter"> | </span>B2B
             </div>
             <div class="display-on-mobile mb-32">
                 <figure class="figure">
@@ -164,7 +163,7 @@
                                     alt="..."
                                 />
                             </figure>
-                            <a href="">w.ehsien@gmail.com</a>
+                            <a href="mailto: w.ehsien@gmail.com">w.ehsien@gmail.com</a>
                         </div>  
                         <div class="linkedin mb-8 col-sm-6 content-pl-48">
                             <figure class="figure mr-8">
@@ -174,7 +173,7 @@
                                     alt="..."
                                 />
                             </figure>
-                            <a href="">LinkedIn Profile</a>
+                            <a href="https://www.linkedin.com/in/edna-wei-90292b97/" target="_blank">LinkedIn Profile</a>
                         </div>                
                     </div>  
             </div>
