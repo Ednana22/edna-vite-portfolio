@@ -116,7 +116,7 @@
         </div>
       </div>
     </section>
-    <section class="3brainstorming container text-md mb-">
+    <section class="3brainstorming container text-md mb-60">
       <div class="content mt-16 mb-16">
         <div class="col">
           <div class="project-title">
@@ -351,8 +351,8 @@
     <section class="more-project  bg-grey-lightest pt-80">
       <div class="container">
         <h2 class="">更多設計專案</h2>
-        <div class="row mt-24">
-          <div class="col-md-6 content-pr-8 mb-48">
+        <div class="row">
+          <div class="col-md-6 content-pr-8 mt-24 mb-24">
             <div class="card-border-grey border-radius-4 ">
               <router-link class="" :to="{ name: 'ProjectMarket' }">
                 <img
@@ -380,7 +380,7 @@
               </router-link>                  
             </div>
           </div>
-          <div class="col-md-6 content-pl-8">
+          <div class="col-md-6 content-pl-8 mt-24 mb-24">
             <router-link class="" :to="{ name: 'ProjectWeb' }">
               <img
                 src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/official_website-hero.png"

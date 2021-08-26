@@ -210,7 +210,7 @@
         </div>
       </div>
     </section>
-    <section id="step-2" class="2define container text-md">
+    <section id="step-2" class="2define container text-md mb-60">
       <div class="row content">
         <div class="col-md-6 content-pr-48">
           <div class="project-title">
@@ -248,7 +248,7 @@
         </div>
       </div>
     </section>
-    <section id="step-3" class="3precress bg-grey-darkest text-md">
+    <section id="step-3" class="3precress bg-grey-darkest text-md adjust-pt-dark-bg">
       <div class="container font-color-lighter">
         <div class="content">
           <div class="project-title">
@@ -388,7 +388,7 @@
         </div>
       </div>
     </section>
-    <section id="step-4" class="4mockup bg-grey-darkest text-md">
+    <section id="step-4" class="4mockup bg-grey-darkest text-md adjust-pb-dark-bg">
       <div class="container font-color-lighter">
         <div class="content">
           <div class="project-title col">
@@ -464,7 +464,7 @@
         </div>
       </div>
     </section>
-    <section id="step-5" class="5iterate container text-md">
+    <section id="step-5" class="5iterate container text-md mt-60">
       <div class="project-title col">
         <div class="title-group">
           <h4 class="mr-8">5</h4>
@@ -520,7 +520,7 @@
         </div>
       </div>
     </section>
-    <section id="step-7" class="7app container text-md">
+    <section id="step-7" class="7app container text-md mb-60">
       <div class="project-title col">
         <div class="title-group">
           <h4 class="mr-8">7</h4>
@@ -545,11 +545,11 @@
         </figure>
       </div>
     </section>
-    <section class="more-project  bg-grey-lightest">
+    <section class="more-project bg-grey-lightest pt-80">
       <div class="container">
         <h2 class="h2">更多設計專案</h2>
-        <div class="row mt-24">
-          <div class="col-md-6 content-pr-8 mb-56">       
+        <div class="row">
+          <div class="col-md-6 content-pr-8 mt-24 mb-24">       
               <router-link class="" :to="{ name: 'ProjectWeb' }">
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/official_website-hero.png"
@@ -573,7 +573,7 @@
                   瀏覽專案<i class="las la-long-arrow-alt-right"></i>
               </router-link>                  
           </div>
-          <div class="col-md-6 content-pl-8">
+          <div class="col-md-6 content-pl-8 mt-24 mb-24">
             <router-link class="" :to="{ name: 'ProjectPMS' }">
               <img
                 src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/pms-hero.png"

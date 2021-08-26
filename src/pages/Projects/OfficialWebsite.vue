@@ -24,17 +24,17 @@
         <div class="bnanner"></div>
       </figure>
     </section>
-    <section class="story container text-md mt-24">
-      <p class="text-md mb-80">
+    <section class="story container text-md">
+      <p class="text-md mb-48">
         奧丁丁集團創立於2010年，是一間以區塊鏈技術為核心的科技公司，其產品涵蓋B2B商業服務、B2B管理後台、B2C電商平台、實體旅宿等共七大事業體。
       </p>
-      <div class="mb-80">
+      <div class="mb-48">
         <h2 class="mb-16">專案背景</h2>
         <p class="mb-48">
           官方網站是集團傳遞精神的重要管道，而使用者涵蓋了面試者、公司成員、合作商甚至投資者等，對公司來說是個不可輕忽的存在。在奧丁丁集團成立初期所架設的官網頁面中並無保留太多的談性空間，因此無法清楚的將集團近年來的資訊正確傳達給使用者，這也造成了使用者容易從網站中獲得過時且不完整的資訊問題，再加上老舊的視覺風格與集團近年來定義的VI調性不一、使用者對網站的負面評價等等，促成了此次集團官網改版。
         </p>
       </div>
-      <div class="mb-80">
+      <div class="mb-48">
         <h2 class="mb-16">目標</h2>
         <ul>
           <div class="flex mb-8">
@@ -250,8 +250,8 @@
         </div>
       </div>
     </section>
-    <section class="4procress bg-grey-darkest text-md ">
-      <div class="container font-color-lighter pt-60">
+    <section class="4procress bg-grey-darkest text-md adjust-pt-dark-bg">
+      <div class="container font-color-lighter">
         <div class="content mt-16 mb-16">
           <div class="project-title">
             <div class="title-group col">
@@ -477,7 +477,7 @@
         </div>
       </div>
     </section>
-    <section class="5result bg-grey-darkest text-md mb-16">
+    <section class="5result bg-grey-darkest text-md adjust-pb-dark-bg">
       <div class="container font-color-lighter">
         <div class="row">
           <div class="col-md-6 content-pr-48">
@@ -513,7 +513,7 @@
               需一眼讓使用者理解集團旗下眾多服務，並選出最具代表性的背景圖呈現服務類別。
             </p>             
           </div>
-          <div class="col-md-9 mb-80">
+          <div class="col-md-9">
             <p class="text-md-bold mb-16">動態據點呈現</p>
             <img
                 src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/mockup-global.gif"
@@ -528,7 +528,7 @@
       </div>
     
     </section>
-    <section class="6takeaway container text-md mb-60">
+    <section class="6takeaway container text-md mt-60">
       <div class="col-md-6 content-pr-48">
         <div class="row">
           <div class="project-title">
@@ -546,11 +546,11 @@
         </div>
       </div>
     </section>
-    <section class="more-project  bg-grey-lightest">
+    <section class="more-project bg-grey-lightest pt-80">
       <div class="container">
         <h2 class="">更多設計專案</h2>
-        <div class="row mt-24">
-          <div class="col-md-6 content-pr-8 mb-56">
+        <div class="row">
+          <div class="col-md-6 content-pr-8 mt-24 mb-24">
             <div class="card-border-grey border-radius-4 ">
               <router-link class="" :to="{ name: 'ProjectMarket' }">
                 <img
@@ -578,7 +578,7 @@
               </router-link>                  
             </div>
           </div>
-          <div class="col-md-6 content-pl-8">
+          <div class="col-md-6 content-pl-8 mt-24 mb-24">
             <router-link class="" :to="{ name: 'ProjectPMS' }">
               <img
                 src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/pms-hero.png"
