@@ -465,17 +465,17 @@
       </div>
     </section>
     <section id="step-5" class="5iterate container text-md mt-60">
-      <div class="project-title col">
-        <div class="title-group">
-          <h4 class="mr-8">5</h4>
-          <div class="">
-            <h3 class="mb-8">迭代</h3>
-            <h2>再次聆聽使用者</h2>
-          </div>
-        </div>
-      </div>
       <div class="row content">
         <div class="col-md-6 content-pr-48">
+          <div class="project-title col">
+            <div class="title-group">
+              <h4 class="mr-8">5</h4>
+              <div class="">
+                <h3 class="mb-8">迭代</h3>
+                <h2>再次聆聽使用者</h2>
+              </div>
+            </div>
+          </div>          
           <p class="text-md mb-48">
             新介面上線兩個月後我們進行網站追蹤系統分析，發現「限時活動banner區域」點閱率有顯著改善，也從熱點追蹤證實了堅持保留使用者習慣的分類列是正確的設計。其中我們還發現使用者看完「限時活動banner區域」通常會接著尋找第二熱門的「編輯嚴選」及「最新上架」而忽略了中間的「特選專區」秉持著使用者為中心的原則微調專區順序，再觀察數據後發現使用者的瀏覽動線更為順暢，且原本被忽略的專區也連帶提高了點擊率。
           </p>
@@ -521,22 +521,22 @@
       </div>
     </section>
     <section id="step-7" class="7app container text-md mb-60">
-      <div class="project-title col">
-        <div class="title-group">
-          <h4 class="mr-8">7</h4>
-          <div class="">
-            <h3 class="mb-6">驚喜包</h3>
-            <h2>APP開發</h2>
-          </div>
-        </div>
-      </div>
       <div class="row content">
         <div class="col-md-6 content-pr-48">
+          <div class="project-title col">
+            <div class="title-group">
+              <h4 class="mr-8">7</h4>
+              <div class="">
+                <h3 class="mb-6">驚喜包</h3>
+                <h2>APP開發</h2>
+              </div>
+            </div>
+          </div>
           <p class="text-md mb-48">
             奧丁丁市集APP是由於2021年5月台灣COVID-19疫情升溫而催產出來的，將不改既有使用者操作行為為目標，以網站的基本架構做Flutter雙平台的開發，開發時也特別規劃了APP獨有的短影片宣傳功能。
           </p>
         </div>
-        <figure class="figure col-md-9">
+        <figure class="figure col-md-6 content-pl-48">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/market-app.png"
             class="figure-img img-fluid border-radius-4 shadow-sm"
