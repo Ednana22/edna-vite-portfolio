@@ -29,7 +29,7 @@
     </section>
     <section class="skil_tree container">
       <h2 class="mb-16">技能樹</h2>
-      <div class="row">
+      <div class="row mb-48">
         <div class="col-xl-2 col-md-3 col-4 text-align-center">
           <img
           src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/figma.png"
@@ -129,7 +129,7 @@
       </div>
     </section>
     <section class="NNgroup container">
-      <div class="row">
+      <div class="row mb-48">
         <div class="col-md-6 content-pr-48 mb-48">
           <h2 class="mb-16">定期閱讀NNgroup</h2>
           <p class="text-md ">
@@ -169,7 +169,7 @@
       </div>
     </section>
     <section class="switzerland container">
-      <div class="row">
+      <div class="row mb-48">
         <div class="col-md-6 content-pr-48 mb-48">
           <h2 class="mb-16">留學瑞士一年，擁有法文中級證書</h2>
           <p class="text-md ">
@@ -220,7 +220,7 @@
       </div>
     </section>
     <section class="side_project container">
-      <div class="row">
+      <div class="row mb-48">
         <div class="col-md-6 content-pr-48 mb-48">
           <h2 class="mb-16">最想完成的Side Project是一款筋絡APP</h2>
           <p class="text-md ">
@@ -279,7 +279,7 @@
                                     alt="..."
                                 />
                             </figure>
-                            <a href="">w.ehsien@gmail.com</a>
+                            <a href="mailto: w.ehsien@gmail.com">w.ehsien@gmail.com</a>
                         </div>  
                         <div class="linkedin mb-8 col-sm-6 content-pl-48">
                             <figure class="figure mr-8">
@@ -289,7 +289,7 @@
                                     alt="..."
                                 />
                             </figure>
-                            <a href="">LinkedIn Profile</a>
+                            <a href="https://www.linkedin.com/in/edna-wei-90292b97/" target="_blank">LinkedIn Profile</a>
                         </div>                
                     </div>  
             </div>
