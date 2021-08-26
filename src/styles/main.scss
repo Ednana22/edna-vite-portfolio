@@ -252,7 +252,7 @@ border-radius: 20px;
 .mb-80 {
     margin-bottom: 80px;
     @media (max-width: 576px) {
-        margin-bottom: 40px;
+        margin-bottom: 80px;
     }
 }
 //////mt---
@@ -397,28 +397,6 @@ p {
     }
 }
 
-.connection-area{
-    padding: 24px;
-    border-radius: 14px;
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), linear-gradient(129.95deg, rgba(234, 239, 255, 0.8) 12.7%, rgba(219, 233, 255, 0.8) 60%, rgba(226, 216, 255, 0.8) 84.78%);
-  }
-  .say-hi{
-    @media (min-width: 576px) {
-      text-align: center;
-    }
-  }
-  .connect-way{
-    @media (min-width: 576px) {
-      text-align: center;
-      display: flex;
-      justify-content: center;
-      
-    }
-    @media (max-width: 576px) {
-      text-align: left;
-      display: flex;
-      justify-content: flex-start;
-    }
-  }
-  
+
+
   

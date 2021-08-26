@@ -25,9 +25,9 @@
         <div class="bnanner"></div>
       </figure>
     </section>
-    <section class="story container text-md mt-24">
+    <section class="story container text-md">
       <h2 class="mb-16">成果搶先看 👀</h2>
-      <div class="highlight row mb-80">
+      <div class="highlight row mb-48">
         <div class="col-md-4 new_user mb-24">
           <p class="text-xxl font-color-blue">230<span class="text-l">%</span></p>
           <p>新使用者增加</p>
@@ -42,11 +42,11 @@
         </div>
       </div>
       <h2 class="mb-16">產品介紹</h2>
-      <p class="text-md mb-80">
+      <p class="text-md mb-48">
         奧丁丁市集是一個專注於<span class="text-md-bold"
       >推廣在地商家與台灣小農的電商平台</span>，涵蓋上千項嚴選商品累計合作逾兩千名小農及中小型優質商家。
       </p>
-      <div class="mb-80">
+      <div class="mb-48">
         <h2 class="mb-16">專案背景</h2>
         <p class="mb-48">
           奧丁丁市集成立於2010年，當年食安問題層出不窮，舉凡塑化劑、防腐劑、香精牛奶到毒醬油，使消費者意識食安意識抬頭，也讓奧丁丁市集的「產地直送、有機蔬果」概念脫穎而出。<br />
@@ -57,7 +57,7 @@
         >經常被質疑公司網站的可用性、安全性及工程團隊能力，這也導致內部人員對產品提不起信心。</span>
         </p>
       </div>
-      <div class="mb-80">
+      <div class="mb-48">
         <h2 class="mb-16">目標</h2>
         <ul>
           <div class="flex mb-8">
@@ -90,7 +90,7 @@
       </figure>
     </section>
     <section id="step-1" class="1task container text-md">
-      <div class="row content mt-16 mb-16">
+      <div class="row content">
         <div class="col-md-6 content-pr-48 mb-48">
           <div class="project-title">
             <div class="title-group">
@@ -185,7 +185,7 @@
                 </div>
               </div>
             </div>
-            <div class="talking-bobble mb-16">
+            <div class="talking-bobble">
               <div class="user-talk mb-8">
                 跟客戶們開會時都是用電腦網頁，造成缺點直接暴露出來的窘境。主打商品Banner區域太小，點閱率及轉換率都無法發揮最佳效果。非常希望推動改版！
               </div>
@@ -211,7 +211,7 @@
       </div>
     </section>
     <section id="step-2" class="2define container text-md">
-      <div class="row content mt-16 mb-16">
+      <div class="row content">
         <div class="col-md-6 content-pr-48">
           <div class="project-title">
             <div class="title-group">
@@ -250,7 +250,7 @@
     </section>
     <section id="step-3" class="3precress bg-grey-darkest text-md">
       <div class="container font-color-lighter">
-        <div class="content mt-16 mb-16">
+        <div class="content">
           <div class="project-title">
             <div class="title-group col">
               <h4 class="mr-8">3</h4>
@@ -390,7 +390,7 @@
     </section>
     <section id="step-4" class="4mockup bg-grey-darkest text-md">
       <div class="container font-color-lighter">
-        <div class="content mt-16 mb-16">
+        <div class="content">
           <div class="project-title col">
             <div class="title-group">
               <h4 class="mr-8">4</h4>
@@ -451,7 +451,7 @@
             左側分類標觸控範圍有特別加大並加上hover效果，提供使用者更安心的操作。
           </p>
         </div>
-        <div class="col-md-9 mb-80 ml-auto">
+        <div class="col-md-9 ml-auto">
           <p class="text-md-bold mb-16">404頁面</p>
           <img
         src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/mockup-404.png"
@@ -474,7 +474,7 @@
           </div>
         </div>
       </div>
-      <div class="row content mt-16 mb-16">
+      <div class="row content">
         <div class="col-md-6 content-pr-48">
           <p class="text-md mb-48">
             新介面上線兩個月後我們進行網站追蹤系統分析，發現「限時活動banner區域」點閱率有顯著改善，也從熱點追蹤證實了堅持保留使用者習慣的分類列是正確的設計。其中我們還發現使用者看完「限時活動banner區域」通常會接著尋找第二熱門的「編輯嚴選」及「最新上架」而忽略了中間的「特選專區」秉持著使用者為中心的原則微調專區順序，再觀察數據後發現使用者的瀏覽動線更為順暢，且原本被忽略的專區也連帶提高了點擊率。
@@ -490,7 +490,7 @@
       </div>
     </section>
     <section id="step-6" class="6takeaway container text-md">
-      <div class="content mt-16 mb-16">
+      <div class="content">
         <div class="project-title">
           <div class="title-group">
             <h4 class="mr-8">6</h4>
@@ -500,7 +500,7 @@
             </div>
           </div>
         </div>
-        <div class="text-md col-md-6 content-pr-48 mb-48">
+        <div class="text-md col-md-6 content-pr-48">
           <ul>
             <div class="flex mb-8">
               <span class="mr-8">•</span>
@@ -530,7 +530,7 @@
           </div>
         </div>
       </div>
-      <div class="row content mt-16 mb-16">
+      <div class="row content">
         <div class="col-md-6 content-pr-48">
           <p class="text-md mb-48">
             奧丁丁市集APP是由於2021年5月台灣COVID-19疫情升溫而催產出來的，將不改既有使用者操作行為為目標，以網站的基本架構做Flutter雙平台的開發，開發時也特別規劃了APP獨有的短影片宣傳功能。
