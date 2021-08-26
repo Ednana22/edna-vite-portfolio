@@ -22,16 +22,16 @@
         <div class="bnanner"></div>
       </figure>
     </section>
-    <section class="story container text-md mt-24">
-      <p class="text-md mb-80"> OwlNest是一款為旅宿業打造的B2B三合一整合型訂房系統，提供前台官網訂房系統、PMS訂單管理系統、線上銷售平台通路串接，用戶遍及亞洲、美洲國家，旅宿用戶達上千家。
+    <section class="story container text-md">
+      <p class="text-md mb-48"> OwlNest是一款為旅宿業打造的B2B三合一整合型訂房系統，提供前台官網訂房系統、PMS訂單管理系統、線上銷售平台通路串接，用戶遍及亞洲、美洲國家，旅宿用戶達上千家。
       </p>
-      <div class="mb-80">
+      <div class="mb-48">
         <h2 class="mb-16">專案背景</h2>
-        <p class="mb-80">
+        <p class="">
           因早期OwlNest系統客群是鎖定民宿業者，只做到單一房型單一專案的鋪價功能，近幾年隨著市場逐漸拓展，客群也從民宿業者增加至小型旅館業者再加上平台串接功能的開發，目前介面功能無法達到有效的鋪設價格及設定庫存，對使用者來說不僅費時也容易出錯。
         </p>
       </div>
-      <div class="mb-80">
+      <div class="mb-48">
         <h2 class="mb-16">目標</h2>
         <ul>
           <div class="flex mb-8">
@@ -116,7 +116,7 @@
         </div>
       </div>
     </section>
-    <section class="3brainstorming container text-md">
+    <section class="3brainstorming container text-md mb-">
       <div class="content mt-16 mb-16">
         <div class="col">
           <div class="project-title">
@@ -200,7 +200,7 @@
         </div>
       </div>
     </section>
-    <section class="4procress bg-grey-darkest text-md ">
+    <section class="4procress bg-grey-darkest text-md adjust-pt-dark-bg">
       <div class="container font-color-lighter">
         <div class="project-title">
           <div class="title-group">
@@ -262,7 +262,7 @@
         </div>
       </div>
     </section>
-    <section class="5result bg-grey-darkest text-md mb-16">
+    <section class="5result bg-grey-darkest text-md adjust-pb-dark-bg">
       <div class="container font-color-lighter">
         <div class="col-md-6 content-pr-48">
           <div class="project-title">
@@ -302,7 +302,7 @@
             使用者可以直接選擇欲鋪價的國定假日，以介面設定來解決使用者需記憶或是來回比對的負擔。
           </p>
         </div>
-        <div class="col-md-9 mb-80">
+        <div class="col-md-9">
           <p class="text-md-bold mb-16">優化下拉月曆內容</p>
           <img
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/price_calendar.png"
@@ -316,7 +316,7 @@
       </div>
 
     </section>
-    <section class="6iterate container text-md mb-60">
+    <section class="6iterate container text-md mt-60">
       <div class="col-md-6 content-pr-48">
         <div class="project-title">
           <div class="title-group">
@@ -348,11 +348,11 @@
         </p>
     </div>
     </section>
-    <section class="more-project  bg-grey-lightest">
+    <section class="more-project  bg-grey-lightest pt-80">
       <div class="container">
         <h2 class="">更多設計專案</h2>
         <div class="row mt-24">
-          <div class="col-md-6 content-pr-8 mb-56">
+          <div class="col-md-6 content-pr-8 mb-48">
             <div class="card-border-grey border-radius-4 ">
               <router-link class="" :to="{ name: 'ProjectMarket' }">
                 <img
