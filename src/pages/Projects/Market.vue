@@ -25,41 +25,45 @@
         <div class="bnanner"></div>
       </figure>
     </section>
-    <section class="story container text-md">
-      <h2 class="mb-16">成果搶先看 👀</h2>
-      <div class="highlight row mb-48">
-        <div class="col-md-4 new_user mb-24">
-          <p class="text-xxl font-color-blue">230<span class="text-l">%</span></p>
-          <p>新使用者增加</p>
-        </div>
-        <div class="col-md-4 viewing_time mb-24">
-          <p class="text-xxl font-color-blue">81<span class="text-l">%</span></p>
-          <p>工作平均長度增加</p>
-        </div>
-        <div class="col-md-4 bounce_rate mb-24">
-          <p class="text-xxl font-color-blue">-24<span class="text-l">%</span></p>
-          <p>跳出率明顯優化</p>
-        </div>
-      </div>
-      <h2 class="mb-16">產品介紹</h2>
-      <p class="text-md mb-48">
-        奧丁丁市集是一個專注於<span class="text-md-bold"
-      >推廣在地商家與台灣小農的電商平台</span>，涵蓋上千項嚴選商品累計合作逾兩千名小農及中小型優質商家。
-      </p>
-      <div class="mb-48">
-        <h2 class="mb-16">專案背景</h2>
-        <p class="mb-48">
-          奧丁丁市集成立於2010年，當年食安問題層出不窮，舉凡塑化劑、防腐劑、香精牛奶到毒醬油，使消費者意識食安意識抬頭，也讓奧丁丁市集的「產地直送、有機蔬果」概念脫穎而出。<br />
-      然而近年許多有機生鮮電商崛起，奧丁丁市集<span class="text-md-bold"
-        >舊網站架構不支援響應式、頁面模式不符合使用者的瀏覽習慣、低效的瀏覽體驗也大程度的造成了低轉化率和高跳出率造成產品優勢不再。</span><br />
-      而公司內部業務經理則反映，當展示網站給潛在合作廠商時<span
-        class="text-md-bold"
-        >經常被質疑公司網站的可用性、安全性及工程團隊能力，這也導致內部人員對產品提不起信心。</span>
+    <section class="task container text-md">
+      <div class="product-introduce mb-80">
+        <h2 class="mb-16">產品介紹</h2>
+        <p class="text-md">
+          奧丁丁市集是一個專注於<span class="text-md-bold"
+        >推廣在地商家與台灣小農的電商平台</span>，涵蓋上千項嚴選商品累計合作逾兩千名小農及中小型優質商家。
         </p>
       </div>
-      <div class="mb-48">
-        <h2 class="mb-16">目標</h2>
-        <ul>
+      <div class="background">
+          <h2 class="mb-16">專案背景</h2>
+          <p class="">
+            奧丁丁市集成立於2010年，當年食安問題層出不窮，舉凡塑化劑、防腐劑、香精牛奶到毒醬油，使消費者意識食安意識抬頭，也讓奧丁丁市集的「產地直送、有機蔬果」概念脫穎而出。<br />
+            然而近年許多有機生鮮電商崛起，奧丁丁市集<span class="text-md-bold"
+          >舊網站架構不支援響應式、頁面模式不符合使用者的瀏覽習慣、低效的瀏覽體驗也大程度的造成了低轉化率和高跳出率造成產品優勢不再。</span><br />
+            而公司內部業務經理則反映，當展示網站給潛在合作廠商時<span
+          class="text-md-bold"
+          >經常被質疑公司網站的可用性、安全性及工程團隊能力，這也導致內部人員對產品提不起信心。</span>
+          </p>      
+      </div>
+    </section>
+    <section class="cover-photo container p-0">
+      <figure class="figure">
+        <img
+        src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/%E6%9E%9C%E8%BE%B2.png"
+        class="figure-img img-fluid"
+        alt="..."/>
+      </figure>      
+    </section>
+    <section id="step-1" class="1gold container text-md">
+        <div class="project-title">
+          <div class="title-group">
+            <h4 class="mr-8">1</h4>
+            <div class="">
+              <h3 class="mb-6">目標</h3>
+              <h2>改版要解決的問題</h2>
+            </div>
+          </div>
+        </div>               
+        <ul class="mb-48">
           <div class="flex mb-8">
             <span class="mr-8">‣</span>
             <li>
@@ -80,28 +84,39 @@
             </li>
           </div>
         </ul>
-      </div>
-      <figure class="figure">
-        <img
-      src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/%E6%9E%9C%E8%BE%B2.png"
-      class="figure-img img-fluid"
-      alt="..."
-    />
-      </figure>
-    </section>
-    <section id="step-1" class="1task container text-md">
-      <div class="row content">
-        <div class="col-md-6 content-pr-48 mb-48">
-          <div class="project-title">
-            <div class="title-group">
-              <h4 class="mr-8">1</h4>
-              <div class="">
-                <h3 class="mb-6">使用者研究</h3>
-                <h2>聽聽你的使用者怎麼想</h2>
-              </div>
-            </div>
+         <div class="height-light">
+          <p class="text-md-bold mb-16">成果搶先看 👀</p>
+          <div class="highlight row">
+          <div class="col-sm-4 new_user mb-24">
+            <p class="text-xxl font-color-blue">230<span class="text-l">%</span></p>
+            <p class="text-md-bold">新使用者增加</p>
           </div>
-          <p class="">
+          <div class="col-sm-4 viewing_time mb-24">
+            <p class="text-xxl font-color-blue">81<span class="text-l">%</span></p>
+            <p class="text-md-bold">工作平均長度增加</p>
+          </div>
+          <div class="col-sm-4 bounce_rate">
+            <p class="text-xxl font-color-blue">-24<span class="text-l">%</span></p>
+            <p class="text-md-bold">跳出率明顯優化</p>
+          </div>
+        </div>
+      </div>
+   
+    </section>
+    <section id="step-2" class="2understand container text-md">
+      <div class="project-title">
+        <div class="title-group">
+          <h4 class="mr-8">2</h4>
+          <div class="">
+            <h3 class="mb-6">理解</h3>
+            <h2>聽聽你的使用者怎麼想</h2>
+          </div>
+        </div>
+      </div>
+      <div class="user-talk row content mb-80">
+        <div class="col-md-6 content-pr-48 mb-48">
+          <p class="text-md-bold mb-16">使用者這樣說</p>
+          <p>
             訪談奧丁丁市集的不同層級的會員，使我們能夠瞭解不同用戶在<span
           class="text-md-bold"
           >使用網站時的場景、需求以及期望。</span>
@@ -110,150 +125,172 @@
           >梳理出奧丁丁市集在生鮮有機領域的立足點並同時推行品牌再造。</span>
           </p>
         </div>
-        <div class="col-md-12 flex-top">
-          <div class="col-md-4">
-            <figure class="figure">
-              <img
-            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/%E8%88%8A%E7%89%88%E9%9D%A2.png"
-            class="figure-img img-fluid"
-            alt="..."
-          />
-              <div class="bnanner"></div>
-            </figure>
+        <div class="col-md-6 content-pl-48">
+          <div class="talking-bobble mb-16">
+            <div class="user-talk mb-8">
+              從桌機打開是一整個長長的網頁感覺很奇怪，瀏覽的範圍很小，我都是直接搜尋需要的物品就結帳，很希望能在首頁有些商品的資訊。
+            </div>
+            <div class="user-photo-emoji user-image-relative flex">
+              <figure class="figure mr-16">
+                <img
+              src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/userA.png"
+              class="figure-img img-fluid"
+              alt="..."
+              width="60px"
+              height="60px"
+            />
+              </figure>
+              <span class="emoji-position">😕</span>
+              <div class="name">
+                <p class="text-sm ">Cindy Wu</p>
+                <p class="text-sm color_grey-light">一般會員</p>
+              </div>
+            </div>
           </div>
-          <div class="col-md-6">
-            <div class="talking-bobble mb-16">
-              <div class="user-talk mb-8">
-                從桌機打開是一整個長長的網頁感覺很奇怪，瀏覽的範圍很小，我都是直接搜尋需要的物品就結帳，很希望能在首頁有些商品的資訊。
-              </div>
-              <div class="user-photo-emoji user-image-relative flex">
-                <figure class="figure mr-16">
-                  <img
-                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/userA.png"
-                class="figure-img img-fluid"
-                alt="..."
-                width="60px"
-                height="60px"
-              />
-                </figure>
-                <span class="emoji-position">😕</span>
-                <div class="name">
-                  <p class="text-sm ">Cindy Wu</p>
-                  <p class="text-sm color_grey-light">一般會員</p>
-                </div>
+          <div class="talking-bobble mb-16">
+            <div class="user-talk mb-8">
+              下單後無法從頁面得知出貨狀態有點困擾。
+            </div>
+            <div class="user-photo-emoji user-image-relative flex">
+              <figure class="figure mr-16">
+                <img
+              src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/userB.png"
+              class="figure-img img-fluid"
+              alt="..."
+              width="60px"
+              height="60px"
+            />
+              </figure>
+              <span class="emoji-position">😫</span>
+              <div class="name">
+                <p class="text-sm ">Vincent Chang</p>
+                <p class="text-sm color_grey-light">鑽石會員</p>
               </div>
             </div>
-            <div class="talking-bobble mb-16">
-              <div class="user-talk mb-8">
-                下單後無法從頁面得知出貨狀態有點困擾。
-              </div>
-              <div class="user-photo-emoji user-image-relative flex">
-                <figure class="figure mr-16">
-                  <img
-                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/userB.png"
-                class="figure-img img-fluid"
-                alt="..."
-                width="60px"
-                height="60px"
-              />
-                </figure>
-                <span class="emoji-position">😫</span>
-                <div class="name">
-                  <p class="text-sm ">Vincent Chang</p>
-                  <p class="text-sm color_grey-light">鑽石會員</p>
-                </div>
+          </div>
+          <div class="talking-bobble mb-16">
+            <div class="user-talk mb-8">
+              很希望分類可以再好找一點，有時候Banner會有折扣碼，但字真的滿小的，而且不確定在哪一張裡，要特別留意。
+            </div>
+            <div class="user-photo-emoji user-image-relative flex">
+              <figure class="figure mr-16">
+                <img
+              src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/userC.png"
+              class="figure-img img-fluid"
+              alt="..."
+              width="60px"
+              height="60px"
+            />
+              </figure>
+              <span class="emoji-position">😧</span>
+              <div class="name">
+                <p class="text-sm ">Lily Lin</p>
+                <p class="text-sm color_grey-light">一般會員</p>
               </div>
             </div>
-            <div class="talking-bobble mb-16">
-              <div class="user-talk mb-8">
-                很希望分類可以再好找一點，有時候Banner會有折扣碼，但字真的滿小的，而且不確定在哪一張裡，要特別留意。
-              </div>
-              <div class="user-photo-emoji user-image-relative flex">
-                <figure class="figure mr-16">
-                  <img
-                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/userC.png"
-                class="figure-img img-fluid"
-                alt="..."
-                width="60px"
-                height="60px"
-              />
-                </figure>
-                <span class="emoji-position">😧</span>
-                <div class="name">
-                  <p class="text-sm ">Lily Lin</p>
-                  <p class="text-sm color_grey-light">一般會員</p>
-                </div>
-              </div>
+          </div>
+          <div class="talking-bobble">
+            <div class="user-talk mb-8">
+              跟客戶們開會時都是用電腦網頁，造成缺點直接暴露出來的窘境。主打商品Banner區域太小，點閱率及轉換率都無法發揮最佳效果。非常希望推動改版！
             </div>
-            <div class="talking-bobble">
-              <div class="user-talk mb-8">
-                跟客戶們開會時都是用電腦網頁，造成缺點直接暴露出來的窘境。主打商品Banner區域太小，點閱率及轉換率都無法發揮最佳效果。非常希望推動改版！
-              </div>
-              <div class="user-photo-emoji user-image-relative flex">
-                <figure class="figure mr-16">
-                  <img
-                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/userD.png"
-                class="figure-img img-fluid"
-                alt="..."
-                width="60px"
-                height="60px"
-              />
-                </figure>
-                <span class="emoji-position">👏</span>
-                <div class="name">
-                  <p class="text-sm ">Joyce Chen</p>
-                  <p class="text-sm color_grey-light">業務經理</p>
-                </div>
+            <div class="user-photo-emoji user-image-relative flex">
+              <figure class="figure mr-16">
+                <img
+              src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/userD.png"
+              class="figure-img img-fluid"
+              alt="..."
+              width="60px"
+              height="60px"
+            />
+              </figure>
+              <span class="emoji-position">👏</span>
+              <div class="name">
+                <p class="text-sm ">Joyce Chen</p>
+                <p class="text-sm color_grey-light">業務經理</p>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <div class="user-talk row content">
+        <div class="col-md-6 content-pr-48 mb-48">
+          <p class="text-md-bold mb-16">
+            原來我們的使用者長這樣
+          </p>
+          <p>
+            根據使用者訪談、研究結果以及網站用戶數據分析，我們分析使用者的行為以及相似性，並創建出與使用者輪廓相仿的人物誌。此角色幫助團隊在規劃產品時有更明確的方向，也因產生了同理心，團隊更重視使用者所遇到的問題。 從使用者地圖可得知使用者面臨的購物情況，進而討論優化產品的方向來幫助用戶更順利的完成購物、優化體驗讓使用者成為我們的忠實客戶。
+          </p>
+        </div>
+        <div class="col-md-6 content-pl-48">
+          <figure class="figure">
+            <img
+            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/user-journey_W.png"
+            class="figure-img img-fluid border-radius-4"
+            alt="..."/>
+          </figure>
+        </div>
+      </div>
     </section>
-    <section id="step-2" class="2define container text-md mb-60">
+    <section id="step-3" class="3define container text-md">
       <div class="row content">
         <div class="col-md-6 content-pr-48">
           <div class="project-title">
             <div class="title-group">
-              <h4 class="mr-8">2</h4>
+              <h4 class="mr-8">3</h4>
               <div class="">
                 <h3 class="mb-6">定義</h3>
-                <h2>原來我們的使用者長這樣</h2>
+                <h2>分析現行介面的問題</h2>
               </div>
             </div>
           </div>
-          <p class="text-md mb-48">
-            根據使用者訪談、研究結果以及網站用戶數據分析，我們分析使用者的行為以及相似性，並創建出與使用者輪廓相仿的人物誌。此角色幫助團隊在規劃產品時有更明確的方向，也因產生了同理心，團隊更重視使用者所遇到的問題。
-            從使用者地圖可得知使用者面臨的購物情況，進而討論優化產品的方向來幫助用戶更順利的完成購物、優化體驗讓使用者成為我們的忠實客戶。
+          <p class="text-md">
+            缺
           </p>
         </div>
-        <div class="user-journey-image col-md-6 content-pl-48">
-          <figure class="figure user-journey-mobile">
+        <div class="col-md-6 content-pl-48">
+          <figure class="figure">
             <img
-          src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/user-journey_M.png"
-          class="figure-img img-fluid  border-thinner border-radius-4"
-          alt="..."
-          width="340px"
-        />
-            <div class="bnanner"></div>
+              src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/old-version.png"
+              class="figure-img img-fluid border-radius-4"
+              alt="..."
+            />
           </figure>
-          <figure class="figure user-journey-web">
-            <img
-          src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/user-journey_W.png"
-          class="figure-img img-fluid border-1 border-radius-8"
-          alt="..."
-        />
-            <div class="bnanner"></div>
-          </figure>
-        </div>
+        </div>          
       </div>
     </section>
-    <section id="step-3" class="3precress bg-grey-darkest text-md adjust-pt-dark-bg">
+    <section id="step-4" class="4brainstorming container text-md">
+      <div class="row content">
+        <div class="col-md-6 content-pr-48">
+          <div class="project-title">
+            <div class="title-group">
+              <h4 class="mr-8">4</h4>
+              <div class="">
+                <h3 class="mb-6">思考</h3>
+                <h2>討論產品的風格</h2>
+              </div>
+            </div>
+          </div>
+          <p class="text-md">
+            缺
+          </p>
+        </div>
+        <div class="col-md-6 content-pl-48">
+          <figure class="figure">
+            <img
+              src="https://i.picsum.photos/id/1020/4288/2848.jpg?hmac=Jo3ofatg0fee3HGOliAIIkcg4KGXC8UOTO1dm5qIIPc"
+              class="figure-img img-fluid border-radius-4"
+              alt="..."
+            />
+          </figure>
+        </div>          
+      </div>
+    </section>
+    <section id="step-5" class="5design-procress bg-grey-darkest text-md adjust-pt-dark-bg">
       <div class="container font-color-lighter">
         <div class="content">
           <div class="project-title">
             <div class="title-group col">
-              <h4 class="mr-8">3</h4>
+              <h4 class="mr-8">5</h4>
               <div class="">
                 <h3 class="mb-8">設計過程</h3>
                 <h2>重構優化及平凡討論</h2>
@@ -388,33 +425,37 @@
         </div>
       </div>
     </section>
-    <section id="step-4" class="4mockup bg-grey-darkest text-md adjust-pb-dark-bg">
+    <section id="step-6" class="6result bg-grey-darkest text-md adjust-pb-dark-bg">
       <div class="container font-color-lighter">
         <div class="content">
           <div class="project-title col">
             <div class="title-group">
-              <h4 class="mr-8">4</h4>
+              <h4 class="mr-8">6</h4>
               <div class="">
-                <h3 class="mb-8">完成</h3>
-                <h2>成果展示</h2>
+                <h3 class="mb-8">成果</h3>
+                <h2>頁面展示</h2>
               </div>
             </div>
           </div>
-          <p class="text-md col-md-6 content-pr-48 mb-48">
-            此次改版計畫是以頁面分階段迭代方式進行，由數據顯示使用者接觸最多的首頁以及能將網站架構補齊的分類頁為第一階段上線，而設計永遠都要比工程端開發早規劃並在Prototype測試時就進行優化。
-          </p>
-          <div class="highlight col-md-6 space-between mb-48">
-            <div class="new_user mb-48">
-              <p class="text-xl">230<span class="text-l">%</span></p>
-              <p>新使用者增加</p>
-            </div>
-            <div class="viewing_time mb-48">
-              <p class="text-xl">81<span class="text-l">%</span></p>
-              <p>工作平均長度增加</p>
-            </div>
-            <div class="bounce_rate mb-48">
-              <p class="text-xl">-24<span class="text-l">%</span></p>
-              <p>跳出率明顯優化</p>
+          <div class="row">
+            <p class="text-md col-md-6 content-pr-48 mb-48">
+              此次改版計畫是以頁面分階段迭代方式進行，由數據顯示使用者接觸最多的首頁以及能將網站架構補齊的分類頁為第一階段上線，而設計永遠都要比工程端開發早規劃並在Prototype測試時就進行優化。
+            </p>
+            <div class="highlight col-md-6 content-pl-48 mb-80">
+              <div class="row">
+                <div class="col-sm-6 new_user mb-48">
+                  <p class="text-xl">230<span class="text-l">%</span></p>
+                  <p class="text-md">新使用者增加</p>
+                </div>
+                <div class="col-sm-6 viewing_time mb-48">
+                  <p class="text-xl">81<span class="text-l">%</span></p>
+                  <p class="text-md">工作平均長度增加</p>
+                </div>
+                <div class="col bounce_rate">
+                  <p class="text-xl">-24<span class="text-l">%</span></p>
+                  <p class="text-md">跳出率明顯優化</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -426,7 +467,7 @@
           alt="..."
           />
           <p class="text-md mb-16">
-            參考GA數據以使用者的喜好做網頁內容的排序。
+            參考網頁數據以使用者的喜好做網頁內容的排序。
           </p>
         </div>
         <div class="col-md-9 mb-80 ml-auto">
@@ -464,12 +505,12 @@
         </div>
       </div>
     </section>
-    <section id="step-5" class="5iterate container text-md mt-60">
+    <section id="step-7" class="7iterate container text-md mt-60">
       <div class="row content">
         <div class="col-md-6 content-pr-48">
           <div class="project-title col">
             <div class="title-group">
-              <h4 class="mr-8">5</h4>
+              <h4 class="mr-8">7</h4>
               <div class="">
                 <h3 class="mb-8">迭代</h3>
                 <h2>再次聆聽使用者</h2>
@@ -480,7 +521,7 @@
             新介面上線兩個月後我們進行網站追蹤系統分析，發現「限時活動banner區域」點閱率有顯著改善，也從熱點追蹤證實了堅持保留使用者習慣的分類列是正確的設計。其中我們還發現使用者看完「限時活動banner區域」通常會接著尋找第二熱門的「編輯嚴選」及「最新上架」而忽略了中間的「特選專區」秉持著使用者為中心的原則微調專區順序，再觀察數據後發現使用者的瀏覽動線更為順暢，且原本被忽略的專區也連帶提高了點擊率。
           </p>
         </div>
-        <figure class="figure col-md-6 content-pl-48 ">
+        <figure class="figure col-md-6 content-pl-48 flex-center">
           <img
         src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/heat-map.png"
         class="figure-img img-fluid"
@@ -489,11 +530,36 @@
         </figure>
       </div>
     </section>
-    <section id="step-6" class="6takeaway container text-md">
+    <section id="step-8" class="8app container text-md">
+      <div class="row content">
+        <div class="col-md-6 content-pr-48">
+          <div class="project-title col">
+            <div class="title-group">
+              <h4 class="mr-8">8</h4>
+              <div class="">
+                <h3 class="mb-6">驚喜包</h3>
+                <h2>APP開發</h2>
+              </div>
+            </div>
+          </div>
+          <p class="text-md mb-48 flex-center">
+            奧丁丁市集APP是由於2021年5月台灣COVID-19疫情升溫而催產出來的，將不改既有使用者操作行為為目標，以網站的基本架構做Flutter雙平台的開發，開發時也特別規劃了APP獨有的短影片宣傳功能。
+          </p>
+        </div>
+        <figure class="figure col-md-6 content-pl-48">
+          <img
+            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/market-app.png"
+            class="figure-img img-fluid border-radius-4 shadow-sm"
+            alt="..."
+          />
+        </figure>
+      </div>
+    </section>
+    <section id="step-9" class="9takeaway container text-md mb-60">
       <div class="content">
         <div class="project-title">
           <div class="title-group">
-            <h4 class="mr-8">6</h4>
+            <h4 class="mr-8">9</h4>
             <div class="">
               <h3 class="mb-6">收穫及反思</h3>
               <h2>收到的反饋都是優化的機會</h2>
@@ -519,32 +585,7 @@
           </ul>
         </div>
       </div>
-    </section>
-    <section id="step-7" class="7app container text-md mb-60">
-      <div class="row content">
-        <div class="col-md-6 content-pr-48">
-          <div class="project-title col">
-            <div class="title-group">
-              <h4 class="mr-8">7</h4>
-              <div class="">
-                <h3 class="mb-6">驚喜包</h3>
-                <h2>APP開發</h2>
-              </div>
-            </div>
-          </div>
-          <p class="text-md mb-48">
-            奧丁丁市集APP是由於2021年5月台灣COVID-19疫情升溫而催產出來的，將不改既有使用者操作行為為目標，以網站的基本架構做Flutter雙平台的開發，開發時也特別規劃了APP獨有的短影片宣傳功能。
-          </p>
-        </div>
-        <figure class="figure col-md-6 content-pl-48">
-          <img
-            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/market-app.png"
-            class="figure-img img-fluid border-radius-4 shadow-sm"
-            alt="..."
-          />
-        </figure>
-      </div>
-    </section>
+    </section>    
     <section class="more-project bg-grey-lightest pt-80">
       <div class="container">
         <h2 class="h2">更多設計專案</h2>
@@ -600,7 +641,6 @@
     </section>
   </main>
 </template>
-
 <script>
 export default {
   name: 'projectMarket',
