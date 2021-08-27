@@ -260,7 +260,7 @@
         <div class="content mt-16 mb-16">
           <div class="project-title">
             <div class="title-group col">
-              <h4 class="mr-8">4</h4>
+              <h4 class="mr-8">5</h4>
               <div class="">
                 <h3 class="mb-8">設計過程</h3>
                 <h2>越早討論越早<span class="line-through">失敗</span>順利</h2>
@@ -501,10 +501,10 @@
           <div class="col-md-6 content-pr-48">
             <div class="project-title">
               <div class="title-group">
-                <h4 class="mr-8">5</h4>
+                <h4 class="mr-8">6</h4>
                 <div class="">
                   <h3 class="mb-8">完成</h3>
-                  <h2>成果展示</h2>
+                  <h2>成品頁面</h2>
                 </div>
               </div>
             </div>
@@ -551,7 +551,7 @@
         <div class="row">
           <div class="project-title">
             <div class="title-group">
-              <h4 class="mr-8">6</h4>
+              <h4 class="mr-8">7</h4>
               <div class="">
                 <h3 class="mb-8">收穫及反思</h3>
                 <h2>可惡早知道</h2>
