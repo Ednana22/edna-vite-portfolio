@@ -1,4 +1,7 @@
 <template>
+  <div id="page-elevator">
+    <a v-for="i in 7" :key="`elevator-${i}`" @click.prevent="onElevatorClick(`#step-${i}`)">{{ i }}</a>
+  </div>
   <main class="project-pms">
     <section class="title container pt-120">
       <h1 class="mb-24">旅宿管理系統功能規劃</h1>

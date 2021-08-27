@@ -1,4 +1,7 @@
 <template>
+  <div id="page-elevator">
+    <a v-for="i in 7" :key="`elevator-${i}`" @click.prevent="onElevatorClick(`#step-${i}`)">{{ i }}</a>
+  </div>
   <main class="project-official-website">
     <section class="title container pt-120">
       <h1 class="mb-24">奧丁丁集團官網重構</h1>
