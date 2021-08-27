@@ -24,53 +24,62 @@
         <div class="bnanner"></div>
       </figure>
     </section>
-    <section class="story container text-md">
+    <section class="task container text-md">
+      <h2 class="mb-16">集團介紹</h2>
       <p class="text-md mb-48">
         奧丁丁集團創立於2010年，是一間以區塊鏈技術為核心的科技公司，其產品涵蓋B2B商業服務、B2B管理後台、B2C電商平台、實體旅宿等共七大事業體。
       </p>
-      <div class="mb-48">
-        <h2 class="mb-16">專案背景</h2>
-        <p class="mb-48">
-          官方網站是集團傳遞精神的重要管道，而使用者涵蓋了面試者、公司成員、合作商甚至投資者等，對公司來說是個不可輕忽的存在。在奧丁丁集團成立初期所架設的官網頁面中並無保留太多的談性空間，因此無法清楚的將集團近年來的資訊正確傳達給使用者，這也造成了使用者容易從網站中獲得過時且不完整的資訊問題，再加上老舊的視覺風格與集團近年來定義的VI調性不一、使用者對網站的負面評價等等，促成了此次集團官網改版。
-        </p>
-      </div>
-      <div class="mb-48">
-        <h2 class="mb-16">目標</h2>
-        <ul>
-          <div class="flex mb-8">
-            <span class="mr-8">‣</span>
-            <li>
-              重構官網，使其成為同業中的亮點
-            </li>
-          </div>
-          <div class="flex mb-8">
-            <span class="mr-8">‣</span>
-            <li>
-              跨部門進行集團旗下七個事業體的資訊整合
-            </li>
-          </div>
-          <div class="flex mb-8">
-            <span class="mr-8">‣</span>
-            <li>
-              從集團VI延伸，為網站定義新風格
-            </li>
-          </div>
-        </ul>
-      </div>
-      <figure class="figur">
+      <h2 class="mb-16">專案背景</h2>
+      <p class="">
+        官方網站是集團傳遞精神的重要管道，而使用者涵蓋了面試者、公司成員、合作商甚至投資者等，對公司來說是個不可輕忽的存在。在奧丁丁集團成立初期所架設的官網頁面中並無保留太多的談性空間，因此無法清楚的將集團近年來的資訊正確傳達給使用者，這也造成了使用者容易從網站中獲得過時且不完整的資訊問題，再加上老舊的視覺風格與集團近年來定義的VI調性不一、使用者對網站的負面評價等等，促成了此次集團官網改版。
+      </p>
+    </section>
+    <div class="cover-photo container p-0">
+      <figure class="figure">
         <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/solutions.png"
             class="figure-img img-fluid"
             alt="..."
           />
-      </figure>
-    </section>
-    <section class="1task container text-md">
+      </figure>      
+    </div>
+    <section class="1gold container">    
+        <div class="project-title">
+          <div class="title-group">
+            <h4 class="mr-8">1</h4>
+            <div class="">
+              <h3 class="mb-6">目標</h3>
+              <h2>網站改版希望達成的目的</h2>
+            </div>
+          </div>
+        </div>   
+      <ul>
+        <div class="flex mb-8">
+          <span class="mr-8">‣</span>
+          <li>
+            重構官網，使其成為同業中的亮點
+          </li>
+        </div>
+        <div class="flex mb-8">
+          <span class="mr-8">‣</span>
+          <li>
+            跨部門進行集團旗下七個事業體的資訊整合
+          </li>
+        </div>
+        <div class="flex mb-8">
+          <span class="mr-8">‣</span>
+          <li>
+            從集團VI延伸，為網站定義新風格
+          </li>
+        </div>
+      </ul>
+    </section>    
+    <section class="2understand container text-md">
       <div class="row content mt-16 mb-16">
         <div class="col-md-6 content-pr-48 mb-48">
           <div class="project-title">
             <div class="title-group">
-              <h4 class="mr-8">1</h4>
+              <h4 class="mr-8">2</h4>
               <div class="">
                 <h3 class="mb-6">理解任務</h3>
                 <h2>釐清需求來源及現有問題</h2>
@@ -169,14 +178,14 @@
         </div>
       </div>
     </section>
-    <section class="2problem container text-md">
+    <section class="3define container text-md">
       <div class="row content mt-16 mb-16 ">
         <div class="col-md-6 content-pr-48 mb-48">
           <div class="project-title">
             <div class="title-group">
-              <h4 class="mr-8">2</h4>
+              <h4 class="mr-8">3</h4>
               <div class="">
-                <h3 class="mb-8">檢視</h3>
+                <h3 class="mb-8">定義</h3>
                 <h2>分析目前問題</h2>
               </div>
             </div>
@@ -223,34 +232,30 @@
         </div>
       </div>
     </section>
-    <section class="3define container text-md mb-60">
-      <div class="row content mt-16 mb-16">
+    <section class="4brainstorming container text-md mb-60">
+     <div class="row content mt-16 mb-16">
         <div class="col-md-6 content-pr-48 mb-48">
           <div class="project-title">
             <div class="title-group">
-              <h4 class="mr-8">3</h4>
+              <h4 class="mr-8">4</h4>
               <div class="">
-                <h3 class="mb-8">定義規模</h3>
-                <h2>重建資訊架構</h2>
+                <h3 class="mb-8">思考</h3>
+                <h2>這是些酷炫的想法</h2>
               </div>
             </div>
           </div>
           <p class="text-md">
-            確認資訊架構後會與工程團隊報告改版規模，由於這次專案的時辰較緊迫，團隊決定分階段執行，與人資部門達成共識後決定將迫切性相對低的「企業徵才」放入改版的第二階段。
+            在發想網站主視覺及頁面元素時緊扣著網站想傳達給使用者的三個核心要點「科技產業、領域專業、產品多元性」。一眼就能呈現給使用者產品多元性是我認為這次設計最大的考驗。
           </p>
         </div>
-        <div class="col-md-6 content-pl-48">
-          <figure class="figure">
-            <img
-                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/ia.png"
-                class="figure-img img-fluid"
-                alt="..."
-              />
-          </figure>
-        </div>
-      </div>
+            <div class="col-md-6 content-pl-48 flex-center contnet-pl-48 through-line">
+              <span class="border-circle text-md line-height-2 mr-24">科技</span>
+              <span class="border-circle text-md line-height-2 mr-24">專業</span>
+              <span class="border-circle text-md line-height-2 mr-24">多元</span>
+            </div>
+      </div>      
     </section>
-    <section class="4procress bg-grey-darkest text-md adjust-pt-dark-bg">
+    <section class="5design-procress bg-grey-darkest text-md adjust-pt-dark-bg">
       <div class="container font-color-lighter">
         <div class="content mt-16 mb-16">
           <div class="project-title">
@@ -262,7 +267,25 @@
               </div>
             </div>
           </div>
-          <div class="1wireframe  content mb-80">
+          <div class="ia content mb-80">
+            <p class="text-md-bold row mb-16">I. 資訊架構</p>
+            <div class="row">
+              <div class="col-md-6 content-pr-48 mb-48">
+                <p class="text-md">
+                確認資訊架構後會與工程團隊報告改版規模，由於這次專案的時辰較緊迫，團隊決定分階段執行，與人資部門達成共識後決定將迫切性相對低的「企業徵才」放入改版的第二階段。
+                </p>
+              </div>
+              <div class="col-md-6 content-pl-48">
+              <figure class="figure">
+                <img
+                    src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/ia.png"
+                    class="figure-img img-fluid"
+                    alt="..."/>
+              </figure>
+              </div>
+            </div>
+          </div>          
+          <div class="wireframe  content mb-80">
             <p class="text-md-bold row mb-16">I. Wireframe</p>
             <div class="row">
               <div class="col-md-6 content-pr-48 mb-48">
@@ -283,7 +306,7 @@
             </div>
           </div>
         </div>
-        <div class="2element row content mb-80">
+        <div class="element row content mb-80">
           <div class="col-md-6 content-pr-48  mb-48">
             <p class="text-md-bold mb-16">II. 搜集現有元素延伸</p>
             <p class="text-md">
@@ -331,18 +354,13 @@
     
     
         </div>
-        <div class="3design content mb-80">
+        <div class="design content mb-80">
           <div class="thinking row mb-60">
             <div class="col-md-6 content-pr-48 bg-grey-darkest mb-48 ">
               <p class="text-md-bold mb-16">III. 發想網站視覺</p>
               <p class="text-md">
                 在發想網站主視覺及頁面元素時緊扣著網站想傳達給使用者的三個核心要點「科技產業、領域專業、產品多元性」。一眼就能呈現給使用者產品多元性是我認為這次設計最大的考驗。
               </p>
-            </div>
-            <div class="col-md-6 content-pl-48 flex-center contnet-pl-48 through-line">
-              <span class="border-circle text-md line-height-2 mr-24">科技</span>
-              <span class="border-circle text-md line-height-2 mr-24">專業</span>
-              <span class="border-circle text-md line-height-2 mr-24">多元</span>
             </div>
           </div>
           <div class="visual col-lg-12">
@@ -418,7 +436,7 @@
             </div>
           </div>
         </div>
-        <div class="4iterate row content mb-80">
+        <div class="iterate row content mb-80">
           <div class="col-md-6 content-pr-48 mb-48">
             <p class="text-md-bold  mb-16">VI. 設計迭代</p>
             <p class="text-md">
@@ -438,7 +456,7 @@
             </div>
           </div>
         </div>
-        <div class="5prototype content mb-80">
+        <div class="prototype content mb-80">
           <p class="text-md-bold row mb-16">V. Prototype 交付予工程師</p>
           <div class="row">
             <div class="col-md-6 content-pr-48 mb-48">
@@ -456,7 +474,7 @@
             </div>
           </div>
         </div>
-        <div class="6debug content">
+        <div class="debug content">
           <div class="row">
             <div class="col-md-6 content-pr-48 mb-48">
               <p class="text-md-bold mb-16">VI. 協助工程師抓除錯</p>
@@ -477,7 +495,7 @@
         </div>
       </div>
     </section>
-    <section class="5result bg-grey-darkest text-md adjust-pb-dark-bg">
+    <section class="6result bg-grey-darkest text-md adjust-pb-dark-bg">
       <div class="container font-color-lighter">
         <div class="row">
           <div class="col-md-6 content-pr-48">
@@ -528,7 +546,7 @@
       </div>
     
     </section>
-    <section class="6takeaway container text-md mt-60">
+    <section class="7takeaway container text-md mt-60 mb-60">
       <div class="col-md-6 content-pr-48">
         <div class="row">
           <div class="project-title">
