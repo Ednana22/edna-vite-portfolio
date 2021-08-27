@@ -555,7 +555,7 @@
         </figure>
       </div>
     </section>
-    <section id="step-9" class="9takeaway container text-md mb-60">
+    <section id="step-9" class="9takeaway container text-md  mb-60">
       <div class="content">
         <div class="project-title">
           <div class="title-group">
