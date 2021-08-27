@@ -17,22 +17,40 @@
         <img
           src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/pms-hero.png"
           class="figure-img img-fluid"
-          alt="..."
-        />
-        <div class="bnanner"></div>
+          alt="..." />
       </figure>
     </section>
-    <section class="story container text-md">
-      <p class="text-md mb-48"> OwlNest是一款為旅宿業打造的B2B三合一整合型訂房系統，提供前台官網訂房系統、PMS訂單管理系統、線上銷售平台通路串接，用戶遍及亞洲、美洲國家，旅宿用戶達上千家。
-      </p>
-      <div class="mb-48">
+    <section class="task container text-md">
+      <div class="product-introduce mb-80">
+        <h2 class="mb-16">產品介紹</h2>
+        <p class="text-md"> OwlNest是一款為旅宿業打造的B2B三合一整合型訂房系統，提供前台官網訂房系統、PMS訂單管理系統、線上銷售平台通路串接，用戶遍及亞洲、美洲國家，旅宿用戶達上千家。
+        </p>
+      </div>
+      <div class="background ">
         <h2 class="mb-16">專案背景</h2>
         <p class="">
           因早期OwlNest系統客群是鎖定民宿業者，只做到單一房型單一專案的鋪價功能，近幾年隨著市場逐漸拓展，客群也從民宿業者增加至小型旅館業者再加上平台串接功能的開發，目前介面功能無法達到有效的鋪設價格及設定庫存，對使用者來說不僅費時也容易出錯。
         </p>
-      </div>
-      <div class="mb-48">
-        <h2 class="mb-16">目標</h2>
+      </div>     
+    </section>
+    <section class="cover-photo container p-0">
+      <figure class="figure">
+        <img
+          src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/hote_+front_desk+.png"
+          class="figure-img img-fluid"
+          alt="..."/>
+      </figure>         
+    </section>
+    <section class="1gold container text-md">
+        <div class="project-title">
+          <div class="title-group">
+            <h4 class="mr-8">1</h4>
+            <div class="">
+              <h3 class="mb-6">目標</h3>
+              <h2>最終希望解決的問題</h2>
+            </div>
+          </div>
+        </div>        
         <ul>
           <div class="flex mb-8">
             <span class="mr-8">‣</span>
@@ -46,28 +64,20 @@
               擴充設定介面達到有效率的設定
             </li>
           </div>
-          <div class="flex mb-8">
+          <div class="flex">
             <span class="mr-8">‣</span>
             <li>
               優化現有設定介面
             </li>
           </div>
         </ul>
-      </div>
-      <figure class="figure">
-        <img
-          src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/hote_+front_desk+.png"
-          class="figure-img img-fluid"
-          alt="..."
-        />
-      </figure>
-    </section>
-    <section class="1task container text-md">
+    </section>    
+    <section class="2understand container text-md">
       <div class="row content mt-16 mb-16">
         <div class="col-md-6 content-pr-48 mb-48">
           <div class="project-title">
             <div class="title-group">
-              <h4 class="mr-8">1</h4>
+              <h4 class="mr-8">2</h4>
               <div class="">
                 <h3 class="mb-6">理解</h3>
                 <h2>瞭解使用者如何操作產品</h2>
@@ -89,15 +99,15 @@
         </div>
       </div>
     </section>
-    <section class="2pain_point container text-md">
+    <section class="3define container text-md">
       <div class="row content mt-16 mb-16">
         <div class="col-md-6 content-pr-48 mb-48">
           <div class="project-title">
             <div class="title-group">
-              <h4 class="mr-8">2</h4>
+              <h4 class="mr-8">3</h4>
               <div class="">
-                <h3 class="mb-8">聆聽</h3>
-                <h2>使用者的痛點</h2>
+                <h3 class="mb-8">定義</h3>
+                <h2>分析現行介面的問題</h2>
               </div>
             </div>
           </div>
@@ -116,15 +126,15 @@
         </div>
       </div>
     </section>
-    <section class="3brainstorming container text-md mb-60">
+    <section class="4brainstorming container text-md mb-60">
       <div class="content mt-16 mb-16">
         <div class="col">
           <div class="project-title">
             <div class="title-group">
-              <h4 class="mr-8">3</h4>
+              <h4 class="mr-8">4</h4>
               <div class="">
-                <h3 class="mb-8">腦力激盪</h3>
-                <h2>介面優化的流程</h2>
+                <h3 class="mb-8">思考</h3>
+                <h2>腦力激盪來優化任務</h2>
               </div>
             </div>
           </div>
@@ -200,11 +210,11 @@
         </div>
       </div>
     </section>
-    <section class="4procress bg-grey-darkest text-md adjust-pt-dark-bg">
+    <section class="5design-procress bg-grey-darkest text-md adjust-pt-dark-bg">
       <div class="container font-color-lighter">
         <div class="project-title">
           <div class="title-group">
-            <h4 class="mr-8">4</h4>
+            <h4 class="mr-8">5</h4>
             <div class="">
               <h3 class="mb-8">設計過程</h3>
               <h2>將文字流程製作成介面</h2>
@@ -262,15 +272,15 @@
         </div>
       </div>
     </section>
-    <section class="5result bg-grey-darkest text-md adjust-pb-dark-bg">
+    <section class="6result bg-grey-darkest text-md adjust-pb-dark-bg">
       <div class="container font-color-lighter">
         <div class="col-md-6 content-pr-48">
           <div class="project-title">
             <div class="title-group">
-              <h4 class="mr-8">5</h4>
+              <h4 class="mr-8">6</h4>
               <div class="">
-                <h3 class="mb-8">完成</h3>
-                <h2>成果展示</h2>
+                <h3 class="mb-8">成果</h3>
+                <h2>設計成品</h2>
               </div>
             </div>
           </div>
@@ -316,11 +326,11 @@
       </div>
 
     </section>
-    <section class="6iterate container text-md mt-60">
+    <section class="7iterate container text-md mt-60">
       <div class="col-md-6 content-pr-48">
         <div class="project-title">
           <div class="title-group">
-            <h4 class="mr-8">6</h4>
+            <h4 class="mr-8">7</h4>
             <div class="">
               <h3 class="mb-8">迭代</h3>
               <h2>由使用者回饋中進行產品優化</h2>
@@ -328,15 +338,15 @@
           </div>
         </div>
         <p class="text-md ">
-          批次鋪價功能推出後獲得使旅宿業者的正面反饋，不只大量節省了人力，對於國定假日可自動帶入的功能也表示是項極為方便的操作，終於不用開著人事行政局的連假一一鋪價了。業務端也表示在一開始做競品分析就知道國內並沒擁有國定假日鋪價功能的旅宿管理系統，因此這也是銷售的一大賣點。
+          批次鋪價功能推出後獲得使旅宿業者的正面反饋，不只大量節省了人力，對於國定假日可自動帶入的功能也表示是項極為方便的操作，將增加更多國家國定假日的需求排入第二優化中。業務端也表示在一開始做競品分析就知道國內並沒擁有國定假日鋪價功能的旅宿管理系統，因此這也是銷售的一大賣點。
         </p>
       </div>
     </section>
-    <section class="7takeaway container text-md mb-60">
+    <section class="8takeaway container text-md mb-60">
       <div class="col-md-6 content-pr-48">
         <div class="project-title">
           <div class="title-group">
-            <h4 class="mr-8">7</h4>
+            <h4 class="mr-8">8</h4>
             <div class="">
               <h3 class="mb-8">反思</h3>
               <h2>後台須顧及的層面更廣</h2>
