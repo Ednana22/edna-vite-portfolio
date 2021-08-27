@@ -105,6 +105,10 @@ a{
     &:hover{
         color: $color_grey-base;
         text-decoration: underline;
+        // border-bottom: 1px solid grey;
+        // transition-property: border-bottom;
+        // transition-duration: 5s
+
     }
 }
 
@@ -137,4 +141,21 @@ a{
         }
     }
         
+  }
+
+  .border-top{
+    @media (min-width: 577px) {        
+        border-top: none !important;
+    }      
+    @media (max-width: 576px) {        
+        border-top: 1px solid $color_grey-lighter;
+    }
+  }
+  .border-bottom{
+    @media (min-width: 577px) {        
+        border-bottom: none !important;
+    }      
+    @media (max-width: 576px) {        
+        border-bottom: 1px solid $color_grey-lighter;
+    }
   }

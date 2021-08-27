@@ -202,7 +202,7 @@ $grid-breakpoints: (
     }
   }
 }
-.owl-device-section, .pms-device-section{
+.market-device-section, .pms-device-section, .official-web-device-section{
   @media (max-width: 516px) {
     display: none;
   }
@@ -219,5 +219,17 @@ $grid-breakpoints: (
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+section {
+  @media (max-width: 2680px) {
+    padding: 80px 0px 80px 0px;
+  }
+  @media (max-width: 768px) {
+    padding: 80px 0px 80px 0px;
+  }
+  @media (max-width: 576px) {
+    padding: 60px 0x 60px 0px;
+  }
 }
 
