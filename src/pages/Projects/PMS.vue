@@ -283,7 +283,7 @@
               <h4 class="mr-8">6</h4>
               <div class="">
                 <h3 class="mb-8">成果</h3>
-                <h2>設計成品</h2>
+                <h2>頁面展示</h2>
               </div>
             </div>
           </div>
