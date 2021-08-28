@@ -43,9 +43,10 @@
             class="app-nav__actions__mobile__toggler"
             :class="{ is_active: isDropDownOpen }"
             @click.stop="onMobileMenuClick">
-            <span class="bar bar-top"></span>
-            <span class="bar bar-mid"></span>
-            <span class="bar bar-bot"></span>
+            <i
+              class="las"
+              :class="isDropDownOpen ? 'la-times' : 'la-hamburger'"
+              :style="isDropDownOpen ? 'font-size: 24px;' : 'font-size: 28px;'"></i>
           </button>
           
           <div class="app-nav__actions__mobile__cover" :class="{ is_active: isDropDownOpen }">
@@ -109,7 +110,7 @@ $color_grey-dark: #25252e;
   font-size: 14px;
   padding: .5rem 0;
   position: fixed;
-  box-shadow: 2px 2px 2px #eee;
+  box-shadow: 0px 2px 2px #eee;
   z-index: 99;
   top: 0;
   left: 0;
@@ -153,9 +154,8 @@ $color_grey-dark: #25252e;
         display: flex;
         flex-direction: column;
         li {
-          // display: flex;
-          // flex-direction: column;
           a {
+            width: 100%;
             display: inline-block;
             padding: .5rem 2rem;
             word-break: keep-all;
@@ -184,38 +184,6 @@ $color_grey-dark: #25252e;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      cursor: pointer;
-      position: relative;
-      &.is_active {
-        .bar-top {
-          transform: rotate(45deg) translateX(5px) translateY(-5px);
-        }
-        .bar-mid {
-          opacity: 0;
-        }
-        .bar-bot {
-          transform: rotate(-45deg) translateX(4px) translateY(5px);
-        }
-      }
-      .bar {
-        width: 100%;
-        height: 4px;
-        background: $color_grey-dark;
-        transition: all .3s;
-        &.bar-top, &.bar-bot {
-          width: 100%;
-          height: 4px;
-          background: $color_grey-dark;
-        }
-        &.bar-top {
-          transform-origin: top left;
-          margin-bottom: 4px;
-        }
-        &.bar-bot {
-          transform-origin: bottom left;
-          margin-top: 4px;
-        }
-      }
     }
     &__cover {
       position: fixed;
