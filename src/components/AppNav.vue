@@ -17,13 +17,13 @@
                 <i class="las" :class="isDropDownOpen ? 'la-angle-up' : 'la-angle-down'"></i>
                 <ul v-show="isDropDownOpen" class="is-dropdown__context">
                   <li>
-                    <router-link :to="{ name: 'ProjectMarket' }">市集</router-link>
+                    <router-link :to="{ name: 'ProjectMarket' }">奧丁丁市集平台改版</router-link>
                   </li>
                   <li>
-                    <router-link :to="{ name: 'ProjectWeb' }">官網</router-link>
+                    <router-link :to="{ name: 'ProjectWeb' }">奧丁丁集團官網重構</router-link>
                   </li>
                   <li>
-                    <router-link :to="{ name: 'ProjectPMS' }">PMS</router-link>
+                    <router-link :to="{ name: 'ProjectPMS' }">旅宿管理後台系統</router-link>
                   </li>
                 </ul>
               </span>
@@ -54,13 +54,13 @@
                 <h4>作品</h4>
                 <ul class="sub_item">
                   <li>
-                    <router-link :to="{ name: 'ProjectMarket' }">市集</router-link>
+                    <router-link :to="{ name: 'ProjectMarket' }">奧丁丁市集平台改版</router-link>
                   </li>
                   <li>
                     <router-link :to="{ name: 'ProjectWeb' }">官網</router-link>
                   </li>
                   <li>
-                    <router-link :to="{ name: 'ProjectPMS' }">PMS</router-link>
+                    <router-link :to="{ name: 'ProjectPMS' }">旅宿管理系統功能規劃</router-link>
                   </li>
                 </ul>
               </li>
@@ -106,6 +106,7 @@ watch(
 $color_grey-dark: #25252e;
 
 .app-nav {
+  font-size: 14px;
   padding: .5rem 0;
   position: fixed;
   box-shadow: 2px 2px 2px #eee;
@@ -121,6 +122,7 @@ $color_grey-dark: #25252e;
     color: $color_grey-dark;
     text-decoration: none;
   }
+  
   .container {
     display: flex;
     align-items: center;
@@ -148,11 +150,15 @@ $color_grey-dark: #25252e;
         box-shadow: 5px 6px 5px 0px rgba(0, 0, 0, 0.05);
         border: 1px solid rgba(242, 242, 242, 1);
         border-radius: 4px;
+        display: flex;
+        flex-direction: column;
         li {
-          display: flex;
-          flex-direction: column;
+          // display: flex;
+          // flex-direction: column;
           a {
+            display: inline-block;
             padding: .5rem 2rem;
+            word-break: keep-all;
             text-decoration: none;
             color: $color_grey-dark;
             &:hover {
@@ -239,4 +245,5 @@ $color_grey-dark: #25252e;
     }
   }
 }
+
 </style>

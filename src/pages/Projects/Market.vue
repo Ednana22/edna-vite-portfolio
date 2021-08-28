@@ -288,7 +288,7 @@
         <div class="col-md-6 content-pl-48">
           <figure class="figure">
             <img
-              src="https://i.picsum.photos/id/1020/4288/2848.jpg?hmac=Jo3ofatg0fee3HGOliAIIkcg4KGXC8UOTO1dm5qIIPc"
+              src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/brainstorming.png"
               class="figure-img img-fluid border-radius-4"
               alt="..."
             />

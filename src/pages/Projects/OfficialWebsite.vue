@@ -245,16 +245,18 @@
               </div>
             </div>
           </div>
-          <p class="text-md">
+          <p class="text-md mb-48">
             在發想網站主視覺及頁面元素時緊扣著網站想傳達給使用者的三個核心要點「科技產業、領域專業、產品多元性」。一眼就能呈現給使用者產品多元性是我認為這次設計最大的考驗。
-          </p>
+          </p>   
         </div>
-        <div
-          class="col-md-6 content-pl-48 flex-center contnet-pl-48 through-line"
-        >
-          <span class="border-circle text-md line-height-2 mr-24">科技</span>
-          <span class="border-circle text-md line-height-2 mr-24">專業</span>
-          <span class="border-circle text-md line-height-2 mr-24">多元</span>
+        <div  class="col-md-6 content-pl-48 contnet-pl-48">
+          <figure class="figure mt-40">
+            <img
+              src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/brainstorming.png"
+              class="figure-img img-fluid border-radius-4"
+              alt="..."
+            />
+          </figure>          
         </div>
       </div>
     </section>
@@ -369,6 +371,13 @@
               <p class="text-md">
                 在發想網站主視覺及頁面元素時緊扣著網站想傳達給使用者的三個核心要點「科技產業、領域專業、產品多元性」。一眼就能呈現給使用者產品多元性是我認為這次設計最大的考驗。
               </p>
+            </div>
+            <div class="col-md-6 content-pr-48">
+                <div class="flex-center through-line">
+                  <span class="border-circle text-md line-height-2 mr-24">科技</span>
+                  <span class="border-circle text-md line-height-2 mr-24">專業</span>
+                  <span class="border-circle text-md line-height-2 mr-24">多元</span>
+               </div>       
             </div>
           </div>
           <div class="visual col-lg-12">
