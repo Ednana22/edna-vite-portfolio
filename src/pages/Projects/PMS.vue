@@ -8,7 +8,7 @@
     >
   </div>
   <main class="project-pms">
-    <section class="title container pt-120">
+    <section class="title container">
       <h1 class="mb-24">旅宿管理系統功能規劃</h1>
       <p class="text-md mb-4">
         負責內容<span class="font-color-light"> | </span>UX研究、UI設計

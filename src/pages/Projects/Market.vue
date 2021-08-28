@@ -8,7 +8,7 @@
     >
   </div>
   <main class="project-market">
-    <section class="title container pt-120">
+    <section class="title container">
       <h1 class="mb-24">奧丁丁市集平台改版</h1>
       <p class="text-md mb-4">
         負責內容<span class="font-color-light"> | </span

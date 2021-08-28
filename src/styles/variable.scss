@@ -68,8 +68,6 @@ padding: 0px;
 .font-color-blue {
     color: $color_blue-base;
 }  
-
-
   
 ///BUTTON
 .btn {
@@ -97,7 +95,6 @@ padding: 0px;
         color: $color_blue-dark;
     }
 }
-
 a{
     text-decoration: none;
     color: $color_grey-base;
@@ -108,15 +105,15 @@ a{
         // border-bottom: 1px solid grey;
         // transition-property: border-bottom;
         // transition-duration: 5s
-
     }
 }
-
+main{
+    margin-top: 40px;
+}
 .footer{
     padding: 8px;
     border-top: 1px solid $color_grey-lighter ;
   }
-
   .connection-area{
     padding: 24px;
     border-radius: 14px;

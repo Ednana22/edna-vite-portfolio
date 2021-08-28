@@ -1,6 +1,6 @@
 <template>
   <main>
-    <section class="hero mt-60 border-bottom">
+    <section class="hero border-bottom">
       <div class="container-hero">
         <div class="row hero">
           <div class="col-md-6  mb-56">

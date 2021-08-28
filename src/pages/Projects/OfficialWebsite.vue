@@ -8,7 +8,7 @@
     >
   </div>
   <main class="project-official-website">
-    <section class="title container pt-120">
+    <section class="title container">
       <h1 class="mb-24">奧丁丁集團官網重構</h1>
       <p class="text-md mb-4">
         負責內容<span class="font-color-light"> | </span>UX研究、UI
