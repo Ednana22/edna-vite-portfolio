@@ -284,7 +284,7 @@
                 <figure class="figure">
                   <img
                     src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/ia.png"
-                    class="figure-img img-fluid"
+                    class="figure-img img-fluid" style="width: 400px"
                     alt="..."
                   />
                 </figure>
