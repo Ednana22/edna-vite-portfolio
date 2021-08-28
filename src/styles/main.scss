@@ -1,8 +1,11 @@
 @import './transition.scss';
+@import './variables.scss';
 
 html, body {
     scroll-behavior: unset !important;
-    color: #1b1b1e;
+    * {
+        color: $color_grey-darker;
+    }
 }
 
 body {
