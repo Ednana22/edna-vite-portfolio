@@ -4,6 +4,13 @@ html, body {
     scroll-behavior: unset !important;
     color: #1b1b1e;
 }
+
+body {
+    &.is_locked {
+        overflow: hidden;
+    }
+}
+
 ///BOOTSTRAP RESET
 .col,
 .col-1,
