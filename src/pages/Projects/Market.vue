@@ -115,7 +115,7 @@
       </div>
       <div class="user-talk row content mb-80">
         <div class="col-md-6 content-pr-48 mb-48">
-          <p class="text-md-bold mb-16">使用者這樣說</p>
+          <p class="text-md-bold mb-16">I. 使用者這樣說</p>
           <p>
             訪談奧丁丁市集的不同層級的會員，使我們能夠瞭解不同用戶在<span
           class="text-md-bold"
@@ -215,7 +215,7 @@
       <div class="user-talk row content">
         <div class="col-md-6 content-pr-48 mb-48">
           <p class="text-md-bold mb-16">
-            原來我們的使用者長這樣
+            II. 我們的使用者長這樣
           </p>
           <p>
             根據使用者訪談、研究結果以及網站用戶數據分析，我們分析使用者的行為以及相似性，並創建出與使用者輪廓相仿的人物誌。此角色幫助團隊在規劃產品時有更明確的方向，也因產生了同理心，團隊更重視使用者所遇到的問題。 從使用者地圖可得知使用者面臨的購物情況，進而討論優化產品的方向來幫助用戶更順利的完成購物、優化體驗讓使用者成為我們的忠實客戶。
