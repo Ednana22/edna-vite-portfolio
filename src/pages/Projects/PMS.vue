@@ -1,6 +1,11 @@
 <template>
   <div id="page-elevator">
-    <a v-for="i in 7" :key="`elevator-${i}`" @click.prevent="onElevatorClick(`#step-${i}`)">{{ i }}</a>
+    <a
+      v-for="i in 7"
+      :key="`elevator-${i}`"
+      @click.prevent="onElevatorClick(`#step-${i}`)"
+      >{{ i }}</a
+    >
   </div>
   <main class="project-pms">
     <section class="title container pt-120">
@@ -20,61 +25,58 @@
         <img
           src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/pms-hero.png"
           class="figure-img img-fluid"
-          alt="..." />
+          alt="..."
+        />
       </figure>
     </section>
     <section class="task container text-md">
       <div class="product-introduce mb-80">
         <h2 class="mb-16">產品介紹</h2>
-        <p class="text-md"> OwlNest是一款為旅宿業打造的B2B三合一整合型訂房系統，提供前台官網訂房系統、PMS訂單管理系統、線上銷售平台通路串接，用戶遍及亞洲、美洲國家，旅宿用戶達上千家。
+        <p class="text-md">
+          OwlNest是一款為旅宿業打造的B2B三合一整合型訂房系統，提供前台官網訂房系統、PMS訂單管理系統、線上銷售平台通路串接，用戶遍及亞洲、美洲國家，旅宿用戶達上千家。
         </p>
       </div>
-      <div class="background ">
+      <div class="background">
         <h2 class="mb-16">專案背景</h2>
         <p class="">
           因早期OwlNest系統客群是鎖定民宿業者，只做到單一房型單一專案的鋪價功能，近幾年隨著市場逐漸拓展，客群也從民宿業者增加至小型旅館業者再加上平台串接功能的開發，目前介面功能無法達到有效的鋪設價格及設定庫存，對使用者來說不僅費時也容易出錯。
         </p>
-      </div>     
+      </div>
     </section>
     <section class="cover-photo container p-0">
       <figure class="figure">
         <img
           src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/hote_+front_desk+.png"
           class="figure-img img-fluid"
-          alt="..."/>
-      </figure>         
+          alt="..."
+        />
+      </figure>
     </section>
     <section class="1gold container text-md">
-        <div class="project-title">
-          <div class="title-group">
-            <h4 class="mr-8">1</h4>
-            <div class="">
-              <h3 class="mb-6">目標</h3>
-              <h2>最終希望解決的問題</h2>
-            </div>
+      <div class="project-title">
+        <div class="title-group">
+          <h4 class="mr-8">1</h4>
+          <div class="">
+            <h3 class="mb-6">目標</h3>
+            <h2>最終希望解決的問題</h2>
           </div>
-        </div>        
-        <ul>
-          <div class="flex mb-8">
-            <span class="mr-8">‣</span>
-            <li>
-              滿足旅宿業者鋪設價格時的習慣
-            </li>
-          </div>
-          <div class="flex mb-8">
-            <span class="mr-8">‣</span>
-            <li>
-              擴充設定介面達到有效率的設定
-            </li>
-          </div>
-          <div class="flex">
-            <span class="mr-8">‣</span>
-            <li>
-              優化現有設定介面
-            </li>
-          </div>
-        </ul>
-    </section>    
+        </div>
+      </div>
+      <ul>
+        <div class="flex mb-8">
+          <span class="mr-8">‣</span>
+          <li>滿足旅宿業者鋪設價格時的習慣</li>
+        </div>
+        <div class="flex mb-8">
+          <span class="mr-8">‣</span>
+          <li>擴充設定介面達到有效率的設定</li>
+        </div>
+        <div class="flex">
+          <span class="mr-8">‣</span>
+          <li>優化現有設定介面</li>
+        </div>
+      </ul>
+    </section>
     <section class="2understand container text-md">
       <div class="row content mt-16 mb-16">
         <div class="col-md-6 content-pr-48 mb-48">
@@ -92,7 +94,7 @@
           </p>
         </div>
         <div class="col-md-6 content-pl-48 text-align-center">
-          <div class="text-sm plan_border mb-8 ">平日房價</div>
+          <div class="text-sm plan_border mb-8">平日房價</div>
           <i class="las la-long-arrow-alt-down"></i>
           <div class="text-sm plan_border mb-8 mt-8">假日房價</div>
           <i class="las la-long-arrow-alt-down"></i>
@@ -143,9 +145,7 @@
           </div>
           <div class="analyze row mb-80">
             <div class="col-md-6 content-pr-48 mb-48">
-              <div class="text-md-bold mb-16">
-                分析目前介面的鋪價步驟
-              </div>
+              <div class="text-md-bold mb-16">分析目前介面的鋪價步驟</div>
               <p class="text-md">
                 目前介面只能針對單一房型做單一專案的單一區間做鋪價，如有多房型配多專案，鋪價步驟則會倍數增加，對使用者是一種操作負擔。
               </p>
@@ -153,18 +153,17 @@
             <div class="col-md-6 content-pl-48">
               <figure class="figure">
                 <img
-                    src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/brainstorming1.png"
-                    class="figure-img img-fluid" style="width: 400px"
-                    alt="..."
-                  />
+                  src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/brainstorming1.png"
+                  class="figure-img img-fluid"
+                  style="width: 400px"
+                  alt="..."
+                />
               </figure>
             </div>
           </div>
           <div class="improve row mb-80">
             <div class="col-md-6 content-pr-48 mb-48">
-              <div class="text-md-bold mb-16">
-                找出可優化的空間
-              </div>
+              <div class="text-md-bold mb-16">找出可優化的空間</div>
               <ul>
                 <div class="flex mb-8">
                   <span class="mr-8">•</span>
@@ -180,14 +179,14 @@
                     我們也觀察到雖然目前介面中有提供國定假日的日期資訊，但使用者無法在鋪價時同時看到連假日期，因此使用者通常都是打開人事行政局以另一個視窗來比對，為此我們優化了日期下拉介面及規劃可複選國定假日的鋪價介面。
                   </li>
                 </div>
-
               </ul>
             </div>
             <div class="col-md-6 content-pl-48">
               <figure class="figure">
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/brainstorming2.png"
-                  class="figure-img img-fluid" style="width: 400px"
+                  class="figure-img img-fluid"
+                  style="width: 400px"
                   alt="..."
                 />
               </figure>
@@ -195,16 +194,17 @@
           </div>
           <div class="soluction row">
             <div class="col-md-6 content-pr-48 mb-48">
-              <div class="text-md-bold mb-16">
-                優化過後的鋪價步驟
-              </div>
-              <p class="text-md">規劃房型或專案價格可複選再搭配區間做設定以最有效的方法進行鋪價。</p>
+              <div class="text-md-bold mb-16">優化過後的鋪價步驟</div>
+              <p class="text-md">
+                規劃房型或專案價格可複選再搭配區間做設定以最有效的方法進行鋪價。
+              </p>
             </div>
             <div class="col-md-6 content-pl-48">
               <figure class="figure">
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/brainstorming3.png"
-                  class="figure-img img-fluid" style="width:400px"
+                  class="figure-img img-fluid"
+                  style="width: 400px"
                   alt="..."
                 />
               </figure>
@@ -251,10 +251,10 @@
           <div class="col-md-6 content-pl-48">
             <figure class="figure">
               <img
-              src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/UI+library.png"
-              class="figure-img img-fluid"
-              alt="..."
-            />
+                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/UI+library.png"
+                class="figure-img img-fluid"
+                alt="..."
+              />
             </figure>
           </div>
         </div>
@@ -267,10 +267,10 @@
           </div>
           <div class="col-md-6 content-pl-48">
             <img
-        src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/prototype.png"
-        class="figure-img img-fluid"
-        alt="..."
-        />
+              src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/prototype.png"
+              class="figure-img img-fluid"
+              alt="..."
+            />
           </div>
         </div>
       </div>
@@ -296,10 +296,10 @@
         <div class="col-md-9 mb-80">
           <p class="text-md-bold mb-16">鋪設多專案</p>
           <img
-              src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/mutipul-plans-chose.png"
-              class="figure-img img-fluid border-radius-16 shadow mb-16"
-              alt="..."
-        />
+            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/mutipul-plans-chose.png"
+            class="figure-img img-fluid border-radius-16 shadow mb-16"
+            alt="..."
+          />
           <p class="text-md mb-16">
             由房型或是專案多選來鋪設價格，可以解決使用者需要一直重複設定的問題。
           </p>
@@ -310,7 +310,7 @@
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/nationai-holiday.png"
             class="figure-img img-fluid border-radius-16 shadow mb-16"
             alt="..."
-        />
+          />
           <p class="text-md mb-16">
             使用者可以直接選擇欲鋪價的國定假日，以介面設定來解決使用者需記憶或是來回比對的負擔。
           </p>
@@ -318,16 +318,15 @@
         <div class="col-md-9">
           <p class="text-md-bold mb-16">優化下拉月曆內容</p>
           <img
-              src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/price_calendar.png"
-              class="figure-img img-fluid border-radius-16 shadow mb-16"
-              alt="..."
-        />
+            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/price_calendar.png"
+            class="figure-img img-fluid border-radius-16 shadow mb-16"
+            alt="..."
+          />
           <p class="text-md mb-16">
             將當國國定假日也呈現在下拉月曆上，讓使用者在鋪價時可隨時留意。
           </p>
         </div>
       </div>
-
     </section>
     <section class="7iterate container text-md mt-60">
       <div class="col-md-6 content-pr-48">
@@ -340,7 +339,7 @@
             </div>
           </div>
         </div>
-        <p class="text-md ">
+        <p class="text-md">
           批次鋪價功能推出後獲得使旅宿業者的正面反饋，不只大量節省了人力，對於國定假日可自動帶入的功能也表示是項極為方便的操作，將增加更多國家國定假日的需求排入第二優化中。業務端也表示在一開始做競品分析就知道國內並沒擁有國定假日鋪價功能的旅宿管理系統，因此這也是銷售的一大賣點。
         </p>
       </div>
@@ -356,41 +355,39 @@
             </div>
           </div>
         </div>
-        <p class="text-md ">
+        <p class="text-md">
           在規劃後台系統新功能時最重要的是要顧及現存使用者的習慣，使用者通常不喜歡變動，所以在規劃新功能時盡量以不要影響到目前使用者的操作為最高原則。
         </p>
-    </div>
+      </div>
     </section>
-    <section class="more-project  bg-grey-lightest pt-80">
+    <section class="more-project bg-grey-lightest pt-80">
       <div class="container">
         <h2 class="">更多設計專案</h2>
         <div class="row">
           <div class="col-md-6 content-pr-8 mt-24 mb-24">
-            <div class="card-border-grey border-radius-4 ">
+            <div class="card-border-grey border-radius-4">
               <router-link class="" :to="{ name: 'ProjectMarket' }">
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/market-hero.png"
                   class="figure-img img-fluid border-radius-4 shadow-sm"
                   alt="..."
                 />
-              </router-link>                   
-              <div class="text-md-bold mt-24">  
-                奧丁丁市集平台改版
-              </div> 
+              </router-link>
+              <div class="text-md-bold mt-24">奧丁丁市集平台改版</div>
               <div class="text-md">
-                  品牌再造
-                  <span class="font-color-light"> | </span>
-                  網站重構 
-                  <span class="font-color-light"> | </span>
-                  APP規劃
-                  <span class="font-color-light"> | </span>
-                  UX研究
-                  <span class="font-color-light"> | </span>
-                  UI設計                 
-              </div>  
+                品牌再造
+                <span class="font-color-light"> | </span>
+                網站重構
+                <span class="font-color-light"> | </span>
+                APP規劃
+                <span class="font-color-light"> | </span>
+                UX研究
+                <span class="font-color-light"> | </span>
+                UI設計
+              </div>
               <router-link class="btn btn-link" :to="{ name: 'ProjectMarket' }">
-                  瀏覽專案<i class="las la-long-arrow-alt-right"></i>
-              </router-link>                  
+                瀏覽專案<i class="las la-long-arrow-alt-right"></i>
+              </router-link>
             </div>
           </div>
           <div class="col-md-6 content-pl-8 mt-24 mb-24">
@@ -400,34 +397,31 @@
                 class="figure-img img-fluid border-radius-4 shadow-sm"
                 alt="..."
               />
-            </router-link>     
-            <div class="text-md-bold mt-24">  
-              奧丁丁集團官網重構
-            </div> 
+            </router-link>
+            <div class="text-md-bold mt-24">奧丁丁集團官網重構</div>
             <div class="text-md">
-                網站重構
-                <span class="font-color-light"> | </span>
-                UX研究 
-                <span class="font-color-light"> | </span>
-                UI設計
-                <span class="font-color-light"> | </span>
-                形象官網                
-            </div>  
+              網站重構
+              <span class="font-color-light"> | </span>
+              UX研究
+              <span class="font-color-light"> | </span>
+              UI設計
+              <span class="font-color-light"> | </span>
+              形象官網
+            </div>
             <router-link class="btn btn-link" :to="{ name: 'ProjectWeb' }">
-                瀏覽專案<i class="las la-long-arrow-alt-right"></i>
-            </router-link>                  
-          </div>        
+              瀏覽專案<i class="las la-long-arrow-alt-right"></i>
+            </router-link>
+          </div>
         </div>
       </div>
-    </section>    
+    </section>
   </main>
 </template>
 
 <script>
 export default {
-    name: 'projectPMS'
-}
+  name: "projectPMS",
+};
 </script>
 
-<style lang="scss" src="../../styles/pms.scss" scoped>
-</style>
+<style lang="scss" src="../../styles/pms.scss" scoped></style>
