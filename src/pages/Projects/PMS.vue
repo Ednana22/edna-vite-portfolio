@@ -268,7 +268,7 @@
           <div class="col-md-6 content-pl-48">
             <img
         src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/prototype.png"
-        class="figure-img img-fluid" style="width: 400px"
+        class="figure-img img-fluid"
         alt="..."
         />
           </div>
