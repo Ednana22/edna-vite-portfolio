@@ -87,7 +87,7 @@ $grid-breakpoints: (
   border: 1px solid $color_grey-light;
   width: 74px;
   height: 74px;
-  background-color: #FFF;
+  background-color: $color_grey-darkest;
   z-index: 3;
 }
 .through-line::after {

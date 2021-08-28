@@ -222,7 +222,7 @@
             </div>
           </ul>
         </div>
-        <div class="col-md-6 content-pl-48">
+        <div class="col-md-6 flex-center content-pl-48">
           <figure class="figure">
             <img
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/%E8%88%8A%E5%AE%98%E7%B6%B2.png"
@@ -245,12 +245,12 @@
               </div>
             </div>
           </div>
-          <p class="text-md mb-48">
+          <p class="text-md">
             在發想網站主視覺及頁面元素時緊扣著網站想傳達給使用者的三個核心要點「科技產業、領域專業、產品多元性」。一眼就能呈現給使用者產品多元性是我認為這次設計最大的考驗。
           </p>   
         </div>
-        <div  class="col-md-6 content-pl-48 contnet-pl-48">
-          <figure class="figure mt-40">
+        <div  class="col-md-6 flex-center content-pl-48">
+          <figure class="figure">
             <img
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/brainstorming.png"
               class="figure-img img-fluid border-radius-4"
@@ -292,7 +292,7 @@
             </div>
           </div>
           <div class="wireframe content mb-80">
-            <p class="text-md-bold row mb-16">I. Wireframe</p>
+            <p class="text-md-bold row mb-16">II. Wireframe</p>
             <div class="row">
               <div class="col-md-6 content-pr-48 mb-48">
                 <p class="text-md">
@@ -314,7 +314,7 @@
         </div>
         <div class="element row content mb-80">
           <div class="col-md-6 content-pr-48 mb-48">
-            <p class="text-md-bold mb-16">II. 搜集現有元素延伸</p>
+            <p class="text-md-bold mb-16">III. 搜集現有元素延伸</p>
             <p class="text-md">
               由集團現有元素中以貫穿集團及七個事業體的貓頭鷹及VI科技藍光譜為發想，由藍色光譜可延伸出的科技感幫助我進一步探索官網的視覺意象。
             </p>
@@ -365,9 +365,9 @@
           </div>
         </div>
         <div class="design content mb-80">
+              <p class="text-md-bold mb-16">IV. 發想網站視覺</p>
           <div class="thinking row mb-60">
             <div class="col-md-6 content-pr-48 bg-grey-darkest mb-48">
-              <p class="text-md-bold mb-16">III. 發想網站視覺</p>
               <p class="text-md">
                 在發想網站主視覺及頁面元素時緊扣著網站想傳達給使用者的三個核心要點「科技產業、領域專業、產品多元性」。一眼就能呈現給使用者產品多元性是我認為這次設計最大的考驗。
               </p>
@@ -376,7 +376,7 @@
                 <div class="flex-center through-line">
                   <span class="border-circle text-md line-height-2 mr-24">科技</span>
                   <span class="border-circle text-md line-height-2 mr-24">專業</span>
-                  <span class="border-circle text-md line-height-2 mr-24">多元</span>
+                  <span class="border-circle text-md line-height-2">多元</span>
                </div>       
             </div>
           </div>
@@ -500,7 +500,7 @@
           </div>
         </div>
         <div class="prototype content mb-80">
-          <p class="text-md-bold row mb-16">V. Prototype 交付予工程師</p>
+          <p class="text-md-bold row mb-16">VII. Prototype 交付予工程師</p>
           <div class="row">
             <div class="col-md-6 content-pr-48 mb-48">
               <p class="text-md">
@@ -520,9 +520,9 @@
           </div>
         </div>
         <div class="debug content">
+              <p class="text-md-bold mb-16">VIII. 協助工程師抓除錯</p>
           <div class="row">
             <div class="col-md-6 content-pr-48 mb-48">
-              <p class="text-md-bold mb-16">VI. 協助工程師抓除錯</p>
               <p class="text-md">
                 在最後上線前須幫助工程師一同除錯，多語系的呈現、各種裝置及雙平台手機測試、社群平台開啟呈現出來的效果等等，都是正式上線前需一一確認的。
               </p>
