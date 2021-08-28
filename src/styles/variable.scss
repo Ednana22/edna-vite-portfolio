@@ -160,37 +160,6 @@ a{
     }
   }
 
-  .kv{
-      position: relative;
-      .coffee, .work, .devices, .speak, .memoji{
-          position: absolute;
-      }
-      .coffee{  
-        width: 20%;
-        bottom: 100px;
-      }
-      .work{
-        width:30%;
-        top: 0px;
-        left: 100px;
-        
-      }      
-      .devices{
-        width: 25%;
-        right: 60px;
-        bottom: 160px;
-      }    
-      .speak{
-        width: 20%;
-        right: 0px;
-        bottom: 60px;
-      }   
-      .memoji{
-        width: 30%;
-        bottom: 0px;
-        left: 120px;
-      }
-  }
   .circle-grey{
     width: 8px;
     height: 8px;

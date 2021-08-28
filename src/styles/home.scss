@@ -233,3 +233,53 @@ section {
   }
 }
 
+.kv-web{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media (max-width: 992px) {
+    display: none;
+  }
+  .memoji{
+    width: 140px;
+    position: relative;
+  }
+  .coffee{
+    position: absolute;  
+    width: 120px;
+    left: -140px;
+    bottom: 85px;
+  }
+  .work{
+    position: absolute;
+    width: 140px;
+    top: -70px;
+    left: -50px;
+    
+  }      
+  .devices{
+    position: absolute;
+    width: 120px;
+    right: -100px;
+    top: -30px;
+  }    
+  .speak{
+    position: absolute;
+    width: 100px;
+    right: -130px;
+    bottom: 60px;
+  }   
+
+}
+.kv-mobile{
+  @media (min-width: 992px) {
+    display: none;
+  }
+  .figure{
+    margin-left: auto;
+    max-width: 400px;
+  }
+
+
+}

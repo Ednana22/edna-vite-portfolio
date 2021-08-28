@@ -3,7 +3,7 @@
     <section class="hero mt-60 border-bottom">
       <div class="container-hero">
         <div class="row hero">
-          <div class="col-md-6 mb-56">
+          <div class="col-md-6  mb-56">
             <h2 class="mb-32">
               Hello! 👋
               <br />
@@ -17,43 +17,54 @@
               解決問題時以80%思考；20%實作
             </h1>
           </div>
-          <div class="kv col-md-6">
-            <figure gure class="coffee figure flex-center">
-              <img
-                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/coffee.png"
-                class="figure-img img-fluid"
-                alt="..."
-              />
-            </figure>
-            <figure gure class="work figure flex-center">
-              <img
-                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/work.png"
-                class="figure-img img-fluid"
-                alt="..."
-              />
-            </figure>
-            <figure gure class="devices figure flex-center">
-              <img
-                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/devices.png"
-                class="figure-img img-fluid"
-                alt="..."
-              />
-            </figure>
-            <figure gure class="speak figure flex-center">
-              <img
-                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/speech+bubble.png"
-                class="figure-img img-fluid"
-                alt="..."
-              />
-            </figure>
-            <figure gure class="memoji figure flex-center">
+          <div class="kv-web col-md-6">
+            <figure class="memoji figure flex-center">
               <img
                 src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/edna-memoji.png"
-                class="figure-img img-fluid"
+                class="figure-img img-fluid mt-80"
                 alt="..."
-              />
+              />              
+              <figure gure class="coffee figure flex-center">
+                <img
+                  src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/coffee.png"
+                  class="figure-img img-fluid"
+                  alt="..."
+                />
+              </figure>
+              <figure gure class="work figure flex-center">
+                <img
+                  src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/work.png"
+                  class="figure-img img-fluid"
+                  alt="..."
+                />
+              </figure>
+              <figure gure class="devices figure flex-center">
+                <img
+                  src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/devices.png"
+                  class="figure-img img-fluid"
+                  alt="..."
+                />
+              </figure>
+              <figure gure class="speak figure flex-center">
+                <img
+                  src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/speech+bubble.png"
+                  class="figure-img img-fluid"
+                  alt="..."
+                />
+              </figure>               
             </figure>
+
           </div>
+          <div class="kv-mobile col-md-6">
+              <figure class="figure">
+                <img
+                  src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/hero.png
+"
+                  class="figure-img img-fluid"
+                  alt="..."
+                />
+              </figure>            
+          </div>          
         </div>
       </div>
     </section>
