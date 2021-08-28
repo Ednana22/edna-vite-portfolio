@@ -80,24 +80,26 @@
 <script setup>
 import { reactive, ref, watch } from 'vue'
 import { UseWindowSize } from '@vueuse/components'
+import { useWindowSize } from '@vueuse/core'
 
 const state = reactive({ count: 0 })
 const isDropDownOpen = ref(false)
 const handleDropDownOutside = () => (isDropDownOpen.value = false)
 const onMobileMenuClick = () => (isDropDownOpen.value = !isDropDownOpen.value)
 
+const mobileMenuEdgeSize = 768
+const { width } = useWindowSize()
+
 watch(
   () => isDropDownOpen.value,
   val => {
     const body = document.querySelector('body') 
-    val
+    const isMobile = width.value < mobileMenuEdgeSize
+    val && isMobile
       ? body.classList.add('is_locked')
       : body.classList.remove('is_locked')
   }
 )
-
-const mobileMenuEdgeSize = 768
-
 </script>
 
 <style lang="scss" scoped>
