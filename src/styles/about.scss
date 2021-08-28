@@ -119,3 +119,36 @@ $grid-breakpoints: (
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.time_line-h {
+  @media (max-width: 768px) {
+    display: none;    
+  }
+  .timeline-h{
+    position: relative;
+      &::after{
+        content: "";
+        width: 100%;
+        border-top: 1px solid $color_grey-light;
+        position: absolute;
+        top: 44px;
+      }
+  }  
+}
+
+.time_line-v {
+  @media (min-width:768px) {    
+    display: none;
+  }
+  .timeline-v{
+    position: relative;
+      &::after{
+        content: "";
+        height: 100%;
+        left: 3px;
+        border-left: 1px solid $color_grey-light;
+        position: absolute;
+        top: 16px;
+      }
+    }
+}

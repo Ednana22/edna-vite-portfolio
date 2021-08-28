@@ -11,7 +11,7 @@
         我叫魏依嫻，我一位擁有基礎前端技能並直持續學習的UIUX設計師，設計產品包含B2C電商、B2B SasS產品後台、形象官網等。工作時總是在功能與美學、通用性與工程實作中找尋最佳平衡。
         在規劃UX的任何一步心中都需要有一個合理的解答，因為問題的解法很多也沒有一定正確的，所以你需要更清楚自己的解法。
       </p>
-      <div class="res mb-8 col-sm-6 content-pl-48">
+      <div class="res mb-8 col-sm-6">
           <figure class="figure mr-8">
               <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/icon-resume.svg"
@@ -22,8 +22,88 @@
           <a href="https://www.linkedin.com/in/edna-wei-90292b97/" target="_blank">履歷瀏覽</a>
       </div>   
     </section>
-    <section class="time_line container">
+    <section class="time_line-h container">
       <h2 class="mb-16">人生沒有白走的路，每一步都算數</h2>
+      <div class="timeline-h flex space-between">
+        <div class="now">
+          <p class="text-md-bold">now - 2018</p>
+          <div class="circle-grey mt-8 mb-8"></div>
+          <p class="text-md ">奧丁丁集團</p>
+          <p class="text-md ">UIUX設計師</p>
+        </div>
+        <div class="2018">
+          <p class="text-md-bold">2018 - 2016</p>
+          <div class="circle-grey mt-8 mb-8"></div>
+          <p class="text-md ">蝦皮購物</p>
+          <p class="text-md ">視覺設計師</p>
+        </div>      
+        <div class="2015">
+          <p class="text-md-bold">2016 - 2015</p>
+          <div class="circle-grey mt-8 mb-8"></div>
+          <p class="text-md ">樂子美式餐飲</p>
+          <p class="text-md ">平面設計師</p>
+        </div>          
+        <div class="2014">
+          <p class="text-md-bold">2015 - 2014</p>
+          <div class="circle-grey mt-8 mb-8"></div>
+          <p class="text-md ">留學瑞士EPAC</p>
+          <p class="text-md ">歐盟繪畫學士</p>
+        </div>  
+        <div class="2014">
+          <p class="text-md-bold">2013 - 2010</p>
+          <div class="circle-grey mt-8 mb-8"></div>
+          <p class="text-md ">銘傳大學</p>
+          <p class="text-md ">商業設計學系</p>
+        </div>  
+        
+      </div>
+          
+    </section>
+    <section class="time_line-v container">
+      <h2 class="mb-16">人生沒有白走的路，每一步都算數</h2>
+      <div class="timeline-v column space-between">
+        <div class="flex mb-24">
+          <div class="circle-grey mt-14 mr-16"></div>
+          <div class="now">
+            <p class="text-md-bold">now - 2018</p>
+            <p class="text-md ">奧丁丁集團</p>
+            <p class="text-md ">UIUX設計師</p>
+          </div>
+        </div>
+        <div class="flex mb-24">
+          <div class="circle-grey mt-14 mr-16"></div>
+          <div class="now">
+            <p class="text-md-bold">now - 2018</p>
+            <p class="text-md ">奧丁丁集團</p>
+            <p class="text-md ">UIUX設計師</p>
+          </div>
+        </div> 
+        <div class="flex mb-24">
+          <div class="circle-grey mt-14 mr-16"></div>
+          <div class="now">
+            <p class="text-md-bold">now - 2018</p>
+            <p class="text-md ">奧丁丁集團</p>
+            <p class="text-md ">UIUX設計師</p>
+          </div>
+        </div>
+        <div class="flex mb-24">
+          <div class="circle-grey mt-14 mr-16"></div>
+          <div class="now">
+            <p class="text-md-bold">now - 2018</p>
+            <p class="text-md ">奧丁丁集團</p>
+            <p class="text-md ">UIUX設計師</p>
+          </div>
+        </div> 
+        <div class="flex">
+        <div class="circle-grey mt-14 mr-16"></div>
+          <div class="now">
+            <p class="text-md-bold">now - 2018</p>
+            <p class="text-md ">奧丁丁集團</p>
+            <p class="text-md ">UIUX設計師</p>
+          </div>
+        </div>
+        
+      </div>        
     </section>
     <section class="skil_tree container">
       <h2 class="mb-16">技能樹</h2>
