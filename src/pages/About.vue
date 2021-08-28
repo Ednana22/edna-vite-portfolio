@@ -74,33 +74,33 @@
         <div class="flex mb-24">
           <div class="circle-grey mt-14 mr-16"></div>
           <div class="now">
-            <p class="text-md-bold">now - 2018</p>
-            <p class="text-md">奧丁丁集團</p>
-            <p class="text-md">UIUX設計師</p>
+            <p class="text-md-bold">2018 - 2016</p>
+            <p class="text-md">蝦皮購物</p>
+            <p class="text-md">視覺設計師</p>
           </div>
         </div>
         <div class="flex mb-24">
           <div class="circle-grey mt-14 mr-16"></div>
           <div class="now">
-            <p class="text-md-bold">now - 2018</p>
-            <p class="text-md">奧丁丁集團</p>
-            <p class="text-md">UIUX設計師</p>
+            <p class="text-md-bold">2016 - 2015</p>
+            <p class="text-md">樂子美式餐飲</p>
+            <p class="text-md">平面設計師</p>
           </div>
         </div>
         <div class="flex mb-24">
           <div class="circle-grey mt-14 mr-16"></div>
           <div class="now">
-            <p class="text-md-bold">now - 2018</p>
-            <p class="text-md">奧丁丁集團</p>
-            <p class="text-md">UIUX設計師</p>
+            <p class="text-md-bold">2015 - 2014</p>
+            <p class="text-md">留學瑞士EPAC</p>
+            <p class="text-md">歐盟繪畫學士</p>
           </div>
         </div>
         <div class="flex">
           <div class="circle-grey mt-14 mr-16"></div>
           <div class="now">
-            <p class="text-md-bold">now - 2018</p>
+            <p class="text-md-bold">2013 - 2010</p>
             <p class="text-md">奧丁丁集團</p>
-            <p class="text-md">UIUX設計師</p>
+            <p class="text-md">商業設計學系</p>
           </div>
         </div>
       </div>
