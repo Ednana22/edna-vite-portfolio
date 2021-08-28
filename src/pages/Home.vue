@@ -17,11 +17,39 @@
                 解決問題時以80%思考；20%實作
                 </h1>
                 </div>
-                <div class="col-md-6">
-                <figure class="figure flex-center">
+                <div class="kv col-md-6">
+                    <figure gure class="coffee figure flex-center">
                     <img
-                        src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/hero.png"
-                        class="figure-img img-fluid " width="400px"
+                        src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/coffee.png"
+                        class="figure-img img-fluid "
+                        alt="..."
+                    />
+                    </figure>
+                    <figure gure class="work figure flex-center">
+                    <img
+                        src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/work.png"
+                        class="figure-img img-fluid "
+                        alt="..."
+                    />
+                    </figure>
+                    <figure gure class="devices figure flex-center">
+                    <img
+                        src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/devices.png"
+                        class="figure-img img-fluid "
+                        alt="..."
+                    />
+                    </figure>
+                    <figure gure class="speak figure flex-center">
+                    <img
+                        src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/speech+bubble.png"
+                        class="figure-img img-fluid "
+                        alt="..."
+                    />
+                    </figure>                                                            
+                    <figure gure class="memoji figure flex-center">
+                    <img
+                        src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/edna-memoji.png"
+                        class="figure-img img-fluid "
                         alt="..."
                     />
                     </figure>
@@ -174,11 +202,6 @@
             </div>
         </div>
     </section>
-    <div class="footer">
-        <div class="flex-center">
-        </div>
-        <p class="text-sm text-align-center font-color-light">Copyright © EdnaWei, All Rights Reserved.</p>
-    </div>
   </main>
 </template>
 
