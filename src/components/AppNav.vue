@@ -13,7 +13,7 @@
           <ul>
             <li class="is-dropdown">
               <span v-click-away="handleDropDownOutside" class="is-nav-link" @click="isDropDownOpen = !isDropDownOpen">
-                作品
+                設計專案
                 <i class="las" :class="isDropDownOpen ? 'la-angle-up' : 'la-angle-down'"></i>
                 <ul v-show="isDropDownOpen" class="is-dropdown__context">
                   <li>
@@ -29,7 +29,7 @@
               </span>
             </li>
             <li>
-              <router-link class="is-nav-link" :to="{ name: 'About' }">關於</router-link>
+              <router-link class="is-nav-link" :to="{ name: 'About' }">關於我</router-link>
             </li>
             <li>
               <!-- <router-link :to="{ name: 'About' }" tag="button">
@@ -52,13 +52,15 @@
           <div class="app-nav__actions__mobile__cover" :class="{ is_active: isDropDownOpen }">
             <ul>
               <li>
-                <h4>作品</h4>
+                <router-link :to="{ name: 'Home' }">
+                  <h4>設計專案</h4>
+                </router-link>
                 <ul class="sub_item">
                   <li>
                     <router-link :to="{ name: 'ProjectMarket' }">奧丁丁市集平台改版</router-link>
                   </li>
                   <li>
-                    <router-link :to="{ name: 'ProjectWeb' }">官網</router-link>
+                    <router-link :to="{ name: 'ProjectWeb' }">奧丁丁集團官網重構</router-link>
                   </li>
                   <li>
                     <router-link :to="{ name: 'ProjectPMS' }">旅宿管理系統功能規劃</router-link>
@@ -67,7 +69,7 @@
               </li>
               <li>
                 <router-link :to="{ name: 'About' }">
-                  <h4>關於</h4>
+                  <h4>關於我</h4>
                 </router-link>
               </li>
             </ul>
@@ -107,15 +109,28 @@ watch(
 $color_grey-dark: #25252e;
 
 .app-nav {
-  font-size: 14px;
   padding: .5rem 0;
   position: fixed;
-  box-shadow: 0px 2px 2px #eee;
+  box-shadow: 0px 1px 1px rgb(216, 217, 221);
   z-index: 99;
   top: 0;
   left: 0;
   width: 100%;
-  background: white;
+  background: #fff;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(50px);  
+  h4{
+    font-size: 16px;
+  }
+  a, span{
+    font-size: 14px;
+    font-weight: 500;
+    &:hover{
+      background-color: rgba(0, 0, 0, 0.08);
+      border-radius: 8px;
+    }
+  }
+
   .is-nav-link {
     display: inline-block;
     padding: .5rem;
@@ -144,13 +159,13 @@ $color_grey-dark: #25252e;
         position: absolute;
         top: calc(100% + 14px);
         right: 0;
-        background: white;
+        background: #fcfcfc;
         list-style-type: none;
         margin: 0;
-        padding: 0;
+        padding: 8px 0px;
         box-shadow: 5px 6px 5px 0px rgba(0, 0, 0, 0.05);
-        border: 1px solid rgba(242, 242, 242, 1);
-        border-radius: 4px;
+        border: 1px solid rgb(225, 229, 233);
+        border-radius: 10px;
         display: flex;
         flex-direction: column;
         li {
@@ -162,7 +177,8 @@ $color_grey-dark: #25252e;
             text-decoration: none;
             color: $color_grey-dark;
             &:hover {
-              background: rgba(0, 0, 0, 0.05);
+              background: rgba(0, 0, 0, 0.08);
+              border-radius: 0;
             }
           }
         }
@@ -202,11 +218,14 @@ $color_grey-dark: #25252e;
       ul {
         a {
           display: block;
+          h4{
+            padding: .8rem 0.4rem;
+          }
         }
         &.sub_item {
           margin-bottom: 1rem;
           a {
-            padding: .5rem 2rem;
+            padding: .8rem 2rem;
           }
         }
       }
