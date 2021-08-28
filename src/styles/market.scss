@@ -35,23 +35,19 @@ $grid-breakpoints: (
     line-height: initial;
   }
   .text-xxl {
+    line-height: 1;
+    font-family: 'rubik';
     @media (max-width: 2680px) {
-      font-size: 80px;
-      font-weight: 300;
-      font-family: 'rubik';
-      line-height: 1;
+      font-size: 56px;
+      font-weight:300;
     }
     @media (max-width: 1440px) {
-      font-size: 64px;
+      font-size: 56px;
       font-weight: 300;
-      font-family: 'rubik';
-      line-height: 1;
     }
     @media (max-width: 576px) {
       font-size: 48px;
       font-weight: 300;
-      font-family: 'rubik';
-      line-height: 1;
     }
   }
   .text-xl {

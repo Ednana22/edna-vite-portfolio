@@ -96,19 +96,19 @@
         <p class="text-md-bold mb-16">成果搶先看 👀</p>
         <div class="highlight row">
           <div class="col-sm-4 new_user mb-24">
-            <p class="text-xxl font-color-blue">
+            <p class="text-xxl">
               230<span class="text-l">%</span>
             </p>
             <p class="text-md-bold">新使用者增加</p>
           </div>
           <div class="col-sm-4 viewing_time mb-24">
-            <p class="text-xxl font-color-blue">
+            <p class="text-xxl">
               81<span class="text-l">%</span>
             </p>
             <p class="text-md-bold">工作平均長度增加</p>
           </div>
           <div class="col-sm-4 bounce_rate">
-            <p class="text-xxl font-color-blue">
+            <p class="text-xxl">
               -24<span class="text-l">%</span>
             </p>
             <p class="text-md-bold">跳出率明顯優化</p>
@@ -229,7 +229,7 @@
       </div>
       <div class="user-talk row content">
         <div class="col-md-6 content-pr-48 mb-48">
-          <p class="text-md-bold mb-16">II. 我們的使用者長這樣</p>
+          <p class="text-md-bold mb-16">II. 模擬使用者地圖</p>
           <p>
             根據使用者訪談、研究結果以及網站用戶數據分析，我們分析使用者的行為以及相似性，並創建出與使用者輪廓相仿的人物誌。此角色幫助團隊在規劃產品時有更明確的方向，也因產生了同理心，團隊更重視使用者所遇到的問題。
             從使用者地圖可得知使用者面臨的購物情況，進而討論優化產品的方向來幫助用戶更順利的完成購物、優化體驗讓使用者成為我們的忠實客戶。
@@ -239,7 +239,7 @@
           <figure class="figure">
             <img
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/user-journey_W.png"
-              class="figure-img img-fluid border-radius-4"
+              class="figure-img img-fluid border-radius-4 shadow"
               alt="..."
             />
           </figure>
@@ -313,7 +313,7 @@
           </div>
           <div class="1ia content mb-80">
             <p class="text-md-bold col-md-6 mb-16">
-              I. 資訊架構 釐清功能的層級
+              I. 資訊架構
             </p>
             <div class="row">
               <p class="text-md col-md-6 content-pr-48 mb-48">
@@ -329,7 +329,7 @@
             </div>
           </div>
           <div class="2wireframe content mb-80">
-            <p class="text-md-bold col-md-6 mb-16">II .wireframe & UI Design</p>
+            <p class="text-md-bold col-md-6 mb-16">II. Wireframe</p>
             <div class="user-talk text-align-left flex-center flex-start mb-8">
               <div class="memoji text-align-center">
                 <img
@@ -417,7 +417,7 @@
             </div>
           </div>
           <div class="4prototpye content">
-            <p class="text-md-bold col">V. Prototype 釐清畫面與使用者的互動</p>
+            <p class="text-md-bold col">IV. Prototype</p>
             <div class="row">
               <p class="text-md col-md-6 content-pr-48 mb-48">
                 使用Figma將元件都系統性的設定為component，使wireframe精緻化的過程迅速也方便討論後立即修改。邀請公司內部的市集使用者進行新版面任務測試，根據螢幕錄影及熱點分析再進行介面優化，聆聽反饋確保舊用戶在新介面中獲得高品質的使用者體驗。
