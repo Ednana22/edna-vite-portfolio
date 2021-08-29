@@ -37,28 +37,26 @@ $grid-breakpoints: (
   .text-xxl {
     line-height: 1;
     font-family: 'rubik';
+    font-weight:500;
     @media (max-width: 2680px) {
       font-size: 56px;
-      font-weight:300;
     }
     @media (max-width: 1440px) {
       font-size: 56px;
-      font-weight: 300;
     }
     @media (max-width: 576px) {
       font-size: 48px;
-      font-weight: 300;
     }
   }
   .text-xl {
     font-size: 48px;
-    font-weight: 300;
+    font-weight: 400;
     font-family: 'rubik';
     line-height: 1;
   }
   .text-l {
     font-size: 32px;
-    font-weight: 300;
+    font-weight: 400;
     font-family: 'rubik';
     line-height: 1;
   }
