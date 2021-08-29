@@ -246,7 +246,7 @@
           <figure class="figure">
             <img
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/official-web-brainstorming.png"
-              class="figure-img img-fluid border-radius-4"
+              class="figure-img img-fluid shadow-sm border-radius-4"
               alt="..."
             />
           </figure>          
