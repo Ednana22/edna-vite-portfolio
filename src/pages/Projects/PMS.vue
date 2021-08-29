@@ -1,12 +1,5 @@
 <template>
-  <div id="page-elevator">
-    <a
-      v-for="i in 7"
-      :key="`elevator-${i}`"
-      @click.prevent="onElevatorClick(`#step-${i}`)"
-      >{{ i }}</a
-    >
-  </div>
+  <PageElevator :anchors="anchors" />
   <main class="project-pms">
     <section class="title container">
       <h1 class="mb-24">旅宿管理系統功能規劃</h1>
@@ -52,7 +45,7 @@
         />
       </figure>
     </section>
-    <section class="1gold container text-md">
+    <section id="step-1" class="1gold container text-md">
       <div class="project-title">
         <div class="title-group">
           <h4 class="mr-8">1</h4>
@@ -77,7 +70,7 @@
         </div>
       </ul>
     </section>
-    <section class="2understand container text-md">
+    <section id="step-2" class="2understand container text-md">
       <div class="row content mt-16 mb-16">
         <div class="col-md-6 content-pr-48 mb-48">
           <div class="project-title">
@@ -104,7 +97,7 @@
         </div>
       </div>
     </section>
-    <section class="3define container text-md">
+    <section id="step-3" class="3define container text-md">
       <div class="row content mt-16 mb-16">
         <div class="col-md-6 content-pr-48 mb-48">
           <div class="project-title">
@@ -131,7 +124,7 @@
         </div>
       </div>
     </section>
-    <section class="4brainstorming container text-md mb-60">
+    <section id="step-4" class="4brainstorming container text-md mb-60">
       <div class="content mt-16 mb-16">
         <div class="col">
           <div class="project-title">
@@ -213,7 +206,7 @@
         </div>
       </div>
     </section>
-    <section class="5design-procress bg-grey-darkest text-md adjust-pt-dark-bg">
+    <section id="step-5" class="5design-procress bg-grey-darkest text-md adjust-pt-dark-bg">
       <div class="container font-color-lighter">
         <div class="project-title">
           <div class="title-group">
@@ -275,7 +268,7 @@
         </div>
       </div>
     </section>
-    <section class="6result bg-grey-darkest text-md adjust-pb-dark-bg">
+    <section id="step-6" class="6result bg-grey-darkest text-md adjust-pb-dark-bg">
       <div class="container font-color-lighter">
         <div class="col-md-6 content-pr-48">
           <div class="project-title">
@@ -328,7 +321,7 @@
         </div>
       </div>
     </section>
-    <section class="7iterate container text-md mt-60">
+    <section id="step-7" class="7iterate container text-md mt-60">
       <div class="col-md-6 content-pr-48">
         <div class="project-title">
           <div class="title-group">
@@ -344,7 +337,7 @@
         </p>
       </div>
     </section>
-    <section class="8takeaway container text-md mb-60">
+    <section id="step-8" class="8takeaway container text-md mb-60">
       <div class="col-md-6 content-pr-48">
         <div class="project-title">
           <div class="title-group">
@@ -419,8 +412,51 @@
 </template>
 
 <script>
+import PageElevator from '../../components/PageElevator.vue'
+
 export default {
   name: "projectPMS",
+  components: {
+    PageElevator
+  },
+  data () {
+    return {
+      anchors: [
+        {
+          name: '目標',
+          id: '#step-1'
+        },
+        {
+          name: '理解',
+          id: '#step-2'
+        },
+        {
+          name: '定義',
+          id: '#step-3'
+        },
+        {
+          name: '思考',
+          id: '#step-4'
+        },
+        {
+          name: '設計過程',
+          id: '#step-5'
+        },
+        {
+          name: '成果',
+          id: '#step-6'
+        },
+        {
+          name: '迭代',
+          id: '#step-7'
+        },
+        {
+          name: '反思',
+          id: '#step-8'
+        }
+      ]
+    }
+  }
 };
 </script>
 

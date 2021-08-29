@@ -118,7 +118,6 @@ $color_grey-dark: #25252e;
   width: 100%;
   background: #fff;
   background-color: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(50px);  
   h4{
     font-size: 16px;
   }

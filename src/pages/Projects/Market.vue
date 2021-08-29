@@ -1,12 +1,5 @@
 <template>
-  <div id="page-elevator">
-    <a
-      v-for="i in 7"
-      :key="`elevator-${i}`"
-      @click.prevent="onElevatorClick(`#step-${i}`)"
-      >{{ i }}</a
-    >
-  </div>
+  <PageElevator :anchors="anchors" />
   <main class="project-market">
     <section class="title container">
       <h1 class="mb-24">奧丁丁市集平台改版</h1>
@@ -650,19 +643,55 @@
   </main>
 </template>
 <script>
+import PageElevator from '../../components/PageElevator.vue'
+
 export default {
   name: "projectMarket",
-  methods: {
-    onElevatorClick(anchor) {
-      const offsetTop = document.querySelector(anchor).offsetTop;
-      console.log(offsetTop);
-
-      window.scroll({
-        top: offsetTop,
-        behavior: "smooth",
-      });
-    },
+  components: {
+    PageElevator
   },
+  data() {
+    return {
+      anchors: [
+        {
+          name: '目標',
+          id: '#step-1'
+        },
+        {
+          name: '理解',
+          id: '#step-2'
+        },
+        {
+          name: '定義',
+          id: '#step-3'
+        },
+        {
+          name: '思考',
+          id: '#step-4'
+        },
+        {
+          name: '設計過程',
+          id: '#step-5'
+        },
+        {
+          name: '成果',
+          id: '#step-6'
+        },
+        {
+          name: '迭代',
+          id: '#step-7'
+        },
+        {
+          name: 'APP',
+          id: '#step-8'
+        },
+        {
+          name: '反思',
+          id: '#step-9'
+        }
+      ]
+    }
+  }
 };
 </script>
 
