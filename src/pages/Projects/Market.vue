@@ -613,7 +613,7 @@
     </section>
     <section class="more-project bg-grey-lightest pt-80">
       <div class="container">
-        <h2 class="h2">更多設計專案</h2>
+        <h2>更多設計專案</h2>
         <div class="row">
           <div class="col-md-6 content-pr-8 mt-24 mb-24">
             <router-link class="" :to="{ name: 'ProjectWeb' }">
