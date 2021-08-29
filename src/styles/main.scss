@@ -3,17 +3,16 @@
 
 html,
 body {
-    scroll-behavior: unset !important;
-    font-family: 'Noto Sans TC', sans-serif;   
-    // *{
-    //     color: $color_grey-dark;
-    // } 
+  scroll-behavior: unset !important;
+  // * {
+  //     color: $color_grey-darker;
+  // }
 }
 
 body {
-    &.is_locked {
-        overflow: hidden;
-    }
+  &.is_locked {
+    overflow: hidden;
+  }
 }
 
 ///BOOTSTRAP RESET
@@ -482,14 +481,11 @@ p {
 .btn {
   font-size: 16px;
   color: $color_blue-dark;
-  border: none;
+  border: initial;
   padding: 10px 0px;
   font-weight: 600;
   margin-top: 16px;
   text-decoration: none;
-  @media (max-width: 576px) {
-      font-size: 15px;
-  }
   &:hover {
     color: $color_blue-dark;
     text-decoration: none;
@@ -500,7 +496,7 @@ p {
   }
   &:active {
     transform: scale(0.99);
-    color: $color_blue-darker !important;
+    color: $color_blue-dark !important;
   }
   .la-long-arrow-alt-right {
     margin-left: 8px;
@@ -520,7 +516,7 @@ a {
   }
 }
 main {
-  margin-top: 46px;
+  margin-top: 40px;
 }
 .footer {
   padding: 8px;
@@ -582,56 +578,4 @@ main {
   height: 8px;
   border-radius: 100px;
   background-color: $color_grey-light;
-}
-
-///FONT STYLE
-h1 {
-    font-size: 28px;
-    font-weight: 600;
-    @media (max-width: 576px) {
-      font-size: 24px;
-    }
-  }
-  h2 {
-    font-size: 18px;
-    font-weight: 600;
-    margin: 0px;
-    @media (max-width: 576px) {
-      font-size: 17px;
-    }
-  }
-  h3 {
-    font-size: 14px;
-    font-weight: 600;
-  }
-  h4{
-    color: $color_blue-base;
-    font-size: 72px;
-    font-family: 'rubik';
-    font-weight: 300;
-    margin: 0;
-    line-height: 1;
-  }
-
-.text-md {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.8;
-    text-align: justify;
-    text-justify: auto;
-    @media (max-width: 576px) {
-        font-size: 15px;
-    }
-}
-.text-md-bold {
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 1.8;
-    @media (max-width: 597px) {
-        font-size: 15px;
-    }
-}
-.text-sm {
-    font-size: 14px;
-    font-weight: 400;
 }

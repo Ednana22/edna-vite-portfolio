@@ -23,9 +23,9 @@
       </figure>
     </section>
     <section class="task container text-md">
-      <div class="product-introduce">
+      <div class="product-introduce mb-80">
         <h2 class="mb-16">產品介紹</h2>
-        <p class="text-md mb-48">
+        <p class="text-md">
           OwlNest是一款為旅宿業打造的B2B三合一整合型訂房系統，提供前台官網訂房系統、PMS訂單管理系統、線上銷售平台通路串接，用戶遍及亞洲、美洲國家，旅宿用戶達上千家。
         </p>
       </div>
