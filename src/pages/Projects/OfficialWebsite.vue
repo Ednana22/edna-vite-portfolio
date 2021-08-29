@@ -32,7 +32,7 @@
       </p>
       <h2 class="mb-16">專案背景</h2>
       <p class="">
-        官方網站是集團傳遞精神的重要管道，而使用者涵蓋了面試者、公司成員、合作商甚至投資者等，對公司來說是個不可輕忽的存在。在奧丁丁集團成立初期所架設的官網頁面中並無保留太多的談性空間，因此無法清楚的將集團近年來的資訊正確傳達給使用者，這也造成了使用者容易從網站中獲得過時且不完整的資訊問題，再加上老舊的視覺風格與集團近年來定義的VI調性不一、使用者對網站的負面評價等等，促成了此次集團官網改版。
+        官方網站是集團傳遞形象的重要管道，而使用者涵蓋了面試者、公司成員、合作商甚至投資者等。在奧丁丁集團成立初期所架設的官網頁面中並無保留太多的談性空間，因此無法清楚的將集團近年來的資訊正確傳達給使用者，這也造成了<span class="text-md-bold">使用者容易從網站中獲得過時且不完整的資訊</span>，再加上老舊的視覺風格與集團近年來定義的VI調性不一、使用者對網站的負面評價等等，促成了此次集團官網改版。
       </p>
     </section>
     <div class="cover-photo container p-0">
@@ -57,15 +57,15 @@
       <ul>
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
-          <li>重構官網，使其成為同業中的亮點</li>
+          <li>官方網站重構，由資訊架構開始整理，讓使用者能更快速的獲得資訊</li>
         </div>
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
-          <li>跨部門進行集團旗下七個事業體的資訊整合</li>
+          <li>清楚的傳遞集團旗下的所有產品以及介紹，跨部門進行七個事業體的資訊整合</li>
         </div>
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
-          <li>從集團VI延伸，為網站定義新風格</li>
+          <li>由集團VI延伸，為網站定義新風格，並使其成為同業中的亮點</li>
         </div>
       </ul>
     </section>
@@ -184,21 +184,21 @@
             </div>
           </div>
           <ul class="text-md">
-            <div class="flex mb-8">
+            <div class="flex mb-24">
               <span class="mr-8">•</span>
               <li>
                 <span class="text-md-bold">各事業體介紹不清</span> -
                 各事業體介紹除了一小段文字敘述外，其餘都是外導連結，這除了會打斷使用者的操作也無法對內容深入瞭解。
               </li>
             </div>
-            <div class="flex mb-8">
+            <div class="flex mb-24">
               <span class="mr-8">•</span>
               <li>
                 <span class="text-md-bold">不良介面設計</span> -
                 網站中有元素在滑動時會固定在畫面上方，擋住內容的情形，在媒體報導頁更有一長串長達十年的時間軸虛滾動，導致使用者難以輕鬆瀏覽頁面。
               </li>
             </div>
-            <div class="flex mb-8">
+            <div class="flex mb-24">
               <span class="mr-8">•</span>
               <li>
                 <span class="text-md-bold">網站架構卻乏維護</span>-
@@ -239,13 +239,13 @@
             </div>
           </div>
           <p class="text-md">
-            在發想網站主視覺及頁面元素時緊扣著網站想傳達給使用者的三個核心要點「科技產業、領域專業、產品多元性」。一眼就能呈現給使用者產品多元性是我認為這次設計最大的考驗。
+            在與夥伴腦力激盪討論時我們拋出了以宇宙出發的想法，官網就像一個宇宙而使用者搭乘著火箭去探索每個事業體的星球，因工程師與參與討論當中所以網頁互動效果也在討論內，雖然在腦力激當時討論網頁互動有點早，不過這樣不設限的討論正是腦力激當有趣的地方。
           </p>   
         </div>
         <div  class="col-md-6 flex-center content-pl-48">
           <figure class="figure">
             <img
-              src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/brainstorming.png"
+              src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/official-web-brainstorming.png"
               class="figure-img img-fluid border-radius-4"
               alt="..."
             />
@@ -289,7 +289,7 @@
             <div class="row">
               <div class="col-md-6 content-pr-48 mb-48">
                 <p class="text-md">
-                  規劃出Wireframe並與需求端確認資訊呈現後，就可以上傳至雲端請各部門協助文案內容。因為牽涉到各部門的時程安排以及英日翻譯，所以Wireframe在設計端越早完成對於整個專案的排程也會更順利，使用的協作軟體是google
+                  規劃出Wireframe並與需求端確認資訊呈現後，就可以上傳至雲端請各部門協助文案內容。因為牽涉到各部門的時程安排以及英日翻譯，所以<span class="text-md-bold">Wireframe在設計端越早完成對於整個專案的排程也會更順利</span>，使用的協作軟體是google
                   sheet 。
                 </p>
               </div>
@@ -362,7 +362,7 @@
           <div class="thinking row mb-60">
             <div class="col-md-6 content-pr-48 bg-grey-darkest mb-48">
               <p class="text-md">
-                在發想網站主視覺及頁面元素時緊扣著網站想傳達給使用者的三個核心要點「科技產業、領域專業、產品多元性」。一眼就能呈現給使用者產品多元性是我認為這次設計最大的考驗。
+                在發想網站主視覺及頁面元素時緊扣著網站想傳達給使用者的三個核心要點<span class="text-md-bold">「科技產業、領域專業、產品多元性」</span>。一眼就能呈現給使用者產品多元性是我認為這次設計最大的考驗。
               </p>
             </div>
             <div class="col-md-6 content-pr-48">
@@ -498,7 +498,9 @@
             <div class="col-md-6 content-pr-48 mb-48">
               <p class="text-md">
                 此專案我使用Adobe
-                Xd來模擬視差滾動以及滾動連帶的過場動畫，prototype的視覺化能幫助設計師與工程師討論時可以快速對焦，若實作時辰上有困難也可以立刻討論作出相對應調整。
+                Xd來模擬視差滾動以及滾動連帶的過場動畫，Prototype的視覺化能幫助設計師與工程師討論時可以快速對焦，若實作時辰上有困難也可以立刻討論作出相對應調整。
+                <br>
+                💡 : 交付圖片給工程師時可以丟到TingPNG上壓縮，可以幫工程師減少一點工作量
               </p>
             </div>
             <div class="col-md-6 content-pl-48">
