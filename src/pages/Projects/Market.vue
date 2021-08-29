@@ -25,9 +25,9 @@
       </figure>
     </section>
     <section class="task container text-md">
-      <div class="product-introduce mb-80">
+      <div class="product-introduce">
         <h2 class="mb-16">產品介紹</h2>
-        <p class="text-md">
+        <p class="text-md mb-48">
           奧丁丁市集是一個專注於<span class="text-md-bold"
             >推廣在地商家與台灣小農的電商平台</span
           >，涵蓋上千項嚴選商品累計合作逾兩千名小農及中小型優質商家。
