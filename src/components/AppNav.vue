@@ -84,6 +84,7 @@
 import { reactive, ref, watch } from 'vue'
 import { UseWindowSize } from '@vueuse/components'
 import { useWindowSize } from '@vueuse/core'
+import { useRoute } from 'vue-router'
 
 const state = reactive({ count: 0 })
 const isDropDownOpen = ref(false)
@@ -101,6 +102,14 @@ watch(
     val && isMobile
       ? body.classList.add('is_locked')
       : body.classList.remove('is_locked')
+  }
+)
+
+const route = useRoute()
+watch(
+  ()  => route.path,
+  val => {
+    isDropDownOpen.value = false
   }
 )
 </script>
