@@ -232,7 +232,7 @@
           <figure class="figure">
             <img
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/user-journey_W.png"
-              class="figure-img img-fluid border-radius-4 shadow"
+              class="figure-img img-fluid border-radius-4 shadow-sm"
               alt="..."
             />
           </figure>
@@ -282,7 +282,7 @@
           <figure class="figure">
             <img
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/brainstorming.png"
-              class="figure-img img-fluid border-radius-4"
+              class="figure-img img-fluid border-radius-4 shadow-sm"
               alt="..."
             />
           </figure>

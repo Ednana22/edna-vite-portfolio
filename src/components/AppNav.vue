@@ -12,7 +12,7 @@
         <div v-if="width > mobileMenuEdgeSize" class="app-nav__actions">
           <ul>
             <li class="is-dropdown">
-              <span v-click-away="handleDropDownOutside" class="is-nav-link" @click="isDropDownOpen = !isDropDownOpen">
+              <span v-click-away="handleDropDownOutside" class="is-nav-link hover-effect mr-32" @click="isDropDownOpen = !isDropDownOpen">
                 設計專案
                 <i class="las" :class="isDropDownOpen ? 'la-angle-up' : 'la-angle-down'"></i>
                 <ul v-show="isDropDownOpen" class="is-dropdown__context">
@@ -29,7 +29,7 @@
               </span>
             </li>
             <li>
-              <router-link class="is-nav-link" :to="{ name: 'About' }">關於我</router-link>
+              <router-link class="is-nav-link hover-effect" :to="{ name: 'About' }">關於我</router-link>
             </li>
             <li>
               <!-- <router-link :to="{ name: 'About' }" tag="button">
@@ -119,17 +119,22 @@ $color_grey-dark: #25252e;
   background: #fff;
   background-color: rgba(255, 255, 255, 0.6);
   h4{
-    font-size: 16px;
-  }
+    font-size: 15px;
+  }       
   a, span{
-    font-size: 14px;
-    font-weight: 500;
-    &:hover{
-      background-color: rgba(0, 0, 0, 0.08);
-      border-radius: 8px;
+    @media (min-width: 576px) {     
+      font-size: 15px;
+      font-weight: 500;
     }
   }
-
+  .hover-effect{
+    &:hover{
+      @media (min-width: 576px) {        
+        background-color: rgba(0, 0, 0, 0.08);
+        border-radius: 8px;
+      }
+    }
+  }
   .is-nav-link {
     display: inline-block;
     padding: .5rem;
@@ -219,17 +224,21 @@ $color_grey-dark: #25252e;
           display: block;
           h4{
             padding: .8rem 0.4rem;
+            color: $color_grey-dark;
           }
         }
         &.sub_item {
           margin-bottom: 1rem;
           a {
             padding: .8rem 2rem;
+            color: $color_grey-dark;
           }
         }
       }
     }
   }
 }
-
+.mr-32{
+  margin-right: 32px;
+}
 </style>
