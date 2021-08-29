@@ -3,10 +3,10 @@
   <main class="project-pms">
     <section class="title container">
       <h1 class="mb-24">旅宿管理系統功能規劃</h1>
-      <p class="text-md line-height-sm mb-4">
+      <p class="text-md-bold line-height-sm mb-8">
         負責內容<span class="font-color-light"> | </span>UX研究、UI設計
       </p>
-      <p class="text-md line-height-sm mb-4">
+      <p class="text-md-bold line-height-sm mb-8">
         專案規模<span class="font-color-light"> | </span>跨二部門，約8人
       </p>
       <p class="text-md line-height-sm">

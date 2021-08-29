@@ -3,14 +3,14 @@
   <main class="project-market">
     <section class="title container">
       <h1 class="mb-24">奧丁丁市集平台改版</h1>
-      <p class="text-md line-height-sm mb-4">
+      <p class="text-md-bold line-height-sm mb-8">
         負責內容<span class="font-color-light"> | </span
         >品牌再造、網站重構、UX研究、UI設計、使用者測試
       </p>
-      <p class="text-md line-height-sm mb-4">
+      <p class="text-md-bold line-height-sm mb-8">
         專案規模<span class="font-color-light"> | </span>跨五部門，約15人
       </p>
-      <p class="text-md line-height-sm">
+      <p class="text-md-bold line-height-sm">
         專案角色<span class="font-color-light"> | </span>UI/UX deaigner
       </p>
     </section>
