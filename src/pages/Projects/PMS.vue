@@ -3,10 +3,10 @@
   <main class="project-pms">
     <section class="title container">
       <h1 class="mb-24">旅宿管理系統功能規劃</h1>
-      <p class="text-md-bold line-height-sm mb-8">
+      <p class="text-md line-height-sm mb-8">
         負責內容<span class="font-color-light"> | </span>UX研究、UI設計
       </p>
-      <p class="text-md-bold line-height-sm mb-8">
+      <p class="text-md line-height-sm mb-8">
         專案規模<span class="font-color-light"> | </span>跨二部門，約8人
       </p>
       <p class="text-md line-height-sm">
@@ -58,15 +58,15 @@
       <ul>
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
-          <li class="text-md-bold">參考宿業者的鋪價習慣進行新設定介面開發，達到更符合使用者期待的鋪價設定</li>
+          <li class="text-md">參考宿業者的鋪價習慣進行新設定介面開發，達到更符合使用者期待的鋪價設定</li>
         </div>
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
-          <li class="text-md-bold">依照現有使用者的反饋來優化現行介面，讓系統中新舊功能共存</li>
+          <li class="text-md">依照現有使用者的反饋來優化現行介面，讓系統中新舊功能共存</li>
         </div>
         <div class="flex">
           <span class="mr-8">‣</span>
-          <li class="text-md-bold">進行市調時發現市面上沒有任何一套系統支援針對國定假日鋪價，可將此通能列為獨家賣點</li>
+          <li class="text-md">進行市調時發現市面上沒有任何一套系統支援針對國定假日鋪價，可將此通能列為獨家賣點</li>
         </div>
       </ul>
     </section>

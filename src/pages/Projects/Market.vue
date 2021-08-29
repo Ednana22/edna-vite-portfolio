@@ -3,14 +3,14 @@
   <main class="project-market">
     <section class="title container">
       <h1 class="mb-24">奧丁丁市集平台改版</h1>
-      <p class="text-md-bold line-height-sm mb-8">
+      <p class="text-md line-height-sm mb-8">
         負責內容<span class="font-color-light"> | </span
         >品牌再造、網站重構、UX研究、UI設計、使用者測試
       </p>
-      <p class="text-md-bold line-height-sm mb-8">
+      <p class="text-md line-height-sm mb-8">
         專案規模<span class="font-color-light"> | </span>跨五部門，約15人
       </p>
-      <p class="text-md-bold line-height-sm">
+      <p class="text-md line-height-sm">
         專案角色<span class="font-color-light"> | </span>UI/UX deaigner
       </p>
     </section>
@@ -63,20 +63,20 @@
       <ul class="mb-48">
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
-          <li class="text-md-bold">
+          <li class="text-md">
             品牌再造進行跨部門合作
             (公關部、市集部、品牌形象部、視覺設計部、工程部)
           </li>
         </div>
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
-          <li class="text-md-bold">
+          <li class="text-md">
             重構一個響應式的電子商務網站，方便用戶瀏覽和購買，重構同時一定要考量現有用戶的使用者習慣
           </li>
         </div>
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
-          <li class="text-md-bold">以電商平台幫助在地優質小農推廣用心製造的產品</li>
+          <li class="text-md">以電商平台幫助在地優質小農推廣用心製造的產品</li>
         </div>
       </ul>
       <div class="height-light">

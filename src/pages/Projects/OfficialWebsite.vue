@@ -3,14 +3,14 @@
   <main class="project-official-website">
     <section class="title container">
       <h1 class="mb-24">奧丁丁集團官網重構</h1>
-      <p class="text-md-bold line-height-sm mb-8">
+      <p class="text-md line-height-sm mb-8">
         負責內容<span class="font-color-light"> | </span>UX研究、UI
         設計、重整網站架構
       </p>
-      <p class="text-md-bold line-height-sm mb-8">
+      <p class="text-md line-height-sm mb-8">
         專案規模<span class="font-color-light"> | </span>跨十三部門，約20人
       </p>
-      <p class="text-md-bold line-height-sm">
+      <p class="text-md line-height-sm">
         專案角色<span class="font-color-light"> | </span>UI/UX
         Designer、工程部門對外窗口
       </p>
@@ -57,15 +57,15 @@
       <ul>
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
-          <li class="text-md-bold">官方網站重構，由資訊架構開始整理，讓使用者能更快速的獲得資訊</li>
+          <li class="text-md">官方網站重構，由資訊架構開始整理，讓使用者能更快速的獲得資訊</li>
         </div>
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
-          <li class="text-md-bold">清楚的傳遞集團旗下的所有產品以及介紹，跨部門進行七個事業體的資訊整合</li>
+          <li class="text-md">清楚的傳遞集團旗下的所有產品以及介紹，跨部門進行七個事業體的資訊整合</li>
         </div>
         <div class="flex">
           <span class="mr-8">‣</span>
-          <li class="text-md-bold">由集團VI延伸，為網站定義新風格，並使其成為同業中的亮點</li>
+          <li class="text-md">由集團VI延伸，為網站定義新風格，並使其成為同業中的亮點</li>
         </div>
       </ul>
     </section>
