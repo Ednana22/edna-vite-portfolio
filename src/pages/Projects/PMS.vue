@@ -58,15 +58,15 @@
       <ul>
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
-          <li>參考宿業者的鋪價習慣進行新設定介面開發，達到更符合使用者期待的鋪價設定</li>
+          <li class="text-md-bold">參考宿業者的鋪價習慣進行新設定介面開發，達到更符合使用者期待的鋪價設定</li>
         </div>
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
-          <li>依照現有使用者的反饋來優化現行介面，讓系統中新舊功能共存</li>
+          <li class="text-md-bold">依照現有使用者的反饋來優化現行介面，讓系統中新舊功能共存</li>
         </div>
         <div class="flex">
           <span class="mr-8">‣</span>
-          <li>進行市調時發現市面上沒有任何一套系統支援針對國定假日鋪價，可將此通能列為獨家賣點</li>
+          <li class="text-md-bold">進行市調時發現市面上沒有任何一套系統支援針對國定假日鋪價，可將此通能列為獨家賣點</li>
         </div>
       </ul>
     </section>
@@ -136,7 +136,7 @@
           </div>
           <div class="analyze row mb-80">
             <div class="col-md-6 content-pr-48 mb-48">
-              <div class="text-md-bold mb-16">分析目前介面的鋪價步驟</div>
+              <div class="text-md-bold mb-16">I. 分析目前介面的鋪價步驟</div>
               <p class="text-md">
                 目前介面只能針對單一房型做單一專案的單一區間做鋪價，如有多房型多專案搭配的情況下鋪價步驟則會倍數增加，對使用者是很大的負擔。
               </p>
@@ -154,13 +154,13 @@
           </div>
           <div class="improve row mb-80">
             <div class="col-md-6 content-pr-48 mb-48">
-              <div class="text-md-bold mb-16">找出可優化的空間</div>
+              <div class="text-md-bold mb-16">II. 找出可優化的空間</div>
               <ul>
                 <div class="flex mb-24">
                   <span class="mr-8">•</span>
                   <li>
                     <span class="text-md-bold"> 省去重複步驟 - </span>
-                      由使用者的鋪價步驟可得知使用者大多是<span class="text-md-bold">由房型出發，再依照不同專案及區間調整房價</span>，串接平台價格通常會一致，如果可省去每次都重複的步驟(以不同顏色標註出重複步驟)，對使用者操作將會更友善。
+                      由使用者的鋪價步驟可得知使用者大多是<span class="text-md-bold">由房型出發，再依照不同專案及區間調整房價</span>，串接平台價格通常會一致，如果可省去每次都重複的步驟 ( 以不同顏色標註出重複步驟 ) ，對使用者操作將會更友善。
                   </li>
                 </div>
                 <div class="flex">
