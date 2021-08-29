@@ -1,5 +1,5 @@
 <template>
-  <main class="page-about">
+  <main class="page-about mt-0">
     <div class="banner">
       <figure class="figure col-12">
         <div class="pic"></div>
