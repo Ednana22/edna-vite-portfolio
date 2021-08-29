@@ -1,9 +1,9 @@
 import { createApp } from 'vue'
-import App from './App.vue'
-import Router from './router'
+import App from '../src/App.vue'
+import Router from '../src/router'
 import VueClickAway from "vue3-click-away"
 
-import './styles/main.scss'
+import '../src/styles/main.scss'
 
 const app = createApp(App)
 app
