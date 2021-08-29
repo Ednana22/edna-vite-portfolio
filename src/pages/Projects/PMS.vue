@@ -3,13 +3,13 @@
   <main class="project-pms">
     <section class="title container">
       <h1 class="mb-24">旅宿管理系統功能規劃</h1>
-      <p class="text-md mb-4">
+      <p class="text-md line-height-sm mb-4">
         負責內容<span class="font-color-light"> | </span>UX研究、UI設計
       </p>
-      <p class="text-md mb-4">
+      <p class="text-md line-height-sm mb-4">
         專案規模<span class="font-color-light"> | </span>跨二部門，約8人
       </p>
-      <p class="text-md mb-4">
+      <p class="text-md line-height-sm">
         專案角色<span class="font-color-light"> | </span>UI/UX Designer
       </p>
     </section>
@@ -32,7 +32,7 @@
       <div class="background">
         <h2 class="mb-16">專案背景</h2>
         <p class="">
-          因早期OwlNest系統客群是鎖定民宿業者，只做到單一房型單一專案的鋪價功能，近幾年隨著市場逐漸拓展，客群也從民宿業者增加至小型旅館業者再加上平台串接功能的開發，目前介面功能無法達到有效的鋪設價格及設定庫存，對使用者來說不僅費時也容易出錯。
+          因早期OwlNest系統客群是鎖定民宿業者，只做到單一房型單一專案的鋪價功能，近幾年隨著市場逐漸拓展，客群也從民宿業者增加至小型旅館業者再加上平台串接功能的開發，<span class="text-md-bold">目前介面功能無法達到有效的鋪設價格</span>，對使用者來說不僅費時也容易出錯。
         </p>
       </div>
     </section>
@@ -86,13 +86,13 @@
             我們訪談了奧丁丁旗下OwlStay旅宿團隊的鋪價習慣，及參考業務帶回來的旅宿業者反饋，得知使用者的鋪價習慣通常是先鋪設一年的平日、假日房價，再鋪設國定假日房價，有些國外旅客較多的旅宿業者甚至會參考鄰國的連假日期去制訂銷售價格。          </p>
         </div>
         <div class="col-md-6 content-pl-48 text-align-center">
-          <div class="text-sm plan_border mb-8">平日房價</div>
+          <div class="text-sm-bold plan_border mb-8">平日房價</div>
           <i class="las la-long-arrow-alt-down"></i>
-          <div class="text-sm plan_border mb-8 mt-8">假日房價</div>
+          <div class="text-sm-bold plan_border mb-8 mt-8">假日房價</div>
           <i class="las la-long-arrow-alt-down"></i>
-          <div class="text-sm plan_border mt-8">國定假日房價</div>
+          <div class="text-sm-bold plan_border mt-8">國定假日房價</div>
           <i class="las la-long-arrow-alt-down"></i>
-          <div class="text-sm plan_border mt-8">鄰國連假房價</div>
+          <div class="text-sm-bold plan_border mt-8">鄰國連假房價</div>
         </div>
       </div>
     </section>
