@@ -8,7 +8,7 @@ $grid-breakpoints: (
   xl: 1200px,
   xxl: 1400px
 );
-
+///SECTION///
 .container-hero {
   width: 100%;
   padding-right: 15px;
@@ -24,17 +24,75 @@ $grid-breakpoints: (
     max-width: 700px;
   }
 }
-  
-
+section {
+  @media (max-width: 2680px) {
+    padding: 80px 0px 80px 0px;
+  }
+  @media (max-width: 768px) {
+    padding: 80px 0px 80px 0px;
+  }
+  @media (max-width: 576px) {
+    padding: 60px 0x 60px 0px;
+  }
+}
+.kv-web{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media (max-width: 992px) {
+    display: none;
+  }
+  .memoji{
+    width: 140px;
+    position: relative;
+  }
+  .coffee{
+    position: absolute;  
+    width: 120px;
+    left: -140px;
+    bottom: 85px;
+  }
+  .work{
+    position: absolute;
+    width: 140px;
+    top: -70px;
+    left: -50px;
+  }      
+  .devices{
+    position: absolute;
+    width: 120px;
+    right: -100px;
+    top: -30px;
+  }    
+  .speak{
+    position: absolute;
+    width: 100px;
+    right: -130px;
+    bottom: 60px;
+  }   
+}
+.kv-mobile{
+  @media (min-width: 992px) {
+    display: none;
+  }
+  .figure{
+    margin-left: auto;
+    max-width: 400px;
+  }
+}
 ///文字設定///
 h1 {
   font-size: 18px;
   line-height: 2;
   font-weight: 400;
+  @media (max-width: 576px) {
+    font-size: 17px;
+  }
 }
 h2 {
   font-size: 60px;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik', roboto;
   font-weight: 300;
   @media (max-width: 992px) {
     font-size: 56px;
@@ -47,38 +105,10 @@ h3{
   font-size: 20px;
   font-weight: 700;
 }
-
-.text-md {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.8;
-  text-align: justify;
-  text-justify: auto;
-  @media (max-width: 576px) {
-    font-size: 15px;
-  }
-}
-.text-md-bold {
-  font-size: 16x;
-  font-weight: 600;
-  line-height: 1.8;
-  @media (max-width: 576px) {
-    font-size: 15px;
-  }    
-}
-.text-sm {
-  font-size: 14px;
-  font-weight: 400;
-}
-
-
 ///---PROTECT---
 .project {
   align-items: center;
 }
-
-
-
 ///--MARKET---
 .market-device-section {
   display: flex;
@@ -168,65 +198,3 @@ h3{
   background-repeat: no-repeat;
 }
 
-section {
-  @media (max-width: 2680px) {
-    padding: 80px 0px 80px 0px;
-  }
-  @media (max-width: 768px) {
-    padding: 80px 0px 80px 0px;
-  }
-  @media (max-width: 576px) {
-    padding: 60px 0x 60px 0px;
-  }
-}
-
-.kv-web{
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  @media (max-width: 992px) {
-    display: none;
-  }
-  .memoji{
-    width: 140px;
-    position: relative;
-  }
-  .coffee{
-    position: absolute;  
-    width: 120px;
-    left: -140px;
-    bottom: 85px;
-  }
-  .work{
-    position: absolute;
-    width: 140px;
-    top: -70px;
-    left: -50px;
-    
-  }      
-  .devices{
-    position: absolute;
-    width: 120px;
-    right: -100px;
-    top: -30px;
-  }    
-  .speak{
-    position: absolute;
-    width: 100px;
-    right: -130px;
-    bottom: 60px;
-  }   
-
-}
-.kv-mobile{
-  @media (min-width: 992px) {
-    display: none;
-  }
-  .figure{
-    margin-left: auto;
-    max-width: 400px;
-  }
-
-
-}
