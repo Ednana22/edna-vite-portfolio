@@ -44,13 +44,13 @@
         />
       </figure>
     </div>
-    <section id="step-1" class="1gold container">
+    <section id="step-1" class="1gold container text-md">
       <div class="project-title">
         <div class="title-group">
           <h4 class="mr-8">1</h4>
           <div class="">
             <h3 class="mb-6">目標</h3>
-            <h2>網站改版希望達成的目的</h2>
+            <h2>最網站改版希望達成的目的</h2>
           </div>
         </div>
       </div>
@@ -63,7 +63,7 @@
           <span class="mr-8">‣</span>
           <li>清楚的傳遞集團旗下的所有產品以及介紹，跨部門進行七個事業體的資訊整合</li>
         </div>
-        <div class="flex mb-8">
+        <div class="flex">
           <span class="mr-8">‣</span>
           <li>由集團VI延伸，為網站定義新風格，並使其成為同業中的亮點</li>
         </div>
@@ -239,7 +239,7 @@
             </div>
           </div>
           <p class="text-md">
-            在與夥伴腦力激盪討論時我們拋出了以宇宙出發的想法，官網就像一個宇宙而使用者搭乘著火箭去探索每個事業體的星球，因工程師與參與討論當中所以網頁互動效果也在討論內，雖然在腦力激當時討論網頁互動有點早，不過這樣不設限的討論正是腦力激當有趣的地方。
+            在與夥伴腦力激盪討論時我們拋出了以宇宙出發的想法，官網就像一個宇宙而使用者搭乘著火箭去探索每個事業體的星球，因工程師與參與討論當中所以網頁互動效果的實作可能性也在討論內，雖然在腦力激當時討論網頁互動有點早，不過這樣不設限的討論正是腦力激當有趣的地方。
           </p>   
         </div>
         <div  class="col-md-6 flex-center content-pl-48">
