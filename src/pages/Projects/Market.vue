@@ -35,13 +35,9 @@
         <h2 class="mb-16">專案背景</h2>
         <p class="">
           奧丁丁市集成立於2010年，當年食安問題層出不窮，舉凡塑化劑、防腐劑、香精牛奶到毒醬油，使消費者意識食安意識抬頭，也讓奧丁丁市集的「產地直送、有機蔬果」概念脫穎而出。<br />
-          然而近年許多有機生鮮電商崛起，奧丁丁市集<span class="text-md-bold"
-            >舊網站架構不支援響應式、頁面模式不符合使用者的瀏覽習慣、低效的瀏覽體驗也大程度的造成了低轉化率和高跳出率造成產品優勢不再。</span
-          ><br />
-          而公司內部業務經理則反映，當展示網站給潛在合作廠商時<span
-            class="text-md-bold"
-            >經常被質疑公司網站的可用性、安全性及工程團隊能力，這也導致內部人員對產品提不起信心。</span
-          >
+          然而近年許多有機生鮮電商崛起，奧丁丁市集<span class="text-md-bold">舊網站架構不支援響應式、頁面模式不符合使用者的瀏覽習慣、低效的瀏覽體驗也大程度的造成了低轉化率和高跳出率造成產品優勢不再。</span>
+          <br />
+          而公司內部業務經理則反映，當展示網站給潛在合作廠商時<span class="text-md-bold">經常被質疑公司網站的可用性、安全性及工程團隊能力</span>，這也導致內部人員對產品提不起信心。
         </p>
       </div>
     </section>
@@ -67,20 +63,20 @@
       <ul class="mb-48">
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
-          <li>
+          <li class="text-md-bold">
             品牌再造進行跨部門合作
             (公關部、市集部、品牌形象部、視覺設計部、工程部)
           </li>
         </div>
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
-          <li>
+          <li class="text-md-bold">
             重構一個響應式的電子商務網站，方便用戶瀏覽和購買，重構同時一定要考量現有用戶的使用者習慣
           </li>
         </div>
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
-          <li>以電商平台幫助在地優質小農推廣用心製造的產品</li>
+          <li class="text-md-bold">以電商平台幫助在地優質小農推廣用心製造的產品</li>
         </div>
       </ul>
       <div class="height-light">
@@ -222,7 +218,7 @@
         <div class="col-md-6 content-pr-48 mb-48">
           <p class="text-md-bold mb-16">II. 模擬使用者地圖</p>
           <p>
-            根據使用者訪談、研究結果以及網站用戶數據分析，我們分析使用者的行為以及相似性，並創建出與使用者輪廓相仿的人物誌。此角色幫助團隊在規劃產品時有更明確的方向，也因產生了同理心，團隊更重視使用者所遇到的問題。
+            根據使用者訪談、研究結果以及網站用戶數據分析，我們分析使用者的行為以及相似性，並創建出與使用者輪廓相仿的人物誌。此角色幫助團隊在規劃產品時有<span class="text-md-bold">更明確的方向也對使用者產生了同理心，</span>團隊更重視使用者所遇到的問題。
             從使用者地圖可得知使用者的購物流程，進而討論優化產品的方向來幫助用戶更順利的完成購物進而成為忠實客戶。
           </p>
         </div>
@@ -253,34 +249,27 @@
             <div class="flex mb-24">
               <span class="mr-8">•</span>
               <li>
-                <span class="text-md-bold">各事業體介紹不清</span> -
-                各事業體介紹除了一小段文字敘述外，其餘都是外導連結，這除了會打斷使用者的操作也無法對內容深入瞭解。
+                <span class="text-md-bold">網站只有手機版</span> -
+                依使用者數據分析得知有80%的使用者瀏覽裝置都是手機，因此最初的設計由手機版開始規劃是正確的方向，不過在網頁上只有手機版的呈現方式卻會造成不良的使用者體驗。
               </li>
             </div>
             <div class="flex mb-24">
               <span class="mr-8">•</span>
               <li>
-                <span class="text-md-bold">不良介面設計</span> -
-                網站中有元素在滑動時會固定在畫面上方，擋住內容的情形，在媒體報導頁更有一長串長達十年的時間軸虛滾動，導致使用者難以輕鬆瀏覽頁面。
+                <span class="text-md-bold">資訊過於複雜</span> -
+                消費者難以在第一時間找到商品資訊，過小的促銷文宣無法達到吸引目光的效果。
               </li>
             </div>
             <div class="flex mb-24">
               <span class="mr-8">•</span>
               <li>
-                <span class="text-md-bold">網站架構卻乏維護</span>-
-                因網站架構老舊且無後台可維護，因此無法頻繁的更新內容，導致使用者獲得的資訊錯誤或已過時。
+                <span class="text-md-bold">缺乏品牌精神</span>-
+                網站上放售的商品都經過嚴格把關，想給消費者最天然、友善且能幫助小農的優質選物，而網站設計與高品質商品難以呼應下很難讓消費者買單。
               </li>
             </div>
-            <div class="flex mb-8">
-              <span class="mr-8">•</span>
-              <li>
-                <span class="text-md-bold">卻乏一致性的設計規劃</span>-
-                頁面視覺過於凌亂，且與近年來集團
-                規劃的VI風格相差甚遠，導致品牌風格難以塑造。
-              </li>
-            </div>
-          </ul>        </div>
-        <div class="col-md-6 content-pl-48">
+          </ul> 
+        </div>
+        <div class="col-md-6 flex-center content-pl-48">
           <figure class="figure">
             <img
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/old-version.png"
@@ -303,9 +292,11 @@
               </div>
             </div>
           </div>
-          <p class="text-md">缺</p>
+          <p class="text-md">
+            品牌形象團隊、視覺設計團隊、市集團隊與UIUX團隊共同參與的腦力激盪會議中我們由品牌的初衷「以不變的心，做不變的事」來延伸品牌的風格調性以及商品照期望呈現風格，營造安心、在地、友善的質感選物電商。
+          </p>
         </div>
-        <div class="col-md-6 content-pl-48">
+        <div class="col-md-6 flex-center content-pl-48">
           <figure class="figure">
             <img
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/brainstorming.png"
@@ -602,18 +593,18 @@
         </div>
         <div class="text-md col-md-6 content-pr-48">
           <ul>
-            <div class="flex mb-8">
+            <div class="flex mb-24">
               <span class="mr-8">•</span>
               <li>
                 <span class="text-md-bold">挑戰突破框架 - </span>
-                就上述設計介面UI時遇到的Banner難題，當時聽到設計被打槍甚至說服CEO失敗其實非常慌亂，不過現在看來這一個任務不只讓我跳脫了慣性思考甚至學會運用更多資源來幫助自己梳理設計脈絡，成果也令使用者及同事非常滿意。
+                就設計過程中提到的Banner難題，當聽到設計被打槍甚至說服CEO失敗時其實非常慌亂，不過現在看來這一個任務不只讓我跳脫了慣性思考，甚至學會運用更多資源來幫助自己梳理設計脈絡，成果也令使用者及同事非常滿意。
               </li>
             </div>
-            <div class="flex mb-8">
+            <div class="flex">
               <span class="mr-8">•</span>
               <li>
                 <span class="text-md-bold">當自己是目標受眾時最有感 - </span>
-                奧丁丁市集是我自己非常喜歡平時也會使用的產品，從這次的品牌再造所營造的品牌調性到產品實作，最我來說都是非常寶貴的經驗，自己除了是設計者以外也是使用者，在角色切換時特別有感。看到整體業績提升以及真正有幫助到這塊土地上的農友時非常感動，好產品就是消費者、供應商、平台三贏的局面吧。
+                奧丁丁市集是我自己非常喜歡平時也會使用的產品，從這次的品牌再造所營造的品牌調性到產品實作，最我來說都是非常寶貴的經驗，自己除了是設計者以外也是使用者，在角色切換時特別有感。看到整體業績提升以及真正有幫助到這塊土地上的農友時非常感動。
               </li>
             </div>
           </ul>
