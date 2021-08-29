@@ -28,9 +28,7 @@
       <div class="product-introduce">
         <h2 class="mb-16">產品介紹</h2>
         <p class="text-md mb-48">
-          奧丁丁市集是一個專注於<span class="text-md-bold"
-            >推廣在地商家與台灣小農的電商平台</span
-          >，涵蓋上千項嚴選商品累計合作逾兩千名小農及中小型優質商家。
+          奧丁丁市集是一個專注於推廣在地商家與台灣小農的電商平台，涵蓋上千項嚴選商品累計合作逾兩千名小農及中小型優質商家。
         </p>
       </div>
       <div class="background">
@@ -225,7 +223,7 @@
           <p class="text-md-bold mb-16">II. 模擬使用者地圖</p>
           <p>
             根據使用者訪談、研究結果以及網站用戶數據分析，我們分析使用者的行為以及相似性，並創建出與使用者輪廓相仿的人物誌。此角色幫助團隊在規劃產品時有更明確的方向，也因產生了同理心，團隊更重視使用者所遇到的問題。
-            從使用者地圖可得知使用者面臨的購物情況，進而討論優化產品的方向來幫助用戶更順利的完成購物、優化體驗讓使用者成為我們的忠實客戶。
+            從使用者地圖可得知使用者的購物流程，進而討論優化產品的方向來幫助用戶更順利的完成購物進而成為忠實客戶。
           </p>
         </div>
         <div class="col-md-6 content-pl-48">
@@ -251,8 +249,37 @@
               </div>
             </div>
           </div>
-          <p class="text-md">缺</p>
-        </div>
+          <ul class="text-md">
+            <div class="flex mb-24">
+              <span class="mr-8">•</span>
+              <li>
+                <span class="text-md-bold">各事業體介紹不清</span> -
+                各事業體介紹除了一小段文字敘述外，其餘都是外導連結，這除了會打斷使用者的操作也無法對內容深入瞭解。
+              </li>
+            </div>
+            <div class="flex mb-24">
+              <span class="mr-8">•</span>
+              <li>
+                <span class="text-md-bold">不良介面設計</span> -
+                網站中有元素在滑動時會固定在畫面上方，擋住內容的情形，在媒體報導頁更有一長串長達十年的時間軸虛滾動，導致使用者難以輕鬆瀏覽頁面。
+              </li>
+            </div>
+            <div class="flex mb-24">
+              <span class="mr-8">•</span>
+              <li>
+                <span class="text-md-bold">網站架構卻乏維護</span>-
+                因網站架構老舊且無後台可維護，因此無法頻繁的更新內容，導致使用者獲得的資訊錯誤或已過時。
+              </li>
+            </div>
+            <div class="flex mb-8">
+              <span class="mr-8">•</span>
+              <li>
+                <span class="text-md-bold">卻乏一致性的設計規劃</span>-
+                頁面視覺過於凌亂，且與近年來集團
+                規劃的VI風格相差甚遠，導致品牌風格難以塑造。
+              </li>
+            </div>
+          </ul>        </div>
         <div class="col-md-6 content-pl-48">
           <figure class="figure">
             <img
@@ -310,7 +337,7 @@
             </p>
             <div class="row">
               <p class="text-md col-md-6 content-pr-48 mb-48">
-                在進行改版前UIUX設計師會先與工程團隊對焦使用者、業務端面臨的問題，工程團隊建議以頁面迭代的方式運行改版，因此新網站架構是以舊網站為骨架去翻新舊頁面、補強缺少的頁面。在下方資訊架構圖有橘色外框為新頁面，其餘皆為需要翻新的舊頁面，將各頁面標示出代號也在製作wireframe時方便與工程師討論。
+                在進行改版前UIUX設計師會先與工程團隊對焦使用者、業務端面臨的問題，<span class="text-md-bold">工程團隊建議以頁面迭代的方式運行改版</span>，因此新網站架構是以舊網站為骨架去翻新舊頁面、補強缺少的頁面。在下方資訊架構圖有亮色外框為新頁面，其餘皆為需要翻新的舊頁面，將各頁面標示出代號也在製作Wireframe時方便與工程師討論。
               </p>
               <figure class="figure col-md-6 content-pl-48">
                 <img
@@ -413,7 +440,9 @@
             <p class="text-md-bold col">IV. Prototype</p>
             <div class="row">
               <p class="text-md col-md-6 content-pr-48 mb-48">
-                使用Figma將元件都系統性的設定為component，使wireframe精緻化的過程迅速也方便討論後立即修改。邀請公司內部的市集使用者進行新版面任務測試，根據螢幕錄影及熱點分析再進行介面優化，聆聽反饋確保舊用戶在新介面中獲得高品質的使用者體驗。
+                邀請公司內部的市集使用者進行新版面任務測試，根據螢幕錄影及熱點分析再進行介面優化，<span class="text-md-bold">聆聽反饋確保舊用戶在新介面中獲得高品質的使用者體驗。</span>
+                <br />
+                使用Figma軟體將元件都系統性的設定為Component，使Wireframe精緻化的過程迅速也方便討論後立即修改。
               </p>
               <figure class="figure col-md-6 content-pl-48">
                 <img
@@ -523,7 +552,7 @@
             </div>
           </div>
           <p class="text-md mb-48">
-            新介面上線兩個月後我們進行網站追蹤系統分析，發現「限時活動banner區域」點閱率有顯著改善，也從熱點追蹤證實了堅持保留使用者習慣的分類列是正確的設計。其中我們還發現使用者看完「限時活動banner區域」通常會接著尋找第二熱門的「編輯嚴選」及「最新上架」而忽略了中間的「特選專區」秉持著使用者為中心的原則微調專區順序，再觀察數據後發現使用者的瀏覽動線更為順暢，且原本被忽略的專區也連帶提高了點擊率。
+            新介面上線兩個月後我們進行網站追蹤系統分析，發現「限時活動banner區域」點閱率有顯著改善，也從熱點追蹤證實了堅持保留使用者習慣的分類列是正確的設計。其中我們還發現使用者看完「限時活動banner區域」通常會接著尋找第二熱門的「編輯嚴選」及「最新上架」而忽略了中間的「特選專區」<span class="text-md-bold">秉持著使用者為中心的原則微調專區順序，</span>再觀察數據後發現使用者的瀏覽動線更為順暢，且原本被忽略的專區也連帶提高了點擊率。
           </p>
         </div>
         <figure class="figure col-md-6 content-pl-48 flex-center">
