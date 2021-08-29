@@ -86,7 +86,7 @@ h1 {
   font-size: 18px;
   line-height: 2;
   font-weight: 400;
-  font-family: 'Noto Sans TC','Roboto', sans-serif;    
+  font-family: sans-serif,'Roboto';    
   @media (max-width: 576px) {
     font-size: 17px;
   }
@@ -105,7 +105,7 @@ h2 {
 h3{
   font-size: 20px;
   font-weight: 600;
-  font-family: 'Noto Sans TC','Roboto', sans-serif;    
+  font-family: sans-serif,'Roboto';    
 }
 ///---PROTECT---
 .project {
