@@ -136,7 +136,7 @@
               UI設計<span class="font-color-lighter"> | </span>形象官網
             </div>
             <div class="text-md">
-              重構奧丁丁集團官網，將集團理念以及各事業體介紹更清楚的傳達給使用者。跨集團七個事業體進行資訊整合，並從集團VI延伸為網站定義風格。
+              重構集團官網，跨集團七個事業體進行資訊整合，將集團理念以及各事業體介紹更清楚的傳達給使用者。
             </div>
             <router-link class="btn btn-link" :to="{ name: 'ProjectWeb' }">
               瀏覽專案<i class="las la-long-arrow-alt-right"></i>
@@ -179,7 +179,7 @@
               B2B
             </div>
             <div class="text-md">
-              對於OwlNest旅宿管理系統的鋪價功能進行擴充以及優化，達成便捷快速及可彈性修改的目的。
+              對於OwlNest旅宿管理系統的鋪價功能進行開發以及優化，達成便捷快速及可彈性修改的目的。
             </div>
             <router-link class="btn btn-link" :to="{ name: 'ProjectPMS' }">
               瀏覽專案<i class="las la-long-arrow-alt-right"></i>
