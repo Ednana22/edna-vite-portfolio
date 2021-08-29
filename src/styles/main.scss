@@ -587,7 +587,7 @@ main {
 ///FONT STYLE
 h1 {
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 500;
     -webkit-font-smoothing: antialiased;
     font-family: 'Noto Sans TC','Roboto', sans-serif;    
     @media (max-width: 576px) {
@@ -596,7 +596,7 @@ h1 {
   }
   h2 {
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     margin: 0px;
     -webkit-font-smoothing: antialiased;
     font-family: 'Noto Sans TC','Roboto', sans-serif;    
@@ -606,7 +606,7 @@ h1 {
   }
   h3 {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     font-family: 'Noto Sans TC','Roboto', sans-serif;    
     -webkit-font-smoothing: antialiased;
   }
@@ -621,6 +621,7 @@ h1 {
   }
 .text-md {
     font-size: 16px;
+    font-weight: 300;
     line-height: 2.2;
     text-align: justify;
     text-justify: auto;
@@ -644,13 +645,13 @@ h1 {
 }
 .text-sm {
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 300;
     font-family: 'Noto Sans TC','Roboto', sans-serif;    
     -webkit-font-smoothing: antialiased;
 }
 .text-sm-bold {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     font-family: 'Noto Sans TC','Roboto', sans-serif;    
     -webkit-font-smoothing: antialiased;
 }
