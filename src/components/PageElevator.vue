@@ -38,7 +38,6 @@ export default {
     },
     markActivedAnchor (entries) {
       entries.map((entry) => {
-        console.log("🚀 ~ file: PageElevator.vue ~ line 42 ~ entries.map ~ entry.isIntersecting", entry)
         if (entry.isIntersecting) {
           this.activedAnchor = `#${entry.target.id}`
         // } else {
@@ -56,7 +55,6 @@ export default {
 
     this.anchors.forEach(anchor => {
       const target = document.querySelector(anchor.id)
-      console.log("🚀 ~ file: PageElevator.vue ~ line 58 ~ mounted ~ target", target)
       this.observer.observe(target)
     })
   },
