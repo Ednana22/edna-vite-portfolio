@@ -9,7 +9,6 @@ $grid-breakpoints: (
   xxl: 1400px
 );
 
-
 .plan_border {
   padding: 10px 16px;
   border: 1px solid $color_grey-light;
@@ -17,78 +16,5 @@ $grid-breakpoints: (
   width: 120px;
   text-align: center;
   margin: auto;
-}
-.border-circle {
-  padding: 20px;
-  border-radius: 100px;
-  border: 1px solid $color_grey-light;
-  width: 74px;
-  height: 74px;
-  background-color: $color_grey-darker;
-  z-index: 3;
-}
-
-
-///文字設定///
-@media (min-width: 0px) {
-  h1 {
-    font-size: 24px;
-    letter-spacing: 1.6px;
-  }
-  h2 {
-    font-size: 17px;
-    font-weight: 600;
-    margin: initial;
-  }
-  h3 {
-    font-size: 14px;
-    font-weight: 400;
-  }
-  h4 {
-    color: $color_blue-base;
-    font-size: 72px;
-    font-family: 'rubik';
-    font-weight: 300;
-    margin: initial;
-    line-height: initial;
-  }
-  .text-md {
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 1.8;
-    text-align: justify;
-    text-justify: auto;
-  }
-  .text-md-bold {
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 1.8;
-  }
-  .text-sm {
-    font-size: 14px;
-    font-weight: 400;
-  }
-}
-@media (min-width: 768px) {
-  h1 {
-    font-size: 28px;
-  }
-  h2 {
-    font-size: 18px;
-    font-weight: 600;
-  }
-  .text-md {
-    font-family: sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 2;
-  }
-  .text-md-bold {
-    font-family: sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 2;
-    font-weight: 600;
-  }
 }
 

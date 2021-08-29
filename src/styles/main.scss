@@ -588,6 +588,7 @@ main {
 h1 {
     font-size: 28px;
     font-weight: 600;
+    -webkit-font-smoothing: antialiased;
     @media (max-width: 576px) {
       font-size: 24px;
     }
@@ -596,6 +597,7 @@ h1 {
     font-size: 18px;
     font-weight: 600;
     margin: 0px;
+    -webkit-font-smoothing: antialiased;
     @media (max-width: 576px) {
       font-size: 17px;
     }
@@ -603,30 +605,37 @@ h1 {
   h3 {
     font-size: 14px;
     font-weight: 600;
+    font-family: 'sans-serif';    
+    -webkit-font-smoothing: antialiased;
   }
   h4{
     color: $color_blue-base;
     font-size: 72px;
+    -webkit-font-smoothing: antialiased;
     font-family: 'rubik';
     font-weight: 300;
     margin: 0;
     line-height: 1;
   }
-
 .text-md {
     font-size: 16px;
-    font-weight: 400;
-    line-height: 1.8;
+    line-height: 2.2;
     text-align: justify;
     text-justify: auto;
+    font-family: 'sans-serif';    
+    -webkit-font-smoothing: antialiased;    
     @media (max-width: 576px) {
         font-size: 15px;
     }
 }
 .text-md-bold {
     font-size: 16px;
+    line-height: 2.2;
     font-weight: 600;
-    line-height: 1.8;
+    text-align: justify;
+    text-justify: auto;    
+    font-family: 'sans-serif' ;    
+    -webkit-font-smoothing: antialiased;
     @media (max-width: 597px) {
         font-size: 15px;
     }
@@ -634,4 +643,15 @@ h1 {
 .text-sm {
     font-size: 14px;
     font-weight: 400;
+    font-family: 'sans-serif';    
+    -webkit-font-smoothing: antialiased;
+}
+.text-sm-bold {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'sans-serif';    
+    -webkit-font-smoothing: antialiased;
+}
+.line-height-sm {
+    line-height: 1.8;
 }

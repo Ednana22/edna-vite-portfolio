@@ -8,98 +8,6 @@ $grid-breakpoints: (
   xl: 1200px,
   xxl: 1400px
 );
-
-///文字設定///
-@media (min-width: 0px) {
-  h1 {
-    font-size: 24px;
-    letter-spacing: 1.6px;
-    font-weight: 400px;
-  }
-  h2 {
-    font-size: 17px;
-    font-weight: 600;
-    margin: initial;
-  }
-
-  .text-xxl {
-    @media (max-width: 2680px) {
-      font-size: 80px;
-      font-weight: 300;
-      font-family: 'rubik';
-      line-height: 1;
-    }
-    @media (max-width: 1440px) {
-      font-size: 64px;
-      font-weight: 300;
-      font-family: 'rubik';
-      line-height: 1;
-    }
-    @media (max-width: 576px) {
-      font-size: 48px;
-      font-weight: 300;
-      font-family: 'rubik';
-      line-height: 1;
-    }
-  }
-  .text-xl {
-    font-size: 48px;
-    font-weight: 300;
-    font-family: 'rubik';
-    line-height: 1;
-  }
-  .text-l {
-    font-size: 24px;
-    font-weight: 300;
-    font-family: 'rubik';
-    line-height: none;
-  }
-  .text-md {
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 1.8;
-    text-align: justify;
-    text-justify: auto;
-  }
-  .text-md-bold {
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 1.8;
-  }
-  .text-sm {
-    font-size: 14px;
-    font-weight: 400;
-  }
-  .text-sm-bold {
-    font-size: 14px;
-    font-weight: 600;
-  }  
-}
-@media (max-width: 2680px) {
-  h1 {
-    font-size: 28px;
-    font-weight: 400px !important;
-  }
-  h2 {
-    font-size: 18px;
-    font-weight: 600;
-  }
-  .text-md {
-    font-family: sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 2;
-  }
-  .text-md-bold {
-    font-family: sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 2;
-    font-weight: 600;
-  }
-}
-
-
 .mt-0{
   margin-top: 0px;
 }
@@ -111,6 +19,10 @@ $grid-breakpoints: (
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+h1{
+  font-family: 'Rubik', roboto;
 }
 
 .time_line-h {
@@ -128,7 +40,6 @@ $grid-breakpoints: (
       }
   }  
 }
-
 .time_line-v {
   @media (min-width:768px) {    
     display: none;
