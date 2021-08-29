@@ -81,7 +81,7 @@
           </div>
           <div class="col-lg-4">
             <h3>奧丁丁市集平台改版</h3>
-            <div class="text-md mb-24">
+            <div class="text-md-bold mb-24">
               品牌再造
               <span class="font-color-lighter"> | </span>
               網站重構
@@ -127,13 +127,11 @@
           </div>
           <div class="col-lg-4">
             <h3>奧丁丁集團官網重構</h3>
-            <div class="text-md mb-24">
-              網站重構<span class="font-color-lighter"> | </span> UX研究<span
-                class="font-color-lighter"
-              >
-                |
-              </span>
-              UI設計<span class="font-color-lighter"> | </span>形象官網
+            <div class="text-md-bold mb-24">
+              網站重構<span class="font-color-lighter"> | </span> 
+              UX研究<span class="font-color-lighter"> | </span>
+              UI設計<span class="font-color-lighter"> | </span>
+              形象官網
             </div>
             <div class="text-md">
               由網站架構至UI設計重構集團官網，跨集團七個事業體進行資訊整合，將集團理念及介紹更清楚的傳達給使用者。
@@ -170,13 +168,11 @@
           </div>
           <div class="col-lg-4">
             <h3>旅宿管理系統功能規劃</h3>
-            <div class="text-md mb-24">
-              UX研究<span class="font-color-lighter"> | </span> UI設計<span
-                class="font-color-lighter"
-              >
-                |
-              </span>
-              B2B
+            <div class="text-md-bold mb-24">
+              UX研究<span class="font-color-lighter"> | </span> 
+              UI設計<span class="font-color-lighter"> | </span>
+              B2B<span class="font-color-lighter"> | </span>
+              Saas
             </div>
             <div class="text-md">
               對於OwlNest旅宿管理系統的鋪價功能進行開發以及優化，達成便捷快速及可彈性修改定價為目標。
