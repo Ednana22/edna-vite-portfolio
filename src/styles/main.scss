@@ -587,9 +587,9 @@ main {
 ///FONT STYLE
 h1 {
     font-size: 28px;
-    font-weight: 500;
+    font-weight: 600;
     -webkit-font-smoothing: antialiased;
-    font-family: 'Noto Sans TC','Roboto', sans-serif;    
+    font-family: sans-serif,'Roboto';    
     @media (max-width: 576px) {
       font-size: 24px;
     }
