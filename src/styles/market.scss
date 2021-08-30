@@ -37,8 +37,6 @@ $grid-breakpoints: (
   font-family: 'rubik';
   line-height: 1;
 }
-
-
 .user-image-relative {
   position: relative;
 }
@@ -52,25 +50,35 @@ $grid-breakpoints: (
   border: 1px solid $color_grey-lighter;
   padding: 16px;
   border-radius: 8px;
+  animation: slideUp 1s ease-in;
+  // @for $i from 1 through 10 {
+  //   &:nth-child(#{$i}) .circle {
+  //   }
+    
+  //   &:nth-child(#{$i}) .text{
+  //     animation-delay: #{$animationTextDelay};
+  //   }
+  //   $animationTextDelay:  $animation-pause-time;
+  //   $animationCircleDelay: $animationTextDelay - $animation-pause-time;
+  // }    
 }
 .talk-dialog {
   padding: 4px 10px;
   border: 1px solid $color_grey-light;
   border-radius: 8px;
 }
-.user-journey-image {
-  @media (max-width: 2680px) {
 
-    .user-journey-mobile {
-      display: none;
-    }
+// $animation-duration: 500ms;
+// $animation-pause-time: 200ms;
+// $animationTextDelay: 0ms;
+
+@keyframes slideUp {
+  0%{
+      transform: translateY(30%);
+      opacity: 0;
   }
-  @media (max-width: 576px) {
-    .user-journey-web {
-      display: none;
-    }
-    .user-journey-mobile {
-      display: block;
-    }
+  100%{
+      transform: translateY(0);
+      opacity: 1;
   }
 }
