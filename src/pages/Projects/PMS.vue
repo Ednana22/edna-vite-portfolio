@@ -136,7 +136,7 @@
           </div>
           <div class="analyze row mb-80">
             <div class="col-md-6 content-pr-48 mb-48">
-              <div class="text-md-bold mb-16">I. 分析目前介面的鋪價步驟</div>
+              <h5 class="mb-16">I. 分析目前介面的鋪價步驟</h5>
               <p class="text-md">
                 目前介面只能針對單一房型做單一專案的單一區間做鋪價，如有多房型多專案搭配的情況下鋪價步驟則會倍數增加，對使用者是很大的負擔。
               </p>
@@ -154,7 +154,7 @@
           </div>
           <div class="improve row mb-80">
             <div class="col-md-6 content-pr-48 mb-48">
-              <div class="text-md-bold mb-16">II. 找出可優化的空間</div>
+              <h5 class="mb-16">II. 找出可優化的空間</h5>
               <ul>
                 <div class="flex mb-24">
                   <span class="mr-8">•</span>
@@ -185,7 +185,7 @@
           </div>
           <div class="soluction row">
             <div class="col-md-6 content-pr-48 mb-48">
-              <div class="text-md-bold mb-16">優化過後的鋪價步驟</div>
+              <h5 class="mb-16">III. 優化過後的鋪價步驟</h5>
               <p class="text-md">
                 規劃了可複選的房型或專案價格，再搭配區間做設定以最有效的方法進行鋪價，以上述例子而言<span class="text-md-bold">節省了4.5倍的操作。</span>
               </p>
@@ -217,7 +217,7 @@
         </div>
         <div class="1wireframe row content mb-80">
           <div class="col-md-6 content-pr-48 mb-48">
-            <p class="text-md-bold mb-16">I. Wireframe</p>
+            <h5 class="mb-16">I. Wireframe</h5>
             <p class="text-md">
               組員一同討論優化流程後，我就會將文字流程以Wireframe的方式呈現出來，與工程師做初步討論並快速修改。
             </p>
@@ -234,7 +234,7 @@
         </div>
         <div class="2mockup row content mb-80">
           <div class="col-md-6 content-pr-48 mb-48">
-            <p class="text-md-bold mb-16">II. UI Library & Mockup</p>
+            <h5 class="mb-16">II. UI Library & Mockup</h5>
             <p class="text-md">
               後台比起視覺更重視的是使用者完成任務的流程，<span class="text-md-bold">在規劃介面時為避免使用者的學習成本增加</span>，應該遵從既有的介面及流程，並依原有的介面原件快速做出Mockup與團隊討論。
             </p>
@@ -251,7 +251,7 @@
         </div>
         <div class="3prototype row content">
           <div class="col-md-6 content-pr-48 mb-48">
-            <p class="text-md-bold mb-16">III. Prototype</p>
+            <h5 class="mb-16">III. Prototype</h5>
             <p class="text-md">
               直接做出Prototype來給使用者測試可達到高擬真度且更可以看出使用者對畫面的操作流程以及互動。
             </p>
@@ -285,7 +285,7 @@
           </p>
         </div>
         <div class="col-md-9 mb-80">
-          <p class="text-md-bold mb-16">鋪設多專案</p>
+          <h5 class="mb-16">鋪設多專案</h5>
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/mutipul-plans-chose.png"
             class="figure-img img-fluid border-radius-16 shadow mb-16"
@@ -296,7 +296,7 @@
           </p>
         </div>
         <div class="col-md-9 mb-80 ml-auto">
-          <p class="text-md-bold mb-16">快速設定國定假日</p>
+          <h5 class="mb-16">快速設定國定假日</h5>
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/nationai-holiday.png"
             class="figure-img img-fluid border-radius-16 shadow mb-16"
@@ -307,7 +307,7 @@
           </p>
         </div>
         <div class="col-md-9">
-          <p class="text-md-bold mb-16">優化下拉月曆內容</p>
+          <h5 class="mb-16">優化下拉月曆內容</h5>
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/price_calendar.png"
             class="figure-img img-fluid border-radius-16 shadow mb-16"
