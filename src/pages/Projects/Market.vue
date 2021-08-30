@@ -647,7 +647,7 @@
                 alt="..."
               />
             </router-link>
-            <div class="text-md-bold mt-24">旅宿管理系統功能規劃</div>
+            <div class="text-md-bold mt-24">旅宿管理後台系統規劃</div>
             <div class="text-md">
               UX研究
               <span class="font-color-light"> | </span>
