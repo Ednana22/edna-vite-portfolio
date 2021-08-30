@@ -45,7 +45,7 @@
       <figure class="figure">
         <img
           src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/%E6%9E%9C%E8%BE%B2.png"
-          class="figure-img img-fluid"
+          class="figure-img img-fluid border-radius-4"
           alt="..."
         />
       </figure>
@@ -80,7 +80,7 @@
         </div>
       </ul>
       <div class="height-light">
-        <p class="text-md-bold mb-16">成果搶先看 👀</p>
+        <h5 class="mb-16">成果搶先看 👀</h5>
         <div class="highlight row">
           <div class="col-sm-4 new_user mb-24">
             <p class="text-xxl">
@@ -92,7 +92,7 @@
             <p class="text-xxl">
               81<span class="text-l">%</span>
             </p>
-            <p class="text-md-bold">工作平均長度增加</p>
+            <p class="text-md-bold">平均停留時間增加</p>
           </div>
           <div class="col-sm-4 bounce_rate">
             <p class="text-xxl">
@@ -114,8 +114,8 @@
         </div>
       </div>
       <div class="user-talk row content mb-80">
-        <div class="col-md-6 content-pr-48 mb-48">
-          <p class="text-md-bold mb-16">I. 使用者這樣說</p>
+        <div class="col-md-5 content-pr-48 mb-48">
+          <h5 class="mb-16">I. 使用者這樣說</h5>
           <p>
             訪談奧丁丁市集的不同層級的會員，使我們能夠瞭解不同用戶在<span
               class="text-md-bold"
@@ -127,7 +127,7 @@
             >
           </p>
         </div>
-        <div class="col-md-6 content-pl-48">
+        <div class="col-md-7 content-pl-48">
           <div class="talking-bobble mb-16">
             <div class="user-talk mb-8">
               從桌機打開是一整個長長的網頁感覺很奇怪，瀏覽的範圍很小，我都是直接搜尋需要的物品就結帳，很希望能在首頁有些商品的資訊。
@@ -215,14 +215,14 @@
         </div>
       </div>
       <div class="user-talk row content">
-        <div class="col-md-6 content-pr-48 mb-48">
-          <p class="text-md-bold mb-16">II. 模擬使用者地圖</p>
+        <div class="col-md-5 content-pr-48 mb-48">
+          <h5 class="mb-16">II. 模擬使用者地圖</h5>
           <p>
             根據使用者訪談、研究結果以及網站用戶數據分析，我們分析使用者的行為以及相似性，並創建出與使用者輪廓相仿的人物誌。此角色幫助團隊在規劃產品時有<span class="text-md-bold">更明確的方向也對使用者產生了同理心，</span>團隊更重視使用者所遇到的問題。
             從使用者地圖可得知使用者的購物流程，進而討論優化產品的方向來幫助用戶更順利的完成購物進而成為忠實客戶。
           </p>
         </div>
-        <div class="col-md-6 content-pl-48">
+        <div class="col-md-7 content-pl-48">
           <figure class="figure">
             <img
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/user-journey_W.png"
@@ -235,7 +235,7 @@
     </section>
     <section id="step-3" class="3define container text-md">
       <div class="row content">
-        <div class="col-md-6 content-pr-48">
+        <div class="col-md-5 content-pr-48">
           <div class="project-title">
             <div class="title-group">
               <h4 class="mr-8">3</h4>
@@ -269,7 +269,7 @@
             </div>
           </ul> 
         </div>
-        <div class="col-md-6 flex-center content-pl-48">
+        <div class="col-md-7 flex-center content-pl-48">
           <figure class="figure">
             <img
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/old-version.png"
@@ -280,9 +280,9 @@
         </div>
       </div>
     </section>
-    <section id="step-4" class="4brainstorming container text-md">
+    <section id="step-4" class="4brainstorming container text-md mb-60">
       <div class="row content">
-        <div class="col-md-6 content-pr-48">
+        <div class="col-md-5 content-pr-48">
           <div class="project-title">
             <div class="title-group">
               <h4 class="mr-8">4</h4>
@@ -296,7 +296,7 @@
             品牌形象團隊、視覺設計團隊、市集團隊與UIUX團隊共同參與的腦力激盪會議中我們由品牌的初衷「以不變的心，做不變的事」來延伸品牌的風格調性以及商品照期望呈現風格，營造安心、在地、友善的質感選物電商。
           </p>
         </div>
-        <div class="col-md-6 flex-center content-pl-48">
+        <div class="col-md-7 flex-center content-pl-48">
           <figure class="figure">
             <img
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/brainstorming.png"
@@ -323,14 +323,14 @@
             </div>
           </div>
           <div class="1ia content mb-80">
-            <p class="text-md-bold col-md-6 mb-16">
+            <h5 class="col-md-5 mb-16">
               I. 資訊架構
-            </p>
+            </h5>
             <div class="row">
-              <p class="text-md col-md-6 content-pr-48 mb-48">
+              <p class="text-md col-md-5 content-pr-48 mb-48">
                 在進行改版前UIUX設計師會先與工程團隊對焦使用者、業務端面臨的問題，<span class="text-md-bold">工程團隊建議以頁面迭代的方式運行改版</span>，因此新網站架構是以舊網站為骨架去翻新舊頁面、補強缺少的頁面。在下方資訊架構圖有亮色外框為新頁面，其餘皆為需要翻新的舊頁面，將各頁面標示出代號也在製作Wireframe時方便與工程師討論。
               </p>
-              <figure class="figure col-md-6 content-pl-48">
+              <figure class="figure col-md-7 content-pl-48">
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/ia.png"
                   class="figure-img img-fluid"
@@ -340,7 +340,7 @@
             </div>
           </div>
           <div class="2wireframe content mb-80">
-            <p class="text-md-bold col-md-6 mb-16">II. Wireframe</p>
+            <h5 class="col-md-5 mb-16">II. Wireframe</h5>
             <div class="user-talk text-align-left flex-center flex-start mb-8">
               <div class="memoji text-align-center">
                 <img
@@ -350,7 +350,9 @@
                   width="60px "
                 />
               </div>
-              <div class="talk-dialog ml-8">首頁不要Banner！</div>
+              <div class="talk-dialog ml-8">
+                首頁不要Banner！
+              </div>
             </div>
             <div class="user-talk text-align-left flex-center flex-start mb-24">
               <div class="memoji text-align-center">
@@ -366,12 +368,12 @@
               </div>
             </div>
             <div class="row">
-              <p class="col-md-6 text-md content-pr-48 mb-48">
+              <p class="col-md-5 text-md content-pr-48 mb-48">
                 上述是我在做Ｗireframe時遇到的情境，CEO提出了與以往我們習慣的電商完全背離的需求，從討論中得知CEO認為巨大的輪播Banner浪費了最精華的頁面且轉換率差。為了佐證CEO的論點，我請負責行銷的同仁幫忙整理先前輪播Banner的點擊率以及熱點分布圖，得知除了前兩張Banner點擊率略高以外之後的點擊率都非常低，也查到NNGroup文獻指出對Carousel
                 Design有效性的質疑。
                 在嘗試了幾種非輪播版型的設計後內部一致認同現在採用的版型，也跨部門的達成不要給使用者過多的促銷資訊，最多四張Banner的共識。
               </p>
-              <div class="col-md-6 content-pl-48">
+              <div class="col-md-7 content-pl-48">
                 <div class="mb-16">
                   <div class="flex">
                     <div class="col mr-8">
@@ -412,13 +414,13 @@
             </div>
           </div>
           <div class="3ui-kit content mb-80">
-            <p class="text-md-bold col-md-6 mb-16">III. UI Kit</p>
+            <h5 class="col-md-5 mb-16">III. UI Kit</h5>
             <div class="row">
-              <p class="text-md col-md-6 content-pr-48 mb-48">
+              <p class="text-md col-md-5 content-pr-48 mb-48">
                 做使用者研究調查的同時我也與品牌形象部、公關部、視覺設計部進行跨部門合作，定義品牌再造風格並以之延伸介面元件。一定要將最終確定的UI
                 kit元件及狀態分享給工程師，這可以幫助工程端在製作component時方便很多，也可減少來回的微互動修改。
               </p>
-              <figure class="figure col-md-6 content-pl-48">
+              <figure class="figure col-md-7 content-pl-48">
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/UI+kit.png"
                   class="figure-img img-fluid"
@@ -427,15 +429,15 @@
               </figure>
             </div>
           </div>
-          <div class="4prototpye content">
-            <p class="text-md-bold col">IV. Prototype</p>
+          <div class="4prototpye content mb-80">
+            <h5 class="mb-16">IV. Prototype</h5>
             <div class="row">
-              <p class="text-md col-md-6 content-pr-48 mb-48">
+              <p class="text-md col-md-5 content-pr-48 mb-48">
                 邀請公司內部的市集使用者進行新版面任務測試，根據螢幕錄影及熱點分析再進行介面優化，<span class="text-md-bold">聆聽反饋確保舊用戶在新介面中獲得高品質的使用者體驗。</span>
                 <br />
                 使用Figma軟體將元件都系統性的設定為Component，使Wireframe精緻化的過程迅速也方便討論後立即修改。
               </p>
-              <figure class="figure col-md-6 content-pl-48">
+              <figure class="figure col-md-7 content-pl-48">
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/prototype.gif"
                   class="figure-img img-fluid border-radius-4"
@@ -463,10 +465,10 @@
             </div>
           </div>
           <div class="row">
-            <p class="text-md col-md-6 content-pr-48 mb-48">
+            <p class="text-md col-md-5 content-pr-48 mb-48">
               此次改版計畫是以頁面分階段迭代方式進行，由數據顯示使用者接觸最多的首頁以及能將網站架構補齊的分類頁為第一階段上線，而設計永遠都要比工程端開發早規劃並在Prototype測試時就進行優化。
             </p>
-            <div class="highlight col-md-6 content-pl-48 mb-80">
+            <div class="highlight col-md-7 content-pl-48 mb-80">
               <div class="row">
                 <div class="col-sm-6 new_user mb-48">
                   <p class="text-xl">230<span class="text-l">%</span></p>
@@ -485,7 +487,7 @@
           </div>
         </div>
         <div class="col-md-9 mb-80">
-          <p class="text-md-bold mb-16">首頁瀏覽</p>
+          <h5 class="mb-16">首頁瀏覽</h5>
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/mockup-homepage.gif"
             class="figure-img img-fluid border-radius-16 shadow mb-16"
@@ -496,7 +498,7 @@
           </p>
         </div>
         <div class="col-md-9 mb-80 ml-auto">
-          <p class="text-md-bold mb-16">Navbar產品分類</p>
+          <h5 class="mb-16">Navbar產品分類</h5>
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/mockup-homepage.png"
             class="figure-img img-fluid border-radius-16 shadow mb-16"
@@ -507,7 +509,7 @@
           </p>
         </div>
         <div class="col-md-9 mb-80">
-          <p class="text-md-bold mb-16">分類頁瀏覽</p>
+          <h5 class="mb-16">分類頁瀏覽</h5>
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/mockup-category.gif"
             class="figure-img img-fluid border-radius-16 shadow mb-16"
@@ -518,7 +520,7 @@
           </p>
         </div>
         <div class="col-md-9 ml-auto">
-          <p class="text-md-bold mb-16">404頁面</p>
+          <h5 class="mb-16">404頁面</h5>
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/mockup-404.png"
             class="figure-img img-fluid border-radius-16 shadow mb-16"
@@ -532,7 +534,7 @@
     </section>
     <section id="step-7" class="7iterate container text-md mt-60">
       <div class="row content">
-        <div class="col-md-6 content-pr-48">
+        <div class="col-md-5 content-pr-48">
           <div class="project-title col">
             <div class="title-group">
               <h4 class="mr-8">7</h4>
@@ -546,7 +548,7 @@
             新介面上線兩個月後我們進行網站追蹤系統分析，發現「限時活動banner區域」點閱率有顯著改善，也從熱點追蹤證實了堅持保留使用者習慣的分類列是正確的設計。其中我們還發現使用者看完「限時活動banner區域」通常會接著尋找第二熱門的「編輯嚴選」及「最新上架」而忽略了中間的「特選專區」<span class="text-md-bold">秉持著使用者為中心的原則微調專區順序，</span>再觀察數據後發現使用者的瀏覽動線更為順暢，且原本被忽略的專區也連帶提高了點擊率。
           </p>
         </div>
-        <figure class="figure col-md-6 content-pl-48 flex-center">
+        <figure class="figure col-md-7 content-pl-48 flex-center">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/heat-map.png"
             class="figure-img img-fluid"
@@ -557,7 +559,7 @@
     </section>
     <section id="step-8" class="8app container text-md">
       <div class="row content">
-        <div class="col-md-6 content-pr-48">
+        <div class="col-md-5 content-pr-48">
           <div class="project-title col">
             <div class="title-group">
               <h4 class="mr-8">8</h4>
@@ -571,7 +573,7 @@
             奧丁丁市集APP是由於2021年5月台灣COVID-19疫情升溫而催產出來的，將不改既有使用者操作行為為目標，以網站的基本架構做Flutter雙平台的開發，開發時也特別規劃了APP獨有的短影片宣傳功能。
           </p>
         </div>
-        <figure class="figure col-md-6 content-pl-48">
+        <figure class="figure col-md-7 content-pl-48">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/market-app.png"
             class="figure-img img-fluid border-radius-4 shadow-sm"
@@ -591,7 +593,7 @@
             </div>
           </div>
         </div>
-        <div class="text-md col-md-6 content-pr-48">
+        <div class="text-md col-md-5 content-pr-48">
           <ul>
             <div class="flex mb-24">
               <span class="mr-8">•</span>
