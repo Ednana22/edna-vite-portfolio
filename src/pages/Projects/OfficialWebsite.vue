@@ -266,7 +266,7 @@
             </div>
           </div>
           <div class="ia content mb-80">
-            <p class="text-md-bold row mb-16">I. 資訊架構</p>
+            <h5 class="mb-16">I. 資訊架構</h5>
             <div class="row">
               <div class="col-md-6 content-pr-48 mb-48">
                 <p class="text-md">
@@ -285,7 +285,7 @@
             </div>
           </div>
           <div class="wireframe content mb-80">
-            <p class="text-md-bold row mb-16">II. Wireframe</p>
+            <h5 class="mb-16">II. Wireframe</h5>
             <div class="row">
               <div class="col-md-6 content-pr-48 mb-48">
                 <p class="text-md">
@@ -307,7 +307,7 @@
         </div>
         <div class="element row content mb-80">
           <div class="col-md-6 content-pr-48 mb-48">
-            <p class="text-md-bold mb-16">III. 搜集現有元素延伸</p>
+            <h5 class="mb-16">III. 搜集現有元素延伸</h5>
             <p class="text-md">
               由集團現有元素中以貫穿集團及七個事業體的貓頭鷹及VI科技藍光譜為發想，由藍色光譜可延伸出的科技感幫助我進一步探索官網的視覺意象。
             </p>
@@ -358,7 +358,7 @@
           </div>
         </div>
         <div class="design content mb-80">
-              <p class="text-md-bold mb-16">IV. 發想網站視覺</p>
+              <h5 class="mb-16">IV. 發想網站視覺</h5>
           <div class="thinking row mb-60">
             <div class="col-md-6 content-pr-48 bg-grey-darkest mb-48">
               <p class="text-md">
@@ -466,7 +466,7 @@
         </div>
         <div class="iterate row content mb-80">
           <div class="col-md-6 content-pr-48 mb-48">
-            <p class="text-md-bold mb-16">VI. 設計迭代</p>
+            <h5 class="mb-16">VI. 設計迭代</h5>
             <p class="text-md">
               設計迭代沒有絕對的「完美」，以合適的設計傳達集團信念給使用者就算達到迭代目的。與集團高層討論過後認為暗色宇宙系列雖然搶眼也吸睛，但缺少科技產業的簡潔、專業感，因此使用一個迭代將來修正上述問題。
             </p>
@@ -493,7 +493,7 @@
           </div>
         </div>
         <div class="prototype content mb-80">
-          <p class="text-md-bold row mb-16">VII. Prototype 交付予工程師</p>
+          <h5 class="mb-16">VII. Prototype 交付予工程師</h5>
           <div class="row">
             <div class="col-md-6 content-pr-48 mb-48">
               <p class="text-md">
@@ -515,7 +515,7 @@
           </div>
         </div>
         <div class="debug content">
-              <p class="text-md-bold mb-16">VIII. 協助工程師抓除錯</p>
+          <h5 class="mb-16">VIII. 協助工程師抓除錯</h5>
           <div class="row">
             <div class="col-md-6 content-pr-48 mb-48">
               <p class="text-md">
@@ -550,7 +550,7 @@
             </div>
           </div>
           <div class="col-md-9 mb-80">
-            <p class="text-md-bold mb-16">首頁主視覺</p>
+            <h5 class="mb-16">首頁主視覺</h5>
             <img
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/mockup-banner.gif"
               class="figure-img img-fluid border-radius-16 shadow"
@@ -561,7 +561,7 @@
             </p>
           </div>
           <div class="col-md-9 ml-auto mb-80">
-            <p class="text-md-bold mb-16">產品輪播簡介</p>
+            <h5 class="mb-16">產品輪播簡介</h5>
             <img
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/mockup-carousel.gif"
               class="figure-img img-fluid border-radius-16 shadow"
@@ -572,7 +572,7 @@
             </p>
           </div>
           <div class="col-md-9">
-            <p class="text-md-bold mb-16">動態據點呈現</p>
+            <h5 class="mb-16">動態據點呈現</h5>
             <img
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/mockup-global.gif"
               class="figure-img img-fluid border-radius-16 shadow"
