@@ -167,7 +167,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <h3>旅宿管理系統功能規劃</h3>
+            <h3>旅宿管理系統規劃</h3>
             <div class="text-md-bold mb-24">
               UX研究<span class="font-color-lighter"> | </span> 
               UI設計<span class="font-color-lighter"> | </span>
