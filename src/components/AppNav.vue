@@ -23,7 +23,7 @@
                     <router-link :to="{ name: 'ProjectWeb' }">奧丁丁集團官網重構</router-link>
                   </li>
                   <li>
-                    <router-link :to="{ name: 'ProjectPMS' }">旅宿管理後台系統</router-link>
+                    <router-link :to="{ name: 'ProjectPMS' }">旅宿管理系統規劃</router-link>
                   </li>
                 </ul>
               </span>
@@ -63,7 +63,7 @@
                     <router-link :to="{ name: 'ProjectWeb' }">奧丁丁集團官網重構</router-link>
                   </li>
                   <li>
-                    <router-link :to="{ name: 'ProjectPMS' }">旅宿管理系統功能規劃</router-link>
+                    <router-link :to="{ name: 'ProjectPMS' }">旅宿管理系統規劃</router-link>
                   </li>
                 </ul>
               </li>
