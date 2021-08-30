@@ -3,11 +3,12 @@
     <section class="hero border-bottom">
       <div class="container-hero">
         <div class="row hero">
-          <div class="col-md-6  mb-56">
+          <div class="col-md-6 mb-56">
             <h2 class="mb-32">
-              Hello! 👋
-              <br />
-              I'm Edna Wei
+              <span class="reveal">Hello! 
+                <span class="wave-hand">👋🏻</span>
+              </span>  
+              <span class="reveal">I'm Edna Wei</span>  
             </h2>
             <h1>
               我是一名在科技業的UI/UX
