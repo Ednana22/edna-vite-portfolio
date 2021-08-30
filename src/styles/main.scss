@@ -510,7 +510,7 @@ p {
 a {
   text-decoration: none;
   color: $color_grey-base;
-  font-weight: 600;
+  font-weight: 400;
   &:hover {
     color: $color_grey-base;
     text-decoration: underline;
@@ -672,3 +672,4 @@ h1 {
 .line-height-sm {
     line-height: 1.8;
 }
+
