@@ -641,13 +641,15 @@
                 alt="..."
               />
             </router-link>
-            <div class="text-md-bold mt-24">旅宿管理系統功能規劃</div>
+            <div class="text-md-bold mt-24">旅宿管理系統規劃</div>
             <div class="text-md">
               UX研究
               <span class="font-color-light"> | </span>
               UI設計
               <span class="font-color-light"> | </span>
               B2B
+              <span class="font-color-light"> | </span>
+              Saas              
             </div>
             <router-link class="btn btn-link" :to="{ name: 'ProjectWeb' }">
               瀏覽專案<i class="las la-long-arrow-alt-right"></i>
