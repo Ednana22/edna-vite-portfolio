@@ -418,7 +418,7 @@ p {
 .title-group {
   display: flex;
   align-items: center;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .content-pl-48 {
@@ -612,12 +612,26 @@ h1 {
   }
   h4{
     color: $color_blue-base;
-    font-size: 72px;
+    font-size: 74px;
     -webkit-font-smoothing: antialiased;
     font-family: 'rubik';
     font-weight: 300;
     margin: 0;
     line-height: 1;
+    @media (max-width: 576px) {
+        font-size: 72px;
+      }    
+  }
+  h5{
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0px;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+    font-family: sans-serif,'Roboto';    
+    @media (max-width: 576px) {
+      font-size: 16px;
+    }
   }
 .text-md {
     font-size: 16px;
