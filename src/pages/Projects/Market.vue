@@ -293,7 +293,7 @@
             </div>
           </div>
           <p class="text-md">
-            品牌形象團隊、視覺設計團隊、市集團隊與UIUX團隊共同參與的腦力激盪會議中我們由品牌的初衷「以不變的心，做不變的事」來延伸品牌的風格調性以及商品照期望呈現風格，營造安心、在地、友善的質感選物電商。
+            參與與品牌形象團隊、視覺設計團隊、市集團隊共同的腦力激盪會議，我們<span class="text-md-bold">由品牌的初衷「以不變的心，做不變的事」來延伸品牌的風格調性</span>其中也包含了商品照期望呈現風格，營造安心、在地、友善的質感選物電商。
           </p>
         </div>
         <div class="col-md-7 flex-center content-pl-48">
@@ -369,9 +369,8 @@
             </div>
             <div class="row">
               <p class="col-md-5 text-md content-pr-48 mb-48">
-                上述是我在做Ｗireframe時遇到的情境，CEO提出了與以往我們習慣的電商完全背離的需求，從討論中得知CEO認為巨大的輪播Banner浪費了最精華的頁面且轉換率差。為了佐證CEO的論點，我請負責行銷的同仁幫忙整理先前輪播Banner的點擊率以及熱點分布圖，得知除了前兩張Banner點擊率略高以外之後的點擊率都非常低，也查到NNGroup文獻指出對Carousel
-                Design有效性的質疑。
-                在嘗試了幾種非輪播版型的設計後內部一致認同現在採用的版型，也跨部門的達成不要給使用者過多的促銷資訊，最多四張Banner的共識。
+                上述是我在做Ｗireframe時遇到的情境，<span class="text-md-bold">CEO提出了與以往我們習慣的電商完全背離的需求</span>，從討論中得知CEO認為巨大的輪播Banner浪費了最精華的頁面且轉換率差。為了佐證CEO的論點，我請負責行銷的同仁幫忙整理先前輪播Banner的點擊率以及熱點分布圖，得知除了前兩張Banner點擊率略高以外之後的點擊率都非常低，也查到NNGroup文獻指出對Carousel
+                Design有效性的質疑，<span class="text-md-bold">在嘗試了幾種非輪播版型的設計後內部一致認同現在採用四格輪替的版型</span>，也跨部門的達成不要給使用者過多促銷資訊的共識。
               </p>
               <div class="col-md-7 content-pl-48">
                 <div class="mb-16">
@@ -417,8 +416,8 @@
             <h5 class="col-md-5 mb-16">III. UI Kit</h5>
             <div class="row">
               <p class="text-md col-md-5 content-pr-48 mb-48">
-                做使用者研究調查的同時我也與品牌形象部、公關部、視覺設計部進行跨部門合作，定義品牌再造風格並以之延伸介面元件。一定要將最終確定的UI
-                kit元件及狀態分享給工程師，這可以幫助工程端在製作component時方便很多，也可減少來回的微互動修改。
+                經由腦力激盪會議過後夥伴們一同定義品牌再造的風格，我以之延伸並定義了介面元件。
+                一定要將最終確定的UI Kit元件及狀態分享給工程師，這可以幫助工程端在製作Component時方便很多，也可減少來回的微互動修改。
               </p>
               <figure class="figure col-md-7 content-pl-48">
                 <img
@@ -466,7 +465,7 @@
           </div>
           <div class="row">
             <p class="text-md col-md-5 content-pr-48 mb-48">
-              此次改版計畫是以頁面分階段迭代方式進行，由數據顯示使用者接觸最多的首頁以及能將網站架構補齊的分類頁為第一階段上線，而設計永遠都要比工程端開發早規劃並在Prototype測試時就進行優化。
+              此次改版計畫是以頁面分階段迭代方式進行，<span class="text-md-bold">由數據顯示使用者接觸最多的首頁以及能將網站架構補齊的分類頁為第一階段上線</span>，而設計永遠都要比工程端開發早規劃並在Prototype測試時就進行優化。
             </p>
             <div class="highlight col-md-7 content-pl-48 mb-80">
               <div class="row">
