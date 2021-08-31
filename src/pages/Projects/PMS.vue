@@ -40,7 +40,7 @@
       <figure class="figure">
         <img
           src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/hote_+front_desk+.png"
-          class="figure-img img-fluid"
+          class="figure-img img-fluid border-radius-4"
           alt="..."
         />
       </figure>
@@ -72,7 +72,7 @@
     </section>
     <section id="step-2" class="2understand container text-md">
       <div class="row content mt-16 mb-16">
-        <div class="col-md-6 content-pr-48 mb-48">
+        <div class="col-md-5 content-pr-48 mb-48">
           <div class="project-title">
             <div class="title-group">
               <h4 class="mr-8">2</h4>
@@ -85,7 +85,7 @@
           <p class="text-md">
             我們訪談了奧丁丁旗下OwlStay旅宿團隊的鋪價習慣，及參考業務帶回來的旅宿業者反饋，得知使用者的鋪價習慣通常是先鋪設一年的平日、假日房價，再鋪設國定假日房價，有些國外旅客較多的旅宿業者甚至會參考鄰國的連假日期去制訂銷售價格。          </p>
         </div>
-        <div class="col-md-6 content-pl-48 text-align-center">
+        <div class="col-md-7 content-pl-48 text-align-center">
           <div class="text-sm-bold plan_border mb-8">平日房價</div>
           <i class="las la-long-arrow-alt-down"></i>
           <div class="text-sm-bold plan_border mb-8 mt-8">假日房價</div>
@@ -98,7 +98,7 @@
     </section>
     <section id="step-3" class="3define container text-md">
       <div class="row content mt-16 mb-16">
-        <div class="col-md-6 content-pr-48 mb-48">
+        <div class="col-md-5 content-pr-48 mb-48">
           <div class="project-title">
             <div class="title-group">
               <h4 class="mr-8">3</h4>
@@ -111,7 +111,7 @@
           <p class="text-md">
             使用者們最常反應的就是目前介面在鋪設<span class="text-md-bold">長區間且多時段的房價時只能一項一項去設定</span>，操作繁雜且重複性高的操作也容易造成鋪價錯誤的情況，先前就有旅宿業者沒有設定到連假價格而造成虧損的問題。          </p>
         </div>
-        <div class="col-md-6 content-pl-48">
+        <div class="col-md-7 content-pl-48">
           <figure class="figure border-thin border-radius-4">
             <img
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/painpoint.gif"
@@ -135,25 +135,25 @@
             </div>
           </div>
           <div class="analyze row mb-80">
-            <div class="col-md-6 content-pr-48 mb-48">
+            <div class="col-md-5 content-pr-48 mb-48">
               <h5 class="mb-16">I. 分析目前介面的鋪價步驟</h5>
               <p class="text-md">
                 目前介面只能針對單一房型做單一專案的單一區間做鋪價，如有多房型多專案搭配的情況下鋪價步驟則會倍數增加，對使用者是很大的負擔。
               </p>
             </div>
-            <div class="col-md-6 content-pl-48">
+            <div class="col-md-7 text-align-center content-pl-48">
               <figure class="figure">
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/brainstorming1.png"
                   class="figure-img img-fluid"
-                  style="width: 400px"
+                  style="width: 450px"
                   alt="..."
                 />
               </figure>
             </div>
           </div>
           <div class="improve row mb-80">
-            <div class="col-md-6 content-pr-48 mb-48">
+            <div class="col-md-5 content-pr-48 mb-48">
               <h5 class="mb-16">II. 找出可優化的空間</h5>
               <ul>
                 <div class="flex mb-24">
@@ -172,30 +172,30 @@
                 </div>
               </ul>
             </div>
-            <div class="col-md-6 content-pl-48">
+            <div class="col-md-7 text-align-center content-pl-48">
               <figure class="figure">
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/brainstorming2.png"
                   class="figure-img img-fluid"
-                  style="width: 400px"
+                  style="width: 450px"
                   alt="..."
                 />
               </figure>
             </div>
           </div>
           <div class="soluction row">
-            <div class="col-md-6 content-pr-48 mb-48">
+            <div class="col-md-5 content-pr-48 mb-48">
               <h5 class="mb-16">III. 優化過後的鋪價步驟</h5>
               <p class="text-md">
                 規劃了可複選的房型或專案價格，再搭配區間做設定以最有效的方法進行鋪價，以上述例子而言<span class="text-md-bold">節省了4.5倍的操作。</span>
               </p>
             </div>
-            <div class="col-md-6 content-pl-48">
+            <div class="col-md-7 text-align-center content-pl-48">
               <figure class="figure">
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/brainstorming3.png"
                   class="figure-img img-fluid"
-                  style="width: 400px"
+                  style="width: 450px"
                   alt="..."
                 />
               </figure>

@@ -39,7 +39,7 @@
       <figure class="figure">
         <img
           src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/solutions.png"
-          class="figure-img img-fluid"
+          class="figure-img img-fluid border-radius-4"
           alt="..."
         />
       </figure>
@@ -50,7 +50,7 @@
           <h4 class="mr-8">1</h4>
           <div class="">
             <h3 class="mb-6">目標</h3>
-            <h2>最網站改版希望達成的目的</h2>
+            <h2>網站改版希望達成的目的</h2>
           </div>
         </div>
       </div>
@@ -71,7 +71,7 @@
     </section>
     <section id="step-2" class="2understand container text-md">
       <div class="row content mt-16 mb-16">
-        <div class="col-md-6 content-pr-48 mb-48">
+        <div class="col-md-5 content-pr-48 mb-48">
           <div class="project-title">
             <div class="title-group">
               <h4 class="mr-8">2</h4>
@@ -85,7 +85,7 @@
             新官網代表的是整個奧丁丁集團，再加此需求原自於CEO，因此在執行此任務時團隊更加的謹慎。在此次專案中我同時扮演了UIUX設計師及工程部門對外窗口。而我們從訪談公司同事以及身邊親友中獲得使用者對舊官網的負面反饋，並計畫在新官網規劃階段一併排除。
           </p>
         </div>
-        <div class="col-md-6 content-pl-48">
+        <div class="col-md-7 content-pl-48">
           <div class="user-talk text-align-center flex-center flex-end">
             <div class="talk-dialog mb-24 mr-16">我們公司的官網被競業嘲笑</div>
             <div class="memoji text-align-center">
@@ -173,7 +173,7 @@
     </section>
     <section id="step-3" class="3define container text-md">
       <div class="row content mt-16 mb-16">
-        <div class="col-md-6 content-pr-48 mb-48">
+        <div class="col-md-5 content-pr-48 mb-48">
           <div class="project-title">
             <div class="title-group">
               <h4 class="mr-8">3</h4>
@@ -215,7 +215,7 @@
             </div>
           </ul>
         </div>
-        <div class="col-md-6 flex-center content-pl-48">
+        <div class="col-md-7 flex-center content-pl-48">
           <figure class="figure">
             <img
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/%E8%88%8A%E5%AE%98%E7%B6%B2.png"
@@ -228,7 +228,7 @@
     </section>
     <section id="step-4" class="4brainstorming container text-md mb-60">
       <div class="row content mt-16 mb-16">
-        <div class="col-md-6 content-pr-48 mb-48">
+        <div class="col-md-5 content-pr-48 mb-48">
           <div class="project-title">
             <div class="title-group">
               <h4 class="mr-8">4</h4>
@@ -242,7 +242,7 @@
             在與夥伴腦力激盪討論時我們拋出了以宇宙出發的想法，官網就像一個宇宙而使用者搭乘著火箭去探索每個事業體的星球，因工程師與參與討論當中所以網頁互動效果的實作可能性也在討論內，雖然在腦力激當時討論網頁互動有點早，不過這樣不設限的討論正是腦力激當有趣的地方。
           </p>   
         </div>
-        <div  class="col-md-6 flex-center content-pl-48">
+        <div  class="col-md-7 flex-center content-pl-48">
           <figure class="figure">
             <img
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/official-web-brainstorming.png"
@@ -268,16 +268,16 @@
           <div class="ia content mb-80">
             <h5 class="mb-16">I. 資訊架構</h5>
             <div class="row">
-              <div class="col-md-6 content-pr-48 mb-48">
+              <div class="col-md-5 content-pr-48 mb-48">
                 <p class="text-md">
                   確認資訊架構後會與工程團隊報告改版規模，由於這次專案的時辰較緊迫，團隊決定分階段執行，與人資部門達成共識後決定將迫切性相對低的「企業徵才」放入改版的第二階段。
                 </p>
               </div>
-              <div class="col-md-6 content-pl-48">
+              <div class="col-md-7 text-align-center content-pl-48">
                 <figure class="figure">
                   <img
                     src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/ia.png"
-                    class="figure-img img-fluid" style="width: 400px"
+                    class="figure-img img-fluid" style="max-width: 400px"
                     alt="..."
                   />
                 </figure>
@@ -287,13 +287,13 @@
           <div class="wireframe content mb-80">
             <h5 class="mb-16">II. Wireframe</h5>
             <div class="row">
-              <div class="col-md-6 content-pr-48 mb-48">
+              <div class="col-md-5 content-pr-48 mb-48">
                 <p class="text-md">
                   規劃出Wireframe並與需求端確認資訊呈現後，就可以上傳至雲端請各部門協助文案內容。因為牽涉到各部門的時程安排以及英日翻譯，所以<span class="text-md-bold">Wireframe在設計端越早完成對於整個專案的排程也會更順利</span>，使用的協作軟體是google
                   sheet 。
                 </p>
               </div>
-              <div class="col-md-6 content-pl-48">
+              <div class="col-md-7 content-pl-48">
                 <figure class="figure">
                   <img
                     src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/wireframe.png"
@@ -306,7 +306,7 @@
           </div>
         </div>
         <div class="element row content mb-80">
-          <div class="col-md-6 content-pr-48 mb-48">
+          <div class="col-md-5 content-pr-48 mb-48">
             <h5 class="mb-16">III. 搜集現有元素延伸</h5>
             <p class="text-md">
               由集團現有元素中以貫穿集團及七個事業體的貓頭鷹及VI科技藍光譜為發想，由藍色光譜可延伸出的科技感幫助我進一步探索官網的視覺意象。
@@ -360,12 +360,12 @@
         <div class="design content mb-80">
               <h5 class="mb-16">IV. 發想網站視覺</h5>
           <div class="thinking row mb-60">
-            <div class="col-md-6 content-pr-48 bg-grey-darkest mb-48">
+            <div class="col-md-5 content-pr-48 bg-grey-darkest mb-48">
               <p class="text-md">
                 在發想網站主視覺及頁面元素時緊扣著網站想傳達給使用者的三個核心要點<span class="text-md-bold">「科技產業、領域專業、產品多元性」</span>。一眼就能呈現給使用者產品多元性是我認為這次設計最大的考驗。
               </p>
             </div>
-            <div class="col-md-6 content-pr-48">
+            <div class="col-md-7 content-pr-48">
                 <div class="flex-center through-line">
                   <span class="border-circle text-md line-height-2 mr-24">科技</span>
                   <span class="border-circle text-md line-height-2 mr-24">專業</span>
@@ -465,7 +465,7 @@
           </div>
         </div>
         <div class="iterate row content mb-80">
-          <div class="col-md-6 content-pr-48 mb-48">
+          <div class="col-md-5 content-pr-48 mb-48">
             <h5 class="mb-16">VI. 設計迭代</h5>
             <p class="text-md">
               設計迭代沒有絕對的「完美」，以合適的設計傳達集團信念給使用者就算達到迭代目的。與集團高層討論過後認為暗色宇宙系列雖然搶眼也吸睛，但缺少科技產業的簡潔、專業感，因此使用一個迭代將來修正上述問題。
@@ -495,7 +495,7 @@
         <div class="prototype content mb-80">
           <h5 class="mb-16">VII. Prototype 交付予工程師</h5>
           <div class="row">
-            <div class="col-md-6 content-pr-48 mb-48">
+            <div class="col-md-5 content-pr-48 mb-48">
               <p class="text-md">
                 此專案我使用Adobe
                 Xd來模擬視差滾動以及滾動連帶的過場動畫，Prototype的視覺化能幫助設計師與工程師討論時可以快速對焦，若實作時辰上有困難也可以立刻討論作出相對應調整。
@@ -503,7 +503,7 @@
                 💡 : 交付圖片給工程師時可以丟到TingPNG上壓縮，可以幫工程師減輕一點工作量
               </p>
             </div>
-            <div class="col-md-6 content-pl-48">
+            <div class="col-md-7 content-pl-48">
               <figure class="figure pad_border">
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/website-prototype2.gif"
@@ -517,12 +517,12 @@
         <div class="debug content">
           <h5 class="mb-16">VIII. 協助工程師抓除錯</h5>
           <div class="row">
-            <div class="col-md-6 content-pr-48 mb-48">
+            <div class="col-md-5 content-pr-48 mb-48">
               <p class="text-md">
                 在最後上線前須幫助工程師一同除錯，多語系的呈現、各種裝置及雙平台手機測試、社群平台開啟呈現出來的效果等等，都是正式上線前需一一確認的。
               </p>
             </div>
-            <div class="col-md-6 content-pl-48">
+            <div class="col-md-7 content-pl-48">
               <figure class="figure">
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/RDs.png"
@@ -586,7 +586,7 @@
       </div>
     </section>
     <section id="step-7" class="7takeaway container text-md mt-60 mb-60">
-      <div class="col-md-6 content-pr-48">
+      <div class="col-md-5 content-pr-48">
         <div class="row">
           <div class="project-title">
             <div class="title-group">
