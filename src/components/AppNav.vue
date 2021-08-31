@@ -12,7 +12,7 @@
         <div v-if="width > mobileMenuEdgeSize" class="app-nav__actions">
           <ul>
             <li class="is-dropdown">
-              <span v-click-away="handleDropDownOutside" class="is-nav-link hover-effect mr-32" @click="isDropDownOpen = !isDropDownOpen">
+              <span v-click-away="handleDropDownOutside" class="is-nav-link hover-effect mr-32" @click.capture="isDropDownOpen = !isDropDownOpen">
                 設計專案
                 <i class="las" :class="isDropDownOpen ? 'la-angle-up' : 'la-angle-down'"></i>
                 <ul v-show="isDropDownOpen" class="is-dropdown__context">
