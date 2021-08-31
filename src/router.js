@@ -6,7 +6,7 @@ import ProjectWeb from './pages/Projects/OfficialWebsite.vue'
 import ProjectPMS from './pages/Projects/PMS.vue'
 
 const router = createRouter({
-    history: createWebHistory('/edna-vite-portfolio/'),
+    history: createWebHistory(),
     scrollBehavior (to, from, savedPosition) {
         return savedPosition ?? { top: 0 }
     },
