@@ -55,7 +55,7 @@
           </div>
         </div>
       </div>
-      <ul>
+      <ul class="mb-48">
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
           <li class="text-md">參考宿業者的鋪價習慣進行新設定介面開發，達到更符合使用者期待的鋪價設定</li>
@@ -69,6 +69,47 @@
           <li class="text-md">進行市調時發現市面上沒有任何一套系統支援針對國定假日鋪價，可將此通能列為獨家賣點</li>
         </div>
       </ul>
+      <h5 class="mb-16">
+        反饋搶先看 👀
+      </h5>
+      <div class="feedback row">
+        <div class="col-md-4 content-pr-8 mb-16">
+          <div class="border-thinner border-radius-4 shadow-sm p-8">
+            <p class="text-sm-bold">
+              ⭐⭐⭐⭐⭐
+              <br />
+              批次鋪價功能的上限對於年底需要長時間鋪價真的非常方便！
+              <p class="text-sm">
+                - 北部旅宿業者
+              </p>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 content-pr-8 mb-16">
+          <div class="border-thinner border-radius-4 shadow-sm p-8">
+            <p class="text-sm-bold">
+              ⭐⭐⭐⭐⭐
+              <br />
+              國定假期功能清楚明瞭！還可以針對不同假期做價格上的調整，很棒！
+              <p class="text-sm">
+                - 東部旅宿業者
+              </p>
+            </p>
+          </div>
+        </div>   
+        <div class="col-md-4 content-pr-8">
+          <div class="border-thinner border-radius-4 shadow-sm p-8">
+            <p class="text-sm-bold">
+              ⭐⭐⭐⭐⭐
+              <br />
+              新規劃的國定假日鋪價功能可成為我們商品在市場上的獨特買點！
+              <p class="text-sm">
+                - 業務同事
+              </p>
+            </p>
+          </div>
+        </div>        
+      </div>
     </section>
     <section id="step-2" class="2understand container text-md">
       <div class="row content mt-16 mb-16">
@@ -83,7 +124,7 @@
             </div>
           </div>
           <p class="text-md">
-            我們訪談了奧丁丁旗下OwlStay旅宿團隊的鋪價習慣，及參考業務帶回來的旅宿業者反饋，得知使用者的鋪價習慣通常是先鋪設一年的平日、假日房價，再鋪設國定假日房價，有些國外旅客較多的旅宿業者甚至會參考鄰國的連假日期去制訂銷售價格。          </p>
+            <span class="text-md-bold">我們訪談了奧丁丁旗下OwlStay旅宿團隊的鋪價習慣，及參考業務帶回來的旅宿業者反饋</span>，得知使用者的鋪價習慣通常是先鋪設一年的平日、假日房價，再鋪設國定假日房價，有些國外旅客較多的旅宿業者甚至會參考鄰國的連假日期去制訂銷售價格。          </p>
         </div>
         <div class="col-md-7 content-pl-48 text-align-center">
           <div class="text-sm-bold plan_border mb-8">平日房價</div>
@@ -138,7 +179,7 @@
             <div class="col-md-5 content-pr-48 mb-48">
               <h5 class="mb-16">I. 分析目前介面的鋪價步驟</h5>
               <p class="text-md">
-                目前介面只能針對單一房型做單一專案的單一區間做鋪價，如有多房型多專案搭配的情況下鋪價步驟則會倍數增加，對使用者是很大的負擔。
+                目前介面只能針對<span class="text-md-bold">單一房型做單一專案的單一區間做鋪價</span>，如有多房型多專案搭配的情況下鋪價步驟則會倍數增加，對使用者是很大的負擔。
               </p>
             </div>
             <div class="col-md-7 text-align-center content-pl-48">
@@ -167,7 +208,7 @@
                   <span class="mr-8">•</span>
                   <li>
                     <span class="text-md-bold">國定假日區間選取 - </span>
-                     我們也觀察到雖然目前介面中有提供國定假日的日期資訊，但使用者無法在鋪價時同時看到連假日期，因此使用者通常都是打開人事行政局以另一個視窗來比對，為此我們進行下拉日期介面的優化及規劃可複選國定假日的鋪價介面。
+                     我們也觀察到雖然目前介面中有提供國定假日的日期資訊，但使用者無法在鋪價時同時看到連假日期，因此使用者通常都是打開人事行政局以另一個視窗來比對，為此<span class="text-md-bold">我們進行下拉日期介面的優化及規劃可複選國定假日的鋪價介面。</span>
                   </li>
                 </div>
               </ul>
@@ -216,13 +257,13 @@
           </div>
         </div>
         <div class="1wireframe row content mb-80">
-          <div class="col-md-6 content-pr-48 mb-48">
+          <div class="col-md-5 content-pr-48 mb-48">
             <h5 class="mb-16">I. Wireframe</h5>
             <p class="text-md">
               組員一同討論優化流程後，我就會將文字流程以Wireframe的方式呈現出來，與工程師做初步討論並快速修改。
             </p>
           </div>
-          <div class="col-md-6 content-pl-48">
+          <div class="col-md-7 content-pl-48">
             <figure class="figure">
               <img
                 src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/wireframe.jpg"
@@ -233,13 +274,13 @@
           </div>
         </div>
         <div class="2mockup row content mb-80">
-          <div class="col-md-6 content-pr-48 mb-48">
+          <div class="col-md-5 content-pr-48 mb-48">
             <h5 class="mb-16">II. UI Library & Mockup</h5>
             <p class="text-md">
               後台比起視覺更重視的是使用者完成任務的流程，<span class="text-md-bold">在規劃介面時為避免使用者的學習成本增加</span>，應該遵從既有的介面及流程，並依原有的介面原件快速做出Mockup與團隊討論。
             </p>
           </div>
-          <div class="col-md-6 content-pl-48">
+          <div class="col-md-7 content-pl-48">
             <figure class="figure">
               <img
                 src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/UI+library.png"
@@ -250,13 +291,13 @@
           </div>
         </div>
         <div class="3prototype row content">
-          <div class="col-md-6 content-pr-48 mb-48">
+          <div class="col-md-5 content-pr-48 mb-48">
             <h5 class="mb-16">III. Prototype</h5>
             <p class="text-md">
               直接做出Prototype來給使用者測試可達到高擬真度且更可以看出使用者對畫面的操作流程以及互動。
             </p>
           </div>
-          <div class="col-md-6 content-pl-48">
+          <div class="col-md-7 content-pl-48">
             <img
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/prototype.png"
               class="figure-img img-fluid"
@@ -268,7 +309,7 @@
     </section>
     <section id="step-6" class="6result bg-grey-darkest text-md adjust-pb-dark-bg">
       <div class="container font-color-lighter">
-        <div class="col-md-6 content-pr-48">
+        <div class="col-md-5 content-pr-48">
           <div class="project-title">
             <div class="title-group">
               <h4 class="mr-8">6</h4>
@@ -279,7 +320,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 content-pr-48">
+        <div class="col-md-5 content-pr-48">
           <p class="text-md mb-48">
             新功能規劃可由多房型、多專案結合，使用者可依照自己的價格制定需求來多元組合。在介面上方規劃以書籤方式來與原本的月曆做切換，<span class="text-md-bold">既不會影響原先版面也可滿足有批次鋪價需求的使用者</span>，以最平靜不干擾使用者的方式推來推出新功能。
           </p>
@@ -320,7 +361,7 @@
       </div>
     </section>
     <section id="step-7" class="7iterate container text-md mt-60">
-      <div class="col-md-6 content-pr-48">
+      <div class="col-md-5 content-pr-48">
         <div class="project-title">
           <div class="title-group">
             <h4 class="mr-8">7</h4>
@@ -336,7 +377,7 @@
       </div>
     </section>
     <section id="step-8" class="8takeaway container text-md mb-60">
-      <div class="col-md-6 content-pr-48">
+      <div class="col-md-5 content-pr-48">
         <div class="project-title">
           <div class="title-group">
             <h4 class="mr-8">8</h4>
@@ -351,7 +392,7 @@
         </p>
       </div>
     </section>
-    <section class="more-project bg-grey-lightest pt-80">
+    <section class="more-project bg-blue-lightest pt-80">
       <div class="container">
         <h2>更多設計專案</h2>
         <div class="row">

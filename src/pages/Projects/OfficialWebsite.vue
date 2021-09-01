@@ -54,7 +54,7 @@
           </div>
         </div>
       </div>
-      <ul>
+      <ul class="mb-48">
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
           <li class="text-md">官方網站重構，由資訊架構開始整理，讓使用者能更快速的獲得資訊</li>
@@ -68,6 +68,47 @@
           <li class="text-md">由集團VI延伸，為網站定義新風格，並使其成為同業中的亮點</li>
         </div>
       </ul>
+      <h5 class="mb-16">
+        反饋搶先看 👀
+      </h5>
+      <div class="feedback row">
+        <div class="col-md-4 content-pr-8 mb-16">
+          <div class="border-thinner border-radius-4 shadow-sm p-8">
+            <p class="text-sm-bold">
+              ⭐⭐⭐⭐⭐
+              <br />
+              早該改版了！分享改版過後的新官網給其他同業時非常有面子！
+              <p class="text-sm">
+                - 同事
+              </p>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 content-pr-8 mb-16">
+          <div class="border-thinner border-radius-4 shadow-sm p-8">
+            <p class="text-sm-bold">
+              ⭐⭐⭐⭐⭐
+              <br />
+              求職者表示官網介紹十分清楚詳細，不需再為集團服務多加介紹了！
+              <p class="text-sm">
+                - 同事
+              </p>
+            </p>
+          </div>
+        </div>   
+        <div class="col-md-4 content-pr-8">
+          <div class="border-thinner border-radius-4 shadow-sm p-8">
+            <p class="text-sm-bold">
+              ⭐⭐⭐⭐⭐
+              <br />
+              外部媒體來採訪時有感受到他們對於公司體系更加瞭解也更容易進入狀況了！    
+            <p class="text-sm">
+                - 同事
+              </p>
+            </p>
+          </div>
+        </div>        
+      </div>      
     </section>
     <section id="step-2" class="2understand container text-md">
       <div class="row content mt-16 mb-16">
@@ -603,7 +644,7 @@
         </div>
       </div>
     </section>
-    <section class="more-project bg-grey-lightest pt-80">
+    <section class="more-project bg-blue-lightest pt-80">
       <div class="container">
         <h2>更多設計專案</h2>
         <div class="row">
