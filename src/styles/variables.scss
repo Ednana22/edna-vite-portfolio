@@ -16,6 +16,9 @@ $color_blue-light: #9fcbff;
 $color_blue-base: #3894FF;
 $color_blue-dark: #2C6EBA;
 $color_blue-darker: #144987;
+///---PURPLE---
+$color_purple-base: #d635ff;
+$color_purple-dark: #9e18c0;
 
 
 ///BORDER
@@ -46,12 +49,13 @@ $color_blue-darker: #144987;
         background-size: 300% 300%;
         box-shadow: 24px 20px 30px -20px rgba(120, 120, 171, 0.581);
     }
-    .border-thin {
-        border: 2px solid $color_grey-lightest;
+
+    .gradient-font{
+        background: linear-gradient(90deg,$color_blue-base,$color_purple-base);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
     }
-    .border-thinner {
-        border: 1px solid $color_grey-lightest;
-    }
+
     
     
     

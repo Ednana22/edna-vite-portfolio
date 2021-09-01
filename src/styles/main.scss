@@ -364,11 +364,15 @@ ul {
 .p-0 {
   padding: 0px;
 }
+.p-8{
+    padding: 8px;
+}
 
 ///P
 p {
   margin: initial;
 }
+
 
 ///FLEX
 .flex {
@@ -463,48 +467,59 @@ p {
 
 ///DARK-SECTION
 .bg-grey-darkest {
-  background-color: $color_grey-darkest;
+    background-color: $color_grey-darkest;
 }
 .bg-grey-lightest {
-  background-color: $color_grey-lightest;
+    background-color: $color_grey-lightest;
+}
+.bg-blue-lightest{
+    background-color: $color_blue-lightest !important;
 }
 .font-color-lighter {
-  color: $color_grey-lighter;
+    color: $color_grey-lighter;
 }
 .font-color-light {
-  color: $color_grey-light;
+    color: $color_grey-light;
 }
 .font-color-blue {
-  color: $color_blue-base;
+    color: $color_blue-base;
 }
 
 ///BUTTON
 .btn {
   font-size: 16px;
-  color: $color_blue-dark;
-  border: none;
-  padding: 10px 0px;
-  font-weight: 600;
-  margin-top: 16px;
-  text-decoration: none;
-  @media (max-width: 576px) {
-      font-size: 15px;
-  }
-  &:hover {
-    color: $color_blue-dark;
+//   color: $color_blue-dark;
+    background: linear-gradient(90deg,#3b84fa, #9c73d3,#d84873) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: none;
+    padding: 10px 0px;
+    font-weight: 600;
+    margin-top: 16px;
     text-decoration: none;
-    i {
-      transform: translateX(5px);
-      transition-duration: (0.5s);
+    @media (max-width: 576px) {
+        font-size: 15px;
     }
+    &:hover {
+        color: $color_blue-dark;
+        text-decoration: none;
+        i {
+        transform: translateX(5px);
+        transition-duration: (0.5s);
+        }
   }
   &:active {
     transform: scale(0.99);
-    color: $color_blue-darker !important;
+    // color: $color_blue-darker !important;
+    background: linear-gradient(90deg,#3884FF, #7855a5,#c96180) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
   }
   .la-long-arrow-alt-right {
     margin-left: 8px;
-    color: $color_blue-dark;
+    background: linear-gradient(90deg,#3b84fa, #9c73d3,#d84873) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
   }
 }
 a {
@@ -673,3 +688,9 @@ h1 {
     line-height: 1.8;
 }
 
+.border-thin {
+    border: 2px solid $color_grey-lightest;
+}
+.border-thinner {
+    border: 1px solid $color_grey-lightest;
+}
