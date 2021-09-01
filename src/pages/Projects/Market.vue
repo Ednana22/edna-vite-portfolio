@@ -83,20 +83,20 @@
         <h5 class="mb-16">成果搶先看 👀</h5>
         <div class="highlight row">
           <div class="col-sm-4 new_user mb-24">
-            <p class="text-xxl">
+            <p class="text-xxl gradient-font">
               230<span class="text-l">%</span>
             </p>
             <p class="text-md-bold">新使用者增加</p>
           </div>
           <div class="col-sm-4 viewing_time mb-24">
             <p class="text-xxl">
-              81<span class="text-l">%</span>
+              81<span class="text-l gradient-font">%</span>
             </p>
             <p class="text-md-bold">平均停留時間增加</p>
           </div>
           <div class="col-sm-4 bounce_rate">
             <p class="text-xxl">
-              -24<span class="text-l">%</span>
+              -24<span class="text-l gradient-font">%</span>
             </p>
             <p class="text-md-bold">跳出率明顯優化</p>
           </div>
@@ -309,8 +309,7 @@
     </section>
     <section
       id="step-5"
-      class="5design-procress bg-grey-darkest text-md adjust-pt-dark-bg"
-    >
+      class="5design-procress bg-grey-darkest text-md adjust-pt-dark-bg">
       <div class="container font-color-lighter">
         <div class="content">
           <div class="project-title">
@@ -612,7 +611,7 @@
         </div>
       </div>
     </section>
-    <section class="more-project bg-grey-lightest pt-80">
+    <section class="more-project bg-blue-lightest pt-80">
       <div class="container">
         <h2>更多設計專案</h2>
         <div class="row">
