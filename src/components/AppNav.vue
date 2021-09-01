@@ -17,7 +17,7 @@
                 <i class="las" :class="isDropDownOpen ? 'la-angle-up' : 'la-angle-down'"></i>
                 <ul v-show="isDropDownOpen" class="is-dropdown__context">
                   <li>
-                    <router-link :to="{ name: 'ProjectMarket' }">奧丁丁市集平台改版</router-link>
+                    <router-link :to="{ name: 'ProjectMarket' }">奧丁丁市集改版</router-link>
                   </li>
                   <li>
                     <router-link :to="{ name: 'ProjectWeb' }">奧丁丁集團官網重構</router-link>
@@ -57,7 +57,7 @@
                 </router-link>
                 <ul class="sub_item">
                   <li>
-                    <router-link :to="{ name: 'ProjectMarket' }">奧丁丁市集平台改版</router-link>
+                    <router-link :to="{ name: 'ProjectMarket' }">奧丁丁市集改版</router-link>
                   </li>
                   <li>
                     <router-link :to="{ name: 'ProjectWeb' }">奧丁丁集團官網重構</router-link>
