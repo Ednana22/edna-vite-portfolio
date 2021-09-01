@@ -8,7 +8,9 @@
               <span class="reveal">Hello! 
                 <span class="wave-hand">👋🏻</span>
               </span>  
-              <span class="reveal">I'm Edna Wei</span>  
+              <span class="reveal">I'm 
+                <span>Edna Wei</span>
+              </span>  
             </h2>
             <h1>
               我是一名擁有前端基礎技能的UI/UX，
@@ -78,12 +80,10 @@
               <div class="img-container mobile gradient-border"></div>
             </div>
           </div>
-          <div class="col-lg-4">
-            <h3>奧丁丁市集平台改版</h3>
+          <div class="col-lg-4 content-pl-48">
+            <h3>奧丁丁市集改版</h3>
             <div class="text-md-bold mb-24">
               品牌再造
-              <span class="font-color-lighter"> | </span>
-              網站重構
               <span class="font-color-lighter"> | </span>
               APP規劃
               <span class="font-color-lighter"> | </span>
@@ -124,7 +124,7 @@
               </figure>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 content-pl-48">
             <h3>奧丁丁集團官網重構</h3>
             <div class="text-md-bold mb-24">
               網站重構<span class="font-color-lighter"> | </span> 
@@ -165,7 +165,7 @@
               </figure>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 content-pl-48">
             <h3>旅宿管理系統規劃</h3>
             <div class="text-md-bold mb-24">
               UX研究<span class="font-color-lighter"> | </span> 
