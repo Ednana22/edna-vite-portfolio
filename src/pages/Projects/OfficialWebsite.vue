@@ -74,38 +74,38 @@
       <div class="feedback row">
         <div class="col-md-4 content-pr-8 mb-16">
           <div class="border-thinner border-radius-4 shadow-sm p-8">
-            <p class="text-sm-bold">
+            <div class="text-sm-bold">
               ⭐⭐⭐⭐⭐
               <br />
               早該改版了！分享改版過後的新官網給其他同業時非常有面子！
               <p class="text-sm">
                 - 同事
               </p>
-            </p>
+            </div>
           </div>
         </div>
         <div class="col-md-4 content-pr-8 mb-16">
           <div class="border-thinner border-radius-4 shadow-sm p-8">
-            <p class="text-sm-bold">
+            <div class="text-sm-bold">
               ⭐⭐⭐⭐⭐
               <br />
               求職者表示官網介紹十分清楚詳細，不需再為集團服務多加介紹了！
               <p class="text-sm">
                 - 同事
               </p>
-            </p>
+            </div>
           </div>
         </div>   
         <div class="col-md-4 content-pr-8">
           <div class="border-thinner border-radius-4 shadow-sm p-8">
-            <p class="text-sm-bold">
+            <div class="text-sm-bold">
               ⭐⭐⭐⭐⭐
               <br />
               外部媒體來採訪時有感受到他們對於公司體系更加瞭解也更容易進入狀況了！    
             <p class="text-sm">
                 - 同事
               </p>
-            </p>
+            </div>
           </div>
         </div>        
       </div>      
@@ -657,7 +657,7 @@
                   alt="..."
                 />
               </router-link>
-              <div class="text-md-bold mt-24">奧丁丁市集平台改版</div>
+              <div class="text-md-bold mt-24">奧丁丁市集改版</div>
               <div class="text-md">
                 品牌再造
                 <span class="font-color-light"> | </span>

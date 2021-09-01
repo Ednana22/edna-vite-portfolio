@@ -2,7 +2,7 @@
   <PageElevator :anchors="anchors" />
   <main class="project-pms">
     <section class="title container">
-      <h1 class="mb-24">旅宿管理系統功能規劃</h1>
+      <h1 class="mb-24">旅宿管理系統規劃</h1>
       <p class="text-md line-height-sm mb-8">
         負責內容<span class="font-color-light"> | </span>UX研究、UI設計
       </p>
@@ -75,38 +75,38 @@
       <div class="feedback row">
         <div class="col-md-4 content-pr-8 mb-16">
           <div class="border-thinner border-radius-4 shadow-sm p-8">
-            <p class="text-sm-bold">
+            <div class="text-sm-bold">
               ⭐⭐⭐⭐⭐
               <br />
               批次鋪價功能的上限對於年底需要長時間鋪價真的非常方便！
               <p class="text-sm">
                 - 北部旅宿業者
               </p>
-            </p>
+            </div>
           </div>
         </div>
         <div class="col-md-4 content-pr-8 mb-16">
           <div class="border-thinner border-radius-4 shadow-sm p-8">
-            <p class="text-sm-bold">
+            <div class="text-sm-bold">
               ⭐⭐⭐⭐⭐
               <br />
               國定假期功能清楚明瞭！還可以針對不同假期做價格上的調整，很棒！
               <p class="text-sm">
                 - 東部旅宿業者
               </p>
-            </p>
+            </div>
           </div>
         </div>   
         <div class="col-md-4 content-pr-8">
           <div class="border-thinner border-radius-4 shadow-sm p-8">
-            <p class="text-sm-bold">
+            <div class="text-sm-bold">
               ⭐⭐⭐⭐⭐
               <br />
               新規劃的國定假日鋪價功能可成為我們商品在市場上的獨特買點！
               <p class="text-sm">
                 - 業務同事
               </p>
-            </p>
+            </div>
           </div>
         </div>        
       </div>
@@ -405,7 +405,7 @@
                   alt="..."
                 />
               </router-link>
-              <div class="text-md-bold mt-24">奧丁丁市集平台改版</div>
+              <div class="text-md-bold mt-24">奧丁丁市集改版</div>
               <div class="text-md">
                 品牌再造
                 <span class="font-color-light"> | </span>

@@ -2,7 +2,7 @@
   <PageElevator :anchors="anchors" />
   <main class="project-market">
     <section class="title container">
-      <h1 class="mb-24">奧丁丁市集平台改版</h1>
+      <h1 class="mb-24">奧丁丁市集改版</h1>
       <p class="text-md line-height-sm mb-8">
         負責內容<span class="font-color-light"> | </span
         >品牌再造、網站重構、UX研究、UI設計、使用者測試
@@ -89,14 +89,14 @@
             <p class="text-md-bold">新使用者增加</p>
           </div>
           <div class="col-sm-4 viewing_time mb-24">
-            <p class="text-xxl">
-              81<span class="text-l gradient-font">%</span>
+            <p class="text-xxl gradient-font">
+              81<span class="text-l">%</span>
             </p>
             <p class="text-md-bold">平均停留時間增加</p>
           </div>
           <div class="col-sm-4 bounce_rate">
-            <p class="text-xxl">
-              -24<span class="text-l gradient-font">%</span>
+            <p class="text-xxl gradient-font">
+              -24<span class="text-l">%</span>
             </p>
             <p class="text-md-bold">跳出率明顯優化</p>
           </div>
