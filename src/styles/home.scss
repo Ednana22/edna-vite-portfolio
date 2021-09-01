@@ -8,7 +8,6 @@ $grid-breakpoints: (
   xl: 1200px,
   xxl: 1400px
 );
-///SECTION///
 .container-hero {
   width: 100%;
   padding-right: 15px;
@@ -24,6 +23,26 @@ $grid-breakpoints: (
     max-width: 700px;
   }
 }
+///CONTAINER
+.container {
+  font-family: sans-serif;
+  @media (max-width: 2680px) {
+    max-width: 1100px;
+  }
+  @media (max-width: 1200px) {
+    max-width: 1000px;
+  }
+  @media (max-width: 1024px) {
+    max-width: 800px;
+    padding-right: 24px !important;
+    padding-left: 24px !important;
+  }
+  @media (max-width: 768px) {
+    padding-right: 24px !important;
+    padding-left: 24px !important;
+  }
+}
+///SECTION///
 section {
   @media (max-width: 2680px) {
     padding: 80px 0px 80px 0px;
@@ -92,9 +111,9 @@ h1 {
   }
 }
 h2 {
-  font-size: 60px;
+  font-size: 66px;
   font-family: 'Rubik', roboto;
-  font-weight: 300;
+  font-weight: 400;
   overflow: hidden;
   @media (max-width: 992px) {
     font-size: 56px;
@@ -103,6 +122,8 @@ h2 {
     font-size: 48px;
   }
 }
+
+
 h3{
   font-size: 20px;
   font-weight: 600;
