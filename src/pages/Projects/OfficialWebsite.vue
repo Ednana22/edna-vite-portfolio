@@ -77,9 +77,9 @@
             <div class="text-sm-bold">
               ⭐⭐⭐⭐⭐
               <br />
-              早該改版了！分享改版過後的新官網給其他同業時非常有面子！
+              真的早該改版了！分享改版過後的新官網給其他同業時非常有面子！
               <p class="text-sm">
-                - 同事
+                - 大咖同事
               </p>
             </div>
           </div>
@@ -91,7 +91,7 @@
               <br />
               求職者表示官網介紹十分清楚詳細，不需再為集團服務多加介紹了！
               <p class="text-sm">
-                - 同事
+                - HR部門同事
               </p>
             </div>
           </div>
@@ -103,7 +103,7 @@
               <br />
               外部媒體來採訪時有感受到他們對於公司體系更加瞭解也更容易進入狀況了！    
             <p class="text-sm">
-                - 同事
+                - 公關部門同事
               </p>
             </div>
           </div>
@@ -692,7 +692,7 @@
               <span class="font-color-light"> | </span>
               Saas              
             </div>
-            <router-link class="btn btn-link" :to="{ name: 'ProjectWeb' }">
+            <router-link class="btn btn-link" :to="{ name: 'ProjectPMS' }">
               瀏覽專案<i class="las la-long-arrow-alt-right"></i>
             </router-link>
           </div>
