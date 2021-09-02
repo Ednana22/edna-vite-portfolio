@@ -96,7 +96,7 @@
           </div>
           <div class="col-sm-4 bounce_rate">
             <p class="text-xxl gradient-font">
-              -24<span class="text-l">%</span>
+              -24<span class="text-l">%</span> 
             </p>
             <p class="text-md-bold">跳出率明顯優化</p>
           </div>
@@ -235,7 +235,7 @@
     </section>
     <section id="step-3" class="3define container text-md">
       <div class="row content">
-        <div class="col-md-5 content-pr-48">
+        <div class="col-md-5 content-pr-48 mb-48">
           <div class="project-title">
             <div class="title-group">
               <h4 class="mr-8">3</h4>
@@ -260,7 +260,7 @@
                 消費者難以在第一時間找到商品資訊，過小的促銷文宣無法達到吸引目光的效果。
               </li>
             </div>
-            <div class="flex mb-24">
+            <div class="flex">
               <span class="mr-8">•</span>
               <li>
                 <span class="text-md-bold">缺乏品牌精神</span>-
@@ -282,7 +282,7 @@
     </section>
     <section id="step-4" class="4brainstorming container text-md mb-60">
       <div class="row content">
-        <div class="col-md-5 content-pr-48">
+        <div class="col-md-5 content-pr-48 mb-48">
           <div class="project-title">
             <div class="title-group">
               <h4 class="mr-8">4</h4>
