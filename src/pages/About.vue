@@ -20,7 +20,7 @@
             alt="..."
           />
         </figure>
-        <a href="https://www.linkedin.com/in/edna-wei-90292b97/" target="_blank"
+        <a href="https://drive.google.com/file/d/1NFNcFEzZj7I_Punp-17jKKBReY3QVjeK/view?usp=sharing" target="_blank"
           >履歷瀏覽</a
         >
       </div>
@@ -35,13 +35,13 @@
           <p class="text-md">奧丁丁集團</p>
         </div>
         <div class="2018">
-          <p class="text-md-bold">2018 - 2016</p>
+          <p class="text-md-bold">2018 - 2017</p>
           <div class="circle-grey mt-8 mb-8"></div>
           <p class="text-md-bold">網頁視覺設計師</p>
           <p class="text-md">蝦皮購物</p>
         </div>
         <div class="2015">
-          <p class="text-md-bold">2016 - 2015</p>
+          <p class="text-md-bold">2017 - 2015</p>
           <div class="circle-grey mt-8 mb-8"></div>
           <p class="text-md-bold">視覺設計師</p>
           <p class="text-md">樂子美式餐飲</p>
