@@ -24,22 +24,37 @@
         <div class="bnanner"></div>
       </figure>
     </section>
-    <section class="task container text-md">
-      <div class="product-introduce">
-        <h2 class="mb-16">產品介紹</h2>
-        <p class="text-md mb-48">
-          奧丁丁市集是一個專注於推廣在地商家與台灣小農的電商平台，涵蓋上千項嚴選商品累計合作逾兩千名小農及中小型優質商家。
-        </p>
-      </div>
-      <div class="background">
+    <section id="overall" class="overall container text-md">
+      <div class="background mb-48">
         <h2 class="mb-16">專案背景</h2>
         <p class="">
-          奧丁丁市集成立於2010年，當年食安問題層出不窮，舉凡塑化劑、防腐劑、香精牛奶到毒醬油，使消費者意識食安意識抬頭，也讓奧丁丁市集的「產地直送、有機蔬果」概念脫穎而出。<br />
-          然而近年許多有機生鮮電商崛起，奧丁丁市集<span class="text-md-bold">舊網站架構不支援響應式、頁面模式不符合使用者的瀏覽習慣、低效的瀏覽體驗也大程度的造成了低轉化率和高跳出率造成產品優勢不再。</span>
+          奧丁丁市集是一個專注於推廣在地商家與台灣小農的電商平台，涵蓋上千項嚴選商品累計合作逾兩千名小農及中小型優質商家。 <br />
+          然而<span class="text-md-bold">網站架構不支援響應式、頁面模式不符合使用者的瀏覽習慣、低效的瀏覽體驗也大程度的造成了高跳出率與低轉化率</span>
           <br />
-          而公司內部業務經理則反映，當展示網站給潛在合作廠商時<span class="text-md-bold">經常被質疑公司網站的可用性、安全性及工程團隊能力</span>，這也導致內部人員對產品提不起信心。
+          公司內部業務經理則反映，當展示網站給潛在合作廠商時<span class="text-md-bold">經常被質疑公司網站的可用性、安全性</span>，這也導致內部人員對產品提不起信心。
         </p>
       </div>
+      <div class="task">
+        <h2 class="mb-16">專案挑戰與決策</h2>
+          <ul class="text-md">
+            <div class="flex mb-24">
+              <span class="mr-8">•</span>
+              <li>
+                <span class="text-md-bold">調整結構複雜</span> -
+                此次調整規模除了UI/UX流程與前端框架更動之外也牽扯到後端的資料架構，有牽一髮而動全身的疑慮。規劃初期我先以資訊架構與工程部門討論改版規模，最後決定以頁面迭代的方式進行。
+              </li>
+              
+            </div>
+            <div class="flex">
+              <span class="mr-8">•</span>
+              <li>
+                <span class="text-md-bold">設計頁面時與CEO意見相左</span> -
+                CEO指定首頁不要BANNER！經過細問才得知原來CEO認為巨大的輪播Banner浪費了最精華的頁面且轉換率差，我也從頁面數據以及熱點分布圖驗證了此論點。
+                在設計版面時規劃四格分割的Banner版型，也跨部門的達成不要給使用者過多促銷資訊的共識。
+              </li>
+            </div>
+          </ul> 
+      </div>      
     </section>
     <section class="cover-photo container p-0">
       <figure class="figure">
@@ -56,7 +71,7 @@
           <h4 class="mr-8">1</h4>
           <div class="">
             <h3 class="mb-6">目標</h3>
-            <h2>改版要解決的問題</h2>
+            <h2>我們要解決的問題</h2>
           </div>
         </div>
       </div>
@@ -64,14 +79,14 @@
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
           <li class="text-md">
-            品牌再造進行跨部門合作
-            (公關部、市集部、品牌形象部、視覺設計部、工程部)
+            品牌再造
+            ( 進行跨部門合作：公關部、市集部、品牌形象部、視覺設計部、工程部 )
           </li>
         </div>
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
           <li class="text-md">
-            重構一個響應式的電子商務網站，方便用戶瀏覽和購買，重構同時一定要考量現有用戶的使用者習慣
+            重構一個響應式的電子商務網站以符合使用者瀏覽習性，重構同時一定要考量現有用戶的使用者習慣
           </li>
         </div>
         <div class="flex mb-8">
@@ -109,27 +124,20 @@
           <h4 class="mr-8">2</h4>
           <div class="">
             <h3 class="mb-6">理解</h3>
-            <h2>聽聽你的使用者怎麼想</h2>
+            <h2>使用者訪談及使用者地圖模擬</h2>
           </div>
         </div>
       </div>
       <div class="user-talk row content mb-80">
         <div class="col-md-5 content-pr-48 mb-48">
-          <h5 class="mb-16">I. 使用者這樣說</h5>
+          <h5 class="mb-16">I. 使用者訪談</h5>
           <p>
-            訪談奧丁丁市集的不同層級的會員，使我們能夠瞭解不同用戶在<span
-              class="text-md-bold"
-              >使用網站時的場景、需求以及期望。</span
-            >
-            透過調查、競品分析進行市場定位，分析競品網站功能與特點的同時也幫我們<span
-              class="text-md-bold"
-              >梳理出奧丁丁市集在生鮮有機領域的立足點並同時推行品牌再造。</span
-            >
+            我們訪談不同層級的會員，使我們能夠瞭解不同用戶在<span class="text-md-bold">使用網站時的場景、所遇到的痛點以及對產品的期望。</span>
           </p>
         </div>
         <div class="col-md-7 content-pl-48">
           <div class="talking-bobble mb-16">
-            <div class="user-talk mb-8">
+            <div class="user-talk text-sm-bold mb-8">
               從桌機打開是一整個長長的網頁感覺很奇怪，瀏覽的範圍很小，我都是直接搜尋需要的物品就結帳，很希望能在首頁有些商品的資訊。
             </div>
             <div class="user-photo-emoji user-image-relative flex">
@@ -150,7 +158,7 @@
             </div>
           </div>
           <div class="talking-bobble mb-16">
-            <div class="user-talk mb-8">
+            <div class="user-talk text-sm-bold mb-8">
               下單後無法從頁面得知出貨狀態有點困擾。
             </div>
             <div class="user-photo-emoji user-image-relative flex">
@@ -171,7 +179,7 @@
             </div>
           </div>
           <div class="talking-bobble mb-16">
-            <div class="user-talk mb-8">
+            <div class="user-talk text-sm-bold mb-8">
               很希望分類可以再好找一點，有時候Banner會有折扣碼，但字真的滿小的，而且不確定在哪一張裡，要特別留意。
             </div>
             <div class="user-photo-emoji user-image-relative flex">
@@ -192,7 +200,7 @@
             </div>
           </div>
           <div class="talking-bobble">
-            <div class="user-talk mb-8">
+            <div class="user-talk text-sm-bold mb-8">
               跟客戶們開會時都是用電腦網頁，造成缺點直接暴露出來的窘境。主打商品Banner區域太小，點閱率及轉換率都無法發揮最佳效果。非常希望推動改版！
             </div>
             <div class="user-photo-emoji user-image-relative flex">
@@ -216,10 +224,10 @@
       </div>
       <div class="user-talk row content">
         <div class="col-md-5 content-pr-48 mb-48">
-          <h5 class="mb-16">II. 模擬使用者地圖</h5>
+          <h5 class="mb-16">II. 使用者地圖模擬</h5>
           <p>
-            根據使用者訪談、研究結果以及網站用戶數據分析，我們分析使用者的行為以及相似性，並創建出與使用者輪廓相仿的人物誌。此角色幫助團隊在規劃產品時有<span class="text-md-bold">更明確的方向也對使用者產生了同理心，</span>團隊更重視使用者所遇到的問題。
-            從使用者地圖可得知使用者的購物流程，進而討論優化產品的方向來幫助用戶更順利的完成購物進而成為忠實客戶。
+            根據使用者訪談、研究結果以及網站用戶數據分析，我們分析使用者的行為以及相似性，並創建出與使用者輪廓相仿的人物誌。此角色幫助團隊在規劃產品時有
+            <span class="text-md-bold">更明確的方向也對使用者產生了同理心，</span>團隊更重視使用者所遇到的問題。
           </p>
         </div>
         <div class="col-md-7 content-pl-48">
@@ -250,7 +258,7 @@
               <span class="mr-8">•</span>
               <li>
                 <span class="text-md-bold">網站只有手機版</span> -
-                依使用者數據分析得知有80%的使用者瀏覽裝置都是手機，因此最初的設計由手機版開始規劃是正確的方向，不過在網頁上只有手機版的呈現方式卻會造成不良的使用者體驗。
+                依使用者數據分析得知有80%的使用者瀏覽裝置都是手機，因此最初的設計由手機版開始規劃是正確的方向，但在網頁上只有手機版的呈現方式卻會造成不良的使用者體驗。
               </li>
             </div>
             <div class="flex mb-24">
@@ -264,7 +272,7 @@
               <span class="mr-8">•</span>
               <li>
                 <span class="text-md-bold">缺乏品牌精神</span>-
-                網站上放售的商品都經過嚴格把關，想給消費者最天然、友善且能幫助小農的優質選物，而網站設計與高品質商品難以呼應下很難讓消費者買單。
+                網站上放售的商品都經過嚴格把關，想給消費者最天然、友善且能幫助小農的優質選物，而網站設計與高品質商品難以呼應下很難說服消費者。
               </li>
             </div>
           </ul> 
@@ -288,12 +296,12 @@
               <h4 class="mr-8">4</h4>
               <div class="">
                 <h3 class="mb-6">思考</h3>
-                <h2>討論產品的風格</h2>
+                <h2>跨部門一同規劃出品牌風格</h2>
               </div>
             </div>
           </div>
           <p class="text-md">
-            參與與品牌形象團隊、視覺設計團隊、市集團隊共同的腦力激盪會議，我們<span class="text-md-bold">由品牌的初衷「以不變的心，做不變的事」來延伸品牌的風格調性</span>其中也包含了商品照期望呈現風格，營造安心、在地、友善的質感選物電商。
+            在腦力激盪會議中我們<span class="text-md-bold">由品牌的初衷「以不變的心，做不變的事」來延伸品牌的風格調性，</span>其中也包含了商品照期望呈現風格，營造安心、在地、友善的質感選物電商。
           </p>
         </div>
         <div class="col-md-7 flex-center content-pl-48">
@@ -368,8 +376,9 @@
             </div>
             <div class="row">
               <p class="col-md-5 text-md content-pr-48 mb-48">
-                上述是我在做Ｗireframe時遇到的情境，<span class="text-md-bold">CEO提出了與以往我們習慣的電商完全背離的需求</span>，從討論中得知CEO認為巨大的輪播Banner浪費了最精華的頁面且轉換率差。為了佐證CEO的論點，我請負責行銷的同仁幫忙整理先前輪播Banner的點擊率以及熱點分布圖，得知除了前兩張Banner點擊率略高以外之後的點擊率都非常低，也查到NNGroup文獻指出對Carousel
-                Design有效性的質疑，<span class="text-md-bold">在嘗試了幾種非輪播版型的設計後內部一致認同現在採用四格輪替的版型</span>，也跨部門的達成不要給使用者過多促銷資訊的共識。
+                上述是我在做Ｗireframe時遇到的情境，<span class="text-md-bold">CEO提出了與以往我們習慣的電商完全背離的需求</span>，經過細問才得知原來CEO認為巨大的輪播Banner浪費了最精華的頁面且轉換率差，我也從頁面數據以及熱點分布圖驗證了此論點。 
+                而NNGroup文獻指出對Carousel Design有效性的質疑也再次應證了此論點。<span class="text-md-bold">
+                <br/>在嘗試了幾種非輪播版型的設計後內部一致認同現在採用四格輪替的版型</span>，也跨部門的達成不要給使用者過多促銷資訊的共識。
               </p>
               <div class="col-md-7 content-pl-48">
                 <div class="mb-16">
@@ -416,7 +425,7 @@
             <div class="row">
               <p class="text-md col-md-5 content-pr-48 mb-48">
                 經由腦力激盪會議過後夥伴們一同定義品牌再造的風格，我以之延伸並定義了介面元件。
-                一定要將最終確定的UI Kit元件及狀態分享給工程師，這可以幫助工程端在製作Component時方便很多，也可減少來回的微互動修改。
+                <br/>💡：一定要將最終確定的UI Kit元件及狀態分享給工程師，這可以幫助工程端在製作Component時方便很多，也可減少來回的微互動修改。
               </p>
               <figure class="figure col-md-7 content-pl-48">
                 <img
@@ -432,8 +441,6 @@
             <div class="row">
               <p class="text-md col-md-5 content-pr-48 mb-48">
                 邀請公司內部的市集使用者進行新版面任務測試，根據螢幕錄影及熱點分析再進行介面優化，<span class="text-md-bold">聆聽反饋確保舊用戶在新介面中獲得高品質的使用者體驗。</span>
-                <br />
-                使用Figma軟體將元件都系統性的設定為Component，使Wireframe精緻化的過程迅速也方便討論後立即修改。
               </p>
               <figure class="figure col-md-7 content-pl-48">
                 <img
@@ -464,7 +471,7 @@
           </div>
           <div class="row">
             <p class="text-md col-md-5 content-pr-48 mb-48">
-              此次改版計畫是以頁面分階段迭代方式進行，<span class="text-md-bold">由數據顯示使用者接觸最多的首頁以及能將網站架構補齊的分類頁為第一階段上線</span>，而設計永遠都要比工程端開發早規劃並在Prototype測試時就進行優化。
+              此次改版計畫是以頁面分階段迭代方式進行，<span class="text-md-bold">由數據顯示使用者接觸最多的首頁以及能將網站架構補齊的分類頁為第一階段上線</span>。而設計永遠都要比工程端開發早規劃並在Prototype測試時就進行優化。
             </p>
             <div class="highlight col-md-7 content-pl-48 mb-80">
               <div class="row">
@@ -525,7 +532,7 @@
             alt="..."
           />
           <p class="text-md mb-16">
-            將404規劃為不只是導回首頁的頁面，已使用情境而言當使用者找不到商品時除了知道頁面不存在很沮喪外，還是可以去逛逛其他相同屬性的商品或是探索分類
+            將404規劃為不只是導回首頁的頁面，當使用者找不到商品除了知道頁面不存在很沮喪外，還是可以去逛逛其他相同屬性的商品或是探索分類
           </p>
         </div>
       </div>
@@ -538,12 +545,13 @@
               <h4 class="mr-8">7</h4>
               <div class="">
                 <h3 class="mb-8">迭代</h3>
-                <h2>再次聆聽使用者</h2>
+                <h2>由頁面數據進行優化</h2>
               </div>
             </div>
           </div>
           <p class="text-md mb-48">
-            新介面上線兩個月後我們進行網站追蹤系統分析，發現「限時活動banner區域」點閱率有顯著改善，也從熱點追蹤證實了堅持保留使用者習慣的分類列是正確的設計。其中我們還發現使用者看完「限時活動banner區域」通常會接著尋找第二熱門的「編輯嚴選」及「最新上架」而忽略了中間的「特選專區」<span class="text-md-bold">秉持著使用者為中心的原則微調專區順序，</span>再觀察數據後發現使用者的瀏覽動線更為順暢，且原本被忽略的專區也連帶提高了點擊率。
+            由蹤數據得知<span class="text-md-bold">「限時活動banner區域」點閱率有顯著改善</span>，也從熱點追蹤證實了堅持保留使用者習慣的分類列是正確的設計。
+            <br/>其中我們也<span class="text-md-bold">秉持著使用者為中心的原則將熱門區域調整至頁面上方，</span>再觀察數據後發現使用者的瀏覽動線更為順暢，且原本被忽略的專區也連帶提高了點擊率。
           </p>
         </div>
         <figure class="figure col-md-7 content-pl-48 flex-center">
@@ -562,13 +570,14 @@
             <div class="title-group">
               <h4 class="mr-8">8</h4>
               <div class="">
-                <h3 class="mb-6">驚喜包</h3>
-                <h2>APP開發</h2>
+                <h3 class="mb-6">APP開發</h3>
+                <h2>2021年疫情下的產品</h2>
               </div>
             </div>
           </div>
-          <p class="text-md mb-48 flex-center">
-            奧丁丁市集APP是由於2021年5月台灣COVID-19疫情升溫而催產出來的，將不改既有使用者操作行為為目標，以網站的基本架構做Flutter雙平台的開發，開發時也特別規劃了APP獨有的短影片宣傳功能。
+          <p class="text-md mb-48">
+            奧丁丁市集APP是由於2021年5月台灣COVID-19疫情爆發導致生鮮網購銷量暴增而催產出來的產品。<span class="text-md-bold">將不改既有使用者操作行為為目標，</span>
+            除了讓原有用戶輕鬆上手外也能增添黏著度，其中也規劃了短影片宣傳的APP獨有功能。
           </p>
         </div>
         <figure class="figure col-md-7 content-pl-48">
@@ -597,7 +606,7 @@
               <span class="mr-8">•</span>
               <li>
                 <span class="text-md-bold">挑戰突破框架 - </span>
-                就設計過程中提到的Banner難題，當聽到設計被打槍甚至說服CEO失敗時其實非常慌亂，不過現在看來這一個任務不只讓我跳脫了慣性思考，甚至學會運用更多資源來幫助自己梳理設計脈絡，成果也令使用者及同事非常滿意。
+                當時規劃Banner版面時遇到的難題，現在看來這個任務不只讓我跳脫了慣性思考，甚至學會運用更多資源來幫助自己梳理設計脈絡，成果也令使用者及同事非常滿意。
               </li>
             </div>
             <div class="flex">
@@ -673,8 +682,12 @@ export default {
     PageElevator
   },
   data() {
-    return {
+    return {     
       anchors: [
+        {
+          name: '總覽',
+          id: '#overall'
+        },     
         {
           name: '目標',
           id: '#step-1'
