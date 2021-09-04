@@ -724,6 +724,10 @@ export default {
     return {
       anchors: [
         {
+          name: '總覽',
+          id: '#overall'
+        },        
+        {
           name: '目標',
           id: '#step-1'
         },
