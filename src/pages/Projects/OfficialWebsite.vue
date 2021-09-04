@@ -25,15 +25,26 @@
         <div class="bnanner"></div>
       </figure>
     </section>
-    <section class="task container text-md">
-      <h2 class="mb-16">集團介紹</h2>
-      <p class="text-md mb-48">
-        奧丁丁集團創立於2010年，是一間以區塊鏈技術為核心的科技公司，其產品涵蓋B2B商業服務、B2B管理後台、B2C電商平台、實體旅宿等共七大事業體。
-      </p>
-      <h2 class="mb-16">專案背景</h2>
-      <p class="">
-        官方網站是集團傳遞形象的重要管道，而使用者涵蓋了面試者、公司成員、合作商甚至投資者等。在奧丁丁集團成立初期所架設的官網頁面中並無保留太多的談性空間，因此無法清楚的將集團近年來的資訊正確傳達給使用者，這也造成了<span class="text-md-bold">使用者容易從網站中獲得過時且不完整的資訊</span>，再加上老舊的視覺風格與集團近年來定義的VI調性不一、使用者對網站的負面評價等等，促成了此次集團官網改版。
-      </p>
+    <section id="overall" class="overall container text-md">
+      <div class="background mb-48">
+        <h2 class="mb-16">專案背景</h2>
+        <p>
+          奧丁丁集團創立於2010年，是一間以區塊鏈技術為核心的科技公司，其產品涵蓋B2B商業服務、B2B旅宿管理服務、B2C電商平台、實體旅宿等共七大事業體。<br/>
+          在奧丁丁集團成立初期所架設的官網頁面中並無保留太多的談性空間，因此無法清楚的將集團近年來的資訊正確傳達給使用者，這也造成了<span class="text-md-bold">使用者容易從網站中獲得過時且不完整的資訊</span>，再加上老舊的視覺風格與集團近年來定義的VI調性不一、使用者對網站的負面評價等等，促成了此次集團官網改版。
+        </p>
+      </div>
+      <div class="task">
+        <h2 class="mb-16">專案挑戰與決策</h2>
+          <ul class="text-md">        
+            <div class="flex">
+              <span class="mr-8">•</span>
+              <li>
+                <span class="text-md-bold">上限時程大幅提前</span> -
+                突然收到原預計第二階段上線的多國語系功能需提前至第一階段上線，立即招開集結各部門的會議請求人力支援，以分工的方式將多語頁面以最快的速度完成。
+              </li>              
+            </div>
+          </ul> 
+      </div>          
     </section>
     <div class="cover-photo container p-0">
       <figure class="figure">
@@ -50,7 +61,7 @@
           <h4 class="mr-8">1</h4>
           <div class="">
             <h3 class="mb-6">目標</h3>
-            <h2>網站改版希望達成的目的</h2>
+            <h2>我們要達成的目的</h2>
           </div>
         </div>
       </div>
@@ -72,7 +83,7 @@
         反饋搶先看 👀
       </h5>
       <div class="feedback row">
-        <div class="col-md-4 content-pr-8 mb-16">
+        <div class="col-lg-4 content-pr-8 mb-16">
           <div class="border-thinner border-radius-4 shadow-sm p-8">
             <div class="text-sm-bold">
               ⭐⭐⭐⭐⭐
@@ -84,7 +95,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 content-pr-8 mb-16">
+        <div class="col-lg-4 content-pr-8 mb-16">
           <div class="border-thinner border-radius-4 shadow-sm p-8">
             <div class="text-sm-bold">
               ⭐⭐⭐⭐⭐
@@ -96,7 +107,7 @@
             </div>
           </div>
         </div>   
-        <div class="col-md-4 content-pr-8">
+        <div class="col-lg-4 content-pr-8">
           <div class="border-thinner border-radius-4 shadow-sm p-8">
             <div class="text-sm-bold">
               ⭐⭐⭐⭐⭐
@@ -123,7 +134,8 @@
             </div>
           </div>
           <p class="text-md">
-            新官網代表的是整個奧丁丁集團，再加此需求原自於CEO，因此在執行此任務時團隊更加的謹慎。在此次專案中我同時扮演了UIUX設計師及工程部門對外窗口。而我們從訪談公司同事以及身邊親友中獲得使用者對舊官網的負面反饋，並計畫在新官網規劃階段一併排除。
+            新官網代表的是整個奧丁丁集團，再加此需求原自於CEO，因此在執行此任務時團隊更加的謹慎。<span class="text-md-bold">在此次專案中我同時扮演了UIUX設計師及工程部門對外窗口。</span>
+            而我們從訪談公司同事以及身邊親友中獲得使用者對舊官網的負面反饋，並計畫在新官網規劃階段一併排除。
           </p>
         </div>
         <div class="col-md-7 content-pl-48">
@@ -236,7 +248,7 @@
               <span class="mr-8">•</span>
               <li>
                 <span class="text-md-bold">不良介面設計</span> -
-                網站中有元素在滑動時會固定在畫面上方，擋住內容的情形，在媒體報導頁更有一長串長達十年的時間軸虛滾動，導致使用者難以輕鬆瀏覽頁面。
+                網站中有元素在滑動時會固定在畫面上方擋住內容的情形，在媒體報導頁更有一長串長達十年的時間軸虛滾動，導致使用者難以輕鬆瀏覽頁面。
               </li>
             </div>
             <div class="flex mb-24">
@@ -250,8 +262,7 @@
               <span class="mr-8">•</span>
               <li>
                 <span class="text-md-bold">卻乏一致性的設計規劃</span>-
-                頁面視覺過於凌亂，且與近年來集團
-                規劃的VI風格相差甚遠，導致品牌風格難以塑造。
+                頁面視覺過於凌亂，且與近年來集團規劃的VI風格相差甚遠，導致品牌風格難以塑造。
               </li>
             </div>
           </ul>
@@ -275,7 +286,7 @@
               <h4 class="mr-8">4</h4>
               <div class="">
                 <h3 class="mb-8">思考</h3>
-                <h2>這是些酷炫的想法</h2>
+                <h2>腦力激盪出的點子</h2>
               </div>
             </div>
           </div>
@@ -302,7 +313,7 @@
               <h4 class="mr-8">5</h4>
               <div class="">
                 <h3 class="mb-8">設計過程</h3>
-                <h2>越早討論越早<span class="line-through">失敗</span>順利</h2>
+                <h2>越早討論越早順利</h2>
               </div>
             </div>
           </div>
@@ -330,8 +341,7 @@
             <div class="row">
               <div class="col-md-5 content-pr-48 mb-48">
                 <p class="text-md">
-                  規劃出Wireframe並與需求端確認資訊呈現後，就可以上傳至雲端請各部門協助文案內容。因為牽涉到各部門的時程安排以及英日翻譯，所以<span class="text-md-bold">Wireframe在設計端越早完成對於整個專案的排程也會更順利</span>，使用的協作軟體是google
-                  sheet 。
+                  規劃出Wireframe並確認資訊呈現後上傳至雲端請各部門協助文案內容。因為牽涉到各部門的時程安排以及英日翻譯，所以<span class="text-md-bold">Wireframe在設計端越早完成對於整個專案的排程也會更順利</span>，使用的協作軟體是Google Sheet 。
                 </p>
               </div>
               <div class="col-md-7 content-pl-48">
@@ -609,7 +619,7 @@
               alt="..."
             />
             <p class="text-md mt-16 mb-16">
-              需一眼讓使用者理解集團旗下眾多服務，並選出最具代表性的背景圖呈現服務類別
+              經由背景圖呈現服務類別，讓使用者能迅速理解集團旗下服務
             </p>
           </div>
           <div class="col-md-9">
@@ -620,7 +630,7 @@
               alt="..."
             />
             <p class="text-md mt-16 mb-16">
-              UIUX出設計圖後由視覺設計師協助完成據點動畫，非常感謝同事的協助讓動畫得以完美呈現
+              我規劃出設計圖後請視覺設計師協助完成據點動畫，非常感謝同事的協助讓動畫得以完美呈現
             </p>
           </div>
         </div>
@@ -634,12 +644,12 @@
               <h4 class="mr-8">7</h4>
               <div class="">
                 <h3 class="mb-8">收穫及反思</h3>
-                <h2>可惡早知道</h2>
+                <h2>歸檔與設計一樣重要</h2>
               </div>
             </div>
           </div>
           <p class="text-md">
-            這次的官網改版對集團來說是非常成功的專案，符合企業風格的網站以及清晰的產品介紹是獲得最多好評的。然而總是有可以做到更好地方，例如將舊頁面資料更全面的歸檔整理；多部門討論時可採期限限制的方法來避免來回的資訊修改等，都是往後會多加留意的部分。
+            這次的官網改版對集團來說是非常成功的專案，符合企業風格的網站以及清晰的產品介紹是獲得最多好評的。然而對於將舊頁面應在改版前做更全面的歸檔整理，這是我在往後專案中一定會留意的。
           </p>
         </div>
       </div>
