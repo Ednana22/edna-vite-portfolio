@@ -22,19 +22,35 @@
         />
       </figure>
     </section>
-    <section class="task container text-md">
-      <div class="product-introduce">
-        <h2 class="mb-16">產品介紹</h2>
-        <p class="text-md mb-48">
-          OwlNest是一款為旅宿業打造的B2B三合一整合型訂房系統，提供前台官網訂房系統、PMS訂單管理系統、線上銷售平台通路串接，用戶遍及亞洲、美洲國家，旅宿用戶達上千家。
-        </p>
-      </div>
-      <div class="background">
+    <section id="overall" class="overall container text-md">
+      <div class="background mb-48">
         <h2 class="mb-16">專案背景</h2>
-        <p class="">
+        <p class="text-md mb-48">
+          OwlNest是一款為旅宿業打造的B2B三合一整合型訂房系統，提供前台官網訂房系統、PMS訂單管理系統、線上銷售平台通路串接，用戶遍及亞洲、美洲國家，旅宿用戶達上千家。<br/>
           因早期OwlNest系統客群是鎖定民宿業者，只做到單一房型單一專案的鋪價功能，近幾年隨著市場逐漸拓展，客群也從民宿業者增加至小型旅館業者再加上平台串接功能的開發，<span class="text-md-bold">目前介面功能無法達到有效的鋪設價格</span>，對使用者來說不僅費時也容易出錯。
         </p>
       </div>
+      <!-- <div class="task">
+        <h2 class="mb-16">專案挑戰與決策</h2>
+          <ul class="text-md">
+            <div class="flex mb-24">
+              <span class="mr-8">•</span>
+              <li>
+                <span class="text-md-bold">無法與民宿也者面對面訪談</span> -
+                此次調整規模除了UI/UX流程與前端框架更動之外也牽扯到後端的資料架構，有牽一髮而動全身的疑慮。規劃初期我先以資訊架構與工程部門討論改版規模，最後決定以頁面迭代的方式進行。
+              </li>
+              
+            </div>
+            <div class="flex">
+              <span class="mr-8">•</span>
+              <li>
+                <span class="text-md-bold">與業務端持不同意見</span> -
+                CEO指定首頁不要BANNER！經過細問才得知原來CEO認為巨大的輪播Banner浪費了最精華的頁面且轉換率差，我也從頁面數據以及熱點分布圖驗證了此論點。
+                在設計版面時規劃四格分割的Banner版型，也跨部門的達成不要給使用者過多促銷資訊的共識。
+              </li>
+            </div>
+          </ul> 
+      </div>         -->
     </section>
     <section class="cover-photo container p-0">
       <figure class="figure">
@@ -51,7 +67,7 @@
           <h4 class="mr-8">1</h4>
           <div class="">
             <h3 class="mb-6">目標</h3>
-            <h2>最終希望解決的問題</h2>
+            <h2>我們要解決的問題</h2>
           </div>
         </div>
       </div>
@@ -461,6 +477,10 @@ export default {
   data () {
     return {
       anchors: [
+        {
+          name: '總覽',
+          id: '#overall'
+        },        
         {
           name: '目標',
           id: '#step-1'
