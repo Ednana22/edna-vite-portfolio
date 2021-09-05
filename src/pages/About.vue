@@ -332,7 +332,7 @@
           <h2 class="mb-16">最想完成的Side Project是一款筋絡APP</h2>
           <p class="text-md">
             想做筋絡APP的起因來自於自己重訓完有使用筋膜槍放鬆的習慣，而常常會忘記該施力的穴道位置還有施力強度，因此希望有款app可以像客製化百科一樣來幫助使用者，甚至為了這個Side
-            Project買了一本穴位按摩圖典。為什麼是app不是web？因為我還規劃希望能做到局部掃描穴位功能，如果你對這個APP有興趣歡迎與我聯繫！
+            Project買了一本穴位按摩圖典。為什麼是APP不是Web？因為我還規劃希望能做到局部掃描穴位功能，如果你對這個APP有興趣歡迎與我聯繫！
           </p>
         </div>
         <div class="col-md-6 flex-center column content-pl-48">
