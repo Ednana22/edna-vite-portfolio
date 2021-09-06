@@ -18,11 +18,8 @@ $grid-breakpoints: (
   @media (max-width: 2680px) {
     font-size: 56px;
   }
-  @media (max-width: 1440px) {
-    font-size: 56px;
-  }
   @media (max-width: 576px) {
-    font-size: 48px;
+    font-size: 40px;
   }
 }
 .text-xl {
@@ -32,7 +29,7 @@ $grid-breakpoints: (
   line-height: 1;
 }
 .text-l {
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 400;
   font-family: 'rubik';
   line-height: 1;
@@ -50,7 +47,7 @@ $grid-breakpoints: (
   border: 1px solid $color_grey-lighter;
   padding: 16px;
   border-radius: 8px;
-  animation: slideUp 1s ease-in;
+  animation: slideUp 1s ease-in forwards;
   // @for $i from 1 through 10 {
   //   &:nth-child(#{$i}) .circle {
   //   }
