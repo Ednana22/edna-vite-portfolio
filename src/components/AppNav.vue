@@ -57,18 +57,18 @@
                 </router-link>
                 <ul class="sub_item">
                   <li>
-                    <router-link :to="{ name: 'ProjectMarket' }">奧丁丁市集改版</router-link>
+                    <router-link :to="{ name: 'ProjectMarket' }" @click="detectIsSamePage('ProjectMarket')">奧丁丁市集改版</router-link>
                   </li>
                   <li>
-                    <router-link :to="{ name: 'ProjectWeb' }">奧丁丁集團官網重構</router-link>
+                    <router-link :to="{ name: 'ProjectWeb' }" @click="detectIsSamePage('ProjectWeb')">奧丁丁集團官網重構</router-link>
                   </li>
                   <li>
-                    <router-link :to="{ name: 'ProjectPMS' }">旅宿管理系統規劃</router-link>
+                    <router-link :to="{ name: 'ProjectPMS' }" @click="detectIsSamePage('ProjectPMS')">旅宿管理系統規劃</router-link>
                   </li>
                 </ul>
               </li>
               <li>
-                <router-link :to="{ name: 'About' }">
+                <router-link :to="{ name: 'About' }" @click="detectIsSamePage('About')">
                   <h4>關於我</h4>
                 </router-link>
               </li>
@@ -112,6 +112,12 @@ watch(
     isDropDownOpen.value = false
   }
 )
+
+const detectIsSamePage = direction => {
+  if (route.name === direction) {
+    isDropDownOpen.value = false
+  }
+}
 </script>
 
 <style src="../styles/appNav.scss"></style>
