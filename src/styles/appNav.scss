@@ -136,7 +136,7 @@
           a {
             padding: .8rem 2rem;
             color: $color_grey-dark;
-            &:active {
+            &.router-link-active {
               text-decoration: underline;
             }
           }
