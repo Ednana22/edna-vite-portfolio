@@ -33,7 +33,7 @@
           在奧丁丁集團成立初期所架設的官網頁面中並無保留太多的談性空間，因此無法清楚的將集團近年來的資訊正確傳達給使用者，這也造成了<span class="text-md-bold">使用者容易從網站中獲得過時且不完整的資訊</span>，再加上老舊的視覺風格與集團近年來定義的VI調性不一、使用者對網站的負面評價等等，促成了此次集團官網改版。
         </p>
       </div>
-      <div class="task">
+      <div class="task mb-48">
         <h2 class="mb-16">專案挑戰與決策</h2>
           <ul class="text-md">        
             <div class="flex">
@@ -44,7 +44,50 @@
               </li>              
             </div>
           </ul> 
-      </div>          
+      </div>     
+      <div class="highlight">
+        <h2 class="mb-16">
+          反饋搶先看 👀
+        </h2>
+        <div class="feedback row">
+          <div class="col-lg-4 content-pr-8 mb-16">
+            <div class="border-thinner border-radius-4 shadow-sm p-8">
+              <div class="text-sm-bold">
+                ⭐⭐⭐⭐⭐
+                <br />
+                真的早該改版了！分享改版過後的新官網給其他同業時非常有面子！
+                <p class="text-sm">
+                  - 大咖同事
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 content-pr-8 mb-16">
+            <div class="border-thinner border-radius-4 shadow-sm p-8">
+              <div class="text-sm-bold">
+                ⭐⭐⭐⭐⭐
+                <br />
+                求職者表示官網介紹十分清楚詳細，不需再為集團服務多加介紹了！
+                <p class="text-sm">
+                  - HR部門同事
+                </p>
+              </div>
+            </div>
+          </div>   
+          <div class="col-lg-4 content-pr-8">
+            <div class="border-thinner border-radius-4 shadow-sm p-8">
+              <div class="text-sm-bold">
+                ⭐⭐⭐⭐⭐
+                <br />
+                外部媒體來採訪時有感受到他們對於公司體系更加瞭解也更容易進入狀況了！    
+              <p class="text-sm">
+                  - 公關部門同事
+                </p>
+              </div>
+            </div>
+          </div>        
+        </div>      
+      </div>           
     </section>
     <div class="cover-photo container p-0">
       <figure class="figure">
@@ -65,7 +108,7 @@
           </div>
         </div>
       </div>
-      <ul class="mb-48">
+      <ul>
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
           <li class="text-md">官方網站重構，由資訊架構開始整理，讓使用者能更快速的獲得資訊</li>
@@ -79,47 +122,6 @@
           <li class="text-md">由集團VI延伸，為網站定義新風格，並使其成為同業中的亮點</li>
         </div>
       </ul>
-      <h5 class="mb-16">
-        反饋搶先看 👀
-      </h5>
-      <div class="feedback row">
-        <div class="col-lg-4 content-pr-8 mb-16">
-          <div class="border-thinner border-radius-4 shadow-sm p-8">
-            <div class="text-sm-bold">
-              ⭐⭐⭐⭐⭐
-              <br />
-              真的早該改版了！分享改版過後的新官網給其他同業時非常有面子！
-              <p class="text-sm">
-                - 大咖同事
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 content-pr-8 mb-16">
-          <div class="border-thinner border-radius-4 shadow-sm p-8">
-            <div class="text-sm-bold">
-              ⭐⭐⭐⭐⭐
-              <br />
-              求職者表示官網介紹十分清楚詳細，不需再為集團服務多加介紹了！
-              <p class="text-sm">
-                - HR部門同事
-              </p>
-            </div>
-          </div>
-        </div>   
-        <div class="col-lg-4 content-pr-8">
-          <div class="border-thinner border-radius-4 shadow-sm p-8">
-            <div class="text-sm-bold">
-              ⭐⭐⭐⭐⭐
-              <br />
-              外部媒體來採訪時有感受到他們對於公司體系更加瞭解也更容易進入狀況了！    
-            <p class="text-sm">
-                - 公關部門同事
-              </p>
-            </div>
-          </div>
-        </div>        
-      </div>      
     </section>
     <section id="step-2" class="2understand container text-md">
       <div class="row content mt-16 mb-16">

@@ -30,7 +30,7 @@
           因早期OwlNest系統客群是鎖定民宿業者，只做到單一房型單一專案的鋪價功能，近幾年隨著市場逐漸拓展，客群也從民宿業者增加至小型旅館業者再加上平台串接功能的開發，<span class="text-md-bold">目前介面功能無法達到有效的鋪設價格</span>，對使用者來說不僅費時也容易出錯。
         </p>
       </div>
-      <div class="task">
+      <div class="task mb-48">
         <h2 class="mb-16">專案挑戰與決策</h2>
           <ul class="text-md">
             <div class="flex mb-24">
@@ -49,7 +49,50 @@
               </li>
             </div>
           </ul> 
-      </div>        
+      </div>       
+      <div class="highlight">
+        <h2 class="mb-16">
+          反饋搶先看 👀
+        </h2>
+        <div class="feedback row">
+          <div class="col-md-4 content-pr-8 mb-16">
+            <div class="border-thinner border-radius-4 shadow-sm p-8">
+              <div class="text-sm-bold">
+                ⭐⭐⭐⭐⭐
+                <br />
+                批次鋪價功能的推出對於年底需要長時間鋪價真的非常方便！
+                <p class="text-sm">
+                  - 北部旅宿業者
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 content-pr-8 mb-16">
+            <div class="border-thinner border-radius-4 shadow-sm p-8">
+              <div class="text-sm-bold">
+                ⭐⭐⭐⭐⭐
+                <br />
+                國定假期功能清楚明瞭！還可以針對不同假期做價格上的調整，很棒！
+                <p class="text-sm">
+                  - 東部旅宿業者
+                </p>
+              </div>
+            </div>
+          </div>   
+          <div class="col-md-4 content-pr-8">
+            <div class="border-thinner border-radius-4 shadow-sm p-8">
+              <div class="text-sm-bold">
+                ⭐⭐⭐⭐⭐
+                <br />
+                新規劃的國定假日鋪價功能可成為我們商品在市場上的獨特買點！
+                <p class="text-sm">
+                  - 業務同事
+                </p>
+              </div>
+            </div>
+          </div>        
+        </div>
+      </div>       
     </section>
     <section class="cover-photo container p-0">
       <figure class="figure">
@@ -64,13 +107,13 @@
       <div class="project-title">
         <div class="title-group">
           <h4 class="mr-8">1</h4>
-          <div class="">
+          <div>
             <h3 class="mb-6">目標</h3>
             <h2>我們要解決的問題</h2>
           </div>
         </div>
       </div>
-      <ul class="mb-48">
+      <ul>
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
           <li class="text-md">進行新設定介面開發，達到更符合使用者期待的鋪價設定</li>
@@ -84,47 +127,6 @@
           <li class="text-md">市面上沒有任何一套系統支援針對國定假日鋪價，可將此功能列為獨家賣點</li>
         </div>
       </ul>
-      <h5 class="mb-16">
-        反饋搶先看 👀
-      </h5>
-      <div class="feedback row">
-        <div class="col-md-4 content-pr-8 mb-16">
-          <div class="border-thinner border-radius-4 shadow-sm p-8">
-            <div class="text-sm-bold">
-              ⭐⭐⭐⭐⭐
-              <br />
-              批次鋪價功能的推出對於年底需要長時間鋪價真的非常方便！
-              <p class="text-sm">
-                - 北部旅宿業者
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 content-pr-8 mb-16">
-          <div class="border-thinner border-radius-4 shadow-sm p-8">
-            <div class="text-sm-bold">
-              ⭐⭐⭐⭐⭐
-              <br />
-              國定假期功能清楚明瞭！還可以針對不同假期做價格上的調整，很棒！
-              <p class="text-sm">
-                - 東部旅宿業者
-              </p>
-            </div>
-          </div>
-        </div>   
-        <div class="col-md-4 content-pr-8">
-          <div class="border-thinner border-radius-4 shadow-sm p-8">
-            <div class="text-sm-bold">
-              ⭐⭐⭐⭐⭐
-              <br />
-              新規劃的國定假日鋪價功能可成為我們商品在市場上的獨特買點！
-              <p class="text-sm">
-                - 業務同事
-              </p>
-            </div>
-          </div>
-        </div>        
-      </div>
     </section>
     <section id="step-2" class="2understand container text-md">
       <div class="row content mt-16 mb-16">

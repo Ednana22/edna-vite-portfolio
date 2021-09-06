@@ -33,7 +33,7 @@
           公司內部業務經理則反映，當展示網站給潛在合作廠商時<span class="text-md-bold">經常被質疑公司網站的可用性、安全性</span>，這也導致內部人員對產品提不起信心。
         </p>
       </div>
-      <div class="task">
+      <div class="task mb-48">
         <h2 class="mb-16">專案挑戰與決策</h2>
           <ul class="text-md">
             <div class="flex mb-24">
@@ -53,6 +53,29 @@
               </li>
             </div>
           </ul> 
+      </div>      
+      <div class="highlight">
+        <h2 class="mb-16">成果搶先看 👀</h2>
+        <div class="highlight row">
+          <div class="col-sm-4 new_user mb-24">
+            <p class="text-xxl gradient-font">
+              230<span class="text-l">%</span>
+            </p>
+            <p class="text-md-bold">新使用者增加</p>
+          </div>
+          <div class="col-sm-4 viewing_time mb-24">
+            <p class="text-xxl gradient-font">
+              81<span class="text-l">%</span>
+            </p>
+            <p class="text-md-bold">平均停留時間增加</p>
+          </div>
+          <div class="col-sm-4 bounce_rate">
+            <p class="text-xxl gradient-font">
+              -24<span class="text-l">%</span> 
+            </p>
+            <p class="text-md-bold">跳出率明顯優化</p>
+          </div>
+        </div>
       </div>      
     </section>
     <section class="cover-photo container p-0">
@@ -74,7 +97,7 @@
           </div>
         </div>
       </div>
-      <ul class="mb-48">
+      <ul>
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
           <li class="text-md">
@@ -93,29 +116,6 @@
           <li class="text-md">以電商平台幫助在地優質小農推廣用心製造的產品</li>
         </div>
       </ul>
-      <div class="height-light">
-        <h5 class="mb-16">成果搶先看 👀</h5>
-        <div class="highlight row">
-          <div class="col-sm-4 new_user mb-24">
-            <p class="text-xxl gradient-font">
-              230<span class="text-l">%</span>
-            </p>
-            <p class="text-md-bold">新使用者增加</p>
-          </div>
-          <div class="col-sm-4 viewing_time mb-24">
-            <p class="text-xxl gradient-font">
-              81<span class="text-l">%</span>
-            </p>
-            <p class="text-md-bold">平均停留時間增加</p>
-          </div>
-          <div class="col-sm-4 bounce_rate">
-            <p class="text-xxl gradient-font">
-              -24<span class="text-l">%</span> 
-            </p>
-            <p class="text-md-bold">跳出率明顯優化</p>
-          </div>
-        </div>
-      </div>
     </section>
     <section id="step-2" class="2understand container text-md">
       <div class="project-title">
