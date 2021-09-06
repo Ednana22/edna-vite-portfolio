@@ -44,13 +44,13 @@
           <p class="text-md-bold">2017 - 2015</p>
           <div class="circle-grey mt-8 mb-8"></div>
           <p class="text-md-bold">視覺設計師</p>
-          <p class="text-md">樂子美式餐飲</p>
+          <p class="text-md">樂子餐飲集團</p>
         </div>
         <div class="2014">
           <p class="text-md-bold">2015 - 2014</p>
           <div class="circle-grey mt-8 mb-8"></div>
           <p class="text-md-bold">歐盟繪畫學士</p>
-          <p class="text-md">留學瑞士EPAC</p>
+          <p class="text-md">留學瑞士EPAC當代藝術學院</p>
         </div>
         <div class="2014">
           <p class="text-md-bold">2013 - 2010</p>
