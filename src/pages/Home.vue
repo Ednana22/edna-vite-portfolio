@@ -171,7 +171,7 @@
               UX研究<span class="font-color-lighter"> | </span> 
               UI設計<span class="font-color-lighter"> | </span>
               B2B<span class="font-color-lighter"> | </span>
-              Saas
+              SaaS
             </div>
             <div class="text-md">
               對於OwlNest旅宿管理系統的鋪價功能進行開發以及優化，達成便捷快速及可彈性修改定價為目標。
