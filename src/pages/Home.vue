@@ -85,6 +85,8 @@
             <div class="text-md-bold mb-24">
               品牌再造
               <span class="font-color-lighter"> | </span>
+              網站改版
+              <span class="font-color-lighter"> | </span>              
               APP規劃
               <span class="font-color-lighter"> | </span>
               UX研究
