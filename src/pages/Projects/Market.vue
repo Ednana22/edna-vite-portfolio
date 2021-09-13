@@ -418,7 +418,7 @@
             </div>
           </div>
           <div class="3ui-kit content mb-80">
-            <h5 class="col-md-5 mb-16">III. UI Kit</h5>
+            <h5 class="col-md-5 mb-16">III. Design System</h5>
             <div class="row">
               <p class="text-md col-md-5 content-pr-48 mb-48">
                 經由腦力激盪後組員一同定義品牌再造的風格，我以之延伸並定義了介面元件來達產品是覺的一致性。
@@ -437,7 +437,7 @@
             <h5 class="mb-16">IV. Prototype</h5>
             <div class="row">
               <p class="text-md col-md-5 content-pr-48 mb-48">
-                邀請公司內部的市集使用者進行新版面任務測試，根據螢幕錄影及熱點分析再進行介面優化，<span class="text-md-bold">聆聽反饋確保舊用戶在新介面中獲得高品質的使用者體驗。</span>              </p>
+                我們邀請公司內的市集真實使用者進行新版面任務測試，根據螢幕錄影及熱點分析再進行介面優化，<span class="text-md-bold">聆聽反饋確保舊用戶在新介面中獲得高品質的使用者體驗。</span>              </p>
               <figure class="figure col-md-7 content-pl-48">
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/prototype.gif"
