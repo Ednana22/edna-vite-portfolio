@@ -87,11 +87,11 @@
               <span class="font-color-lighter"> | </span>
               網站改版
               <span class="font-color-lighter"> | </span>
-              APP規劃
+              APP 規劃
               <span class="font-color-lighter"> | </span>
-              UX研究
+              UX 研究
               <span class="font-color-lighter"> | </span>
-              UI設計
+              UI 設計
             </div>
             <div class="text-md">
               為奧丁丁市集重新設計網站，並進行品牌再造的跨部門合作，以優質生鮮電商幫助在地小農推廣用心製造的產品。
@@ -130,8 +130,8 @@
             <h3>奧丁丁集團官網重構</h3>
             <div class="text-md-bold mb-24">
               網站重構<span class="font-color-lighter"> | </span>
-              UX研究<span class="font-color-lighter"> | </span>
-              UI設計<span class="font-color-lighter"> | </span>
+              UX 研究<span class="font-color-lighter"> | </span>
+              UI 設計<span class="font-color-lighter"> | </span>
               形象官網
             </div>
             <div class="text-md">
@@ -170,8 +170,8 @@
           <div class="col-lg-4 content-pl-48">
             <h3>旅宿管理系統規劃</h3>
             <div class="text-md-bold mb-24">
-              UX研究<span class="font-color-lighter"> | </span>
-              UI設計<span class="font-color-lighter"> | </span>
+              UX 研究<span class="font-color-lighter"> | </span>
+              UI 設計<span class="font-color-lighter"> | </span>
               B2B<span class="font-color-lighter"> | </span>
               SaaS
             </div>
