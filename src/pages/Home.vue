@@ -5,19 +5,19 @@
         <div class="row hero">
           <div class="col-md-6 mb-56">
             <h2 class="mb-32">
-              <span class="reveal">Hello! 
+              <span class="reveal">Hello !
                 <span class="wave-hand">👋🏻</span>
-              </span>  
-              <span class="reveal">I'm 
+              </span>
+              <span class="reveal">I'm
                 <span>Edna Wei</span>
-              </span>  
+              </span>
             </h2>
             <h1>
-              我是一名擁有前端基礎技能的UI/UX設計師，
+              我是一名擁有前端基礎技能的 UI/UX 設計師，
               <br />
-              習慣以使用者為中心出發執行80%思考；20%實作
+              習慣以使用者為中心出發執行 80% 思考；20% 實作
               <br />
-              設計出符合易用性且能幫助人的產品 💡   
+              設計出符合易用性且能幫助人的產品 💡
             </h1>
           </div>
           <div class="kv-web col-md-6">
@@ -26,7 +26,7 @@
                 src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/edna-memoji.png"
                 class="figure-img img-fluid mt-80"
                 alt="..."
-              />              
+              />
               <figure gure class="coffee figure flex-center">
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/coffee.png"
@@ -54,7 +54,7 @@
                   class="figure-img img-fluid"
                   alt="..."
                 />
-              </figure>               
+              </figure>
             </figure>
 
           </div>
@@ -66,8 +66,8 @@
                   class="figure-img img-fluid"
                   alt="..."
                 />
-              </figure>            
-          </div>          
+              </figure>
+          </div>
         </div>
       </div>
     </section>
@@ -86,7 +86,7 @@
               品牌再造
               <span class="font-color-lighter"> | </span>
               網站改版
-              <span class="font-color-lighter"> | </span>              
+              <span class="font-color-lighter"> | </span>
               APP規劃
               <span class="font-color-lighter"> | </span>
               UX研究
@@ -94,7 +94,7 @@
               UI設計
             </div>
             <div class="text-md">
-              為奧丁丁市集改版電子商務網站，並進行品牌再造的跨部門合作，以優質生鮮電商幫助在地優質小農推廣用心製造的產品。
+              為奧丁丁市集重新設計網站，並進行品牌再造的跨部門合作，以優質生鮮電商幫助在地小農推廣用心製造的產品。
             </div>
             <router-link class="btn btn-link" :to="{ name: 'ProjectMarket' }">
               瀏覽專案<i class="las la-long-arrow-alt-right"></i>
@@ -129,13 +129,13 @@
           <div class="col-lg-4 content-pl-48">
             <h3>奧丁丁集團官網重構</h3>
             <div class="text-md-bold mb-24">
-              網站重構<span class="font-color-lighter"> | </span> 
+              網站重構<span class="font-color-lighter"> | </span>
               UX研究<span class="font-color-lighter"> | </span>
               UI設計<span class="font-color-lighter"> | </span>
               形象官網
             </div>
             <div class="text-md">
-              由網站架構至UI設計重構集團官網，跨集團七個事業體進行資訊整合，將集團理念及介紹更清楚的傳達給使用者。
+              由網站架構至使用者體驗重新設計集團官網，跨集團七個事業體進行資訊整合，將集團理念及介紹更清楚的傳達給使用者。
             </div>
             <router-link class="btn btn-link" :to="{ name: 'ProjectWeb' }">
               瀏覽專案<i class="las la-long-arrow-alt-right"></i>
@@ -170,13 +170,13 @@
           <div class="col-lg-4 content-pl-48">
             <h3>旅宿管理系統規劃</h3>
             <div class="text-md-bold mb-24">
-              UX研究<span class="font-color-lighter"> | </span> 
+              UX研究<span class="font-color-lighter"> | </span>
               UI設計<span class="font-color-lighter"> | </span>
               B2B<span class="font-color-lighter"> | </span>
               SaaS
             </div>
             <div class="text-md">
-              對於OwlNest旅宿管理系統的鋪價功能進行開發以及優化，達成便捷快速及可彈性修改定價為目標。
+              針對 OwlNest 旅宿管理系統的鋪價功能進行開發及優化，滿足便捷、快速及可彈性修改定價的需求。
             </div>
             <router-link class="btn btn-link" :to="{ name: 'ProjectPMS' }">
               瀏覽專案<i class="las la-long-arrow-alt-right"></i>
