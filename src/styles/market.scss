@@ -51,13 +51,13 @@ $grid-breakpoints: (
   // @for $i from 1 through 10 {
   //   &:nth-child(#{$i}) .circle {
   //   }
-    
+
   //   &:nth-child(#{$i}) .text{
   //     animation-delay: #{$animationTextDelay};
   //   }
   //   $animationTextDelay:  $animation-pause-time;
   //   $animationCircleDelay: $animationTextDelay - $animation-pause-time;
-  // }    
+  // }
 }
 .talk-dialog {
   padding: 4px 10px;

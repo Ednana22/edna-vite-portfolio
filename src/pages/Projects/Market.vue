@@ -5,10 +5,10 @@
       <h1 class="mb-24">奧丁丁市集改版</h1>
       <p class="text-md line-height-sm mb-8">
         負責內容<span class="font-color-light"> | </span
-        >品牌再造、網站重構、APP規劃、UX研究、UI設計、使用者測試
+        >品牌再造、網站重構、APP 規劃、UX 研究、UI 設計、使用者測試
       </p>
       <p class="text-md line-height-sm mb-8">
-        專案規模<span class="font-color-light"> | </span>跨五部門，約15人
+        專案規模<span class="font-color-light"> | </span>跨五部門，約 15 人
       </p>
       <p class="text-md line-height-sm">
         專案角色<span class="font-color-light"> | </span>UI/UX 設計師
@@ -42,18 +42,17 @@
                 <span class="text-md-bold">調整結構過於複雜</span> -
                 此次調整規模除了使用者介面的流程與前端框架更動之外也牽扯到後端的資料架構，有牽一髮而動全身的疑慮。規劃初期我先以資訊架構與工程部門討論改版規模，最後決定以頁面迭代的方式進行。
               </li>
-              
             </div>
             <div class="flex">
               <span class="mr-8">•</span>
               <li>
-                <span class="text-md-bold">設計頁面時與CEO意見相左</span> -
-                CEO指定首頁不要BANNER！經過細問才得知原來CEO認為轉換率差的巨大輪播Banner浪費了頁面最精華的部分，我也從頁面數據以及熱點分布圖驗證了此論點。
+                <span class="text-md-bold">設計頁面時與 CEO 意見相左</span> -
+                CEO 指定首頁不要 BANNER！經過細問才得知原來 CEO 認為轉換率差的巨大輪播 Banner 浪費了頁面最精華的部分，我也從頁面數據以及熱點分布圖驗證了此論點。
                 在嘗試多種版面設計後由四格分割的版型獲得組員信賴，也跨部門的達成不要給使用者過多促銷資訊的共識。
               </li>
             </div>
-          </ul> 
-      </div>      
+          </ul>
+      </div>
       <div class="highlight">
         <h2 class="mb-16">成果搶先看 👀</h2>
         <div class="highlight row">
@@ -71,12 +70,12 @@
           </div>
           <div class="col-sm-4 bounce_rate">
             <p class="text-xxl gradient-font">
-              -24<span class="text-l">%</span> 
+              -24<span class="text-l">%</span>
             </p>
             <p class="text-md-bold">跳出率明顯優化</p>
           </div>
         </div>
-      </div>      
+      </div>
     </section>
     <section class="cover-photo container p-0">
       <figure class="figure">
@@ -179,7 +178,7 @@
           </div>
           <div class="talking-bobble mb-16">
             <div class="user-talk text-sm-bold mb-8">
-              很希望分類可以再好找一點，有時候Banner會有折扣碼，但字真的滿小的，而且不確定在哪一張裡，要特別留意。
+              很希望分類可以再好找一點，有時候 Banner 會有折扣碼，但字真的滿小的，而且不確定在哪一張裡，要特別留意。
             </div>
             <div class="user-photo-emoji user-image-relative flex">
               <figure class="figure mr-16">
@@ -200,7 +199,7 @@
           </div>
           <div class="talking-bobble">
             <div class="user-talk text-sm-bold mb-8">
-              跟客戶們開會時都是用電腦網頁，造成缺點直接暴露出來的窘境。主打商品Banner區域太小，點閱率及轉換率都無法發揮最佳效果。非常希望推動改版！
+              跟客戶們開會時都是用電腦網頁，造成缺點直接暴露出來的窘境。主打商品 Banner 區域太小，點閱率及轉換率都無法發揮最佳效果。非常希望推動改版！
             </div>
             <div class="user-photo-emoji user-image-relative flex">
               <figure class="figure mr-16">
@@ -256,7 +255,7 @@
               <span class="mr-8">•</span>
               <li>
                 <span class="text-md-bold">網站只有手機版</span> -
-                依使用者數據分析得知有80%的使用者瀏覽裝置都是手機，因此最初的設計由手機版開始規劃是正確的方向，但在網頁上只有手機版的呈現方式卻會造成不良的使用者體驗。
+                依使用者數據分析得知有 80% 的使用者瀏覽裝置都是手機，因此最初的設計由手機版開始規劃是正確的方向，但在網頁上只有手機版的呈現方式卻會造成不良的使用者體驗。
               </li>
             </div>
             <div class="flex mb-24">
@@ -273,7 +272,7 @@
                 我們想給消費者最天然、友善且能幫助小農的優質選物，而網站設計與高品質商品難以呼應下很難將品牌理念傳達給消費者。
               </li>
             </div>
-          </ul> 
+          </ul>
         </div>
         <div class="col-md-7 flex-center content-pl-48">
           <figure class="figure">
@@ -333,7 +332,7 @@
             </h5>
             <div class="row">
               <p class="text-md col-md-5 content-pr-48 mb-48">
-                在進行改版前我會先與工程團隊對焦使用者、業務端面臨的問題，由於需調整的網站結構過於複雜<span class="text-md-bold">最後我們達成共識「以頁面迭代的方式運行改版」</span>，以舊網站為架構去翻新舊頁面並補強目前缺少的頁面。資訊架構圖中有亮色外框為新規劃頁面，其餘皆為需要翻新的舊頁面，將各頁面標示出代號在製作Wireframe時可方便與工程師討論。
+                在進行改版前我會先與工程團隊對焦使用者、業務端面臨的問題，由於需調整的網站結構過於複雜<span class="text-md-bold">最後我們達成共識「以頁面迭代的方式運行改版」</span>，以舊網站為架構去翻新舊頁面並補強目前缺少的頁面。資訊架構圖中有亮色外框為新規劃頁面，其餘皆為需要翻新的舊頁面，將各頁面標示出代號在製作 Wireframe 時可方便與工程師討論。
               </p>
               <figure class="figure col-md-7 content-pl-48">
                 <img
@@ -356,7 +355,7 @@
                 />
               </div>
               <div class="talk-dialog ml-8">
-                首頁不要Banner！
+                首頁不要 Banner！
               </div>
             </div>
             <div class="user-talk text-align-left flex-center flex-start mb-24">
@@ -369,12 +368,12 @@
                 />
               </div>
               <div class="talk-dialog ml-8">
-                什麼！哪個電商不用輪播Banner？<br />這不就是使用者最習慣的一種版型嗎？
+                什麼！哪個電商不用輪播 Banner ? <br />這不就是使用者最習慣的一種版型嗎？
               </div>
             </div>
             <div class="row">
               <p class="col-md-5 text-md content-pr-48 mb-48">
-                上述是我在做Ｗireframe時遇到的情境，<span class="text-md-bold">CEO提出了與以往我們習慣的電商完全背離的需求</span>，經過討論才得知原來CEO並不是反對Banner而是認為巨大的輪播版位浪費了頁面最精華的部分且使用者大多會忽略順序在後方的Banner，我也從頁面數據以及熱點分布圖驗證了此論點。<span class="text-md-bold">
+                上述是我在做 Wireframe 時遇到的情境，<span class="text-md-bold">CEO 提出了與以往我們習慣的電商完全背離的需求</span>，經過討論才得知原來 CEO 並不是反對 Banner 而是認為巨大的輪播版位浪費了頁面最精華的部分且使用者大多會忽略順序在後方的 Banner，我也從頁面數據以及熱點分布圖驗證了此論點。<span class="text-md-bold">
                 <br/>在嘗試了幾種非輪播版型的設計後內部一致認同現在採用四格切割版型</span>，也跨部門的達成不要給予使用者過多促銷資訊的共識。
               </p>
               <div class="col-md-7 content-pl-48">
@@ -422,7 +421,7 @@
             <div class="row">
               <p class="text-md col-md-5 content-pr-48 mb-48">
                 經由腦力激盪後組員一同定義品牌再造的風格，我以之延伸並定義了介面元件來達產品是覺的一致性。
-                <br/>💡：一定要將最終確定的UI Kit元件及狀態分享給工程師，這可以幫助工程端在製作Component時方便很多，也可減少來回修改的次數。
+                <br/>💡：一定要將最終確定的 UI Kit 元件及狀態分享給工程師，這可以幫助工程端在製作 Component 時方便很多，也可減少來回修改的次數。
               </p>
               <figure class="figure col-md-7 content-pl-48">
                 <img
@@ -437,7 +436,7 @@
             <h5 class="mb-16">IV. Prototype</h5>
             <div class="row">
               <p class="text-md col-md-5 content-pr-48 mb-48">
-                我們邀請公司內的市集真實使用者進行新版面任務測試，根據螢幕錄影及熱點分析再進行介面優化，<span class="text-md-bold">聆聽反饋確保舊用戶在新介面中獲得高品質的使用者體驗。</span>              </p>
+                我們邀請公司內的市集真實使用者進行新版面任務測試，根據螢幕錄影及熱點分析再進行介面優化，<span class="text-md-bold">聆聽反饋確保舊用戶在新介面中獲得高品質的使用者體驗。</span></p>
               <figure class="figure col-md-7 content-pl-48">
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/prototype.gif"
@@ -499,7 +498,7 @@
           </p>
         </div>
         <div class="col-md-9 mb-80 ml-auto">
-          <h5 class="mb-16">Navbar產品分類</h5>
+          <h5 class="mb-16">Navbar 產品分類</h5>
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/mockup-homepage.png"
             class="figure-img img-fluid border-radius-16 shadow mb-16"
@@ -517,18 +516,18 @@
             alt="..."
           />
           <p class="text-md mb-16">
-            左側分類標觸控範圍有特別加大並加上hover效果，提供使用者更安心的操作
+            左側分類標觸控範圍有特別加大並加上 Hover 效果，提供使用者更安心的操作
           </p>
         </div>
         <div class="col-md-9 ml-auto">
-          <h5 class="mb-16">404頁面</h5>
+          <h5 class="mb-16">404 頁面</h5>
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/mockup-404.png"
             class="figure-img img-fluid border-radius-16 shadow mb-16"
             alt="..."
           />
           <p class="text-md mb-16">
-            將404規劃為不只是導回首頁的頁面，當使用者找不到商品除了知道頁面不存在很沮喪外，還是可以去逛逛其他相同屬性的商品或是探索分類
+            將 404 規劃為不只是導回首頁的頁面，當使用者找不到商品除了知道頁面不存在很沮喪外，還是可以去逛逛其他相同屬性的商品或是探索分類
           </p>
         </div>
       </div>
@@ -546,7 +545,7 @@
             </div>
           </div>
           <p class="text-md mb-48">
-            由蹤數據得知<span class="text-md-bold">「限時活動」Banner點閱率有顯著增加</span>，也從熱點分析圖證實了堅持保留使用者習慣的分類列是正確的設計。
+            由蹤數據得知<span class="text-md-bold">「限時活動」Banner 點閱率有顯著增加</span>，也從熱點分析圖證實了堅持保留使用者習慣的分類列是正確的設計。
             <br/>其中我們也<span class="text-md-bold">秉持著使用者為中心的原則將「編輯嚴選、最新上架」調整至頁面上方，</span>再觀察數據後發現使用者的瀏覽動線更為順暢，且原本被忽略的專區也連帶提升了點擊率。
           </p>
         </div>
@@ -566,14 +565,14 @@
             <div class="title-group">
               <h4 class="mr-8">8</h4>
               <div class="">
-                <h3 class="mb-6">APP開發</h3>
-                <h2>2021年疫情下的產品</h2>
+                <h3 class="mb-6">APP 開發</h3>
+                <h2>2021 年疫情下的產品</h2>
               </div>
             </div>
           </div>
           <p class="text-md mb-48">
-            奧丁丁市集APP是由於2021年5月台灣COVID-19疫情爆發導致生鮮網購銷量暴增而催產出來的產品，奉命以最快高效率做開發<span class="text-md-bold">將不改變既有使用者操作行為為目標，</span>
-            除了讓原有用戶輕鬆上手外也能增添黏著度，其中也規劃了APP獨有的短影片宣傳功能。
+            奧丁丁市集 APP 是由於 2021 年 5 月台灣 COVID-19 疫情爆發導致生鮮網購銷量暴增而催產出來的產品，奉命以最快高效率做開發<span class="text-md-bold">將不改變既有使用者操作行為為目標，</span>
+            除了讓原有用戶輕鬆上手外也能增添黏著度，其中也規劃了 APP 獨有的短影片宣傳功能。
           </p>
         </div>
         <figure class="figure col-md-7 content-pl-48">
@@ -602,7 +601,7 @@
               <span class="mr-8">•</span>
               <li>
                 <span class="text-md-bold">挑戰突破框架 - </span>
-                當時規劃Banner版面時遇到的難題，現在看來這個任務不只讓我跳脫了慣性思考，甚至學會運用更多資源來幫助自己梳理設計脈絡，成果也令使用者及組員非常滿意。
+                當時規劃 Banner 版面時遇到的難題，現在看來這個任務不只讓我跳脫了慣性思考，甚至學會運用更多資源來幫助自己梳理設計脈絡，成果也令使用者及組員非常滿意。
               </li>
             </div>
             <div class="flex">
@@ -632,9 +631,9 @@
             <div class="text-md">
               網站重構
               <span class="font-color-light"> | </span>
-              UX研究
+              UX 研究
               <span class="font-color-light"> | </span>
-              UI設計
+              UI 設計
               <span class="font-color-light"> | </span>
               形象官網
             </div>
@@ -652,13 +651,13 @@
             </router-link>
             <div class="text-md-bold mt-24">旅宿管理系統規劃</div>
             <div class="text-md">
-              UX研究
+              UX 研究
               <span class="font-color-light"> | </span>
-              UI設計
+              UI 設計
               <span class="font-color-light"> | </span>
               B2B
               <span class="font-color-light"> | </span>
-              Saas                     
+              Saas
             </div>
             <router-link class="btn btn-link" :to="{ name: 'ProjectPMS' }">
               瀏覽專案<i class="las la-long-arrow-alt-right"></i>
