@@ -4,15 +4,13 @@
     <section class="title container">
       <h1 class="mb-24">奧丁丁集團官網重構</h1>
       <p class="text-md line-height-sm mb-8">
-        負責內容<span class="font-color-light"> | </span>UX研究、UI
-        設計、重整網站架構
+        負責內容<span class="font-color-light"> | </span>UX 研究、UI 設計、重整網站架構
       </p>
       <p class="text-md line-height-sm mb-8">
-        專案規模<span class="font-color-light"> | </span>跨十三部門，約20人
+        專案規模<span class="font-color-light"> | </span>跨十三部門，約 20 人
       </p>
       <p class="text-md line-height-sm">
-        專案角色<span class="font-color-light"> | </span>UI/UX
-        Designer、工程部門對外窗口
+        專案角色<span class="font-color-light"> | </span>UI/UX Designer、工程部門對外窗口
       </p>
     </section>
     <section class="banner container p-0">
@@ -29,7 +27,7 @@
       <div class="background mb-48">
         <h2 class="mb-16">專案背景</h2>
         <p>
-          奧丁丁集團創立於2010年，是一間以區塊鏈技術為核心的科技公司，其產品涵蓋B2B商業服務、B2B旅宿管理服務、B2C電商平台、實體旅宿等共七大事業體。<br/>
+          奧丁丁集團創立於 2010 年，是一間以區塊鏈技術為核心的科技公司，其產品涵蓋 B2B 商業服務、B2B 旅宿管理服務、B2C 電商平台、實體旅宿等共七大事業體。<br/>
           在奧丁丁集團成立初期所架設的官網頁面中並無保留太多的談性空間，因此無法清楚的將集團近年來的資訊正確傳達給使用者，這也造成了<span class="text-md-bold">使用者容易從網站中獲得過時且不完整的資訊</span>，再加上老舊的視覺風格與集團近年來定義的VI調性不一、使用者對網站的負面評價等等，促成了此次集團官網改版。
         </p>
       </div>
@@ -44,7 +42,7 @@
               </li>              
             </div>
           </ul> 
-      </div>     
+      </div>
       <div class="highlight">
         <h2 class="mb-16">
           反饋搶先看 👀
@@ -87,7 +85,7 @@
             </div>
           </div>        
         </div>      
-      </div>           
+      </div>
     </section>
     <div class="cover-photo container p-0">
       <figure class="figure">
@@ -119,7 +117,7 @@
         </div>
         <div class="flex">
           <span class="mr-8">‣</span>
-          <li class="text-md">由集團VI延伸，為網站定義新風格，並使其成為同業中的亮點</li>
+          <li class="text-md">由集團 VI 延伸，為網站定義新風格，並使其成為同業中的亮點</li>
         </div>
       </ul>
     </section>
@@ -136,7 +134,7 @@
             </div>
           </div>
           <p class="text-md">
-            新官網代表的是整個奧丁丁集團，再加此需求原自於CEO，因此在執行此任務時團隊更加的謹慎。<span class="text-md-bold">在此次專案中我同時扮演了UIUX設計師及工程部門對外窗口。</span>
+            新官網代表的是整個奧丁丁集團，再加此需求原自於 CEO，因此在執行此任務時團隊更加的謹慎。<span class="text-md-bold">在此次專案中我同時扮演了 UI/UX 設計師及工程部門對外窗口。</span>
             而我們從訪談公司同事以及身邊親友中獲得使用者對舊官網的負面反饋，並計畫在新官網規劃階段一併排除。
           </p>
         </div>
@@ -155,7 +153,7 @@
           </div>
           <div class="user-talk text-align-left flex-center flex-end">
             <div class="talk-dialog mb-24 mr-16" style="width: 300px">
-              別人問我在哪工作，我都不好意思丟官網，只好丟104給他們看
+              別人問我在哪工作，我都不好意思丟官網，只好丟 104 給他們看
             </div>
             <div class="memoji text-align-center">
               <img
@@ -181,7 +179,10 @@
               <p class="text-sm color_grey-light">同事C</p>
             </div>
           </div>
-          <div class="user-talk text-align-left flex-center flex-start">
+          <div class="user-talk text-align-left flex-center flex-end">
+            <div class="talk-dialog mb-24 ml-16" style="width: 300px">
+              採訪我們的媒體在官網上常常找不到需要的資訊有時還會寫錯
+            </div>
             <div class="memoji text-align-center">
               <img
                 src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/co-workerC.png"
@@ -190,9 +191,6 @@
                 width="60px "
               />
               <p class="text-sm color_grey-light">同事D</p>
-            </div>
-            <div class="talk-dialog mb-24 ml-16" style="width: 300px">
-              採訪我們的媒體在官網上常常找不到需要的資訊有時還會寫錯
             </div>
           </div>
           <div class="user-talk text-align-left flex-center flex-start">
@@ -209,10 +207,7 @@
               媒體報導時間軸有十年！怎麼都滑不完！
             </div>
           </div>
-          <div class="user-talk text-align-left flex-center flex-end">
-            <div class="talk-dialog mb-24 mr-16">
-              所以你們公司是在做什麼的啊？
-            </div>
+          <div class="user-talk text-align-left flex-center flex-start">
             <div class="memoji text-align-center">
               <img
                 src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/userB.png"
@@ -221,6 +216,9 @@
                 width="60px "
               />
               <p class="text-sm color_grey-light">使用者B</p>
+            </div>
+            <div class="talk-dialog mb-24 mr-16">
+              所以你們公司是在做什麼的啊？
             </div>
           </div>
         </div>
@@ -264,7 +262,7 @@
               <span class="mr-8">•</span>
               <li>
                 <span class="text-md-bold">卻乏一致性的設計規劃</span>-
-                頁面視覺過於凌亂，且與近年來集團規劃的VI風格相差甚遠，導致品牌風格難以塑造。
+                頁面視覺過於凌亂，且與近年來集團規劃的 VI 風格相差甚遠，導致品牌風格難以塑造。
               </li>
             </div>
           </ul>
@@ -294,7 +292,7 @@
           </div>
           <p class="text-md">
             在與夥伴腦力激盪討論時我們拋出了以宇宙出發的想法，官網就像一個宇宙而使用者搭乘著火箭去探索每個事業體的星球，因工程師與參與討論當中所以網頁互動效果的實作可能性也在討論內，雖然在腦力激當時討論網頁互動有點早，不過這樣不設限的討論正是腦力激當有趣的地方。
-          </p>   
+          </p>
         </div>
         <div  class="col-md-7 flex-center content-pl-48">
           <figure class="figure">
@@ -343,7 +341,7 @@
             <div class="row">
               <div class="col-md-5 content-pr-48 mb-48">
                 <p class="text-md">
-                  規劃出Wireframe並確認資訊呈現後上傳至雲端請各部門協助文案內容。因為牽涉到各部門的時程安排以及英日翻譯，所以<span class="text-md-bold">Wireframe在設計端越早完成對於整個專案的排程也會更順利</span>，使用的協作軟體是Google Sheet 。
+                  規劃出 Wireframe 並確認資訊呈現後上傳至 GoogleSheet 請各部門協助文案內容。因為牽涉到各部門的時程安排以及英日翻譯，所以<span class="text-md-bold"> Wireframe 在設計端越早完成對於整個專案的排程也會更順利</span>。
                 </p>
               </div>
               <div class="col-md-7 content-pl-48">
@@ -362,7 +360,7 @@
           <div class="col-md-5 content-pr-48 mb-48">
             <h5 class="mb-16">III. 搜集現有元素延伸</h5>
             <p class="text-md">
-              由集團現有元素中以貫穿集團及七個事業體的貓頭鷹及VI科技藍光譜為發想，由藍色光譜可延伸出的科技感幫助我進一步探索官網的視覺意象。
+              由集團現有元素中以貫穿集團及七個事業體的貓頭鷹及 VI 科技藍光譜為發想，由藍色光譜可延伸出的科技感幫助我進一步探索官網的視覺意象。
             </p>
           </div>
           <div class="elements flex-center space-around mb-32">
@@ -423,7 +421,7 @@
                   <span class="border-circle text-md line-height-2 mr-24">科技</span>
                   <span class="border-circle text-md line-height-2 mr-24">專業</span>
                   <span class="border-circle text-md line-height-2">多元</span>
-               </div>       
+               </div>
             </div>
           </div>
           <div class="visual col-lg-12">
@@ -550,10 +548,9 @@
           <div class="row">
             <div class="col-md-5 content-pr-48 mb-48">
               <p class="text-md">
-                此專案我使用Adobe
-                Xd來模擬視差滾動以及滾動連帶的過場動畫，Prototype的視覺化能幫助設計師與工程師討論時可以快速對焦，若實作時辰上有困難也可以立刻討論作出相對應調整。
+                此專案我使用 Adobe Xd 來模擬視差滾動以及滾動連帶的過場動畫，Prototype的 視覺化能幫助設計師與工程師討論時可以快速對焦，若實作時辰上有困難也可以立刻討論作出相對應調整。
                 <br>
-                💡 : 交付圖片給工程師時可以丟到TingPNG上壓縮，可以幫工程師減輕一點工作量
+                💡 : 交付圖片給工程師時可以丟到 TingPNG 上壓縮，可以幫工程師減輕一點工作量
               </p>
             </div>
             <div class="col-md-7 content-pl-48">
@@ -610,7 +607,7 @@
               alt="..."
             />
             <p class="text-md mt-16 mb-16">
-              將集團產品多元性以及貓頭鷹展翅的理念傳達給視覺設計部門後，由視覺設計師製作出的svg動畫動態效果非常吸睛
+              將集團產品多元性以及貓頭鷹展翅的理念傳達給視覺設計部門後，由視覺設計師製作出的 svg 動畫動態效果非常吸睛
             </p>
           </div>
           <div class="col-md-9 ml-auto mb-80">
@@ -677,9 +674,9 @@
                 <span class="font-color-light"> | </span>
                 APP規劃
                 <span class="font-color-light"> | </span>
-                UX研究
+                UX 研究
                 <span class="font-color-light"> | </span>
-                UI設計
+                UI 設計
               </div>
               <router-link class="btn btn-link" :to="{ name: 'ProjectMarket' }">
                 瀏覽專案<i class="las la-long-arrow-alt-right"></i>
@@ -696,13 +693,13 @@
             </router-link>
             <div class="text-md-bold mt-24">旅宿管理系統規劃</div>
             <div class="text-md">
-              UX研究
+              UX 研究
               <span class="font-color-light"> | </span>
-              UI設計
+              UI 設計
               <span class="font-color-light"> | </span>
               B2B
               <span class="font-color-light"> | </span>
-              Saas              
+              SaaS
             </div>
             <router-link class="btn btn-link" :to="{ name: 'ProjectPMS' }">
               瀏覽專案<i class="las la-long-arrow-alt-right"></i>
@@ -728,7 +725,7 @@ export default {
         {
           name: '總覽',
           id: '#overall'
-        },        
+        },
         {
           name: '目標',
           id: '#step-1'

@@ -4,13 +4,13 @@
     <section class="title container">
       <h1 class="mb-24">旅宿管理系統規劃</h1>
       <p class="text-md line-height-sm mb-8">
-        負責內容<span class="font-color-light"> | </span>UX研究、UI設計
+        負責內容<span class="font-color-light"> | </span>UX 研究、UI 設計
       </p>
       <p class="text-md line-height-sm mb-8">
-        專案規模<span class="font-color-light"> | </span>跨二部門，約8人
+        專案規模<span class="font-color-light"> | </span>跨二部門，約 8 人
       </p>
       <p class="text-md line-height-sm">
-        專案角色<span class="font-color-light"> | </span>UI/UX Designer
+        專案角色<span class="font-color-light"> | </span>UI/UX 設計師
       </p>
     </section>
     <section class="banner container p-0">
@@ -26,8 +26,8 @@
       <div class="background mb-48">
         <h2 class="mb-16">專案背景</h2>
         <p class="text-md mb-48">
-          OwlNest是一款為旅宿業打造的B2B三合一整合型訂房系統，提供前台官網訂房系統、PMS訂單管理系統、線上銷售平台通路串接，用戶遍及亞洲、美洲國家，旅宿用戶達上千家。<br/>
-          因早期OwlNest系統客群是鎖定民宿業者，只做到單一房型單一專案的鋪價功能，近幾年隨著市場逐漸拓展，客群也從民宿業者增加至小型旅館業者再加上平台串接功能的開發，<span class="text-md-bold">目前介面功能無法達到有效的鋪設價格</span>，對使用者來說不僅費時也容易出錯。
+          OwlNest 是一款為旅宿業打造的 B2B 三合一整合型訂房系統，提供前台官網訂房系統、PMS 訂單管理系統、線上銷售平台通路串接，用戶遍及亞洲、美洲國家，旅宿用戶達上千家。<br/>
+          因早期 OwlNest 系統客群是鎖定民宿業者，只做到單一房型單一專案的鋪價功能，近幾年隨著市場逐漸拓展，客群也從民宿業者增加至小型旅館業者再加上平台串接功能的開發，<span class="text-md-bold">目前介面功能無法達到有效的鋪設價格</span>，對使用者來說不僅費時也容易出錯。
         </p>
       </div>
       <div class="task mb-48">
@@ -37,19 +37,18 @@
               <span class="mr-8">•</span>
               <li>
                 <span class="text-md-bold">無法與真實與用者進行訪談</span> -
-                此產品向來都是由業務端帶回使用者反饋並發起優化需求的，因此UI/UX設計師很少有機會與真實使用者接觸。為了解決此問題我利用機會訪談了集團旗下的OwlStay實體旅宿部門同事，補足了使用者訪談的。
+                此產品向來都是由業務端帶回使用者反饋並發起優化需求的，因此 UI/UX 設計師很少有機會與真實使用者接觸。為了解決此問題我利用機會訪談了集團旗下的 OwlStay 實體旅宿部門同事，補足了使用者訪談的。
               </li>
-              
             </div>
             <div class="flex">
               <span class="mr-8">•</span>
               <li>
                 <span class="text-md-bold">與產品顧問持不同意見</span> -
-                在討論優化段產品顧問提出想把原有鋪價流程一次翻新的做法，但UI/UX端持盡量以不要影響到目前使用者的操作為原則。針對這點我搜集了NNGroup裡的文獻作為驗證，並做出簡易Prototype以實際操作體驗來說服產品顧問。
+                在討論優化段產品顧問提出想把原有鋪價流程一次翻新的做法，但 UI/UX 端持盡量以不要影響到目前使用者的操作為原則。針對這點我搜集了 NNGroup 裡的文獻作為驗證，並做出簡易 Prototype 以實際操作體驗來說服產品顧問。
               </li>
             </div>
-          </ul> 
-      </div>       
+          </ul>
+      </div>
       <div class="highlight">
         <h2 class="mb-16">
           反饋搶先看 👀
@@ -92,7 +91,7 @@
             </div>
           </div>        
         </div>
-      </div>       
+      </div>
     </section>
     <section class="cover-photo container p-0">
       <figure class="figure">
@@ -141,7 +140,7 @@
             </div>
           </div>
           <p class="text-md">
-            <span class="text-md-bold">對奧丁丁旗下OwlStay旅宿團隊進行鋪價習慣訪談，及參考業務帶回來的旅宿業者反饋</span>，得知使用者的鋪價習慣通常是先鋪設一年的平日、假日房價，再鋪設國定假日房價，有些國外旅客較多的旅宿業者甚至會參考鄰國的連假日期去制訂銷售價格。          </p>
+            <span class="text-md-bold">對奧丁丁旗下 OwlStay 旅宿團隊進行鋪價習慣訪談，及參考業務帶回來的旅宿業者反饋</span>，得知使用者的鋪價習慣通常是先鋪設一年的平日、假日房價，再鋪設國定假日房價，有些國外旅客較多的旅宿業者甚至會參考鄰國的連假日期去制訂銷售價格。          </p>
         </div>
         <div class="col-md-7 content-pl-48 text-align-center">
           <div class="text-sm-bold plan_border mb-8">平日房價</div>
@@ -245,7 +244,7 @@
             <div class="col-md-5 content-pr-48 mb-48">
               <h5 class="mb-16">III. 優化過後的鋪價步驟</h5>
               <p class="text-md">
-                規劃了可複選的房型或專案價格，再搭配區間做設定以最有效的方法進行鋪價，以上述例子而言<span class="text-md-bold">節省了4.5倍的操作。</span>
+                規劃了可複選的房型或專案價格，再搭配區間做設定以最有效的方法進行鋪價，以上述例子而言<span class="text-md-bold">節省了 4.5 倍的操作。</span>
               </p>
             </div>
             <div class="col-md-7 text-align-center content-pl-48">
@@ -277,7 +276,7 @@
           <div class="col-md-5 content-pr-48 mb-48">
             <h5 class="mb-16">I. Wireframe</h5>
             <p class="text-md">
-              組員一同討論優化流程後，我就會將文字流程以Wireframe的方式呈現出來，與工程師做初步討論並快速修改。
+              組員一同討論優化流程後，我就會將文字流程以 Wireframe 的方式呈現出來，與工程師做初步討論並快速修改。
             </p>
           </div>
           <div class="col-md-7 content-pl-48">
@@ -294,7 +293,7 @@
           <div class="col-md-5 content-pr-48 mb-48">
             <h5 class="mb-16">II. UI Library & Mockup</h5>
             <p class="text-md">
-              後台比起視覺更重視的是使用者完成任務的流程，<span class="text-md-bold">在規劃介面時為避免使用者的學習成本增加</span>，應該遵從既有的介面及流程，並依原有的介面原件快速做出Mockup與團隊討論。
+              後台比起視覺更重視的是使用者完成任務的流程，<span class="text-md-bold">在規劃介面時為避免使用者的學習成本增加</span>，應該遵從既有的介面及流程，並依原有的介面原件快速做出 Mockup 與團隊討論。
             </p>
           </div>
           <div class="col-md-7 content-pl-48">
@@ -311,7 +310,7 @@
           <div class="col-md-5 content-pr-48 mb-48">
             <h5 class="mb-16">III. Prototype</h5>
             <p class="text-md">
-              直接做出Prototype來給使用者測試可達到高擬真度且更可以看出使用者對畫面的操作流程以及互動。
+              直接做出 Prototype 來給使用者測試可達到高擬真度且更可以看出使用者對畫面的操作流程以及互動。
             </p>
           </div>
           <div class="col-md-7 content-pl-48">
@@ -428,11 +427,11 @@
                 <span class="font-color-light"> | </span>
                 網站重構
                 <span class="font-color-light"> | </span>
-                APP規劃
+                APP 規劃
                 <span class="font-color-light"> | </span>
-                UX研究
+                UX 研究
                 <span class="font-color-light"> | </span>
-                UI設計
+                UI 設計
               </div>
               <router-link class="btn btn-link" :to="{ name: 'ProjectMarket' }">
                 瀏覽專案<i class="las la-long-arrow-alt-right"></i>
@@ -451,9 +450,9 @@
             <div class="text-md">
               網站重構
               <span class="font-color-light"> | </span>
-              UX研究
+              UX 研究
               <span class="font-color-light"> | </span>
-              UI設計
+              UI 設計
               <span class="font-color-light"> | </span>
               形象官網
             </div>
