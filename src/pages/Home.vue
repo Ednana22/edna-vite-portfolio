@@ -15,7 +15,7 @@
             <h1>
               我是一名擁有前端基礎技能的 UI/UX 設計師
               <br />
-              喜歡以使用者為中心出發執行 80思考 / 20實作
+              喜歡以使用者為中心出發執行 80思考/20實作
               <br />
               設計出符合易用性且能幫助人的產品 🌟
             </h1>
@@ -173,7 +173,7 @@
               UX 研究<span class="font-color-lighter"> | </span>
               UI 設計<span class="font-color-lighter"> | </span>
               B2B<span class="font-color-lighter"> | </span>
-              SaaS
+              SaaS 服務
             </div>
             <div class="text-md">
               針對 OwlNest 旅宿管理系統的鋪價功能進行開發及優化，滿足便捷、快速及可彈性修改定價的需求。
