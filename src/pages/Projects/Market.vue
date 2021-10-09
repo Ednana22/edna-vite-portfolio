@@ -466,7 +466,7 @@
           </div>
           <div class="row">
             <p class="text-md col-md-5 content-pr-48 mb-48">
-              此次改版計畫是以頁面分階段迭代方式進行，<span class="text-md-bold">設計端改版完成 100 %；工程實作完成 80% 。</span>。
+              此次改版計畫是以頁面分階段迭代方式進行，<span class="text-md-bold">設計端改版完成 100 %；工程實作完成 80% 。</span>
             </p>
             <div class="highlight col-md-7 content-pl-48 mb-80">
               <div class="row">
@@ -574,6 +574,16 @@
             奧丁丁市集 APP 是由於 2021 年 5 月台灣 COVID-19 疫情爆發導致生鮮網購銷量暴增而催產出來的產品，奉命以最快高效率做開發<span class="text-md-bold">將不改變既有使用者操作行為為目標，</span>
             除了讓原有用戶輕鬆上手外也能增添黏著度，其中也規劃了 APP 獨有的短影片宣傳功能。
           </p>
+          <div class="">
+            <div class="d-flex">
+              <a target="_blank" href="https://itunes.apple.com/app/id1564061027" class="mr-16" data-v-64193183="">
+                <img alt="從App Store下載APP" src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/appstore.png" class="badges" data-v-64193183="" height="40">
+              </a>
+              <a target="_blank" href="https://play.google.com/store/apps/details?id=com.owlting.app.owlmarket" class="mr-16" data-v-64193183="">
+                <img alt="從App Store下載APP" src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/googleplay.png" class="badges" data-v-64193183="" height="40">
+              </a>
+            </div>
+          </div>
         </div>
         <figure class="figure col-md-7 content-pl-48">
           <img
