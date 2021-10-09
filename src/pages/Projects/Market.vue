@@ -466,7 +466,7 @@
           </div>
           <div class="row">
             <p class="text-md col-md-5 content-pr-48 mb-48">
-              此次改版計畫是以頁面分階段迭代方式進行，<span class="text-md-bold">由數據顯示使用者接觸最多的首頁以及能將網站架構補齊的分類頁為第一階段上線</span>。
+              此次改版計畫是以頁面分階段迭代方式進行，<span class="text-md-bold">設計端改版完成 100 %；工程實作完成 80% 。</span>。
             </p>
             <div class="highlight col-md-7 content-pl-48 mb-80">
               <div class="row">
