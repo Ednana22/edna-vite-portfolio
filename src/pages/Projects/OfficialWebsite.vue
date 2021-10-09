@@ -28,20 +28,20 @@
         <h2 class="mb-16">專案背景</h2>
         <p>
           奧丁丁集團創立於 2010 年，是一間以區塊鏈技術為核心的科技公司，其產品涵蓋 B2B 商業服務、B2B 旅宿管理服務、B2C 電商平台、實體旅宿等共七大事業體。<br/>
-          在奧丁丁集團成立初期所架設的官網頁面中並無保留太多的談性空間，因此無法清楚的將集團近年來的資訊正確傳達給使用者，這也造成了<span class="text-md-bold">使用者容易從網站中獲得過時且不完整的資訊</span>，再加上老舊的視覺風格與集團近年來定義的VI調性不一、使用者對網站的負面評價等等，促成了此次集團官網改版。
+          在奧丁丁集團成立初期所架設的官網頁面中並無保留太多的彈性空間，因此無法清楚的將集團近年來的資訊正確傳達給使用者，這也造成了<span class="text-md-bold">使用者容易從網站中獲得過時且不完整的資訊</span>，再加上老舊的視覺風格與集團近年來定義的VI調性不一、使用者對網站的負面評價等等，促成了此次集團官網改版。
         </p>
       </div>
       <div class="task mb-48">
         <h2 class="mb-16">專案挑戰與決策</h2>
-          <ul class="text-md">        
+          <ul class="text-md">
             <div class="flex">
               <span class="mr-8">•</span>
               <li>
                 <span class="text-md-bold">專案上線時程大幅提前</span> -
                 在春節假期前夕突然收到原預計第二階段上線的多國語系功能需提前至第一階段上線，我們當下立即招開集結各部門的會議請求人力支援，以分工的方式將多語頁面迅速完成並如期交付。
-              </li>              
+              </li>
             </div>
-          </ul> 
+          </ul>
       </div>
       <div class="highlight">
         <h2 class="mb-16">
@@ -67,24 +67,24 @@
                 <br />
                 求職者表示官網介紹十分清楚詳細，不需再為集團服務多加介紹了！
                 <p class="text-sm">
-                  - HR部門同事
+                  - HR 部門同事
                 </p>
               </div>
             </div>
-          </div>   
+          </div>
           <div class="col-lg-4 content-pr-8">
             <div class="border-thinner border-radius-4 shadow-sm p-8">
               <div class="text-sm-bold">
                 ⭐⭐⭐⭐⭐
                 <br />
-                外部媒體來採訪時有感受到他們對於公司體系更加瞭解也更容易進入狀況了！    
+                外部媒體來採訪時有感受到他們對於公司體系更加瞭解也更容易進入狀況了！
               <p class="text-sm">
                   - 公關部門同事
                 </p>
               </div>
-            </div>
-          </div>        
-        </div>      
+            </div
+          </div>
+        </div>
       </div>
     </section>
     <div class="cover-photo container p-0">
@@ -109,7 +109,7 @@
       <ul>
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
-          <li class="text-md">官方網站重構，由資訊架構開始整理，讓使用者能更快速的獲得資訊</li>
+          <li class="text-md">由資訊架構開始重構，讓使用者能更快速的獲得資訊</li>
         </div>
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
@@ -134,8 +134,8 @@
             </div>
           </div>
           <p class="text-md">
-            新官網代表的是整個奧丁丁集團，再加此需求原自於 CEO，因此在執行此任務時團隊更加的謹慎。<span class="text-md-bold">在此次專案中我同時扮演了 UI/UX 設計師及工程部門對外窗口。</span>
-            而我們從訪談公司同事以及身邊親友中獲得使用者對舊官網的負面反饋，並計畫在新官網規劃階段一併排除。
+            新官網代表的是整個奧丁丁集團，再加此需求源自於 CEO，因此在執行此任務時團隊更加的謹慎。<span class="text-md-bold">在此次專案中我同時扮演了 UI/UX 設計師及工程部門對外窗口。</span>
+            而我們從訪談公司同事以及使用者中訪談中獲得對舊官網的真實反饋。
           </p>
         </div>
         <div class="col-md-7 content-pl-48">
