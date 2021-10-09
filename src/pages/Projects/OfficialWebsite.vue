@@ -699,7 +699,7 @@
               <span class="font-color-light"> | </span>
               B2B
               <span class="font-color-light"> | </span>
-              SaaS
+              SaaS 服務
             </div>
             <router-link class="btn btn-link" :to="{ name: 'ProjectPMS' }">
               瀏覽專案<i class="las la-long-arrow-alt-right"></i>
