@@ -15,7 +15,7 @@
             <h1>
               我是一名擁有前端基礎技能的 UI/UX 設計師
               <br />
-              喜歡以使用者為中心出發執行 80思考/20實作
+              喜歡以使用者為中心出發執行 80思考 / 20實作
               <br />
               設計出符合易用性且能幫助人的產品 🌟
             </h1>
@@ -112,47 +112,6 @@
         </div>
       </div>
     </section>
-    <section class="offcial-web border-top border-bottom">
-      <div class="container">
-        <div class="row project">
-          <div class="col-lg-8 content-pr-48">
-            <div class="official-web-device-section mb-56">
-              <figure class="figure gradient-border">
-                <img
-                  src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/website-homepage.gif"
-                  class="figure-img img-fluid"
-                  alt="..."
-                />
-              </figure>
-            </div>
-          </div>
-          <div class="col-lg-4 content-pl-48">
-            <h3>奧丁丁集團官網重構</h3>
-            <div class="text-md-bold mb-24">
-              網站重構<span class="font-color-lighter"> | </span>
-              UX 研究<span class="font-color-lighter"> | </span>
-              UI 設計<span class="font-color-lighter"> | </span>
-              形象官網
-            </div>
-            <div class="text-md">
-              由網站架構至使用者體驗重新設計集團官網，跨集團七個事業體進行資訊整合，將集團理念及介紹更清楚的傳達給使用者。
-            </div>
-            <router-link class="btn btn-link" :to="{ name: 'ProjectWeb' }">
-              瀏覽專案<i class="las la-long-arrow-alt-right"></i>
-            </router-link>
-            <div class="display-on-mobile mt-32">
-              <figure class="figure gradient-border">
-                <img
-                  src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/website-homepage.gif"
-                  class="figure-img img-fluid"
-                  alt="..."
-                />
-              </figure>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
     <section class="pms border-bottom">
       <div class="container">
         <div class="row project">
@@ -185,6 +144,47 @@
               <figure class="figure">
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/pms-homepage.gif"
+                  class="figure-img img-fluid"
+                  alt="..."
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="offcial-web border-top border-bottom">
+      <div class="container">
+        <div class="row project">
+          <div class="col-lg-8 content-pr-48">
+            <div class="official-web-device-section mb-56">
+              <figure class="figure gradient-border">
+                <img
+                  src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/website-homepage.gif"
+                  class="figure-img img-fluid"
+                  alt="..."
+                />
+              </figure>
+            </div>
+          </div>
+          <div class="col-lg-4 content-pl-48">
+            <h3>奧丁丁集團官網重構</h3>
+            <div class="text-md-bold mb-24">
+              網站重構<span class="font-color-lighter"> | </span>
+              UX 研究<span class="font-color-lighter"> | </span>
+              UI 設計<span class="font-color-lighter"> | </span>
+              形象官網
+            </div>
+            <div class="text-md">
+              由網站架構至使用者體驗重新設計集團官網，跨集團七個事業體進行資訊整合，將集團理念及介紹更清楚的傳達給使用者。
+            </div>
+            <router-link class="btn btn-link" :to="{ name: 'ProjectWeb' }">
+              瀏覽專案<i class="las la-long-arrow-alt-right"></i>
+            </router-link>
+            <div class="display-on-mobile mt-32">
+              <figure class="figure gradient-border">
+                <img
+                  src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/website-homepage.gif"
                   class="figure-img img-fluid"
                   alt="..."
                 />
