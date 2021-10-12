@@ -241,28 +241,28 @@
               <span class="mr-8">•</span>
               <li>
                 <span class="text-md-bold">各事業體介紹不清</span> -
-                各事業體介紹除了一小段文字敘述外，其餘都是外導連結，這除了會打斷使用者的操作也無法對內容深入瞭解。
+                各事業體介紹除了一小段文字敘述外其餘都是外導連結，這讓使用者的無法在頁面上獲得足夠資訊且瀏覽容易被打斷。
               </li>
             </div>
             <div class="flex mb-24">
               <span class="mr-8">•</span>
               <li>
                 <span class="text-md-bold">不良介面設計</span> -
-                網站中有元素在滑動時會固定在畫面上方擋住內容的情形，在媒體報導頁更有一長串長達十年的時間軸虛滾動，導致使用者難以輕鬆瀏覽頁面。
+                瀏覽網站時會有元素固定在畫面上而擋住內容的情形，媒體報導頁更有長達十年的時間軸，不良介面設計造成不佳的瀏覽體驗。
               </li>
             </div>
             <div class="flex mb-24">
               <span class="mr-8">•</span>
               <li>
-                <span class="text-md-bold">網站架構卻乏維護</span>-
-                因網站架構老舊且無後台可維護，因此無法頻繁的更新內容，導致使用者獲得的資訊錯誤或已過時。
+                <span class="text-md-bold">網站架構卻乏可維護性</span> -
+                因網站架構老舊且無後台可維護因此無法頻繁的更新內容，導致使用者獲得的資訊錯誤或已過時。
               </li>
             </div>
             <div class="flex mb-8">
               <span class="mr-8">•</span>
               <li>
-                <span class="text-md-bold">卻乏一致性的設計規劃</span>-
-                頁面視覺過於凌亂，且與近年來集團規劃的 VI 風格相差甚遠，導致品牌風格難以塑造。
+                <span class="text-md-bold">卻乏一致性的設計規劃</span> -
+                頁面視覺凌亂且與近年來集團規劃的 VI 風格相差甚遠，導致品牌風格難以塑造。
               </li>
             </div>
           </ul>
@@ -291,7 +291,7 @@
             </div>
           </div>
           <p class="text-md">
-            在與夥伴腦力激盪討論時我們拋出了以宇宙出發的想法，官網就像一個宇宙而使用者搭乘著火箭去探索每個事業體的星球，因工程師與參與討論當中所以網頁互動效果的實作可能性也在討論內，雖然在腦力激當時討論網頁互動有點早，不過這樣不設限的討論正是腦力激當有趣的地方。
+            在與夥伴腦力激盪討論時我們拋出了以宇宙出發的想法，因工程師與參與討論當中所以網頁互動效果的實作可能性也在討論內，雖然在腦力激當時討論網頁互動有點早，不過這樣不設限的討論正是腦力激當有趣的地方。
           </p>
         </div>
         <div  class="col-md-7 flex-center content-pl-48">
@@ -301,7 +301,7 @@
               class="figure-img img-fluid shadow-sm border-radius-4"
               alt="..."
             />
-          </figure>          
+          </figure>
         </div>
       </div>
     </section>
@@ -322,7 +322,7 @@
             <div class="row">
               <div class="col-md-5 content-pr-48 mb-48">
                 <p class="text-md">
-                  確認資訊架構後會與工程團隊報告改版規模，由於這次專案的時辰較緊迫，團隊決定分階段執行，與人資部門達成共識後決定將迫切性相對低的「企業徵才」放入改版的第二階段。
+                  確認資訊架構後會與工程團隊報告改版規模，由於這次專案的時辰較緊迫團隊決定分階段執行，與人資部門達成共識後決定將迫切性相對低的「企業徵才」放入改版的第二階段。
                 </p>
               </div>
               <div class="col-md-7 text-align-center content-pl-48">
@@ -341,7 +341,7 @@
             <div class="row">
               <div class="col-md-5 content-pr-48 mb-48">
                 <p class="text-md">
-                  規劃出 Wireframe 並確認資訊呈現後上傳至 GoogleSheet 請各部門協助文案內容。因為牽涉到各部門的時程安排以及英日翻譯，所以<span class="text-md-bold"> Wireframe 在設計端越早完成對於整個專案的排程也會更順利</span>。
+                  規劃出 Wireframe 並確認資訊呈現無誤後，我將設計稿上傳至 Google Sheet 請各部門協助文案內容。因為牽涉到各部門的時程安排以及英日翻譯，所以<span class="text-md-bold"> Wireframe 在設計端越早完成對於整個專案的排程也會更順利</span>。
                 </p>
               </div>
               <div class="col-md-7 content-pl-48">
@@ -413,7 +413,7 @@
           <div class="thinking row mb-60">
             <div class="col-md-5 content-pr-48 bg-grey-darkest mb-48">
               <p class="text-md">
-                在發想網站主視覺及頁面元素時緊扣著網站想傳達給使用者的三個核心要點<span class="text-md-bold">「科技產業、領域專業、產品多元性」</span>。一眼就能呈現給使用者產品多元性是我認為這次設計最大的考驗。
+                <span class="text-md-bold">「科技產業、領域專業、產品多元性」</span>為我在發想網站視覺的三個核心要點。
               </p>
             </div>
             <div class="col-md-7 content-pr-48">
@@ -517,7 +517,7 @@
         </div>
         <div class="iterate row content mb-80">
           <div class="col-md-5 content-pr-48 mb-48">
-            <h5 class="mb-16">VI. 設計迭代</h5>
+            <h5 class="mb-16">V. 設計迭代</h5>
             <p class="text-md">
               設計迭代沒有絕對的「完美」，以合適的設計傳達集團信念給使用者就算達到迭代目的。與集團高層討論過後認為暗色宇宙系列雖然搶眼也吸睛，但缺少科技產業的簡潔、專業感，因此使用一個迭代將來修正上述問題。
             </p>
@@ -544,7 +544,7 @@
           </div>
         </div>
         <div class="prototype content mb-80">
-          <h5 class="mb-16">VII. Prototype 交付予工程師</h5>
+          <h5 class="mb-16">VI. Prototype 交付予工程師</h5>
           <div class="row">
             <div class="col-md-5 content-pr-48 mb-48">
               <p class="text-md">
@@ -565,7 +565,7 @@
           </div>
         </div>
         <div class="debug content">
-          <h5 class="mb-16">VIII. 協助工程師抓除錯</h5>
+          <h5 class="mb-16">VII. 協助工程師抓除錯</h5>
           <div class="row">
             <div class="col-md-5 content-pr-48 mb-48">
               <p class="text-md">
