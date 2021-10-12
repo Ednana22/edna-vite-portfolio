@@ -20,10 +20,10 @@
                     <router-link :to="{ name: 'ProjectMarket' }">奧丁丁市集改版</router-link>
                   </li>
                   <li>
-                    <router-link :to="{ name: 'ProjectWeb' }">奧丁丁集團官網重構</router-link>
+                    <router-link :to="{ name: 'ProjectPMS' }">旅宿管理系統規劃</router-link>
                   </li>
                   <li>
-                    <router-link :to="{ name: 'ProjectPMS' }">旅宿管理系統規劃</router-link>
+                    <router-link :to="{ name: 'ProjectWeb' }">奧丁丁集團官網重構</router-link>
                   </li>
                 </ul>
               </span>
