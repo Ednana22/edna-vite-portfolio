@@ -94,7 +94,7 @@
               UI 設計
             </div>
             <div class="text-md">
-              為奧丁丁市集重新設計網站，並進行品牌再造的跨部門合作，以優質生鮮電商幫助在地小農推廣用心製造的產品。
+              為奧丁丁市集重新設計網站視覺及體驗，並進行品牌再造的跨部門合作，以優質選物電商幫助在地小農。
             </div>
             <router-link class="btn btn-link" :to="{ name: 'ProjectMarket' }">
               瀏覽專案<i class="las la-long-arrow-alt-right"></i>
