@@ -30,34 +30,34 @@
       <h2 class="mb-16">人生沒有白走的路，每一步都算數</h2>
       <div class="timeline-h flex space-between">
         <div class="now">
-          <p class="text-md-bold">now - 2018</p>
+          <p class="text-md">now - 2018</p>
           <div class="circle-grey mt-8 mb-8"></div>
           <p class="text-md-bold">UI/UX 設計師</p>
-          <p class="text-md">奧丁丁集團</p>
+          <p class="text-sm">奧丁丁集團</p>
         </div>
         <div class="2018">
-          <p class="text-md-bold">2018 - 2017</p>
+          <p class="text-md">2018 - 2017</p>
           <div class="circle-grey mt-8 mb-8"></div>
           <p class="text-md-bold">網頁視覺設計師</p>
-          <p class="text-md">蝦皮購物</p>
+          <p class="text-sm">蝦皮購物</p>
         </div>
         <div class="2015">
-          <p class="text-md-bold">2017 - 2015</p>
+          <p class="text-md">2017 - 2015</p>
           <div class="circle-grey mt-8 mb-8"></div>
           <p class="text-md-bold">視覺設計師</p>
-          <p class="text-md">樂子餐飲集團</p>
+          <p class="text-sm">樂子餐飲集團</p>
         </div>
         <div class="2014">
-          <p class="text-md-bold">2015 - 2014</p>
+          <p class="text-md">2015 - 2014</p>
           <div class="circle-grey mt-8 mb-8"></div>
           <p class="text-md-bold">歐盟繪畫學士</p>
-          <p class="text-md">留學瑞士 EPAC 當代藝術學院</p>
+          <p class="text-sm">瑞士 EPAC 當代藝術學院</p>
         </div>
         <div class="2014">
-          <p class="text-md-bold">2013 - 2010</p>
+          <p class="text-md">2013 - 2010</p>
           <div class="circle-grey mt-8 mb-8"></div>
           <p class="text-md-bold">商業設計學系</p>
-          <p class="text-md">銘傳大學</p>
+          <p class="text-sm">銘傳大學</p>
         </div>
       </div>
     </section>
@@ -69,7 +69,7 @@
           <div class="now">
             <p class="text-md-bold">now - 2018</p>
             <p class="text-md-bold">UIUX設計師</p>
-            <p class="text-md">奧丁丁集團</p>
+            <p class="text-sm">奧丁丁集團</p>
           </div>
         </div>
         <div class="flex mb-24">
@@ -77,7 +77,7 @@
           <div class="now">
             <p class="text-md-bold">2018 - 2016</p>
             <p class="text-md-bold">網頁視覺設計師</p>
-            <p class="text-md">蝦皮購物</p>
+            <p class="text-sm">蝦皮購物</p>
           </div>
         </div>
         <div class="flex mb-24">
@@ -85,7 +85,7 @@
           <div class="now">
             <p class="text-md-bold">2016 - 2015</p>
             <p class="text-md-bold">視覺設計師</p>
-            <p class="text-md">樂子美式餐飲</p>
+            <p class="text-sm">樂子美式餐飲</p>
           </div>
         </div>
         <div class="flex mb-24">
@@ -93,7 +93,7 @@
           <div class="now">
             <p class="text-md-bold">2015 - 2014</p>
             <p class="text-md-bold">歐盟繪畫學士</p>
-            <p class="text-md">留學瑞士EPAC</p>
+            <p class="text-sm">留學瑞士EPAC</p>
           </div>
         </div>
         <div class="flex">
@@ -101,7 +101,7 @@
           <div class="now">
             <p class="text-md-bold">2013 - 2010</p>
             <p class="text-md-bold">商業設計學系</p>
-            <p class="text-md">奧丁丁集團</p>
+            <p class="text-sm">奧丁丁集團</p>
           </div>
         </div>
       </div>
@@ -224,7 +224,7 @@
         <div class="col-md-6 content-pr-48 mb-48">
           <h2 class="mb-16">定期閱讀 NNgroup</h2>
           <p class="text-md">
-            在某次專案遇到瓶頸時從 NNgroup 找到相關文獻，自從那次之後我就養成定期閱讀 NNgroup 的習慣，比較有空時就讀文章，時間較零碎時可以改看影片，跟著大師走可以少走很多冤枉路。也利用工程部門技術交流會與同事分享十大易用性原則。
+            跟著大師走可以少走很多冤枉路，我也利用工程部技術交流會與同事們分享十大易用性的重要與實作。
           </p>
         </div>
         <div class="col-md-6 flex-center column content-pl-48">
@@ -270,7 +270,7 @@
         <div class="col-md-6 content-pr-48 mb-48">
           <h2 class="mb-16">留學瑞士一年，擁有法文中級證書</h2>
           <p class="text-md">
-            在大四時留學瑞士一年並取得歐盟美術學士證書。回台灣花了三年的假日到台大進修部補法文，在 2019 年取得法文B1鑑定證書，非常想再訪瑞士跟當時的同學當面用法文聊天。
+            在大四時留學瑞士一年並取得歐盟美術學士證書。回台灣花了三年的時間到台大進修部進修法文，在 2019 年取得法文B1鑑定證書，非常想再訪瑞士跟當時的同學當面用法文聊天。
           </p>
         </div>
         <div class="col-md-6 flex-center column content-pl-48">
@@ -332,8 +332,7 @@
         <div class="col-md-6 content-pr-48 mb-48">
           <h2 class="mb-16">最想完成的 Side Project 是一款筋絡 APP</h2>
           <p class="text-md">
-            想做筋絡 APP 的起因來自於自己重訓完有使用筋膜槍放鬆的習慣，而常常會忘記該施力的穴道位置還有施力強度，因此希望有款 APP 可以像客製化百科一樣來幫助使用者，甚至為了這個 Side
-            Project 買了一本穴位按摩圖典。為什麼是 APP 不是 Web？因為我還規劃希望能做到局部掃描穴位功能，如果你對這個 APP 有興趣歡迎與我聯繫！
+            想做筋絡 APP 源自於重訓完使用筋膜槍放鬆的習慣，但常常會忘記該施力的穴道及強度，因此希望此款 APP 可以像客製化百科一樣來幫助使用者，為什麼是 APP 不是 Web？因為我還規劃了局部掃描穴位的功能，如果你對這個 APP 有興趣歡迎與我聯繫！
           </p>
         </div>
         <div class="col-md-6 flex-center column content-pl-48">
