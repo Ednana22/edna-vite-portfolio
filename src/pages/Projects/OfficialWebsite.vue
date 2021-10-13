@@ -569,7 +569,7 @@
           <div class="row">
             <div class="col-md-5 content-pr-48 mb-48">
               <p class="text-md">
-                在最後上線前須幫助工程師一同除錯，多語系的呈現、各種裝置及雙平台手機測試、社群平台開啟呈現出來的效果等等，都是正式上線前需一一確認的。
+                在上線前協助工程師一同除錯，如多語系的呈現、各種裝置及雙平台手機測試、社群平台預覽效果等等，都是正式上線前需一一確認的。
               </p>
             </div>
             <div class="col-md-7 content-pl-48">
@@ -607,18 +607,18 @@
               alt="..."
             />
             <p class="text-md mt-16 mb-16">
-              將集團產品多元性以及貓頭鷹展翅的理念傳達給視覺設計部門後，由視覺設計師製作出的 svg 動畫動態效果非常吸睛
+              將集團產品多元性以及貓頭鷹展翅的理念傳達給使用者，效果非常吸睛
             </p>
           </div>
           <div class="col-md-9 ml-auto mb-80">
-            <h5 class="mb-16">產品輪播簡介</h5>
+            <h5 class="mb-16">產品簡介</h5>
             <img
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/mockup-carousel.gif"
               class="figure-img img-fluid border-radius-16 shadow"
               alt="..."
             />
             <p class="text-md mt-16 mb-16">
-              經由背景圖呈現服務類別，讓使用者能迅速理解集團旗下服務
+              由敘述及背景圖滿版圖帶出服務類別，讓使用者能迅速理解集團旗下服務
             </p>
           </div>
           <div class="col-md-9">
@@ -629,7 +629,7 @@
               alt="..."
             />
             <p class="text-md mt-16 mb-16">
-              我規劃出設計圖後請視覺設計師協助完成據點動畫，非常感謝同事的協助讓動畫得以完美呈現
+              以動態圖呈現據點分佈，讓畫面更清楚地表達全球性
             </p>
           </div>
         </div>
