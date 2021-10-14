@@ -12,10 +12,13 @@
                 <span>Edna Wei</span>
               </span>
             </h2>
-            <h1>
+            <h1 class="h1-w">
               我是一名擁有前端基礎技能的 UI/UX 設計師
               <br />
               喜歡設計出讓使用者動最少腦就能解決問題的產品 🌟
+            </h1>
+            <h1 class="h1-m">
+              我是一名擁有前端基礎技能的 UI/UX 設計師，喜歡設計出讓使用者動最少腦就能解決問題的產品 🌟
             </h1>
           </div>
           <div class="kv-web col-md-6">
