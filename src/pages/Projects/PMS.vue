@@ -219,7 +219,7 @@
                   <span class="mr-8">•</span>
                   <li>
                     <span class="text-md-bold"> 省去重複步驟 - </span>
-                      由使用者的鋪價步驟可得知使用者大多是<span class="text-md-bold">由房型出發，再依照不同專案及區間調整房價</span>，串接平台價格通常會一致，如果可省去每次都重複的步驟 ( 以不同顏色標註出重複步驟 ) ，對使用者操作將會更友善。
+                      由使用者的鋪價步驟可得知使用者大多是<span class="text-md-bold">由房型出發，再依照不同專案及區間調整房價</span>，串接平台價格通常會一致，如果可省去每次都重複的步驟對使用者操作將會更友善。
                   </li>
                 </div>
                 <div class="flex">
@@ -231,7 +231,7 @@
                 </div>
               </ul>
             </div>
-            <div class="col-md-7 text-align-center content-pl-48">
+            <div class="col-md-7 content-pl-48">
               <figure class="figure">
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/brainstorming2.png"
@@ -240,6 +240,7 @@
                   alt="..."
                 />
               </figure>
+              <div class="text-sm mt-8">同顏色表示重複操作的步驟</div>
             </div>
           </div>
           <div class="soluction row">
