@@ -48,7 +48,6 @@
               :class="isDropDownOpen ? 'la-times' : 'la-hamburger'"
               :style="isDropDownOpen ? 'font-size: 24px;' : 'font-size: 28px;'"></i>
           </button>
-          
           <div class="app-nav__actions__mobile__cover" :class="{ is_active: isDropDownOpen }">
             <ul>
               <li>
