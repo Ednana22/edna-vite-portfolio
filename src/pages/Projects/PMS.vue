@@ -25,9 +25,11 @@
     <section id="overall" class="overall container text-md">
       <div class="background mb-48">
         <h2 class="mb-16">專案背景</h2>
+        <p class="text-md mb-8">
+          OwlNest 是一款為旅宿業打造的 B2B 三合一整合型訂房系統，用戶遍及亞洲、美洲等國家，旅宿用戶達上千家。<br/>
+        </p>
         <p class="text-md mb-48">
-          OwlNest 是一款為旅宿業打造的 B2B 三合一整合型訂房系統，提供前台官網訂房系統、PMS 訂單管理系統、線上銷售平台通路串接，用戶遍及亞洲、美洲等國家，旅宿用戶達上千家。<br/>
-          因早期系統客群是鎖定民宿業者，只做到單一房型單一專案的鋪價功能，近幾年隨著市場逐漸拓展，客群也從民宿業者增加至旅館業者再加上平台串接功能的開發，<span class="text-md-bold">目前介面功能無法達到有效的鋪設價格，對使用者來說不僅費時也容易出錯</span>。
+          然而系統早期所規劃的鋪價功能較簡易，加上產品市場逐漸拓展，使用者也從需求較單純的民宿業者增加至旅館業者，<span class="text-md-bold">目前介面功能無法達到有效的鋪設價格，對使用者來說不僅費時也容易出錯</span>。
         </p>
       </div>
       <div class="task mb-48">
@@ -77,19 +79,19 @@
                 </p>
               </div>
             </div>
-          </div>   
+          </div>
           <div class="col-md-4 content-pr-8">
             <div class="border-thinner border-radius-4 shadow-sm p-8">
               <div class="text-sm-bold">
                 ⭐⭐⭐⭐⭐
                 <br />
-                新規劃的國定假日鋪價功能可成為我們商品在市場上的獨特買點！
+                新規劃的國定假日鋪價功能成為我們商品在市場上的獨有買點！
                 <p class="text-sm">
                   - 業務同事
                 </p>
               </div>
             </div>
-          </div>        
+          </div>
         </div>
       </div>
     </section>

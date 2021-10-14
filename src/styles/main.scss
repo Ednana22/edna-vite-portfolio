@@ -490,7 +490,7 @@ p {
   font-size: 16px;
 //   color: $color_blue-dark;
     background: linear-gradient(90deg,#3b84fa, #9c73d3,#e94e7c) ;
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     border: none;
     padding: 10px 0px;
@@ -512,13 +512,13 @@ p {
     transform: scale(0.99);
     // color: $color_blue-darker !important;
     background: linear-gradient(90deg,#3884FF, #7855a5,#c96180) ;
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent; 
   }
   .la-long-arrow-alt-right {
     margin-left: 8px;
     background: linear-gradient(90deg,#3884FF, #8e38ff,#c96180) ;
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;    
   }
 }
@@ -614,7 +614,7 @@ h1 {
     font-weight: 600;
     margin: 0px;
     -webkit-font-smoothing: antialiased;
-    font-family: sans-serif,'Roboto';    
+    font-family: sans-serif,'Roboto';
     @media (max-width: 576px) {
       font-size: 17px;
     }
@@ -622,7 +622,7 @@ h1 {
   h3 {
     font-size: 14px;
     font-weight: 600;
-    font-family: sans-serif,'Roboto';    
+    font-family: sans-serif,'Roboto';
     -webkit-font-smoothing: antialiased;
   }
   h4{
@@ -635,7 +635,7 @@ h1 {
     line-height: 1;
     @media (max-width: 576px) {
         font-size: 72px;
-      }    
+      }
   }
   h5{
     font-size: 17px;
@@ -643,7 +643,7 @@ h1 {
     margin: 0px;
     line-height: 1.4;
     -webkit-font-smoothing: antialiased;
-    font-family: sans-serif,'Roboto';    
+    font-family: sans-serif,'Roboto';
     @media (max-width: 576px) {
       font-size: 16px;
     }
@@ -654,8 +654,8 @@ h1 {
     line-height: 2.2;
     text-align: justify;
     text-justify: auto;
-    font-family: sans-serif,'Roboto';    
-    -webkit-font-smoothing: antialiased;    
+    font-family: sans-serif,'Roboto';
+    -webkit-font-smoothing: antialiased;
     @media (max-width: 576px) {
         font-size: 15px;
     }
@@ -665,8 +665,8 @@ h1 {
     line-height: 2.2;
     font-weight: 600;
     text-align: justify;
-    text-justify: auto;    
-    font-family: sans-serif,'Roboto';    
+    text-justify: auto;
+    font-family: sans-serif,'Roboto';
     -webkit-font-smoothing: antialiased;
     @media (max-width: 576px) {
         font-size: 15px;
@@ -675,13 +675,13 @@ h1 {
 .text-sm {
     font-size: 14px;
     font-weight: 400;
-    font-family: sans-serif,'Roboto';    
+    font-family: sans-serif,'Roboto';
     -webkit-font-smoothing: antialiased;
 }
 .text-sm-bold {
     font-size: 14px;
     font-weight: 600;
-    font-family: sans-serif,'Roboto';    
+    font-family: sans-serif,'Roboto';
     -webkit-font-smoothing: antialiased;
 }
 .line-height-sm {
@@ -696,7 +696,7 @@ h1 {
 }
 
 .gradient-font{
-    background:linear-gradient( 90deg ,#628cff,#bd82a4);        
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    background:linear-gradient( 90deg ,#628cff,#bd82a4);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
