@@ -325,11 +325,11 @@
                   確認資訊架構後會與工程團隊報告改版規模，由於這次專案的時辰較緊迫團隊決定分階段執行，與人資部門達成共識後決定將迫切性相對低的「企業徵才」放入改版的第二階段。
                 </p>
               </div>
-              <div class="col-md-7 text-align-center content-pl-48">
+              <div class="col-md-6 content-pl-48">
                 <figure class="figure">
                   <img
                     src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/ia.png"
-                    class="figure-img img-fluid" style="max-width: 400px"
+                    class="figure-img img-fluid"
                     alt="..."
                   />
                 </figure>
