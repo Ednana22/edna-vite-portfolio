@@ -490,7 +490,7 @@ p {
   font-size: 16px;
 //   color: $color_blue-dark;
     background: linear-gradient(90deg,#3b84fa, #9c73d3,#e94e7c) ;
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     border: none;
     padding: 10px 0px;
@@ -512,13 +512,13 @@ p {
     transform: scale(0.99);
     // color: $color_blue-darker !important;
     background: linear-gradient(90deg,#3884FF, #7855a5,#c96180) ;
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
   }
   .la-long-arrow-alt-right {
     margin-left: 8px;
     background: linear-gradient(90deg,#3884FF, #8e38ff,#c96180) ;
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;    
   }
 }
@@ -697,6 +697,6 @@ h1 {
 
 .gradient-font{
     background:linear-gradient( 90deg ,#628cff,#bd82a4);
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
