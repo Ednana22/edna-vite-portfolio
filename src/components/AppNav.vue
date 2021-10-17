@@ -1,7 +1,7 @@
 <template>
   <nav class="app-nav">
     <div class="container">
-      <router-link class="app-nav__logo" :to="{ name: 'Home' }">
+      <router-link class="app-nav__logo" :to="{ name: 'Home' }" @click="detectIsSamePage('Home')">
         <img
           width="38"
           alt="EdnaWei"
@@ -51,7 +51,7 @@
           <div class="app-nav__actions__mobile__cover" :class="{ is_active: isDropDownOpen }">
             <ul>
               <li>
-                <router-link :to="{ name: 'Home' }">
+                <router-link :to="{ name: 'Home' }" @click="detectIsSamePage('Home')">
                   <h4>設計專案</h4>
                 </router-link>
                 <ul class="sub_item">
