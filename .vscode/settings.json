@@ -1,0 +1,7 @@
+{
+  "i18n-ally.localesPaths": [
+    "src/locales"
+  ],
+  "i18n-ally.displayLanguage": "zh-tw",
+  "i18n-ally.pathMatcher": "src/locales/{locale}.json"
+}
