@@ -232,15 +232,17 @@
               </ul>
             </div>
             <div class="col-md-7 text-align-center content-pl-48">
-              <figure class="figure ">
-                <img
-                  src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/brainstorming2.png"
-                  class="figure-img img-fluid"
-                  style="width: 450px"
-                  alt="..."
-                />
-              </figure>
-              <!-- <div class="text-sm mt-8">同顏色表示重複操作的步驟</div> -->
+              <dev class="text-align-initial">
+                <figure class="figure">
+                  <img
+                    src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/brainstorming2.png"
+                    class="figure-img img-fluid"
+                    style="width: 450px"
+                    alt="..."
+                  />
+                </figure>
+                <div class="text-sm mt-8">同顏色表示重複操作的步驟</div>
+              </dev>
             </div>
           </div>
           <div class="soluction row">
@@ -313,7 +315,7 @@
           <div class="col-md-5 content-pr-48 mb-48">
             <h5 class="mb-16">III. Prototype</h5>
             <p class="text-md">
-              直接做出 Prototype 來給使用者測試可達到高擬真度且更可以看出使用者對畫面的操作流程以及互動。
+              直接做出 Prototype 來給使用者測試可達到高擬真度且更可以看出使用者對畫面的操作流程以及互動。<br>
               由於此專案為收費管理系統，恕無法提供 Prototpye 實作介面。
             </p>
           </div>
