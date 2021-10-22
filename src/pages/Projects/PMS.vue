@@ -240,8 +240,8 @@
                     style="width: 450px"
                     alt="..."
                   />
+                  <div class="text-sm mt-8">同顏色表示重複操作的步驟</div>
                 </figure>
-                <div class="text-sm mt-8">同顏色表示重複操作的步驟</div>
               </dev>
             </div>
           </div>
