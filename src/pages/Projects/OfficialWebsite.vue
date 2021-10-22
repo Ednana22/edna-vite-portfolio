@@ -37,7 +37,7 @@
             <div class="flex">
               <span class="mr-8">•</span>
               <li>
-                <span class="text-md-bold">專案上線時程大幅提前</span> -
+                <span class="text-md-bold">專案上線時程大幅提前</span><br>
                 在春節假期前夕突然收到原預計第二階段上線的多國語系功能需提前至第一階段上線，我們當下立即招開集結各部門的會議請求人力支援，以分工的方式將多語頁面迅速完成並如期交付。
               </li>
             </div>
@@ -134,7 +134,9 @@
             </div>
           </div>
           <p class="text-md">
-            新官網代表的是整個奧丁丁集團，再加此需求源自於 CEO，因此在執行此任務時團隊更加的謹慎。<span class="text-md-bold">在此次專案中我同時扮演了 UI/UX 設計師及工程部門對外窗口。</span>
+            新官網代表的是整個奧丁丁集團，再加此需求源自於 CEO，因此在執行此任務時團隊更加的謹慎。
+          </p>
+          <p><span class="text-md-bold">在此次專案中我同時扮演了 UI/UX 設計師及工程部門對外窗口。</span>
             而我們從訪談公司同事以及使用者中訪談中獲得對舊官網的真實反饋。
           </p>
         </div>
@@ -519,7 +521,8 @@
           <div class="col-md-5 content-pr-48 mb-48">
             <h5 class="mb-16">V. 設計迭代</h5>
             <p class="text-md">
-              設計迭代沒有絕對的「完美」，以合適的設計傳達集團信念給使用者就算達到迭代目的。與集團高層討論過後認為暗色宇宙系列雖然搶眼也吸睛，但缺少科技產業的簡潔、專業感，因此使用一個迭代將來修正上述問題。
+              設計迭代沒有絕對的「完美」，以合適的設計傳達集團信念給使用者就算達到迭代目的。<br>
+              與集團高層討論過後認為暗色宇宙系列雖然搶眼也吸睛，但缺少科技產業的簡潔、專業感，因此使用一個迭代將來修正上述問題。
             </p>
           </div>
           <div class="row">
@@ -547,11 +550,14 @@
           <h5 class="mb-16">VI. Prototype 交付予工程師</h5>
           <div class="row">
             <div class="col-md-5 content-pr-48 mb-48">
-              <p class="text-md">
+              <p class="text-md mb-24">
                 此專案我使用 Adobe Xd 來模擬視差滾動以及滾動連帶的過場動畫，Prototype的 視覺化能幫助設計師與工程師討論時可以快速對焦，若實作時辰上有困難也可以立刻討論作出相對應調整。
                 <br>
-                💡 : 交付圖片給工程師時可以丟到 TingPNG 上壓縮，可以幫工程師減輕一點工作量
               </p>
+              <a target="_blank" href="https://xd.adobe.com/view/d2429262-013f-4cfb-918d-edf8e99885a0-8711/" class="text-md a-white">
+                <img alt="Xd icon" src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/Xd-icon.png" class="mr-8" height="25">
+                點此操作
+              </a>
             </div>
             <div class="col-md-7 content-pl-48">
               <figure class="figure pad_border">
@@ -569,7 +575,8 @@
           <div class="row">
             <div class="col-md-5 content-pr-48 mb-48">
               <p class="text-md">
-                在上線前協助工程師一同除錯，如多語系的呈現、各種裝置及雙平台手機測試、社群平台預覽效果等等，都是正式上線前需一一確認的。
+                在上線前協助工程師一同除錯，如多語系的呈現、各種裝置及雙平台手機測試、社群平台預覽效果等等，都是正式上線前需一一確認的。<br>
+                💡 : 將素材圖壓縮好，可以幫工程師減輕一點工作量
               </p>
             </div>
             <div class="col-md-7 content-pl-48">
@@ -648,7 +655,8 @@
             </div>
           </div>
           <p class="text-md">
-            這次的官網改版對集團來說是非常成功的專案，符合企業風格的網站以及清晰的產品介紹是獲得最多好評的。然而對於將舊頁面應在改版前做更全面的歸檔整理，這是我在往後專案中一定會留意的。
+            這次的官網改版對集團來說是非常成功的專案，符合企業風格的網站以及清晰的產品介紹是獲得最多好評的。<br>
+            然而對於將舊頁面應在改版前做更全面的歸檔整理，這是我在往後專案中一定會留意的。
           </p>
         </div>
       </div>
