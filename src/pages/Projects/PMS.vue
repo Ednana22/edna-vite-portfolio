@@ -195,7 +195,7 @@
           </div>
           <div class="analyze row mb-80">
             <div class="col-md-5 content-pr-48 mb-48">
-              <h5 class="mb-16">I. 分析目前介面的鋪價步驟</h5>
+              <h5 class="mb-16">I. 分析目前的鋪價步驟</h5>
               <p class="text-md">
                 目前介面只能針對<span class="text-md-bold">單一房型做單一專案的單一區間做鋪價</span>，如有多房型多專案搭配的情況下鋪價步驟則會倍數增加，對使用者是很大的負擔。
               </p>
@@ -225,14 +225,14 @@
                 <div class="flex">
                   <span class="mr-8">•</span>
                   <li>
-                    <span class="text-md-bold">國定假日區間選取 - </span>
+                    <span class="text-md-bold">輕鬆選取國定假日區間 - </span>
                      我也觀察到雖然目前介面中有提供國定假日的日期資訊，但使用者無法在鋪價時同時看到連假日期，為此<span class="text-md-bold">我們進行下拉日期介面的優化及規劃可複選國定假日的鋪價介面。</span>
                   </li>
                 </div>
               </ul>
             </div>
-            <div class="col-md-7 content-pl-48">
-              <figure class="figure">
+            <div class="col-md-7 text-align-center content-pl-48">
+              <figure class="figure ">
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/brainstorming2.png"
                   class="figure-img img-fluid"
@@ -240,14 +240,14 @@
                   alt="..."
                 />
               </figure>
-              <div class="text-sm mt-8">同顏色表示重複操作的步驟</div>
+              <!-- <div class="text-sm mt-8">同顏色表示重複操作的步驟</div> -->
             </div>
           </div>
           <div class="soluction row">
             <div class="col-md-5 content-pr-48 mb-48">
               <h5 class="mb-16">III. 優化過後的鋪價步驟</h5>
               <p class="text-md">
-                規劃了可複選的房型或專案價格，再搭配區間做設定以最有效的方法進行鋪價，以上述例子而言<span class="text-md-bold">節省了 4.5 倍的操作。</span>
+                 可複選的房型或專案價格，再搭配區間做設定以最有效的方法進行鋪價，以上述例子而言<span class="text-md-bold">節省了 4.5 倍的操作。</span>
               </p>
             </div>
             <div class="col-md-7 text-align-center content-pl-48">
@@ -277,9 +277,9 @@
         </div>
         <div class="1wireframe row content mb-80">
           <div class="col-md-5 content-pr-48 mb-48">
-            <h5 class="mb-16">I. Wireframe</h5>
+            <h5 class              與組員們一同討論優化流程後，我就會將文字流程以 Wireframe 的方式呈現出來，與工程師做初步討論並快速修改。
+="mb-16">I. Wireframe</h5>
             <p class="text-md">
-              組員一同討論優化流程後，我就會將文字流程以 Wireframe 的方式呈現出來，與工程師做初步討論並快速修改。
             </p>
           </div>
           <div class="col-md-7 content-pl-48">
@@ -294,7 +294,7 @@
         </div>
         <div class="2mockup row content mb-80">
           <div class="col-md-5 content-pr-48 mb-48">
-            <h5 class="mb-16">II. Mockup</h5>
+            <h5 class="mb-16">II. </h5>
             <p class="text-md">
               後台比起視覺更重視的是使用者完成任務的流程，<span class="text-md-bold">在規劃介面時為避免使用者的學習成本增加</span>，應該遵從既有的介面及流程，並依原有的介面原件快速做出 Mockup 與團隊討論。
             </p>
