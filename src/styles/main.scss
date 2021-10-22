@@ -532,11 +532,18 @@ a {
   &:hover {
     color: $color_grey-base;
     text-decoration: underline;
-    // border-bottom: 1px solid grey;
-    // transition-property: border-bottom;
-    // transition-duration: 5s
   }
 }
+.a-white {
+  text-decoration: none;
+  color: $color_grey-lighter;
+  font-weight: 400;
+  &:hover {
+    color: $color_grey-lighter;
+    text-decoration: underline;
+  }
+}
+
 main {
   margin-top: 46px;
 }
@@ -703,3 +710,4 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
