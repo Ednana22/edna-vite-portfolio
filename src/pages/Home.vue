@@ -72,7 +72,7 @@
         </div>
       </div>
     </section>
-    <section class="market">
+    <section class="market border-bottom">
       <div class="container">
         <div class="row project">
           <div class="col-lg-8 content-pr-48">
@@ -154,7 +154,7 @@
         </div>
       </div>
     </section>
-    <section class="offcial-web border-top border-bottom">
+    <section class="offcial-web border-bottom">
       <div class="container">
         <div class="row project">
           <div class="col-lg-8 content-pr-48">
