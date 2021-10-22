@@ -277,9 +277,9 @@
         </div>
         <div class="1wireframe row content mb-80">
           <div class="col-md-5 content-pr-48 mb-48">
-            <h5 class              與組員們一同討論優化流程後，我就會將文字流程以 Wireframe 的方式呈現出來，與工程師做初步討論並快速修改。
-="mb-16">I. Wireframe</h5>
+            <h5 classWireframe>I. Wireframe</h5>
             <p class="text-md">
+              與組員們一同討論優化流程後，我就會將文字流程以 Wireframe 的方式呈現出來，與工程師做初步討論並快速修改。
             </p>
           </div>
           <div class="col-md-7 content-pl-48">
@@ -294,7 +294,7 @@
         </div>
         <div class="2mockup row content mb-80">
           <div class="col-md-5 content-pr-48 mb-48">
-            <h5 class="mb-16">II. </h5>
+            <h5 class="mb-16">II. UI Library</h5>
             <p class="text-md">
               後台比起視覺更重視的是使用者完成任務的流程，<span class="text-md-bold">在規劃介面時為避免使用者的學習成本增加</span>，應該遵從既有的介面及流程，並依原有的介面原件快速做出 Mockup 與團隊討論。
             </p>
@@ -314,6 +314,7 @@
             <h5 class="mb-16">III. Prototype</h5>
             <p class="text-md">
               直接做出 Prototype 來給使用者測試可達到高擬真度且更可以看出使用者對畫面的操作流程以及互動。
+              由於此專案為收費管理系統，恕無法提供 Prototpye 實作介面。
             </p>
           </div>
           <div class="col-md-7 content-pl-48">
