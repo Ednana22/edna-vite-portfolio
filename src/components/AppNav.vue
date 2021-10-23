@@ -13,23 +13,23 @@
           <ul>
             <li class="is-dropdown">
               <span v-click-away="handleDropDownOutside" class="is-nav-link hover-effect mr-32" @click.capture="isDropDownOpen = !isDropDownOpen">
-                {{ $t('projects') }}
+                {{ $t('common.projects') }}
                 <i class="las" :class="isDropDownOpen ? 'la-angle-up' : 'la-angle-down'"></i>
                 <ul v-show="isDropDownOpen" class="is-dropdown__context">
                   <li>
-                    <router-link :to="{ name: 'ProjectMarket' }">{{ $t('market') }}</router-link>
+                    <router-link :to="{ name: 'ProjectMarket' }">{{ $t('common.market') }}</router-link>
                   </li>
                   <li>
-                    <router-link :to="{ name: 'ProjectPMS' }">{{ $t('pms') }}</router-link>
+                    <router-link :to="{ name: 'ProjectPMS' }">{{ $t('common.pms') }}</router-link>
                   </li>
                   <li>
-                    <router-link :to="{ name: 'ProjectWeb' }">{{ $t('officialWebSite') }}</router-link>
+                    <router-link :to="{ name: 'ProjectWeb' }">{{ $t('common.official_webSite') }}</router-link>
                   </li>
                 </ul>
               </span>
             </li>
             <li>
-              <router-link class="is-nav-link hover-effect" :to="{ name: 'About' }">{{ $t('aboutMe') }}</router-link>
+              <router-link class="is-nav-link hover-effect" :to="{ name: 'About' }">{{ $t('common.about_me') }}</router-link>
             </li>
             <li class="flex items-center">
               <button class="locale-button hover-effect" @click="onLocaleChange">

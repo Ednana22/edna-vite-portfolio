@@ -1,16 +1,36 @@
 {
-  "aboutMe": "關於我",
-  "projects": "設計專案",
-  "market": "奧丁丁市集改版",
-  "pms": "旅宿管理系統規劃",
-  "officialWebSite": "奧丁丁集團官網重構",
+  "common": {
+    "about_me": "關於我",
+    "projects": "設計專案",
+    "market": "奧丁丁市集改版",
+    "pms": "旅宿管理系統規劃",
+    "official_webSite": "奧丁丁集團官網重構",
+    "re_branding": "品牌再造",
+    "website": "網站改版",
+    "app": "App 規劃",
+    "ux_research": "UX 研究",
+    "ui_design": "UI 設計",
+    "b2b": "B2B",
+    "saas": "SaaS 服務",
+    "refactor_website": "網站重構",
+    "official_website": "形象官網",
+    "lear_more_cta": "瀏覽專案"
+  },
+  "meeting": {
+    "title": "很期待認識你！有任何想法都歡迎隨時與我交流 ⭐ "
+  },
   "home": {
     "title_1": "我是一名擁有前端基礎技能的 UI/UX 設計師",
     "title_2": "喜歡設計出讓使用者動最少腦就能解決問題的產品 🌟",
     "title_mobile": "我是一名擁有前端基礎技能的 UI/UX 設計師，喜歡設計出讓使用者動最少腦就能解決問題的產品 🌟",
     "market": {
-      "re_brand": "品牌再造",
-      "task": "網站改版"
+      "disruption": "為奧丁丁市集重新設計網站視覺及體驗，並進行品牌再造的跨部門合作，以優質選物電商幫助在地小農。"
+    },
+    "pms": {
+      "disruption": "針對 OwlNest 旅宿管理系統的鋪價功能進行開發及優化，滿足便捷、快速及可彈性修改定價的需求。"
+    },
+    "official_website": {
+      "disruption": "由網站架構至使用者體驗重新設計集團官網，跨集團七個事業體進行資訊整合，將集團理念及介紹更清楚的傳達給使用者。"
     }
   }
 }
