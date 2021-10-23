@@ -27,11 +27,11 @@
     <section id="overall" class="overall container text-md">
       <div class="background mb-48">
         <h2 class="mb-16">專案背景</h2>
-        <p class="">
+        <p>
           奧丁丁市集是一個專注於推廣在地商家與台灣小農的電商平台，涵蓋上千項嚴選商品累計合作逾兩千名小農及中小型優質商家。 <br />
           然而<span class="text-md-bold">網站不支援響應式、頁面模式不符合使用者的瀏覽習慣、低效的瀏覽體驗也直接影響了高跳出率與低轉化率。</span><br/>
           公司內部業務經理則反映，當展示網站給合作廠商時<span class="text-md-bold">經常被質疑公司網站的可用性、安全性</span>，這也導致內部人員對產品提不起信心。
-        </p>
+          </p>
       </div>
       <div class="task mb-48">
         <h2 class="mb-16">專案挑戰與決策</h2>
@@ -39,14 +39,14 @@
             <div class="flex mb-24">
               <span class="mr-8">•</span>
               <li>
-                <span class="text-md-bold">調整結構過於複雜</span> -
+                <span class="text-md-bold">調整結構過於複雜</span><br>
                 此次調整規模除了使用者介面的流程與前端框架更動之外也牽扯到後端的資料架構，有牽一髮而動全身的疑慮。規劃初期我先以資訊架構與工程部門討論改版規模，最後決定以頁面迭代的方式進行。
               </li>
             </div>
             <div class="flex">
               <span class="mr-8">•</span>
               <li>
-                <span class="text-md-bold">設計頁面時與 CEO 意見相左</span> -
+                <span class="text-md-bold">設計頁面時與 CEO 意見相左</span><br>
                 CEO 指定首頁不要 BANNER！經過細問才得知原來 CEO 認為轉換率差的巨大輪播 Banner 浪費了頁面最精華的部分，我也從頁面數據以及熱點分布圖驗證了此論點。
                 在嘗試多種版面設計後由四格分割的版型獲得組員信賴，也跨部門的達成不要給使用者過多促銷資訊的共識。
               </li>
@@ -435,8 +435,15 @@
           <div class="4prototpye content mb-80">
             <h5 class="mb-16">IV. Prototype</h5>
             <div class="row">
-              <p class="text-md col-md-5 content-pr-48 mb-48">
-                我們邀請公司內的市集真實使用者進行新版面任務測試，根據螢幕錄影及熱點分析再進行介面優化，<span class="text-md-bold">聆聽反饋確保舊用戶在新介面中獲得高品質的使用者體驗。</span></p>
+              <div class="col-md-5 content-pr-48 mb-48">
+                <p class="text-md mb-24">
+                   我們邀請公司內的市集真實使用者進行新版面任務測試，根據螢幕錄影及熱點分析再進行介面優化，<span class="text-md-bold">聆聽反饋確保舊用戶在新介面中獲得高品質的使用者體驗。</span>
+                </p>
+                <a target="_blank" href="https://www.figma.com/proto/KZODm2NGxinG76KXApm5QX/Edna-portfolio?node-id=848%3A4496&scaling=min-zoom&page-id=848%3A1808&starting-point-node-id=848%3A4496" class="text-md a-white">
+                  <img alt="Xd icon" src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/figma-icon.png" class="" data-v-64193183="" height="30">
+                  點此操作
+                </a>
+              </div>
               <figure class="figure col-md-7 content-pl-48">
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/prototype.gif"
@@ -466,7 +473,7 @@
           </div>
           <div class="row">
             <p class="text-md col-md-5 content-pr-48 mb-48">
-              此次改版計畫是以頁面分階段迭代方式進行，<span class="text-md-bold">設計端改版完成 100 %；工程實作完成 80% 。</span>
+              此次改版計畫是以頁面分階段迭代方式進行，<span class="text-md-bold">截至 2021 年 10 月設計端改版完成 100 %；工程實作完成 80% 。</span>
             </p>
             <div class="highlight col-md-7 content-pl-48 mb-80">
               <div class="row">

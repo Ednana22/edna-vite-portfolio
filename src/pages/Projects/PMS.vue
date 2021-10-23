@@ -38,14 +38,14 @@
             <div class="flex mb-24">
               <span class="mr-8">•</span>
               <li>
-                <span class="text-md-bold">無法與真實與用者進行訪談</span> -
+                <span class="text-md-bold">無法與真實與用者進行訪談</span><br>
                 此產品向來都是由業務端帶回使用者反饋並發起優化的需求，因此 UI/UX 設計師很少有機會與真實使用者接觸。為了解決此問題我訪談了集團旗下的 OwlStay 實體旅宿部門的同事，瞭解使用者在操作上的真實痛點。
               </li>
             </div>
             <div class="flex">
               <span class="mr-8">•</span>
               <li>
-                <span class="text-md-bold">與產品顧問持不同意見</span> -
+                <span class="text-md-bold">與產品顧問持不同意見</span><br>
                 在討論優化階段產品顧問提出想把原有鋪價流程一次翻新的做法，但 UI/UX 端持盡量以不要影響到目前使用者的操作為原則。針對這點我做出簡易 Prototype 以實際操作體驗來說服產品顧問。
               </li>
             </div>
@@ -195,7 +195,7 @@
           </div>
           <div class="analyze row mb-80">
             <div class="col-md-5 content-pr-48 mb-48">
-              <h5 class="mb-16">I. 分析目前介面的鋪價步驟</h5>
+              <h5 class="mb-16">I. 分析目前的鋪價步驟</h5>
               <p class="text-md">
                 目前介面只能針對<span class="text-md-bold">單一房型做單一專案的單一區間做鋪價</span>，如有多房型多專案搭配的情況下鋪價步驟則會倍數增加，對使用者是很大的負擔。
               </p>
@@ -225,29 +225,31 @@
                 <div class="flex">
                   <span class="mr-8">•</span>
                   <li>
-                    <span class="text-md-bold">國定假日區間選取 - </span>
+                    <span class="text-md-bold">輕鬆選取國定假日區間 - </span>
                      我也觀察到雖然目前介面中有提供國定假日的日期資訊，但使用者無法在鋪價時同時看到連假日期，為此<span class="text-md-bold">我們進行下拉日期介面的優化及規劃可複選國定假日的鋪價介面。</span>
                   </li>
                 </div>
               </ul>
             </div>
-            <div class="col-md-7 content-pl-48">
-              <figure class="figure">
-                <img
-                  src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/brainstorming2.png"
-                  class="figure-img img-fluid"
-                  style="width: 450px"
-                  alt="..."
-                />
-              </figure>
-              <div class="text-sm mt-8">同顏色表示重複操作的步驟</div>
+            <div class="col-md-7 text-align-center content-pl-48">
+              <dev class="text-align-initial">
+                <figure class="figure">
+                  <img
+                    src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/brainstorming2.png"
+                    class="figure-img img-fluid"
+                    style="width: 450px"
+                    alt="..."
+                  />
+                  <div class="text-sm mt-8">同顏色表示重複操作的步驟</div>
+                </figure>
+              </dev>
             </div>
           </div>
           <div class="soluction row">
             <div class="col-md-5 content-pr-48 mb-48">
               <h5 class="mb-16">III. 優化過後的鋪價步驟</h5>
               <p class="text-md">
-                規劃了可複選的房型或專案價格，再搭配區間做設定以最有效的方法進行鋪價，以上述例子而言<span class="text-md-bold">節省了 4.5 倍的操作。</span>
+                 可複選的房型或專案價格，再搭配區間做設定以最有效的方法進行鋪價，以上述例子而言<span class="text-md-bold">節省了 4.5 倍的操作。</span>
               </p>
             </div>
             <div class="col-md-7 text-align-center content-pl-48">
@@ -277,9 +279,9 @@
         </div>
         <div class="1wireframe row content mb-80">
           <div class="col-md-5 content-pr-48 mb-48">
-            <h5 class="mb-16">I. Wireframe</h5>
+            <h5 classWireframe>I. Wireframe</h5>
             <p class="text-md">
-              組員一同討論優化流程後，我就會將文字流程以 Wireframe 的方式呈現出來，與工程師做初步討論並快速修改。
+              與組員們一同討論優化流程後，我就會將文字流程以 Wireframe 的方式呈現出來，與工程師做初步討論並快速修改。
             </p>
           </div>
           <div class="col-md-7 content-pl-48">
@@ -294,7 +296,7 @@
         </div>
         <div class="2mockup row content mb-80">
           <div class="col-md-5 content-pr-48 mb-48">
-            <h5 class="mb-16">II. Mockup</h5>
+            <h5 class="mb-16">II. UI Library</h5>
             <p class="text-md">
               後台比起視覺更重視的是使用者完成任務的流程，<span class="text-md-bold">在規劃介面時為避免使用者的學習成本增加</span>，應該遵從既有的介面及流程，並依原有的介面原件快速做出 Mockup 與團隊討論。
             </p>
@@ -313,7 +315,8 @@
           <div class="col-md-5 content-pr-48 mb-48">
             <h5 class="mb-16">III. Prototype</h5>
             <p class="text-md">
-              直接做出 Prototype 來給使用者測試可達到高擬真度且更可以看出使用者對畫面的操作流程以及互動。
+              直接做出 Prototype 來給使用者測試可達到高擬真度且更可以看出使用者對畫面的操作流程以及互動。<br>
+              由於此專案為收費管理系統，恕無法提供 Prototpye 實作介面。
             </p>
           </div>
           <div class="col-md-7 content-pl-48">
@@ -341,7 +344,7 @@
         </div>
         <div class="col-md-5 content-pr-48">
           <p class="text-md mb-48">
-            新功能規劃可由多房型、多專案結合，使用者可依照自己的價格制定需求來多元組合。在介面上方規劃以書籤方式來與原本的月曆做切換，<span class="text-md-bold">既不會影響原先版面也可滿足有批次鋪價需求的使用者</span>，以最平靜不干擾使用者的方式推來推出新功能。
+            鋪價新功能讓使用者可由多房型、多專案做多元組合的鋪價。規劃以 tab 方式與原本的月曆做切換，<span class="text-md-bold">既不會影響原先版面也可滿足有批次鋪價需求的使用者，以最平靜不干擾使用者的方式推來推出新功能。</span>
           </p>
         </div>
         <div class="col-md-9 mb-80">
@@ -363,7 +366,7 @@
             alt="..."
           />
           <p class="text-md mb-16">
-            使用者可以直接選擇欲鋪價的國定假日，以介面設定來解決使用者需記憶或是來回比對的負擔
+            使用者可以直接選擇欲鋪價的國定假日，以介面呈現來解決使用者需記憶及來回比對的負擔
           </p>
         </div>
         <div class="col-md-9">
@@ -374,7 +377,7 @@
             alt="..."
           />
           <p class="text-md mb-16">
-            將當國國定假日也呈現在下拉月曆上，讓使用者在鋪價時可隨時留意
+            將國定假日也呈現在下拉月曆上，讓使用者在鋪價時可隨時留意
           </p>
         </div>
       </div>
@@ -391,7 +394,8 @@
           </div>
         </div>
         <p class="text-md">
-          批次鋪價功能推出後獲得使旅宿業者的正面反饋，不只大量節省了人力也對國定假日可自動帶入的功能也表示是項極為方便的操作，這正向反饋也推動了第二階段鄰國國定假日的開發。業務端也表示在一開始做競品分析就知道國內並沒擁有國定假日鋪價功能的旅宿管理系統，因此這也是銷售的一大賣點。
+          批次鋪價功能推出後獲得使旅宿業者的正面反饋，不只大量節省了人力也對國定假日可自動帶入的功能也表示是項極為方便的操作，這正向反饋也推動了第二階段鄰國國定假日的開發。<br>
+          業務端也表示在一開始做競品分析就知道國內並沒擁有國定假日鋪價功能的旅宿管理系統，因此這也是銷售的一大賣點。
         </p>
       </div>
     </section>
