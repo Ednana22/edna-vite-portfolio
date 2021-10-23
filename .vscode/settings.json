@@ -1,7 +1,13 @@
 {
   "i18n-ally.localesPaths": [
-    "src/locales"
+    "src/locales",
+    "src/locales/lang"
   ],
   "i18n-ally.displayLanguage": "zh-tw",
-  "i18n-ally.pathMatcher": "src/locales/{locale}.json"
+  "i18n-ally.pathMatcher": "src/locales/lang/{locale}.json",
+  "i18n-ally.extract.autoDetect": true,
+  "i18n-ally.editor.preferEditor": true,
+  "i18n-ally.extract.keyMaxLength": 20,
+  "i18n-ally.enabledParsers": ["js", "json"],
+  "i18n-ally.keystyle": "nested",
 }

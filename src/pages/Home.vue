@@ -82,11 +82,11 @@
             </div>
           </div>
           <div class="col-lg-4 content-pl-48">
-            <h3>奧丁丁市集改版</h3>
+            <h3>{{ $t('market') }}</h3>
             <div class="text-md-bold mb-24">
-              品牌再造
+              {{ $t('home.market.re_brand') }}
               <span class="font-color-lighter"> | </span>
-              網站改版
+              {{ $t('home.market.task') }}
               <span class="font-color-lighter"> | </span>
               APP 規劃
               <span class="font-color-lighter"> | </span>
