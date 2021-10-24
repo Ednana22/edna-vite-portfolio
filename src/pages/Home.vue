@@ -221,8 +221,26 @@
 </template>
 
 <script>
+import { gsap } from 'gsap'
+import ScrollTrigger from "gsap/ScrollTrigger"
+
+gsap.registerPlugin(ScrollTrigger)
+
 export default {
   name: "Home",
+  mounted () {
+    const bubbles = document.querySelectorAll('.memoji .figure')
+    gsap.to(bubbles, {
+      scrollTrigger: {
+        trigger: '.memoji'
+      },
+      scale: 1,
+      duration: .5,
+      delay: 1,
+      ease: 'expo',
+      stagger: .8
+    })
+  }
 };
 </script>
 
