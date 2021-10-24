@@ -5,6 +5,7 @@ specifiers:
   '@vue/compiler-sfc': ^3.0.5
   '@vueuse/components': ^6.0.0
   '@vueuse/core': ^6.0.0
+  gsap: ^3.8.0
   sass: ^1.38.0
   vite: ^2.4.4
   vue: ^3.0.5
@@ -14,6 +15,7 @@ specifiers:
 dependencies:
   '@vueuse/components': 6.0.0_vue@3.2.4
   '@vueuse/core': 6.0.0_vue@3.2.4
+  gsap: 3.8.0
   sass: 1.38.0
   vue: 3.2.4
   vue-router: 4.0.11_vue@3.2.4
@@ -275,6 +277,10 @@ packages:
     engines: {node: '>= 6'}
     dependencies:
       is-glob: 4.0.1
+    dev: false
+
+  /gsap/3.8.0:
+    resolution: {integrity: sha512-cvpzKkWFePDZCycwXwJnDSpTR3j+a4QLQF/t0c+pXqzRESgAYx5hieaoshzZFjbwsARqr0+5c3GKE7wI273w/g==}
     dev: false
 
   /has/1.0.3:
