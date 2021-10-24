@@ -2,15 +2,23 @@
   <PageElevator :anchors="anchors" />
   <main class="project-pms">
     <section class="title container">
-      <h1 class="mb-24">旅宿管理系統規劃</h1>
+      <h1 class="mb-24">{{ $t('common.market') }}</h1>
       <p class="text-md line-height-sm mb-8">
-        負責內容<span class="font-color-light"> | </span>UX 研究、UI 設計
+        {{ $t('common.project_includes') }}
+        <span class="font-color-light"> | </span>
+        {{ $t('common.ux_research') }}
+        、
+        {{ $t('common.ui_design') }}
       </p>
       <p class="text-md line-height-sm mb-8">
-        專案規模<span class="font-color-light"> | </span>跨二部門，約 8 人
+        {{ $t('common.project_scale') }}
+        <span class="font-color-light"> | </span>
+        {{ $t('pms_project.project_scale_answer') }}
       </p>
       <p class="text-md line-height-sm">
-        專案角色<span class="font-color-light"> | </span>UI/UX 設計師
+        {{ $t('common.my_role') }}
+        <span class="font-color-light"> | </span>
+        {{ $t('common.uiux_designer') }}
       </p>
     </section>
     <section class="banner container p-0">
@@ -24,36 +32,33 @@
     </section>
     <section id="overall" class="overall container text-md">
       <div class="background mb-48">
-        <h2 class="mb-16">專案背景</h2>
+        <h2 class="mb-16"> {{ $t('common.project_background') }}</h2>
         <p class="text-md mb-8">
-          OwlNest 是一款為旅宿業打造的 B2B 三合一整合型訂房系統，用戶遍及亞洲、美洲等國家，旅宿用戶達上千家。<br/>
-        </p>
-        <p class="text-md mb-48">
-          然而系統早期所規劃的鋪價功能較簡易，加上產品市場逐漸拓展，使用者也從需求較單純的民宿業者增加至旅館業者，<span class="text-md-bold">目前介面功能無法達到有效的鋪設價格，對使用者來說不僅費時也容易出錯</span>。
+          {{ $t('pms_project.project_background_answer') }}
         </p>
       </div>
       <div class="task mb-48">
-        <h2 class="mb-16">專案挑戰與決策</h2>
+        <h2 class="mb-16">{{ $t('common.challenges') }}</h2>
           <ul class="text-md">
             <div class="flex mb-24">
               <span class="mr-8">•</span>
               <li>
-                <span class="text-md-bold">無法與真實與用者進行訪談</span><br>
-                此產品向來都是由業務端帶回使用者反饋並發起優化的需求，因此 UI/UX 設計師很少有機會與真實使用者接觸。為了解決此問題我訪談了集團旗下的 OwlStay 實體旅宿部門的同事，瞭解使用者在操作上的真實痛點。
+                <span class="text-md-bold">{{ $t('pms_project.overview.challenges_title1') }}</span><br>
+                {{ $t('pms_project.overview.challenges_answer1') }}
               </li>
             </div>
             <div class="flex">
               <span class="mr-8">•</span>
               <li>
-                <span class="text-md-bold">與產品顧問持不同意見</span><br>
-                在討論優化階段產品顧問提出想把原有鋪價流程一次翻新的做法，但 UI/UX 端持盡量以不要影響到目前使用者的操作為原則。針對這點我做出簡易 Prototype 以實際操作體驗來說服產品顧問。
+                <span class="text-md-bold">{{ $t('pms_project.overview.challenges_title2') }}</span><br>
+                {{ $t('pms_project.overview.challenges_answer2') }}
               </li>
             </div>
           </ul>
       </div>
       <div class="highlight">
         <h2 class="mb-16">
-          反饋搶先看 👀
+          {{ $t('pms_project.overview.results') }}
         </h2>
         <div class="feedback row">
           <div class="col-md-4 content-pr-8 mb-16">
