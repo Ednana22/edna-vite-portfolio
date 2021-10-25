@@ -95,7 +95,7 @@
               {{ $t('common.ui_design') }}
             </div>
             <div class="text-md">
-              {{ $t('home.market.disruption') }}
+              {{ $t('home.market.description') }}
             </div>
             <router-link class="btn btn-link" :to="{ name: 'ProjectMarket' }">
               {{ $t('common.lear_more_cta') }}<i class="las la-long-arrow-alt-right"></i>
@@ -139,7 +139,7 @@
               {{ $t('common.saas') }}
             </div>
             <div class="text-md">
-              {{ $t('home.pms.disruption') }}
+              {{ $t('home.pms.description') }}
             </div>
             <router-link class="btn btn-link" :to="{ name: 'ProjectPMS' }">
               {{ $t('common.lear_more_cta') }}<i class="las la-long-arrow-alt-right"></i>
@@ -183,7 +183,7 @@
               {{ $t('common.official_website') }}
             </div>
             <div class="text-md">
-              {{ $t('home.official_website.disruption') }}
+              {{ $t('home.official_website.description') }}
             </div>
             <router-link class="btn btn-link" :to="{ name: 'ProjectWeb' }">
               {{ $t('common.lear_more_cta') }}<i class="las la-long-arrow-alt-right"></i>
