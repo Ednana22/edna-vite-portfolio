@@ -2,7 +2,7 @@
   <PageElevator :anchors="anchors" />
   <main class="project-pms">
     <section class="title container">
-      <h1 class="mb-24">{{ $t('common.market') }}</h1>
+      <h1 class="mb-24">{{ $t('common.pms') }}</h1>
       <p class="text-md line-height-sm mb-8">
         {{ $t('common.project_includes') }}
         <span class="font-color-light"> | </span>
@@ -66,9 +66,9 @@
               <div class="text-sm-bold">
                 ⭐⭐⭐⭐⭐
                 <br />
-                批次鋪價功能的推出對於年底需要長時間鋪價真的非常方便！
+                {{ $t('pms_project.overview.results_answer1') }}
                 <p class="text-sm">
-                  - 北部旅宿業者
+                  {{ $t('pms_project.overview.result_owner1') }}
                 </p>
               </div>
             </div>
@@ -78,9 +78,9 @@
               <div class="text-sm-bold">
                 ⭐⭐⭐⭐⭐
                 <br />
-                國定假期功能清楚明瞭！還可以針對不同假期做價格上的調整，很棒！
+                {{ $t('pms_project.overview.results_answer2') }}
                 <p class="text-sm">
-                  - 東部旅宿業者
+                  {{ $t('pms_project.overview.result_owner2') }}
                 </p>
               </div>
             </div>
@@ -90,9 +90,9 @@
               <div class="text-sm-bold">
                 ⭐⭐⭐⭐⭐
                 <br />
-                新規劃的國定假日鋪價功能成為我們商品在市場上的獨有買點！
+                {{ $t('pms_project.overview.results_answer3') }}
                 <p class="text-sm">
-                  - 業務同事
+                  {{ $t('pms_project.overview.result_owner3') }}
                 </p>
               </div>
             </div>
@@ -114,23 +114,23 @@
         <div class="title-group">
           <h4 class="mr-8">1</h4>
           <div>
-            <h3 class="mb-6">目標</h3>
-            <h2>我們要解決的問題</h2>
+            <h3 class="mb-6">{{ $t('page_elevator.goal') }}</h3>
+            <h2>{{ $t('pms_project.goal.title') }}</h2>
           </div>
         </div>
       </div>
       <ul>
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
-          <li class="text-md">進行設定介面開發，達到更符合使用者期待的鋪價功能</li>
+          <li class="text-md">{{ $t('pms_project.goal.gold1') }}</li>
         </div>
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
-          <li class="text-md">依照現有使用者的反饋來優化現行介面，讓系統中新舊功能並存</li>
+          <li class="text-md">{{ $t('pms_project.goal.gold2') }}</li>
         </div>
         <div class="flex">
           <span class="mr-8">‣</span>
-          <li class="text-md">針對國定假日進行快速且彈性的鋪價</li>
+          <li class="text-md">{{ $t('pms_project.goal.gold3') }}</li>
         </div>
       </ul>
     </section>
@@ -141,22 +141,23 @@
             <div class="title-group">
               <h4 class="mr-8">2</h4>
               <div class="">
-                <h3 class="mb-6">理解</h3>
-                <h2>瞭解使用者如何操作產品</h2>
+                <h3 class="mb-6">{{ $t('page_elevator.empathize') }}</h3>
+                <h2>{{ $t('pms_project.empathize.title') }}</h2>
               </div>
             </div>
           </div>
           <p class="text-md">
-            <span class="text-md-bold">對奧丁丁旗下 OwlStay 旅宿團隊進行鋪價習慣訪談，並參考業務帶回來的旅宿業者反饋</span>，得知使用者的鋪價習慣通常是先鋪設一年的平日、假日房價再鋪設國定假日房價，有些國外旅客較多的旅宿業者甚至會參考鄰國的連假日期去制訂銷售價格。          </p>
+            {{ $t('pms_project.empathize.text') }}
+          </p>
         </div>
         <div class="col-md-7 content-pl-48 text-align-center">
-          <div class="text-sm-bold plan_border mb-8">平日房價</div>
+          <div class="text-sm-bold plan_border mb-8">{{ $t('pms_project.empathize.step1') }}</div>
           <i class="las la-long-arrow-alt-down"></i>
-          <div class="text-sm-bold plan_border mb-8 mt-8">假日房價</div>
+          <div class="text-sm-bold plan_border mb-8 mt-8">{{ $t('pms_project.empathize.step2') }}</div>
           <i class="las la-long-arrow-alt-down"></i>
-          <div class="text-sm-bold plan_border mt-8">國定假日房價</div>
+          <div class="text-sm-bold plan_border mt-8">{{ $t('pms_project.empathize.step3') }}</div>
           <i class="las la-long-arrow-alt-down"></i>
-          <div class="text-sm-bold plan_border mt-8">鄰國連假房價</div>
+          <div class="text-sm-bold plan_border mt-8">{{ $t('pms_project.empathize.step4') }}</div>
         </div>
       </div>
     </section>
@@ -167,13 +168,14 @@
             <div class="title-group">
               <h4 class="mr-8">3</h4>
               <div class="">
-                <h3 class="mb-8">定義</h3>
-                <h2>分析現行介面的問題</h2>
+                <h3 class="mb-6">{{ $t('page_elevator.define') }}</h3>
+                <h2>{{ $t('pms_project.define.title') }}</h2>
               </div>
             </div>
           </div>
           <p class="text-md">
-            使用者們最常反應的就是目前介面在鋪設<span class="text-md-bold">長區間且多時段的房價時只能一項一項去設定</span>，操作繁雜且重複性高的操作也容易造成鋪價錯誤的情況，先前就有旅宿業者沒有設定到連假價格而造成虧損的問題。</p>
+            {{ $t('pms_project.define.text') }}
+          </p>
         </div>
         <div class="col-md-7 content-pl-48">
           <figure class="figure border-thin border-radius-4">
@@ -193,16 +195,16 @@
             <div class="title-group">
               <h4 class="mr-8">4</h4>
               <div class="">
-                <h3 class="mb-8">思考</h3>
-                <h2>腦力激盪來拆解任務</h2>
+                <h3 class="mb-6">{{ $t('page_elevator.ideate') }}</h3>
+                <h2>{{ $t('pms_project.ideate.title') }}</h2>
               </div>
             </div>
           </div>
           <div class="analyze row mb-80">
             <div class="col-md-5 content-pr-48 mb-48">
-              <h5 class="mb-16">I. 分析目前的鋪價步驟</h5>
+              <h5 class="mb-16">{{ $t('pms_project.ideate.subtitle1') }}</h5>
               <p class="text-md">
-                目前介面只能針對<span class="text-md-bold">單一房型做單一專案的單一區間做鋪價</span>，如有多房型多專案搭配的情況下鋪價步驟則會倍數增加，對使用者是很大的負擔。
+                {{ $t('pms_project.ideate.text1') }}
               </p>
             </div>
             <div class="col-md-7 text-align-center content-pl-48">
@@ -218,20 +220,18 @@
           </div>
           <div class="improve row mb-80">
             <div class="col-md-5 content-pr-48 mb-48">
-              <h5 class="mb-16">II. 找出可優化的空間</h5>
+              <h5 class="mb-16">{{ $t('pms_project.ideate.subtitle2') }}</h5>
               <ul>
                 <div class="flex mb-24">
                   <span class="mr-8">•</span>
                   <li>
-                    <span class="text-md-bold"> 省去重複步驟 - </span>
-                      由使用者的鋪價步驟可得知使用者大多是<span class="text-md-bold">由房型出發，再依照不同專案及區間調整房價</span>，串接平台價格通常會一致，如果可省去每次都重複的步驟對使用者操作將會更友善。
+                    {{ $t('pms_project.ideate.text2-1') }}
                   </li>
                 </div>
                 <div class="flex">
                   <span class="mr-8">•</span>
                   <li>
-                    <span class="text-md-bold">輕鬆選取國定假日區間 - </span>
-                     我也觀察到雖然目前介面中有提供國定假日的日期資訊，但使用者無法在鋪價時同時看到連假日期，為此<span class="text-md-bold">我們進行下拉日期介面的優化及規劃可複選國定假日的鋪價介面。</span>
+                    {{ $t('pms_project.ideate.text2-2') }}
                   </li>
                 </div>
               </ul>
@@ -245,16 +245,16 @@
                     style="width: 450px"
                     alt="..."
                   />
-                  <div class="text-sm mt-8">同顏色表示重複操作的步驟</div>
+                  <div class="text-sm mt-8">{{ $t('pms_project.ideate.description') }}</div>
                 </figure>
               </dev>
             </div>
           </div>
           <div class="soluction row">
             <div class="col-md-5 content-pr-48 mb-48">
-              <h5 class="mb-16">III. 優化過後的鋪價步驟</h5>
+              <h5 class="mb-16">{{ $t('pms_project.ideate.subtitle3') }}</h5>
               <p class="text-md">
-                 可複選的房型或專案價格，再搭配區間做設定以最有效的方法進行鋪價，以上述例子而言<span class="text-md-bold">節省了 4.5 倍的操作。</span>
+                {{ $t('pms_project.ideate.text3') }}
               </p>
             </div>
             <div class="col-md-7 text-align-center content-pl-48">
@@ -277,16 +277,16 @@
           <div class="title-group">
             <h4 class="mr-8">5</h4>
             <div class="">
-              <h3 class="mb-8">設計過程</h3>
-              <h2>將文字流程製作成介面</h2>
+              <h3 class="mb-6">{{ $t('page_elevator.design') }}</h3>
+              <h2>{{ $t('pms_project.design.title') }}</h2>
             </div>
           </div>
         </div>
         <div class="1wireframe row content mb-80">
           <div class="col-md-5 content-pr-48 mb-48">
-            <h5 classWireframe>I. Wireframe</h5>
+            <h5 class="mb-16">{{ $t('pms_project.design.subtitle1') }}</h5>
             <p class="text-md">
-              與組員們一同討論優化流程後，我就會將文字流程以 Wireframe 的方式呈現出來，與工程師做初步討論並快速修改。
+              {{ $t('pms_project.design.text1') }}
             </p>
           </div>
           <div class="col-md-7 content-pl-48">
@@ -301,9 +301,9 @@
         </div>
         <div class="2mockup row content mb-80">
           <div class="col-md-5 content-pr-48 mb-48">
-            <h5 class="mb-16">II. UI Library</h5>
+            <h5 class="mb-16">{{ $t('pms_project.design.subtitle2') }}</h5>
             <p class="text-md">
-              後台比起視覺更重視的是使用者完成任務的流程，<span class="text-md-bold">在規劃介面時為避免使用者的學習成本增加</span>，應該遵從既有的介面及流程，並依原有的介面原件快速做出 Mockup 與團隊討論。
+              {{ $t('pms_project.design.text2') }}
             </p>
           </div>
           <div class="col-md-7 content-pl-48">
@@ -318,10 +318,9 @@
         </div>
         <div class="3prototype row content">
           <div class="col-md-5 content-pr-48 mb-48">
-            <h5 class="mb-16">III. Prototype</h5>
+            <h5 class="mb-16">{{ $t('pms_project.design.subtitle3') }}</h5>
             <p class="text-md">
-              直接做出 Prototype 來給使用者測試可達到高擬真度且更可以看出使用者對畫面的操作流程以及互動。<br>
-              由於此專案為收費管理系統，恕無法提供 Prototpye 實作介面。
+              {{ $t('pms_project.design.text3') }}
             </p>
           </div>
           <div class="col-md-7 content-pl-48">
@@ -341,48 +340,48 @@
             <div class="title-group">
               <h4 class="mr-8">6</h4>
               <div class="">
-                <h3 class="mb-8">成果</h3>
-                <h2>頁面展示</h2>
+                <h3 class="mb-6">{{ $t('page_elevator.result') }}</h3>
+                <h2>{{ $t('pms_project.result.title') }}</h2>
               </div>
             </div>
           </div>
         </div>
         <div class="col-md-5 content-pr-48">
           <p class="text-md mb-48">
-            鋪價新功能讓使用者可由多房型、多專案做多元組合的鋪價。規劃以 tab 方式與原本的月曆做切換，<span class="text-md-bold">既不會影響原先版面也可滿足有批次鋪價需求的使用者，以最平靜不干擾使用者的方式推來推出新功能。</span>
+            {{ $t('pms_project.result.text') }}
           </p>
         </div>
         <div class="col-md-9 mb-80">
-          <h5 class="mb-16">鋪設多專案</h5>
+          <h5 class="mb-16">{{ $t('pms_project.result.mockup_title1') }}</h5>
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/mutipul-plans-chose.png"
             class="figure-img img-fluid border-radius-16 shadow mb-16"
             alt="..."
           />
           <p class="text-md mb-16">
-            由房型或是專案多選來鋪設價格，可以解決使用者需要一直重複設定的問題
+            {{ $t('pms_project.result.mockup_text1') }}
           </p>
         </div>
         <div class="col-md-9 mb-80 ml-auto">
-          <h5 class="mb-16">快速設定國定假日</h5>
+          <h5 class="mb-16">{{ $t('pms_project.result.mockup_title2') }}</h5>
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/nationai-holiday.png"
             class="figure-img img-fluid border-radius-16 shadow mb-16"
             alt="..."
           />
           <p class="text-md mb-16">
-            使用者可以直接選擇欲鋪價的國定假日，以介面呈現來解決使用者需記憶及來回比對的負擔
+            {{ $t('pms_project.result.mockup_text2') }}
           </p>
         </div>
         <div class="col-md-9">
-          <h5 class="mb-16">優化下拉月曆內容</h5>
+          <h5 class="mb-16">{{ $t('pms_project.result.mockup_title3') }}</h5>
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/price_calendar.png"
             class="figure-img img-fluid border-radius-16 shadow mb-16"
             alt="..."
           />
           <p class="text-md mb-16">
-            將國定假日也呈現在下拉月曆上，讓使用者在鋪價時可隨時留意
+            {{ $t('pms_project.result.mockup_text3') }}
           </p>
         </div>
       </div>
@@ -393,14 +392,13 @@
           <div class="title-group">
             <h4 class="mr-8">7</h4>
             <div class="">
-              <h3 class="mb-8">迭代</h3>
-              <h2>由使用者回饋中進行產品優化</h2>
+              <h3 class="mb-6">{{ $t('page_elevator.iterate') }}</h3>
+              <h2>{{ $t('pms_project.iterate.title') }}</h2>
             </div>
           </div>
         </div>
         <p class="text-md">
-          批次鋪價功能推出後獲得使旅宿業者的正面反饋，不只大量節省了人力也對國定假日可自動帶入的功能也表示是項極為方便的操作，這正向反饋也推動了第二階段鄰國國定假日的開發。<br>
-          業務端也表示在一開始做競品分析就知道國內並沒擁有國定假日鋪價功能的旅宿管理系統，因此這也是銷售的一大賣點。
+          {{ $t('pms_project.iterate.text') }}
         </p>
       </div>
     </section>
@@ -410,19 +408,19 @@
           <div class="title-group">
             <h4 class="mr-8">8</h4>
             <div class="">
-              <h3 class="mb-8">反思</h3>
-              <h2>後台須顧及的層面更廣</h2>
+              <h3 class="mb-6">{{ $t('page_elevator.takeaway') }}</h3>
+              <h2>{{ $t('pms_project.takeaway.title') }}</h2>
             </div>
           </div>
         </div>
         <p class="text-md">
-          在規劃後台系統新功能時最重要的是要顧及現存使用者的習慣，<span class="text-md-bold">使用者通常不喜歡變動，所以在規劃新功能時盡量以不要影響到目前使用者的操作為最高原則。</span>
+          {{ $t('pms_project.takeaway.text') }}
         </p>
       </div>
     </section>
     <section class="more-project bg-blue-lightest pt-80">
       <div class="container">
-        <h2>更多設計專案</h2>
+        <h2>{{ $t('common.more_project') }}</h2>
         <div class="row">
           <div class="col-md-6 content-pr-8 mt-24 mb-24">
             <div class="card-border-grey border-radius-4">
@@ -433,20 +431,20 @@
                   alt="..."
                 />
               </router-link>
-              <div class="text-md-bold mt-24">奧丁丁市集改版</div>
+              <div class="text-md-bold mt-24">{{ $t('common.market') }}</div>
               <div class="text-md">
-                品牌再造
+                {{ $t('common.re_branding') }}
                 <span class="font-color-light"> | </span>
-                網站重構
+                {{ $t('common.website') }}
                 <span class="font-color-light"> | </span>
-                APP 規劃
+                {{ $t('common.app') }}
                 <span class="font-color-light"> | </span>
-                UX 研究
+                {{ $t('common.ux_research') }}
                 <span class="font-color-light"> | </span>
-                UI 設計
+                {{ $t('common.ui_design') }}
               </div>
               <router-link class="btn btn-link" :to="{ name: 'ProjectMarket' }">
-                瀏覽專案<i class="las la-long-arrow-alt-right"></i>
+                {{ $t('common.lear_more_cta') }}<i class="las la-long-arrow-alt-right"></i>
               </router-link>
             </div>
           </div>
@@ -458,18 +456,18 @@
                 alt="..."
               />
             </router-link>
-            <div class="text-md-bold mt-24">奧丁丁集團官網重構</div>
+              <div class="text-md-bold mt-24">{{ $t('common.official_webSite') }}</div>
             <div class="text-md">
-              網站重構
+              {{ $t('common.refactor_website') }}
               <span class="font-color-light"> | </span>
-              UX 研究
+              {{ $t('common.ux_research') }}
               <span class="font-color-light"> | </span>
-              UI 設計
+              {{ $t('common.ui_design') }}
               <span class="font-color-light"> | </span>
-              形象官網
+              {{ $t('common.official_website') }}
             </div>
             <router-link class="btn btn-link" :to="{ name: 'ProjectWeb' }">
-              瀏覽專案<i class="las la-long-arrow-alt-right"></i>
+              {{ $t('common.lear_more_cta') }}<i class="las la-long-arrow-alt-right"></i>
             </router-link>
           </div>
         </div>
