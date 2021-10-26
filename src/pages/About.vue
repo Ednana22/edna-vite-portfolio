@@ -21,9 +21,8 @@
             alt="..."
           />
         </figure>
-        <a href="https://drive.google.com/file/d/1NFNcFEzZj7I_Punp-17jKKBReY3QVjeK/view?usp=sharing" target="_blank"
-          >履歷瀏覽</a
-        >
+        <a href="https://drive.google.com/file/d/1NFNcFEzZj7I_Punp-17jKKBReY3QVjeK/view?usp=sharing" target="_blank">履歷瀏覽
+        </a>
       </div>
     </section>
     <section class="time_line-h container">
