@@ -439,9 +439,9 @@
                 <p class="text-md mb-24">
                    我們邀請公司內的市集真實使用者進行新版面任務測試，根據螢幕錄影及熱點分析再進行介面優化，<span class="text-md-bold">聆聽反饋確保舊用戶在新介面中獲得高品質的使用者體驗。</span>
                 </p>
-                <a target="_blank" href="https://www.figma.com/proto/KZODm2NGxinG76KXApm5QX/Edna-portfolio?node-id=848%3A4496&scaling=min-zoom&page-id=848%3A1808&starting-point-node-id=848%3A4496" class="text-md a-white">
+                <a target="_blank" href="https://www.figma.com/proto/KZODm2NGxinG76KXApm5QX/Edna-portfolio?node-id=848%3A4496&scaling=min-zoom&page-id=848%3A1808&starting-point-node-id=848%3A4496" class="a-white">
                   <img alt="Xd icon" src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/figma-icon.png" class="" data-v-64193183="" height="30">
-                  點此操作
+                  點此操作<i class="las la-long-arrow-alt-right ml-4"></i>
                 </a>
               </div>
               <figure class="figure col-md-7 content-pl-48">
@@ -472,9 +472,14 @@
             </div>
           </div>
           <div class="row">
-            <p class="text-md col-md-5 content-pr-48 mb-48">
-              此次改版計畫是以頁面分階段迭代方式進行，<span class="text-md-bold">截至 2021 年 10 月設計端改版完成 100 %；工程實作完成 80% 。</span>
-            </p>
+            <div class=" col-md-5 content-pr-48 mb-48">
+              <p class="text-md mb-24">
+                此次改版計畫是以頁面分階段迭代方式進行，<span class="text-md-bold">截至 2021 年 10 月設計端改版完成 100 %；工程實作完成 80% 。</span>
+              </p>
+              <a target="_blank" href="https://www.owlting.com/market/" class="a-white">
+                🌟 前往成品網站<i class="las la-long-arrow-alt-right ml-4"></i>
+              </a>
+            </div>
             <div class="highlight col-md-7 content-pl-48 mb-80">
               <div class="row">
                 <div class="col-sm-6 new_user mb-48">
