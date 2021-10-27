@@ -26,34 +26,29 @@
               <img
                 src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/edna-memoji.png"
                 class="figure-img img-fluid mt-80"
-                alt="..."
               />
-              <figure gure class="coffee figure flex-center">
+              <figure class="coffee figure flex-center">
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/coffee.png"
                   class="figure-img img-fluid"
-                  alt="..."
                 />
               </figure>
-              <figure gure class="work figure flex-center">
+              <figure class="work figure flex-center">
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/work.png"
                   class="figure-img img-fluid"
-                  alt="..."
                 />
               </figure>
-              <figure gure class="devices figure flex-center">
+              <figure class="devices figure flex-center">
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/devices.png"
                   class="figure-img img-fluid"
-                  alt="..."
                 />
               </figure>
-              <figure gure class="speak figure flex-center">
+              <figure class="speak figure flex-center">
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/speech+bubble.png"
                   class="figure-img img-fluid"
-                  alt="..."
                 />
               </figure>
             </figure>
@@ -65,7 +60,6 @@
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/hero.png
 "
                   class="figure-img img-fluid"
-                  alt="..."
                 />
               </figure>
           </div>
@@ -105,7 +99,6 @@
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/market-web-hp.gif"
                   class="figure-img img-fluid"
-                  alt="..."
                 />
               </figure>
             </div>
@@ -122,7 +115,6 @@
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/pms-homepage.gif"
                   class="figure-img img-fluid"
-                  alt="..."
                 />
               </figure>
             </div>
@@ -146,7 +138,6 @@
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/pms-homepage.gif"
                   class="figure-img img-fluid"
-                  alt="..."
                 />
               </figure>
             </div>
@@ -163,7 +154,6 @@
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/website-homepage.gif"
                   class="figure-img img-fluid"
-                  alt="..."
                 />
               </figure>
             </div>
@@ -187,7 +177,6 @@
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/website-homepage.gif"
                   class="figure-img img-fluid"
-                  alt="..."
                 />
               </figure>
             </div>
@@ -207,7 +196,6 @@
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/icon-mail.svg"
                   class="figure-img img-fluid"
-                  alt="..."
                 />
               </figure>
               <a href="mailto: w.ehsien@gmail.com">w.ehsien@gmail.com</a>
@@ -217,7 +205,6 @@
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/icon-linkedin.svg"
                   class="figure-img img-fluid"
-                  alt="..."
                 />
               </figure>
               <a
@@ -234,8 +221,26 @@
 </template>
 
 <script>
+import { gsap } from 'gsap'
+import ScrollTrigger from "gsap/ScrollTrigger"
+
+gsap.registerPlugin(ScrollTrigger)
+
 export default {
   name: "Home",
+  mounted () {
+    const bubbles = document.querySelectorAll('.memoji .figure')
+    gsap.to(bubbles, {
+      scrollTrigger: {
+        trigger: '.memoji'
+      },
+      scale: 1,
+      duration: .5,
+      delay: 1,
+      ease: 'expo',
+      stagger: .8
+    })
+  }
 };
 </script>
 

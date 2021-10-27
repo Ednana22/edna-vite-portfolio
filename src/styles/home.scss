@@ -65,6 +65,9 @@ section {
   .memoji{
     width: 140px;
     position: relative;
+    .figure {
+      transform: scale(0);
+    }
   }
   .coffee{
     position: absolute;  
