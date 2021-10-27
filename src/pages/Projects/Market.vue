@@ -7,15 +7,15 @@
         {{ $t('common.project_includes') }}
         <span class="font-color-light"> | </span>
         {{ $t('common.re_branding') }}
-        、
+        .
         {{ $t('common.refactor_website') }}
-        、
+        .
         {{ $t('common.app') }}
-        、
+        .
         {{ $t('common.ux_research') }}
-        、
+        .
         {{ $t('common.ui_design') }}
-        、
+        .
         {{ $t('common.user_testing') }}
       </p>
       <p class="text-md line-height-sm mb-8">
@@ -98,7 +98,7 @@
         />
       </figure>
     </section>
-    <section id="step-1" class="1gold container text-md">
+    <section id="step-1" class="1goal container text-md">
       <div class="project-title">
         <div class="title-group">
           <h4 class="mr-8">1</h4>
@@ -112,19 +112,19 @@
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
           <li class="text-md">
-            {{ $t('market_project.goal.gold1') }}
+            {{ $t('market_project.goal.goal1') }}
           </li>
         </div>
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
           <li class="text-md">
-            {{ $t('market_project.goal.gold2') }}
+            {{ $t('market_project.goal.goal2') }}
           </li>
         </div>
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
           <li class="text-md">
-            {{ $t('market_project.goal.gold3') }}
+            {{ $t('market_project.goal.goal3') }}
           </li>
         </div>
       </ul>
@@ -164,7 +164,7 @@
               <span class="emoji-position">😕</span>
               <div class="name">
                 <p class="text-sm">Cindy Wu</p>
-                <p class="text-sm color_grey-light">一般會員</p>
+                <p class="text-sm color_grey-light">{{ $t('market_project.empathize.user_ordinary') }}</p>
               </div>
             </div>
           </div>
@@ -185,7 +185,7 @@
               <span class="emoji-position">😫</span>
               <div class="name">
                 <p class="text-sm">Vincent Chang</p>
-                <p class="text-sm color_grey-light">鑽石會員</p>
+                <p class="text-sm color_grey-light">{{ $t('market_project.empathize.user_ordinary') }}</p>
               </div>
             </div>
           </div>
@@ -491,7 +491,7 @@
                 {{ $t('market_project.result.text') }}
               </p>
                 <a target="_blank" href="https://www.owlting.com/market/" class="a-white">
-                  🌟 前往成品網站<i class="las la-long-arrow-alt-right ml-4"></i>
+                  🌟 {{ $t('common.view_project_cta') }}<i class="las la-long-arrow-alt-right ml-4"></i>
                 </a>
             </div>
             <div class="highlight col-md-7 content-pl-48 mb-80">
@@ -659,7 +659,7 @@
                 alt="..."
               />
             </router-link>
-            <div class="text-md-bold mt-24">{{ $t('common.more_project') }}</div>
+            <div class="text-md-bold mt-24">{{ $t('common.owlting_website') }}</div>
             <div class="text-md">
               {{ $t('common.refactor_website') }}
               <span class="font-color-light"> | </span>

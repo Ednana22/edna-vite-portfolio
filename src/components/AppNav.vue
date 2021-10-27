@@ -23,7 +23,7 @@
                     <router-link :to="{ name: 'ProjectPMS' }">{{ $t('common.pms') }}</router-link>
                   </li>
                   <li>
-                    <router-link :to="{ name: 'ProjectWeb' }">{{ $t('common.official_webSite') }}</router-link>
+                    <router-link :to="{ name: 'ProjectWeb' }">{{ $t('common.owlting_website') }}</router-link>
                   </li>
                 </ul>
               </span>

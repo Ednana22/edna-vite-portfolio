@@ -7,7 +7,7 @@
         {{ $t('common.project_includes') }}
         <span class="font-color-light"> | </span>
         {{ $t('common.ux_research') }}
-        、
+        .
         {{ $t('common.ui_design') }}
       </p>
       <p class="text-md line-height-sm mb-8">
@@ -109,7 +109,7 @@
         />
       </figure>
     </section>
-    <section id="step-1" class="1gold container text-md">
+    <section id="step-1" class="1goal container text-md">
       <div class="project-title">
         <div class="title-group">
           <h4 class="mr-8">1</h4>
@@ -122,15 +122,15 @@
       <ul>
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
-          <li class="text-md">{{ $t('pms_project.goal.gold1') }}</li>
+          <li class="text-md">{{ $t('pms_project.goal.goal1') }}</li>
         </div>
         <div class="flex mb-8">
           <span class="mr-8">‣</span>
-          <li class="text-md">{{ $t('pms_project.goal.gold2') }}</li>
+          <li class="text-md">{{ $t('pms_project.goal.goal2') }}</li>
         </div>
         <div class="flex">
           <span class="mr-8">‣</span>
-          <li class="text-md">{{ $t('pms_project.goal.gold3') }}</li>
+          <li class="text-md">{{ $t('pms_project.goal.goal3') }}</li>
         </div>
       </ul>
     </section>
@@ -456,7 +456,7 @@
                 alt="..."
               />
             </router-link>
-              <div class="text-md-bold mt-24">{{ $t('common.official_webSite') }}</div>
+              <div class="text-md-bold mt-24">{{ $t('common.owlting_website') }}</div>
             <div class="text-md">
               {{ $t('common.refactor_website') }}
               <span class="font-color-light"> | </span>

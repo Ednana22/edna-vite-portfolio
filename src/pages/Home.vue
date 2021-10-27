@@ -172,7 +172,7 @@
             </div>
           </div>
           <div class="col-lg-4 content-pl-48">
-            <h3>{{ $t('common.official_webSite') }}</h3>
+            <h3>{{ $t('common.owlting_website') }}</h3>
             <div class="text-md-bold mb-24">
               {{ $t('common.refactor_website') }}
               <span class="font-color-lighter"> | </span>
