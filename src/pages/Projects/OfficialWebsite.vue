@@ -554,9 +554,9 @@
                 此專案我使用 Adobe Xd 來模擬視差滾動以及滾動連帶的過場動畫，Prototype的 視覺化能幫助設計師與工程師討論時可以快速對焦，若實作時辰上有困難也可以立刻討論作出相對應調整。
                 <br>
               </p>
-              <a target="_blank" href="https://xd.adobe.com/view/d2429262-013f-4cfb-918d-edf8e99885a0-8711/" class="text-md a-white">
+              <a target="_blank" href="https://xd.adobe.com/view/d2429262-013f-4cfb-918d-edf8e99885a0-8711/" class="a-white">
                 <img alt="Xd icon" src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/Xd-icon.png" class="mr-8" height="25">
-                點此操作
+                點此操作<i class="las la-long-arrow-alt-right ml-4"></i>
               </a>
             </div>
             <div class="col-md-7 content-pl-48">
@@ -604,6 +604,13 @@
                   <h2>成品頁面</h2>
                 </div>
               </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class=" col-md-12 content-pr-48 mb-48">
+              <a target="_blank" href="https://www.owlting.com/market/" class="a-white">
+                🌟 前往成品網站<i class="las la-long-arrow-alt-right ml-4"></i>
+              </a>
             </div>
           </div>
           <div class="col-md-9 mb-80">

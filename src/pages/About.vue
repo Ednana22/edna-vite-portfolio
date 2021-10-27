@@ -21,9 +21,8 @@
             alt="..."
           />
         </figure>
-        <a href="https://drive.google.com/file/d/1NFNcFEzZj7I_Punp-17jKKBReY3QVjeK/view?usp=sharing" target="_blank"
-          >履歷瀏覽</a
-        >
+        <a href="https://drive.google.com/file/d/1NFNcFEzZj7I_Punp-17jKKBReY3QVjeK/view?usp=sharing" target="_blank">履歷瀏覽
+        </a>
       </div>
     </section>
     <section class="time_line-h container">
@@ -67,7 +66,7 @@
         <div class="flex mb-24">
           <div class="circle-grey mt-14 mr-16"></div>
           <div class="now">
-            <p class="text-md-bold">now - 2018</p>
+            <p class="text-md">now - 2018</p>
             <p class="text-md-bold">UIUX設計師</p>
             <p class="text-sm">奧丁丁集團</p>
           </div>
@@ -75,7 +74,7 @@
         <div class="flex mb-24">
           <div class="circle-grey mt-14 mr-16"></div>
           <div class="now">
-            <p class="text-md-bold">2018 - 2016</p>
+            <p class="text-md">2018 - 2016</p>
             <p class="text-md-bold">網頁視覺設計師</p>
             <p class="text-sm">蝦皮購物</p>
           </div>
@@ -83,7 +82,7 @@
         <div class="flex mb-24">
           <div class="circle-grey mt-14 mr-16"></div>
           <div class="now">
-            <p class="text-md-bold">2016 - 2015</p>
+            <p class="text-md">2016 - 2015</p>
             <p class="text-md-bold">視覺設計師</p>
             <p class="text-sm">樂子美式餐飲</p>
           </div>
@@ -91,7 +90,7 @@
         <div class="flex mb-24">
           <div class="circle-grey mt-14 mr-16"></div>
           <div class="now">
-            <p class="text-md-bold">2015 - 2014</p>
+            <p class="text-md">2015 - 2014</p>
             <p class="text-md-bold">歐盟繪畫學士</p>
             <p class="text-sm">留學瑞士EPAC</p>
           </div>
@@ -99,7 +98,7 @@
         <div class="flex">
           <div class="circle-grey mt-14 mr-16"></div>
           <div class="now">
-            <p class="text-md-bold">2013 - 2010</p>
+            <p class="text-md">2013 - 2010</p>
             <p class="text-md-bold">商業設計學系</p>
             <p class="text-sm">奧丁丁集團</p>
           </div>

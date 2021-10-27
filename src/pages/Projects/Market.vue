@@ -453,9 +453,9 @@
                 <p class="text-md mb-24">
                  {{ $t('market_project.design.text4') }}
                 </p>
-                <a target="_blank" href="https://www.figma.com/proto/KZODm2NGxinG76KXApm5QX/Edna-portfolio?node-id=848%3A4496&scaling=min-zoom&page-id=848%3A1808&starting-point-node-id=848%3A4496" class="text-md a-white">
+                <a target="_blank" href="https://www.figma.com/proto/KZODm2NGxinG76KXApm5QX/Edna-portfolio?node-id=848%3A4496&scaling=min-zoom&page-id=848%3A1808&starting-point-node-id=848%3A4496" class="a-white">
                   <img alt="Xd icon" src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/figma-icon.png" class="" data-v-64193183="" height="30">
-                    {{ $t('common.prototype_cta') }}
+                    {{ $t('common.prototype_cta') }}<i class="las la-long-arrow-alt-right ml-4"></i>
                 </a>
               </div>
               <figure class="figure col-md-7 content-pl-48">
@@ -486,9 +486,14 @@
             </div>
           </div>
           <div class="row">
-            <p class="text-md col-md-5 content-pr-48 mb-48">
-              {{ $t('market_project.result.text') }}
-            </p>
+            <div class="col-md-5 content-pr-48 mb-48">
+              <p class="text-md mb-24">
+                {{ $t('market_project.result.text') }}
+              </p>
+                <a target="_blank" href="https://www.owlting.com/market/" class="a-white">
+                  🌟 前往成品網站<i class="las la-long-arrow-alt-right ml-4"></i>
+                </a>
+            </div>
             <div class="highlight col-md-7 content-pl-48 mb-80">
               <div class="row">
                 <div class="col-sm-6 new_user mb-48">
