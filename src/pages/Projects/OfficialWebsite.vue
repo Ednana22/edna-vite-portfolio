@@ -608,7 +608,7 @@
           </div>
           <div class="row">
             <div class=" col-md-12 content-pr-48 mb-48">
-              <a target="_blank" href="https://www.owlting.com/market/" class="a-white">
+              <a target="_blank" href="https://www.owlting.com/portal/?lang=en" class="a-white">
                 🌟 前往成品網站<i class="las la-long-arrow-alt-right ml-4"></i>
               </a>
             </div>
