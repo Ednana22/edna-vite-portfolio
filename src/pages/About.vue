@@ -387,7 +387,7 @@
             很期待認識你！有任何想法都歡迎隨時與我交流 ⭐
           </p>
           <div class="row connect-way">
-            <div class="mail mb-8 col-sm-6 content-pl-48">
+            <div class="mail mb-8 col-sm-6 content-pl-48 mobile-mb-24">
               <figure class="figure mr-8">
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/icon-mail.svg"
