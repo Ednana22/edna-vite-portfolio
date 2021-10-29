@@ -13,6 +13,7 @@
     "user_testing": "使用者測試",
     "b2b": "B2B",
     "saas": "SaaS 服務",
+    "user_testing": "使用者測試",
     "refactor_website": "網站重構",
     "official_website": "形象官網",
     "lear_more_cta": "瀏覽專案",
@@ -49,13 +50,14 @@
       "description": "為奧丁丁市集重新設計網站視覺及體驗，並進行品牌再造的跨部門合作，以優質選物電商幫助在地小農。"
     },
     "pms": {
-      "disruption": "針對 OwlNest 旅宿管理系統的鋪價功能進行開發及優化，滿足便捷、快速及可彈性修改定價的需求。"
+      "description": "針對 OwlNest 旅宿管理系統的鋪價功能進行開發及優化，滿足便捷、快速及可彈性修改定價的需求。"
     },
     "official_website": {
-      "disruption": "由網站架構至使用者體驗重新設計集團官網，跨集團七個事業體進行資訊整合，將集團理念及介紹更清楚的傳達給使用者。"
+      "description": "由網站架構至使用者體驗重新設計集團官網，跨集團七個事業體進行資訊整合，將集團理念及介紹更清楚的傳達給使用者。"
     }
   },
   "market_project": {
+    "title": "奧丁丁市集電商網站改版",
     "project_scale_answer": "跨五部門 . 約 15 人",
     "project_background_answer": "奧丁丁市集是一個專注於推廣在地商家與台灣小農的電商平台，涵蓋上千項嚴選商品累計合作逾兩千名小農及中小型優質商家。 <br />然而<span class='text-md-bold'>網站不支援響應式、頁面模式不符合使用者的瀏覽習慣、低效的瀏覽體驗也直接影響了高跳出率與低轉化率。</span><br/>公司內部業務經理則反映，當展示網站給合作廠商時<span class='text-md-bold'>經常被質疑公司網站的可用性、安全性</span>，這也導致內部人員對產品提不起信心。",
     "overview": {

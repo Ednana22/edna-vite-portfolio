@@ -1,12 +1,330 @@
 {
-  "aboutMe": "About Me",
-  "projects": "Projects",
-  "market": "OwlTing Market",
-  "pms": "OwlNest",
-  "officialWebSite": "OwlTing Official Website",
+  "common": {
+    "about_me": "About",
+    "projects": "Projects",
+    "market": "OwlTing Market",
+    "pms": "OwlNest Admin System",
+    "owlting_website": "OwlTing Official Website",
+    "re_branding": "Rebreading",
+    "website": "Redesign",
+    "app": "App Design",
+    "ux_research": "UX research",
+    "ui_design": "UI design",
+    "b2b": "B2B",
+    "saas": "SaaS",
+    "user_testing": "User testing",
+    "refactor_website": "Refactor website",
+    "official_website": "Official Website",
+    "lear_more_cta": "View the case study",
+    "project_includes": "Project Includes",
+    "project_scale": "Project Scale",
+    "my_role": "My Role",
+    "project_background": "Project Background",
+    "challenges": "Challenges and Solutions",
+    "uiux_designer": "UI / UX Designer",
+    "prototype_cta": "view prototype",
+    "more_project": "More projects",
+    "view_project_cta": "view project"
+  },
+  "page_elevator": {
+    "overview": "Overall",
+    "goal": "Goals",
+    "empathize": "Empathize",
+    "define": "Define",
+    "ideate": "Ideate",
+    "design": "Design",
+    "result": "Result",
+    "iterate": "Iterate",
+    "app": "APP",
+    "takeaway": "Takeaway"
+  },
+  "meeting": {
+    "title": "Thanks for browsing my website, Feel free to chat with me! ⭐ "
+  },
   "home": {
-    "title_1": "I'm a UI/UX designer happen to have some interested in front-end tech",
-    "title_2": "solving using problem is my duty 🌟",
-    "title_mobile": "I'm a UI/UX designer happen to have some interested in front-end tech, solving using problem is my duty 🌟"
+    "title_1": "I'm a UI/UX Designer with basic coding skill.",
+    "title_2": "I like to solve problems via the most suitable design. 🌟",
+    "title_mobile": "I'm a UI/UX Designer with basic coding skill, I like to solve problems via the most suitable design. 🌟",
+    "market": {
+      "description": "Redesign Owlting Market e-commercial website and through cross-departmental cooperation of rebranding."
+    },
+    "pms": {
+      "description": "Optimal OwlNest pricing function to achieve rapid and flexible setting goal."
+    },
+    "official_website": {
+      "description": "Redesigning Official website, from information architecture to user experiences, the goal is show more structured information to user."
+    }
+  },
+  "market_project": {
+    "title": "Redesign OwlTing Market E-commercial Website ",
+    "project_scale_answer": "5 departments, 15 members",
+    "project_background_answer": "OwlTing Market is a e-commerce platform which dedicated to promoting Taiwanese brands with 2,000+ local partners.<br />However,<span class='text-md-bold'>the website is not responsive and page layout is not conform to user's browsing experiences,  these inefficient browsing experience cause high bounce rate and low conversion rate,</span><br/> also department manager reported that our website often been criticized by usability and security,<span class='text-md-bold'> which cause team member to lost confidence in the product.</span>",
+    "overview": {
+      "challenges_title1": "Adjustment structure is too complicated",
+      "challenges_answer1": "In this refactoring we adjust not only the UI interfaces, UX flow and front-end framework, but also involves back-end date structure, which made this refactoring become very complicated. So in early stage of planning, I discussed the revision scale with engineers through information architecture, and we decided to apply pages iterate to refactoring the website.",
+      "challenges_title2": "Having different opinion with CEO",
+      "challenges_answer2": "REMOVE THE BANNER SECTION! This is how CEO said about homepage, in his opinion the huge carousel waste the most important section of web page and user often ignore them. I verified the situation by google analytics and  heat-maps. In the end I designed four-segment banner layout to reach an effective promotional information.",
+      "results": "Results at a glance 👀",
+      "results_answer1": "New Users",
+      "results_answer2": "Avg. Session Duration",
+      "results_answer3": "Bounce Rate"
+    },
+    "goal": {
+      "title": "The problems we'd solve",
+      "goal1": "Redesign a responsive e-commercial website, and must consider experience of existing users.",
+      "goal2": " Carry out rebranding by cross departmental",
+      "goal3": "Through e-commercial website to helping local partners promote products ."
+    },
+    "empathize": {
+      "title": "Understand our user",
+      "subtitle1": "I. User interview",
+      "text1": "I conducted one-on-one interviews with different level membership<span class='text-md-bold'>to understand how user's pain points and expectation</span>",
+      "user_ordinary": "member",
+      "user_premiere": "premier member",
+      "user_manager": "sales manager",
+      "user_talk1": "The webpage is difficult to browse form desktop. Usually I use search bar to find the items, really hope there has some product info on homepage.",
+      "user_talk2": "It's inconvenience of can't track shipping status.",
+      "user_talk3": "Hope category bar can be clearly, also banners section is too small to notice.",
+      "user_talk4": "When meeting with clients it's embarrassed by showing our non support responsive web page , and the tiny banners cause low conversion rates. I'll do my best to support this revision!",
+      "subtitle2": "II. User journey map",
+      "text2": "Based on user interviews, data analysis and behaviors, we depict a customer-Journey Map.<span class='text-md-bold'>We use this persona to shared understanding, so we're all thinking and referring in the same way with our user.</span>"
+    },
+    "define": {
+      "title": "分析現行介面的問題",
+      "text1": "<span class='text-md-bold'>網站只有手機版</span> - 依使用者數據分析得知有 80% 的使用者瀏覽裝置都是手機，因此最初的設計由手機版開始規劃是正確的方向，但在網頁上只有手機版的呈現方式卻會造成不良的使用者體驗。",
+      "text2": "<span class='text-md-bold'>資訊過於複雜</span> - 消費者難以在第一時間找到商品資訊，過小的促銷文宣無法達到吸引目光的效果。",
+      "text3": "<span class='text-md-bold'>缺乏品牌精神</span> - 我們想給消費者最天然、友善且能幫助小農的優質選物，而網站設計與高品質商品難以呼應下很難將品牌理念傳達給消費者。"
+    },
+    "ideate":{
+      "title": "跨部門一同規劃出品牌風格",
+      "text": "在腦力激盪會議中我們<span class='text-md-bold'>由品牌的初衷「以不變的心，做不變的事」來延伸品牌的風格調性，</span>其中也包含了商品照期望呈現風格，營造安心、在地、友善的質感選物電商。"
+    },
+    "design": {
+      "title": "重構優化及平凡討論",
+      "subtitle1": "I. 資訊架構",
+      "text1": "在進行改版前我會先與工程團隊對焦使用者、業務端面臨的問題，由於需調整的網站結構過於複雜<span class='text-md-bold'>最後我們達成共識「以頁面迭代的方式運行改版」</span>，以舊網站為架構去翻新舊頁面並補強目前缺少的頁面。資訊架構圖中有亮色外框為新規劃頁面，其餘皆為需要翻新的舊頁面，將各頁面標示出代號在製作 Wireframe 時可方便與工程師討論。",
+      "subtitle2": "II. Wireframe",
+      "talking_bubble1": "首頁不要 Banner！",
+      "talking_bubble2": "什麼！哪個電商不用輪播 Banner ? <br/> 這不就是使用者最習慣的一種版型嗎？",
+      "text2": "上述是我在做 Wireframe 時遇到的情境，<span class='text-md-bold>CEO 提出了與以往我們習慣的電商完全背離的需求</span>，經過討論才得知原來 CEO 並不是反對 Banner 而是認為巨大的輪播版位浪費了頁面最精華的部分且使用者大多會忽略順序在後方的 Banner，我也從頁面數據以及熱點分布圖驗證了此論點。<span class='text-md-bold'><br/>在嘗試了幾種非輪播版型的設計後內部一致認同現在採用四格切割版型</span>，也跨部門的達成不要給予使用者過多促銷資訊的共識。<span class='text-md-bold'>最後我們達成共識「以頁面迭代的方式運行改版」</span>，以舊網站為架構去翻新舊頁面並補強目前缺少的頁面。資訊架構圖中有亮色外框為新規劃頁面，其餘皆為需要翻新的舊頁面，將各頁面標示出代號在製作 Wireframe 時可方便與工程師討論。",
+      "subtitle3": "III. Design System",
+      "text3": "經由腦力激盪後組員一同定義品牌再造的風格，我以之延伸並定義了介面元件來達產品是覺的一致性。<br/>💡：一定要將最終確定的 UI Kit 元件及狀態分享給工程師，這可以幫助工程端在製作 Component 時方便很多，也可減少來回修改的次數。",
+      "subtitle4": "IV. Prototype",
+      "text4": "我們邀請公司內的市集真實使用者進行新版面任務測試，根據螢幕錄影及熱點分析再進行介面優化，<span class='text-md-bold'>聆聽反饋確保舊用戶在新介面中獲得高品質的使用者體驗。</span><br/>💡：一定要將最終確定的 UI Kit 元件及狀態分享給工程師，這可以幫助工程端在製作 Component 時方便很多，也可減少來回修改的次數。"
+    },
+    "result": {
+      "title": "頁面展示",
+      "text": "此次改版計畫是以頁面分階段迭代方式進行，<span class='text-md-bold'>截至 2021 年 10 月設計端改版完成 100 %；工程實作完成 80% 。</span>",
+      "mockup_title1": "首頁瀏覽",
+      "mockup_text1": "參考網頁數據以使用者的喜好做網頁內容的排序",
+      "mockup_title2": "Navbar 產品分類",
+      "mockup_text2": "依照使用者最感興趣的分類排序至前並將各分類細項歸納，讓使用者能清楚找到需購買的商品",
+      "mockup_title3": "分類頁瀏覽",
+      "mockup_text3": "左側分類標觸控範圍有特別加大並加上 Hover 效果，提供使用者更安心的操作",
+      "mockup_title4": "404 頁面",
+      "mockup_text4": "將 404 規劃為不只是導回首頁的頁面，當使用者找不到商品除了知道頁面不存在很沮喪外，還是可以去逛逛其他相同屬性的商品或是探索分類"
+    },
+    "iterate": {
+      "title": "由頁面數據進行優化",
+      "text": "由蹤數據得知<span class='text-md-bold'>「限時活動」Banner 點閱率有顯著增加</span>，也從熱點分析圖證實了堅持保留使用者習慣的分類列是正確的設計。，也從熱點分析圖證實了堅持保留使用者習慣的分類列是正確的設計。<br/>其中我們也<span class='text-md-bold'>秉持著使用者為中心的原則將「編輯嚴選、最新上架」調整至頁面上方，</span>再觀察數據後發現使用者的瀏覽動線更為順暢，且原本被忽略的專區也連帶提升了點擊率。"
+    },
+    "app": {
+      "title": "2021 年疫情下的產品",
+      "text": "奧丁丁市集 APP 是由於 2021 年 5 月台灣 COVID-19 疫情爆發導致生鮮網購銷量暴增而催產出來的產品，奉命以最快高效率做開發<span class='text-md-bold'>將不改變既有使用者操作行為為目標，</span>除了讓原有用戶輕鬆上手外也能增添黏著度，其中也規劃了 APP 獨有的短影片宣傳功能。"
+    },
+    "takeaway": {
+      "title": "收到的反饋都是優化的機會",
+      "text1": "<span class='text-md-bold'>挑戰突破框架 - </span>當時規劃 Banner 版面時遇到的難題，現在看來這個任務不只讓我跳脫了慣性思考，甚至學會運用更多資源來幫助自己梳理設計脈絡，成果也令使用者及組員非常滿意。",
+      "text2": "<span class='text-md-bold'>當自己是目標受眾時最有感 - </span>奧丁丁市集是我自己非常喜歡平時也會使用的產品，從這次的品牌再造所營造的品牌調性到產品實作，最我來說都是非常寶貴的經驗，自己除了是設計者以外也是使用者，在角色切換時特別有感。看到整體業績提升以及真正有幫助到這塊土地上的農友時非常感動。"
+    }
+  },
+  "pms_project": {
+    "project_scale_answer": "跨二部門 . 約 8 人",
+    "project_background_answer": "OwlNest 是一款為旅宿業打造的 B2B 三合一整合型訂房系統，用戶遍及亞洲、美洲等國家，旅宿用戶達上千家。<br/>然而系統早期所規劃的鋪價功能較簡易，加上產品市場逐漸拓展，使用者也從需求較單純的民宿業者增加至旅館業者，<span class='text-md-bold'>目前介面功能無法達到有效的鋪設價格，對使用者來說不僅費時也容易出錯</span>。",
+    "overview": {
+    "challenges_title1": "無法與真實與用者進行訪談",
+    "challenges_answer1": "此產品向來都是由業務端帶回使用者反饋並發起優化的需求，因此 UI/UX 設計師很少有機會與真實使用者接觸。為了解決此問題我訪談了集團旗下的 OwlStay 實體旅宿部門的同事，瞭解使用者在操作上的真實痛點。",
+    "challenges_title2": "與產品顧問持不同意見",
+    "challenges_answer2": "在討論優化階段產品顧問提出想把原有鋪價流程一次翻新的做法，但 UI/UX 端持盡量以不要影響到目前使用者的操作為原則。針對這點我做出簡易 Prototype 以實際操作體驗來說服產品顧問。",
+    "results": "反饋搶先看 👀",
+    "results_answer1": "批次鋪價功能的推出對於年底需要長時間鋪價真的非常方便！",
+    "result_owner1": "- 北部旅宿業者",
+    "results_answer2": "國定假期功能清楚明瞭！還可以針對不同假期做價格上的調整，很棒！",
+    "result_owner2": "- 東部旅宿業者",
+    "results_answer3": "新規劃的國定假日鋪價功能成為我們商品在市場上的獨有買點！",
+    "result_owner3": "- 業務主管"
+    },
+    "goal": {
+      "title": "我們要解決的問題",
+      "goal1": "進行設定介面開發，達到更符合使用者期待的鋪價功能",
+      "goal2": "依照現有使用者的反饋來優化現行介面，讓系統中新舊功能並存",
+      "goal3": "針對國定假日進行快速且彈性的鋪價"
+    },
+    "empathize": {
+      "title": "瞭解使用者如何操作產品",
+      "text": "<span class='text-md-bold'>對奧丁丁旗下 OwlStay 旅宿團隊進行鋪價習慣訪談，並參考業務帶回來的旅宿業者反饋</span>，得知使用者的鋪價習慣通常是先鋪設一年的平日、假日房價再鋪設國定假日房價，有些國外旅客較多的旅宿業者甚至會參考鄰國的連假日期去制訂銷售價格。",
+      "step1": "平日房價",
+      "step2": "假日房價",
+      "step3": "國定假日房價",
+      "step4": "鄰國連假房價"
+    },
+    "define": {
+      "title": "分析現行介面的問題",
+      "text": "使用者們最常反應的就是目前介面在鋪設<span class='text-md-bold'>長區間且多時段的房價時只能一項一項去設定</span>，操作繁雜且重複性高的操作也容易造成鋪價錯誤的情況，先前就有旅宿業者沒有設定到連假價格而造成虧損的問題。"
+    },
+    "ideate": {
+      "title": "腦力激盪來拆解任務",
+      "subtitle1": "I. 分析目前的鋪價步驟",
+      "text1": "目前介面只能針對<span class='text-md-bold'>單一房型做單一專案的單一區間做鋪價</span>，如有多房型多專案搭配的情況下鋪價步驟則會倍數增加，對使用者是很大的負擔。",
+      "subtitle2": "II. 找出可優化的空間",
+      "text2-1": "<span class='text-md-bold'> 省去重複步驟 - </span>由使用者的鋪價步驟可得知使用者大多是<span class='text-md-bold'>由房型出發，再依照不同專案及區間調整房價</span>，串接平台價格通常會一致，如果可省去每次都重複的步驟對使用者操作將會更友善。",
+      "text2-2": "我也觀察到雖然目前介面中有提供國定假日的日期資訊，但使用者無法在鋪價時同時看到連假日期，為此<span class='text-md-bold'>我們進行下拉日期介面的優化及規劃可複選國定假日的鋪價介面。</span> ",
+      "description": "同顏色表示重複操作的步驟",
+      "subtitle3": "III. 優化過後的鋪價步驟",
+      "text3": "可複選的房型或專案價格，再搭配區間做設定以最有效的方法進行鋪價，以上述例子而言<span class='text-md-bold'>節省了 4.5 倍的操作。</span>"
+    },
+    "design": {
+      "title": "將文字流程製作成介面",
+      "subtitle1": "I. Wireframe",
+      "text1": "與組員們一同討論優化流程後，我就會將文字流程以 Wireframe 的方式呈現出來，與工程師做初步討論並快速修改。",
+      "subtitle2": "II. UI Library",
+      "text2": "後台比起視覺更重視的是使用者完成任務的流程，<span class='text-md-bold'>在規劃介面時為避免使用者的學習成本增加</span>，應該遵從既有的介面及流程，並依原有的介面原件快速做出 Mockup 與團隊討論。",
+      "subtitle3": "III. Prototype",
+      "text3": "直接做出 Prototype 來給使用者測試可達到高擬真度且更可以看出使用者對畫面的操作流程以及互動。<br>由於此專案為收費管理系統，恕無法提供 Prototpye 實作介面。"
+    },
+    "result": {
+      "title": "頁面展示",
+      "text": "鋪價新功能讓使用者可由多房型、多專案做多元組合的鋪價。規劃以 tab 方式與原本的月曆做切換，<span class='text-md-bold'>既不會影響原先版面也可滿足有批次鋪價需求的使用者，以最平靜不干擾使用者的方式推來推出新功能。</span>",
+      "mockup_title1": "鋪設多專案",
+      "mockup_text1": "由房型或是專案多選來鋪設價格，可以解決使用者需要一直重複設定的問題",
+      "mockup_title2": "快速設定國定假日",
+      "mockup_text2": "使用者可以直接選擇欲鋪價的國定假日，以介面呈現來解決使用者需記憶及來回比對的負擔",
+      "mockup_title3": "優化下拉月曆內容",
+      "mockup_text3": "將國定假日也呈現在下拉月曆上，讓使用者在鋪價時可隨時留意"
+    },
+    "iterate": {
+      "title": "由使用者回饋中進行產品優化",
+      "text": "批次鋪價功能推出後獲得使旅宿業者的正面反饋，不只大量節省了人力也對國定假日可自動帶入的功能也表示是項極為方便的操作，這正向反饋也推動了第二階段鄰國國定假日的開發。<br>業務端也表示在一開始做競品分析就知道國內並沒擁有國定假日鋪價功能的旅宿管理系統，因此這也是銷售的一大賣點。</span>"
+    },
+    "takeaway": {
+      "title": "後台須顧及的層面更廣",
+      "text": "在規劃後台系統新功能時最重要的是要顧及現存使用者的習慣，<span class='text-md-bold'>使用者通常不喜歡變動，所以在規劃新功能時盡量以不要影響到目前使用者的操作為最高原則。</span><br>業務端也表示在一開始做競品分析就知道國內並沒擁有國定假日鋪價功能的旅宿管理系統，因此這也是銷售的一大賣點。</span>"
+    }
+  },
+  "official_web_project": {
+    "project_scale_answer": "跨十三部門 . 約 20 人",
+    "rd_project_owner": "工程部門對外窗口",
+    "project_background_answer": "奧丁丁集團創立於 2010 年，是一間以區塊鏈技術為核心的科技公司，其產品涵蓋 B2B 商業服務、B2B 旅宿管理服務、B2C 電商平台、實體旅宿等共七大事業體。<br/>在奧丁丁集團成立初期所架設的官網頁面中並無保留太多的彈性空間，因此無法清楚的將集團近年來的資訊正確傳達給使用者，這也造成了<span class='text-md-bold'>使用者容易從網站中獲得過時且不完整的資訊</span>，再加上老舊的視覺風格與集團近年來定義的VI調性不一、使用者對網站的負面評價等等，促成了此次集團官網改版。",
+    "overview": {
+      "challenges_title1": "專案上線時程大幅提前",
+      "challenges_answer1": "在春節假期前夕突然收到原預計第二階段上線的多國語系功能需提前至第一階段上線，我們當下立即招開集結各部門的會議請求人力支援，以分工的方式將多語頁面迅速完成並如期交付。",
+      "results": "反饋搶先看 👀",
+      "results_answer1": "真的早該改版了！分享改版過後的新官網給其他同業時非常有面子！",
+      "result_owner1": "- 大咖同事",
+      "results_answer2": "求職者表示官網介紹十分清楚詳細，不需再為集團服務多加介紹了！",
+      "result_owner2": "- - HR 部門同事",
+      "results_answer3": "外部媒體來採訪時有感受到他們對於公司體系更加瞭解也更容易進入狀況了！",
+      "result_owner3": "- 公關部門同事"
+    },
+    "goal": {
+      "title": "我們要達成的目標",
+      "goal1": "由資訊架構開始重構，讓使用者能更快速的獲得資訊",
+      "goal2": "清楚的傳遞集團旗下的所有產品以及介紹，跨部門進行七個事業體的資訊整合",
+      "goal3": "由集團 VI 延伸，為網站定義新風格，並使其成為同業中的亮點"
+    },
+    "empathize": {
+      "title": "釐清需求來源及現有問題",
+      "text": "新官網代表的是整個奧丁丁集團，再加此需求源自於 CEO，因此在執行此任務時團隊更加的謹慎。<br><span class='text-md-bold'>在此次專案中我同時扮演了 UI/UX 設計師及工程部門對外窗口。</span>而我們從訪談公司同事以及使用者中訪談中獲得對舊官網的真實反饋。",
+      "user_talk1": "我們公司的官網被競業嘲笑",
+      "user1":"同事 A",
+      "user_talk2": "別人問我在哪工作，我都不好意思丟官網，只好丟 104 給他們看",
+      "user2":"同事 B",
+      "user_talk3": "網頁架構彈性小，要擴增資訊會有難度",
+      "user3":"同事 C",
+      "user_talk4": "採訪我們的媒體在官網上常常找不到需要的資訊有時還會寫錯",
+      "user4":"同事 D",
+      "user_talk5": "媒體報導時間軸有十年！怎麼都滑不完！",
+      "user5":"使用者 A",
+      "user_talk6": "所以你們公司是在做什麼的啊？",
+      "user6":"使用者 B"
+    },
+    "define": {
+      "title": "分析目前問題",
+      "text1": "<span class='text-md-bold'>各事業體介紹不清</span> -各事業體介紹除了一小段文字敘述外其餘都是外導連結，這讓使用者的無法在頁面上獲得足夠資訊且瀏覽容易被打斷。",
+      "text2": "<span class='text-md-bold'>不良介面設計</span> -瀏覽網站時會有元素固定在畫面上而擋住內容的情形，媒體報導頁更有長達十年的時間軸，不良介面設計造成不佳的瀏覽體驗。",
+      "text3": "<span class='text-md-bold'>網站架構卻乏可維護性</span> -因網站架構老舊且無後台可維護因此無法頻繁的更新內容，導致使用者獲得的資訊錯誤或已過時。",
+      "text4": "<span class='text-md-bold'>卻乏一致性的設計規劃</span> -頁面視覺凌亂且與近年來集團規劃的 VI 風格相差甚遠，導致品牌風格難以塑造。"
+    },
+    "ideate": {
+      "title": "腦力激盪出的點子",
+      "text": "在與夥伴腦力激盪討論時我們拋出了以宇宙出發的想法，因工程師與參與討論當中所以網頁互動效果的實作可能性也在討論內，雖然在腦力激當時討論網頁互動有點早，不過這樣不設限的討論正是腦力激當有趣的地方。"
+    },
+    "design": {
+      "title": "越早討論越早順利",
+      "subtitle1": "I. 資訊架構",
+      "text1": "確認資訊架構後會與工程團隊報告改版規模，由於這次專案的時辰較緊迫團隊決定分階段執行，與人資部門達成共識後決定將迫切性相對低的「企業徵才」放入改版的第二階段。",
+      "subtitle2": "II. Wirefram",
+      "text2": "規劃出 Wireframe 並確認資訊呈現無誤後，我將設計稿上傳至 Google Sheet 請各部門協助文案內容。因為牽涉到各部門的時程安排以及英日翻譯，所以<span class='text-md-bold'> Wireframe 在設計端越早完成對於整個專案的排程也會更順利</span>。",
+      "subtitle3": "III. 搜集現有元素延伸",
+      "text3": "由集團現有元素中以貫穿集團及七個事業體的貓頭鷹及 VI 科技藍光譜為發想，由藍色光譜可延伸出的科技感幫助我進一步探索官網的視覺意象。",
+      "subtitle4": "IV. 發想網站視覺",
+      "text4": "<span class='text-md-bold'>「科技產業、領域專業、產品多元性」</span>為我在發想網站視覺的三個核心要點。",
+      "core1": "科技",
+      "core2": "專業",
+      "core3": "多元",
+      "idea1": "以色彩發想",
+      "idea2": "以產品多元性發想",
+      "subtitle5": "V. 設計迭代",
+      "text5": "設計迭代沒有絕對的「完美」，以合適的設計傳達集團信念給使用者就算達到迭代目的。<br>與集團高層討論過後認為暗色宇宙系列雖然搶眼也吸睛，但缺少科技產業的簡潔、專業感，因此使用一個迭代將來修正上述問題。",
+      "subtitle6": "VI. Prototype",
+      "text6": "此專案我使用 Adobe Xd 來模擬視差滾動以及滾動連帶的過場動畫，Prototype的 視覺化能幫助設計師與工程師討論時可以快速對焦，若實作時辰上有困難也可以立刻討論作出相對應調整。",
+      "subtitle7": "VII. 協助工程師抓除錯",
+      "text7": "在上線前協助工程師一同除錯，如多語系的呈現、各種裝置及雙平台手機測試、社群平台預覽效果等等，都是正式上線前需一一確認的。<br>💡 : 將素材圖壓縮好，可以幫工程師減輕一點工作量"
+    },
+    "result": {
+      "title": "成品頁面",
+      "mockup_title1": "首頁主視覺",
+      "mockup_text1": "將集團產品多元性以及貓頭鷹展翅的理念傳達給使用者，效果非常吸睛",
+      "mockup_title2": "產品簡介",
+      "mockup_text2": "由敘述及背景圖滿版圖帶出服務類別，讓使用者能迅速理解集團旗下服務",
+      "mockup_title3": "動態據點呈現",
+      "mockup_text3": "以動態圖呈現據點分佈，讓畫面更清楚地表達全球性"
+    },
+   "takeaway": {
+     "title": "歸檔與設計一樣重要",
+     "text": "這次的官網改版對集團來說是非常成功的專案，符合企業風格的網站以及清晰的產品介紹是獲得最多好評的。<br>然而對於將舊頁面應在改版前做更全面的歸檔整理，這是我在往後專案中一定會留意的。"
+   }   
+  },
+  "about_page": {
+    "text": "我叫魏依嫻，是一個擁有基礎前端技能並持續學習的 UI/UX 設計師，設計的產品包含 B2C 電商、B2BSasS 產品、形象官網等。工作時總是在功能與美學、通用性與工程實作中找尋最佳平衡。<br>在規劃 UX 的任何一步心中都需要有一個合理的解答，因為問題的解法很多也沒有一定正確的，所以你需要更清楚自己的解法。",
+    "view_resume_cat": "履歷瀏覽",
+    "steps": {
+      "title": "人生沒有白走的路，每一步都算數",
+      "web_designer": "網頁視覺設計師",
+      "visual_designer": "視覺設計師",
+      "eu_bachelor": "歐盟繪畫學士",
+      "cd":"商業設計學系",
+      "owlting": "歐簿客科技",
+      "shopee": "新加坡商蝦皮娛樂電商",
+      "the_diner": "樂子餐飲集團",
+      "epac": "瑞士 EPAC 當代藝術學院",
+      "mcu": "銘傳大學"
+    },
+    "skill_tree": {
+      "title": "技能樹",
+      "learning": "學習中"
+    },
+    "nngroup": {
+      "title":"定期閱讀 NNgroup",
+      "text": "跟著大師走可以少走很多冤枉路，我也利用工程部技術交流會與同事們分享十大易用性的重要與實作。"
+    },
+    "la_suisse": {
+      "title": "留學瑞士一年，擁有法文中級證書",
+      "text":"在大四時留學瑞士一年並取得歐盟美術學士證書。回台灣花了三年的時間到台大進修部進修法文，在 2019 年取得法文 B1 鑑定證書，非常想再訪瑞士跟當時的同學當面用法文聊天。"
+    },
+    "side_project": {
+      "title" : "最想完成的 Side Project 是一款筋絡 APP",
+      "text": "想做筋絡 APP 源自於重訓完使用筋膜槍放鬆的習慣，但常常會忘記該施力的穴道及強度，因此希望此款 APP 可以像客製化百科一樣來幫助使用者，為什麼是 APP 不是 Web？因為我還規劃了局部掃描穴位的功能，如果你對這個 APP 有興趣歡迎與我聯繫！"
+    }
   }
 }
