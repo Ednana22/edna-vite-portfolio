@@ -70,13 +70,13 @@
         <div class="highlight row">
           <div class="col-sm-4 new_user mb-24">
             <p class="text-xxl gradient-font">
-              230<span class="text-l">%</span>
+              +230<span class="text-l">%</span>
             </p>
             <p class="text-md-bold">{{ $t('market_project.overview.results_answer1') }}</p>
           </div>
           <div class="col-sm-4 viewing_time mb-24">
             <p class="text-xxl gradient-font">
-              81<span class="text-l">%</span>
+              +81<span class="text-l">%</span>
             </p>
             <p class="text-md-bold">{{ $t('market_project.overview.results_answer2') }}</p>
           </div>
@@ -157,8 +157,8 @@
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/userA.png"
                   class="figure-img img-fluid"
                   alt="..."
-                  width="60px"
-                  height="60px"
+                  width="60"
+                  height="60"
                 />
               </figure>
               <span class="emoji-position">😕</span>
@@ -178,8 +178,8 @@
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/userB.png"
                   class="figure-img img-fluid"
                   alt="..."
-                  width="60px"
-                  height="60px"
+                  width="60"
+                  height="60"
                 />
               </figure>
               <span class="emoji-position">😫</span>
@@ -497,11 +497,11 @@
             <div class="highlight col-md-7 content-pl-48 mb-80">
               <div class="row">
                 <div class="col-sm-6 new_user mb-48">
-                  <p class="text-xl">230<span class="text-l">%</span></p>
+                  <p class="text-xl">+230<span class="text-l">%</span></p>
                   <p class="text-md">{{ $t('market_project.overview.results_answer1') }}</p>
                 </div>
                 <div class="col-sm-6 viewing_time mb-48">
-                  <p class="text-xl">81<span class="text-l">%</span></p>
+                  <p class="text-xl">+81<span class="text-l">%</span></p>
                   <p class="text-md">{{ $t('market_project.overview.results_answer2') }}</p>
                 </div>
                 <div class="col bounce_rate">
@@ -566,12 +566,12 @@
               <h4 class="mr-8">7</h4>
               <div class="">
                 <h3 class="mb-8">{{ $t('page_elevator.iterate') }}</h3>
-                <h2>{{ $t('market_project.result.title') }}</h2>
+                <h2>{{ $t('market_project.iterate.title') }}</h2>
               </div>
             </div>
           </div>
           <p class="text-md mb-48">
-            {{ $t('market_project.result.text') }}
+            {{ $t('market_project.iterate.text') }}
           </p>
         </div>
         <figure class="figure col-md-7 content-pl-48 flex-center">

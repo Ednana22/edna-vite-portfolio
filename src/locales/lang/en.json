@@ -33,7 +33,7 @@
     "define": "Define",
     "ideate": "Ideate",
     "design": "Design",
-    "result": "Result",
+    "result": "Product",
     "iterate": "Iterate",
     "app": "APP",
     "takeaway": "Takeaway"
@@ -90,98 +90,99 @@
       "text2": "Based on user interviews, data analysis and behaviors, we depict a customer-Journey Map.<span class='text-md-bold'>We use this persona to shared understanding, so we're all thinking and referring in the same way with our user.</span>"
     },
     "define": {
-      "title": "分析現行介面的問題",
-      "text1": "<span class='text-md-bold'>網站只有手機版</span> - 依使用者數據分析得知有 80% 的使用者瀏覽裝置都是手機，因此最初的設計由手機版開始規劃是正確的方向，但在網頁上只有手機版的呈現方式卻會造成不良的使用者體驗。",
-      "text2": "<span class='text-md-bold'>資訊過於複雜</span> - 消費者難以在第一時間找到商品資訊，過小的促銷文宣無法達到吸引目光的效果。",
-      "text3": "<span class='text-md-bold'>缺乏品牌精神</span> - 我們想給消費者最天然、友善且能幫助小農的優質選物，而網站設計與高品質商品難以呼應下很難將品牌理念傳達給消費者。"
+      "title": "Identify current problems",
+      "text1": "<span class='text-md-bold'>Non-responsive web design</span> - Based on 80% of our visited came from mobile devices, mobile first is the right decision at the beginning, however non-responsive desktop webpage cause an unpleasant browse experience .",
+      "text2": "<span class='text-md-bold'>Information is unstructured</span> - User can't find any product information at home page, also small banners can't capture user's attention.",
+      "text3": "<span class='text-md-bold'>Lack of brand  identity</span> - We hope to bring organic food, healthy lifestyle for our consumers, so we use the strictest inspection standards. However the website is lack of brand identity, it's hard to convey our spirit to customers."
     },
     "ideate":{
-      "title": "跨部門一同規劃出品牌風格",
-      "text": "在腦力激盪會議中我們<span class='text-md-bold'>由品牌的初衷「以不變的心，做不變的事」來延伸品牌的風格調性，</span>其中也包含了商品照期望呈現風格，營造安心、在地、友善的質感選物電商。"
+      "title": "Identify current problems",
+      "text": "In brainstorming meeting,<span class='text-md-bold'> we base on  brand sprity 'Stay Simple, Stay Humble' to extends brand identity, </span> which also includes color patterns and photo style, we want to create a high quality brand with healthy, local and friendly."
     },
     "design": {
-      "title": "重構優化及平凡討論",
-      "subtitle1": "I. 資訊架構",
-      "text1": "在進行改版前我會先與工程團隊對焦使用者、業務端面臨的問題，由於需調整的網站結構過於複雜<span class='text-md-bold'>最後我們達成共識「以頁面迭代的方式運行改版」</span>，以舊網站為架構去翻新舊頁面並補強目前缺少的頁面。資訊架構圖中有亮色外框為新規劃頁面，其餘皆為需要翻新的舊頁面，將各頁面標示出代號在製作 Wireframe 時可方便與工程師討論。",
+      "title": "Optimization and discussion ",
+      "subtitle1": "I. Information architecture",
+      "text1": "After a few rounds of evaluation as a team,<span class='text-md-bold'>we agreed to conduct in a way of page iteration.</span> In the IA picture the bright outlines are new pages and others are pages need to be redesigned. Furthermore, I marked the number for each, it will be easily to discuss.",
       "subtitle2": "II. Wireframe",
-      "talking_bubble1": "首頁不要 Banner！",
-      "talking_bubble2": "什麼！哪個電商不用輪播 Banner ? <br/> 這不就是使用者最習慣的一種版型嗎？",
-      "text2": "上述是我在做 Wireframe 時遇到的情境，<span class='text-md-bold>CEO 提出了與以往我們習慣的電商完全背離的需求</span>，經過討論才得知原來 CEO 並不是反對 Banner 而是認為巨大的輪播版位浪費了頁面最精華的部分且使用者大多會忽略順序在後方的 Banner，我也從頁面數據以及熱點分布圖驗證了此論點。<span class='text-md-bold'><br/>在嘗試了幾種非輪播版型的設計後內部一致認同現在採用四格切割版型</span>，也跨部門的達成不要給予使用者過多促銷資訊的共識。<span class='text-md-bold'>最後我們達成共識「以頁面迭代的方式運行改版」</span>，以舊網站為架構去翻新舊頁面並補強目前缺少的頁面。資訊架構圖中有亮色外框為新規劃頁面，其餘皆為需要翻新的舊頁面，將各頁面標示出代號在製作 Wireframe 時可方便與工程師討論。",
+      "talking_bubble1": "Remove Banners!",
+      "talking_bubble2": "Whaa..Which  e-commercial website has no banners?<br/> Isn't it the way that user use to?",
+      "text2": "This story happen when I was planning wireframe, <span class='text-md-bold>CEO's opinion is opposite with user's habit.</span>after discussion I knew that in his opinion the huge carousel waste the most important section of web page and user often ignore them. And I verified the situation by google analytics and  heat-maps.<span class='text-md-bold'><br/>In the end I designed four-segment banner layout to reach an effective promotional information.</span><span class='text-md-bold'></span>",
       "subtitle3": "III. Design System",
-      "text3": "經由腦力激盪後組員一同定義品牌再造的風格，我以之延伸並定義了介面元件來達產品是覺的一致性。<br/>💡：一定要將最終確定的 UI Kit 元件及狀態分享給工程師，這可以幫助工程端在製作 Component 時方便很多，也可減少來回修改的次數。",
+      "text3": "Via the branding identity I define design system to maintain product consistency.<br/>💡:UI kits must include component state, and micro animation if it needed. It can helps engineers clarify elements and reduce modify repeatedly.",
       "subtitle4": "IV. Prototype",
-      "text4": "我們邀請公司內的市集真實使用者進行新版面任務測試，根據螢幕錄影及熱點分析再進行介面優化，<span class='text-md-bold'>聆聽反饋確保舊用戶在新介面中獲得高品質的使用者體驗。</span><br/>💡：一定要將最終確定的 UI Kit 元件及狀態分享給工程師，這可以幫助工程端在製作 Component 時方便很多，也可減少來回修改的次數。"
+      "text4": "Before launch we invited our coworkers who also is OwlTing market user to conduct user task,<span class='text-md-bold'> based on screen recording and heatmap analysis to modify web layout and ensure our origin users have delightful experience.</span>"
     },
     "result": {
-      "title": "頁面展示",
-      "text": "此次改版計畫是以頁面分階段迭代方式進行，<span class='text-md-bold'>截至 2021 年 10 月設計端改版完成 100 %；工程實作完成 80% 。</span>",
-      "mockup_title1": "首頁瀏覽",
-      "mockup_text1": "參考網頁數據以使用者的喜好做網頁內容的排序",
-      "mockup_title2": "Navbar 產品分類",
-      "mockup_text2": "依照使用者最感興趣的分類排序至前並將各分類細項歸納，讓使用者能清楚找到需購買的商品",
-      "mockup_title3": "分類頁瀏覽",
-      "mockup_text3": "左側分類標觸控範圍有特別加大並加上 Hover 效果，提供使用者更安心的操作",
-      "mockup_title4": "404 頁面",
-      "mockup_text4": "將 404 規劃為不只是導回首頁的頁面，當使用者找不到商品除了知道頁面不存在很沮喪外，還是可以去逛逛其他相同屬性的商品或是探索分類"
+      "title": "Page Dispaly",
+      "text": "The revision plan is carried out in stages<span class='text-md-bold'>As of October 2021, the design end revision has been completed 100%; the engineering implementation has been completed 80%.</span>",
+      "mockup_title1": "Homepage browsing",
+      "mockup_text1": "Via data to arrange website content according to users prefer.",
+      "mockup_title2": "Navbar category",
+      "mockup_text2": "Display according to the categories that users are most interested.",
+      "mockup_title3": "Category page browsing",
+      "mockup_text3": "optimize hover effect to provide good user experiences.",
+      "mockup_title4": "404 page",
+      "mockup_text4": "I reconsider 404 page, is not only to showed info however it also can provide useful contents for user to keep their browsing experiences."
     },
     "iterate": {
-      "title": "由頁面數據進行優化",
-      "text": "由蹤數據得知<span class='text-md-bold'>「限時活動」Banner 點閱率有顯著增加</span>，也從熱點分析圖證實了堅持保留使用者習慣的分類列是正確的設計。，也從熱點分析圖證實了堅持保留使用者習慣的分類列是正確的設計。<br/>其中我們也<span class='text-md-bold'>秉持著使用者為中心的原則將「編輯嚴選、最新上架」調整至頁面上方，</span>再觀察數據後發現使用者的瀏覽動線更為順暢，且原本被忽略的專區也連帶提升了點擊率。"
+      "title": "Via data to optimize",
+      "text": "Tracking data shows that<span class='text-md-bold'> Banner section has increased CTR, and verify keep navbar for user is the right decision.</span><br/><span class='text-md-bold'>Also we uphold the user-centered principle to adjusted page sections.</span>And we found data shows that the users has batter browsing experiences and brings more CTR."
     },
     "app": {
-      "title": "2021 年疫情下的產品",
-      "text": "奧丁丁市集 APP 是由於 2021 年 5 月台灣 COVID-19 疫情爆發導致生鮮網購銷量暴增而催產出來的產品，奉命以最快高效率做開發<span class='text-md-bold'>將不改變既有使用者操作行為為目標，</span>除了讓原有用戶輕鬆上手外也能增添黏著度，其中也規劃了 APP 獨有的短影片宣傳功能。"
+      "title": "Products caused by COVID",
+      "text": "OwlTing Market APP is a product produced by increased online shopping sales due to the outbreak of COVID-19 in May 2021.<span class='text-md-bold'> It was instructed to develop with high efficiency and unchanged current users experiences as the goal.</span>"
     },
     "takeaway": {
-      "title": "收到的反饋都是優化的機會",
-      "text1": "<span class='text-md-bold'>挑戰突破框架 - </span>當時規劃 Banner 版面時遇到的難題，現在看來這個任務不只讓我跳脫了慣性思考，甚至學會運用更多資源來幫助自己梳理設計脈絡，成果也令使用者及組員非常滿意。",
-      "text2": "<span class='text-md-bold'>當自己是目標受眾時最有感 - </span>奧丁丁市集是我自己非常喜歡平時也會使用的產品，從這次的品牌再造所營造的品牌調性到產品實作，最我來說都是非常寶貴的經驗，自己除了是設計者以外也是使用者，在角色切換時特別有感。看到整體業績提升以及真正有幫助到這塊土地上的農友時非常感動。"
+      "title": "Feedbacks are opportunity for optimization",
+      "text1": "<span class='text-md-bold'>Break the rules - </span>Without using carousel for Banners it was a design challenge to me however it also helped me to explore a new way for layout thinking.",
+      "text2": "<span class='text-md-bold'>I feel the most when I'm also the target audience - </span>In the project, I'm not only the UI/UX designer but also a user of this product. From re-branding to development, it is most precious experiences for me. I'm so moved when I saw our product can truly help local farmers."
     }
   },
   "pms_project": {
-    "project_scale_answer": "跨二部門 . 約 8 人",
-    "project_background_answer": "OwlNest 是一款為旅宿業打造的 B2B 三合一整合型訂房系統，用戶遍及亞洲、美洲等國家，旅宿用戶達上千家。<br/>然而系統早期所規劃的鋪價功能較簡易，加上產品市場逐漸拓展，使用者也從需求較單純的民宿業者增加至旅館業者，<span class='text-md-bold'>目前介面功能無法達到有效的鋪設價格，對使用者來說不僅費時也容易出錯</span>。",
+    "title": "Design pricing function for OwlNest",
+    "project_scale_answer": "2 departments, 8 members",
+    "project_background_answer": "OwlNest is a B2B management system for hospitality, clients all over Asian and the United States.<br/>However in the early stage, the price function is been planned for B&B users ,<span class='text-md-bold'>in recent year it's hard to satisfy our new users from hotel.</span>。",
     "overview": {
-    "challenges_title1": "無法與真實與用者進行訪談",
-    "challenges_answer1": "此產品向來都是由業務端帶回使用者反饋並發起優化的需求，因此 UI/UX 設計師很少有機會與真實使用者接觸。為了解決此問題我訪談了集團旗下的 OwlStay 實體旅宿部門的同事，瞭解使用者在操作上的真實痛點。",
+    "challenges_title1": "It's hard to talk with end users",
+    "challenges_answer1": "Users feedbacks were always been bought by sales, so UI/UX designers rarely have opportunity to interview end users. To resolve this problem, I interviewed our colleagues in lodging department, to understand the real pain points of end users.",
     "challenges_title2": "與產品顧問持不同意見",
     "challenges_answer2": "在討論優化階段產品顧問提出想把原有鋪價流程一次翻新的做法，但 UI/UX 端持盡量以不要影響到目前使用者的操作為原則。針對這點我做出簡易 Prototype 以實際操作體驗來說服產品顧問。",
-    "results": "反饋搶先看 👀",
-    "results_answer1": "批次鋪價功能的推出對於年底需要長時間鋪價真的非常方便！",
-    "result_owner1": "- 北部旅宿業者",
-    "results_answer2": "國定假期功能清楚明瞭！還可以針對不同假期做價格上的調整，很棒！",
-    "result_owner2": "- 東部旅宿業者",
-    "results_answer3": "新規劃的國定假日鋪價功能成為我們商品在市場上的獨有買點！",
-    "result_owner3": "- 業務主管"
+    "results": "Let's see feedbacks first 👀",
+    "results_answer1": "New price setting function is super useful for a long-term setting!",
+    "result_owner1": "- User from Taipei",
+    "results_answer2": "Holiday price setting is convenient and flexible! Love it so much!",
+    "result_owner2": "- User from Hualien",
+    "results_answer3": "Compared to other systems, holiday setting is our unique selling point!",
+    "result_owner3": "- Sales manager"
     },
     "goal": {
-      "title": "我們要解決的問題",
-      "goal1": "進行設定介面開發，達到更符合使用者期待的鋪價功能",
-      "goal2": "依照現有使用者的反饋來優化現行介面，讓系統中新舊功能並存",
-      "goal3": "針對國定假日進行快速且彈性的鋪價"
+      "title": "Pain point we'd  solve",
+      "goal1": "Development a suitable price setting function for all users.",
+      "goal2": "Optimize current interface according to the feedbacks, let new and old functions coexist in the system.",
+      "goal3": "Flexible and dynamic price setting for holiday."
     },
     "empathize": {
-      "title": "瞭解使用者如何操作產品",
-      "text": "<span class='text-md-bold'>對奧丁丁旗下 OwlStay 旅宿團隊進行鋪價習慣訪談，並參考業務帶回來的旅宿業者反饋</span>，得知使用者的鋪價習慣通常是先鋪設一年的平日、假日房價再鋪設國定假日房價，有些國外旅客較多的旅宿業者甚至會參考鄰國的連假日期去制訂銷售價格。",
+      "title": "Understand users using patterns",
+      "text": "<span class='text-md-bold'>I interview with OwlStay front desk team, and referred to the feedback of the other users.</span>I learned that the user usually set weekday and weekend price first, and than set holiday price, some hotels according to neighboring countries holidays to set room price.",
       "step1": "平日房價",
       "step2": "假日房價",
       "step3": "國定假日房價",
       "step4": "鄰國連假房價"
     },
     "define": {
-      "title": "分析現行介面的問題",
-      "text": "使用者們最常反應的就是目前介面在鋪設<span class='text-md-bold'>長區間且多時段的房價時只能一項一項去設定</span>，操作繁雜且重複性高的操作也容易造成鋪價錯誤的情況，先前就有旅宿業者沒有設定到連假價格而造成虧損的問題。"
+      "title": "Existing pain point",
+      "text": "The negative common we received the most is<span class='text-md-bold'> room price only can be set one by one, </span>this complicated and repetitive operations are easily cause wrong price setting."
     },
     "ideate": {
-      "title": "腦力激盪來拆解任務",
-      "subtitle1": "I. 分析目前的鋪價步驟",
-      "text1": "目前介面只能針對<span class='text-md-bold'>單一房型做單一專案的單一區間做鋪價</span>，如有多房型多專案搭配的情況下鋪價步驟則會倍數增加，對使用者是很大的負擔。",
-      "subtitle2": "II. 找出可優化的空間",
-      "text2-1": "<span class='text-md-bold'> 省去重複步驟 - </span>由使用者的鋪價步驟可得知使用者大多是<span class='text-md-bold'>由房型出發，再依照不同專案及區間調整房價</span>，串接平台價格通常會一致，如果可省去每次都重複的步驟對使用者操作將會更友善。",
-      "text2-2": "我也觀察到雖然目前介面中有提供國定假日的日期資訊，但使用者無法在鋪價時同時看到連假日期，為此<span class='text-md-bold'>我們進行下拉日期介面的優化及規劃可複選國定假日的鋪價介面。</span> ",
-      "description": "同顏色表示重複操作的步驟",
-      "subtitle3": "III. 優化過後的鋪價步驟",
-      "text3": "可複選的房型或專案價格，再搭配區間做設定以最有效的方法進行鋪價，以上述例子而言<span class='text-md-bold'>節省了 4.5 倍的操作。</span>"
+      "title": "Brainstorming for optimize task",
+      "subtitle1": "I. Analyze current steps",
+      "text1": "<span class='text-md-bold'>Now the room prices only can be set one by one,</span> in the situation of multiple room types and multiple projects it will increase multiple times, which is a great burden for users.",
+      "subtitle2": "II. Find the spaces for optimization",
+      "text2-1": "<span class='text-md-bold'> Remove repeat steps - </span>Through user interviews I know that<span class='text-md-bold'>most users setting price start from room type, then adjust the price according to different projects. </span>So if we can simplify repeated steps, it would be easier for user to operate.",
+      "text2-2": "<span class='text-md-bold'> Easily select national holidays - </span>Current interface provides date information for national holidays ,however users cannot see it when setting room price. For this situation, we optimized date drop-down and planned the function for national holidays multiple select.",
+      "description": "Repeated steps are marked with different colors.",
+      "subtitle3": "III. Steps after optimized",
+      "text3": "Multi-select room types of project prices can be set by periods of date in the most effective way. <span class='text-md-bold'>The example shows the new way saves 4.5 times operation.</span>"
     },
     "design": {
       "title": "將文字流程製作成介面",
@@ -222,7 +223,7 @@
       "results_answer1": "真的早該改版了！分享改版過後的新官網給其他同業時非常有面子！",
       "result_owner1": "- 大咖同事",
       "results_answer2": "求職者表示官網介紹十分清楚詳細，不需再為集團服務多加介紹了！",
-      "result_owner2": "- - HR 部門同事",
+      "result_owner2": "- HR 部門同事",
       "results_answer3": "外部媒體來採訪時有感受到他們對於公司體系更加瞭解也更容易進入狀況了！",
       "result_owner3": "- 公關部門同事"
     },
