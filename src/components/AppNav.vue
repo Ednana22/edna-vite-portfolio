@@ -31,10 +31,15 @@
             <li>
               <router-link class="is-nav-link hover-effect" :to="{ name: 'About' }">{{ $t('common.about_me') }}</router-link>
             </li>
-            <li class="flex items-center">
-              <button class="locale-button hover-effect" @click="onLocaleChange">
-                <i class="las la-language"></i>
-              </button>
+            <li class="is-dropdown flex items-center locale-dropdown">
+              <span v-click-away="handleLocaleDropDownOutside" class="is-nav-link hover-effect ml-32" @click.capture="isLocaleDropDownOpen = !isLocaleDropDownOpen">
+                {{ $t(locale) }}
+                <i class="las" :class="isLocaleDropDownOpen ? 'la-angle-up' : 'la-angle-down'"></i>
+                <ul v-show="isLocaleDropDownOpen" class="is-dropdown__context">
+                  <li class="px-3 py-1" @click="onLocaleChange('zh-tw')">{{ $t('zh-tw') }}</li>
+                  <li class="px-3 py-1" @click="onLocaleChange('en')">{{ $t('en') }}</li>
+                </ul>
+              </span>
             </li>
           </ul>
         </div>
@@ -71,6 +76,11 @@
                   <h4>{{ $t('common.about_me') }}</h4>
                 </router-link>
               </li>
+              <li class="mobile-locales__btns mt-4">
+                <button :class="locale === 'zh-tw' ? '' : 'text-gray'" @click="onLocaleChange('zh-tw')">{{ $t('zh-tw') }}</button>
+                <span class="font-color-lighter"> | </span>
+                <button :class="locale === 'en' ? '' : 'text-gray'" @click="onLocaleChange('en')">{{ $t('en') }}</button>
+              </li>
             </ul>
           </div>
         </div>
@@ -87,8 +97,13 @@ import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 
 const state = reactive({ count: 0 })
+
 const isDropDownOpen = ref(false)
 const handleDropDownOutside = () => (isDropDownOpen.value = false)
+
+const isLocaleDropDownOpen = ref(false)
+const handleLocaleDropDownOutside = () => (isLocaleDropDownOpen.value = false)
+
 const onMobileMenuClick = () => (isDropDownOpen.value = !isDropDownOpen.value)
 
 const mobileMenuEdgeSize = 768
@@ -120,8 +135,8 @@ const detectIsSamePage = direction => {
 }
 
 const { locale } = useI18n()
-const onLocaleChange = () => {
-  locale.value = locale.value === 'zh-tw' ? 'en' : 'zh-tw'
+const onLocaleChange = lang => {
+  locale.value = lang
 }
 </script>
 

@@ -93,6 +93,16 @@
           }
         }
       }
+      &.locale-dropdown {
+        .is-dropdown__context {
+          li {
+            &:hover {
+              background-color: rgba(235, 244, 255, 1);
+              border-radius: 0;
+            }
+          }
+        }
+      }
     }
     .locale-button {
       background: none;
@@ -149,6 +159,13 @@
               text-decoration: underline;
             }
           }
+        }
+      }
+      .mobile-locales__btns {
+        button {
+          border: none;
+          background: transparent;
+          padding: .5rem 1rem;
         }
       }
     }
