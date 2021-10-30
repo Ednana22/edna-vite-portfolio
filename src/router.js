@@ -15,22 +15,22 @@ const router = createRouter({
         {
             path: '/about',
             name: 'About',
-            component: import(/* webpackChunkName: 'About' */ './pages/About.vue')
+            component: () => import(/* webpackChunkName: 'About' */ './pages/About.vue')
         },
         {
             path: '/market',
             name: 'ProjectMarket',
-            component: import(/* webpackChunkName: 'Market' */ './pages/Projects/Market.vue')
+            component: () => import(/* webpackChunkName: 'Market' */ './pages/Projects/Market.vue')
         },
         {
             path: '/official-website',
             name: 'ProjectWeb',
-            component: import(/* webpackChunkName: 'OfficialWebsite' */ './pages/Projects/OfficialWebsite.vue')
+            component: () => import(/* webpackChunkName: 'OfficialWebsite' */ './pages/Projects/OfficialWebsite.vue')
         },
         {
             path: '/pms',
             name: 'ProjectPMS',
-            component: import(/* webpackChunkName: 'PMS' */ './pages/Projects/PMS.vue')
+            component: () => import(/* webpackChunkName: 'PMS' */ './pages/Projects/PMS.vue')
         }
     ]
 })

@@ -1,11 +1,11 @@
 <template>
-  <AppNav />
+  <AppNav :style="langStyles" />
   <router-view v-slot="{ Component }">
     <transition name="fade" mode="out-in">
-      <component :is="Component" />
+      <component :is="Component" :style="langStyles" />
     </transition>
   </router-view>
-  <div class="footer">
+  <div class="footer" :style="langStyles">
       <div class="flex-center">
       </div>
       <p class="text-sm text-align-center font-color-light">Copyright © EdnaWei, All Rights Reserved.</p>
@@ -15,7 +15,15 @@
 <script setup>
 import AppNav from './components/AppNav.vue'
 import { useRoute } from 'vue-router'
-import { shallowRef, watch } from 'vue'
+import { shallowRef, watch, computed } from 'vue'
+import { useI18n } from 'vue-i18n'
+
+const { locale } = useI18n()
+const langStyles = computed(() => {
+  return locale.value === 'zh-tw'
+    ? 'text-align: justify; text-justify: auto;'
+    : ''
+})
 
 const route = useRoute()
 const titleMap = shallowRef({

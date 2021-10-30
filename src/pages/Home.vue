@@ -13,12 +13,12 @@
               </span>
             </h2>
             <h1 class="h1-w">
-              我是一名擁有前端基礎技能的 UI/UX 設計師
+              {{ $t('home.title_1') }}
               <br />
-              喜歡設計出讓使用者動最少腦就能解決問題的產品 🌟
+              {{ $t('home.title_2') }}
             </h1>
             <h1 class="h1-m">
-              我是一名擁有前端基礎技能的 UI/UX 設計師，喜歡設計出讓使用者動最少腦就能解決問題的產品 🌟
+              {{ $t('home.title_mobile') }}
             </h1>
           </div>
           <div class="kv-web col-md-6">
@@ -82,23 +82,23 @@
             </div>
           </div>
           <div class="col-lg-4 content-pl-48">
-            <h3>奧丁丁市集改版</h3>
+            <h3>{{ $t('common.market') }}</h3>
             <div class="text-md-bold mb-24">
-              品牌再造
+              {{ $t('common.re_branding') }}
               <span class="font-color-lighter"> | </span>
-              網站改版
+              {{ $t('common.website') }}
               <span class="font-color-lighter"> | </span>
-              APP 規劃
+              {{ $t('common.app') }}
               <span class="font-color-lighter"> | </span>
-              UX 研究
+              {{ $t('common.ux_research') }}
               <span class="font-color-lighter"> | </span>
-              UI 設計
+              {{ $t('common.ui_design') }}
             </div>
             <div class="text-md">
-              為奧丁丁市集重新設計網站視覺及體驗，並進行品牌再造的跨部門合作，以優質選物電商幫助在地小農。
+              {{ $t('home.market.description') }}
             </div>
             <router-link class="btn btn-link" :to="{ name: 'ProjectMarket' }">
-              瀏覽專案<i class="las la-long-arrow-alt-right"></i>
+              {{ $t('common.lear_more_cta') }}<i class="las la-long-arrow-alt-right"></i>
             </router-link>
             <div class="display-on-mobile mt-32">
               <figure class="figure gradient-border">
@@ -128,18 +128,21 @@
             </div>
           </div>
           <div class="col-lg-4 content-pl-48">
-            <h3>旅宿管理系統規劃</h3>
+            <h3>{{ $t('common.pms') }}</h3>
             <div class="text-md-bold mb-24">
-              UX 研究<span class="font-color-lighter"> | </span>
-              UI 設計<span class="font-color-lighter"> | </span>
-              B2B<span class="font-color-lighter"> | </span>
-              SaaS 服務
+              {{ $t('common.ux_research') }}
+              <span class="font-color-lighter"> | </span>
+              {{ $t('common.ui_design') }}
+              <span class="font-color-lighter"> | </span>
+              {{ $t('common.b2b') }}
+              <span class="font-color-lighter"> | </span>
+              {{ $t('common.saas') }}
             </div>
             <div class="text-md">
-              針對 OwlNest 旅宿管理系統的鋪價功能進行開發及優化，滿足便捷、快速及可彈性修改定價的需求。
+              {{ $t('home.pms.description') }}
             </div>
             <router-link class="btn btn-link" :to="{ name: 'ProjectPMS' }">
-              瀏覽專案<i class="las la-long-arrow-alt-right"></i>
+              {{ $t('common.lear_more_cta') }}<i class="las la-long-arrow-alt-right"></i>
             </router-link>
             <div class="display-on-mobile mt-32">
               <figure class="figure">
@@ -169,18 +172,21 @@
             </div>
           </div>
           <div class="col-lg-4 content-pl-48">
-            <h3>奧丁丁集團官網重構</h3>
+            <h3>{{ $t('common.owlting_website') }}</h3>
             <div class="text-md-bold mb-24">
-              網站重構<span class="font-color-lighter"> | </span>
-              UX 研究<span class="font-color-lighter"> | </span>
-              UI 設計<span class="font-color-lighter"> | </span>
-              形象官網
+              {{ $t('common.refactor_website') }}
+              <span class="font-color-lighter"> | </span>
+              {{ $t('common.ux_research') }}
+              <span class="font-color-lighter"> | </span>
+              {{ $t('common.ui_design') }}
+              <span class="font-color-lighter"> | </span>
+              {{ $t('common.official_website') }}
             </div>
             <div class="text-md">
-              由網站架構至使用者體驗重新設計集團官網，跨集團七個事業體進行資訊整合，將集團理念及介紹更清楚的傳達給使用者。
+              {{ $t('home.official_website.description') }}
             </div>
             <router-link class="btn btn-link" :to="{ name: 'ProjectWeb' }">
-              瀏覽專案<i class="las la-long-arrow-alt-right"></i>
+              {{ $t('common.lear_more_cta') }}<i class="las la-long-arrow-alt-right"></i>
             </router-link>
             <div class="display-on-mobile mt-32">
               <figure class="figure gradient-border">
@@ -199,7 +205,7 @@
       <div class="container">
         <div class="connection-area">
           <p class="text-md-bold mb-16 say-hi">
-            很期待認識你！有任何想法都歡迎隨時與我交流 ⭐
+              {{ $t('meeting.title') }}
           </p>
           <div class="row connect-way">
             <div class="mail mb-8 col-sm-6 content-pl-48 mobile-mb-24">

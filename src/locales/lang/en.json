@@ -1,0 +1,333 @@
+{
+  "zh-tw": "中文",
+  "en": "En",
+  "common": {
+    "about_me": "About",
+    "projects": "Projects",
+    "market": "OwlTing Market",
+    "pms": "OwlNest Admin System",
+    "owlting_website": "OwlTing Official Website",
+    "re_branding": "Rebreading",
+    "website": "Redesign",
+    "app": "App Design",
+    "ux_research": "UX research",
+    "ui_design": "UI design",
+    "b2b": "B2B",
+    "saas": "SaaS",
+    "user_testing": "User testing",
+    "refactor_website": "Refactor website",
+    "official_website": "Official Website",
+    "lear_more_cta": "View the case study",
+    "project_includes": "Project Includes",
+    "project_scale": "Project Scale",
+    "my_role": "My Role",
+    "project_background": "Project Background",
+    "challenges": "Challenges and Solutions",
+    "uiux_designer": "UI / UX Designer",
+    "prototype_cta": "view prototype",
+    "more_project": "More projects",
+    "view_project_cta": "view project"
+  },
+  "page_elevator": {
+    "overview": "Overall",
+    "goal": "Goals",
+    "empathize": "Empathize",
+    "define": "Define",
+    "ideate": "Ideate",
+    "design": "Design",
+    "result": "Product",
+    "iterate": "Iterate",
+    "app": "APP",
+    "takeaway": "Takeaway"
+  },
+  "meeting": {
+    "title": "Thanks for browsing my website, Feel free to chat with me! ⭐ "
+  },
+  "home": {
+    "title_1": "I'm a UI/UX Designer with basic coding skill.",
+    "title_2": "I like to solve problems via the most suitable design. 🌟",
+    "title_mobile": "I'm a UI/UX Designer with basic coding skill, I like to solve problems via the most suitable design. 🌟",
+    "market": {
+      "description": "Redesign Owlting Market e-commercial website and through cross-departmental cooperation of rebranding."
+    },
+    "pms": {
+      "description": "Optimal OwlNest pricing function to achieve rapid and flexible setting goal."
+    },
+    "official_website": {
+      "description": "Redesigning Official website, from information architecture to user experiences, the goal is show more structured information to user."
+    }
+  },
+  "market_project": {
+    "title": "Redesign OwlTing Market E-commercial Website ",
+    "project_scale_answer": "5 departments, 15 members",
+    "project_background_answer": "OwlTing Market is a e-commerce platform which dedicated to promoting Taiwanese brands with 2,000+ local partners.<br />However,<span class='text-md-bold'>the website is not responsive and page layout is not conform to user's browsing experiences,  these inefficient browsing experience cause high bounce rate and low conversion rate,</span><br/> also department manager reported that our website often been criticized by usability and security,<span class='text-md-bold'> which cause team member to lost confidence in the product.</span>",
+    "overview": {
+      "challenges_title1": "Adjustment structure is too complicated",
+      "challenges_answer1": "In this refactoring we adjust not only the UI interfaces, UX flow and front-end framework, but also involves back-end date structure, which made this refactoring become very complicated. So in early stage of planning, I discussed the revision scale with engineers through information architecture, and we decided to apply pages iterate to refactoring the website.",
+      "challenges_title2": "Having different opinion with CEO",
+      "challenges_answer2": "REMOVE THE BANNER SECTION! This is how CEO said about homepage, in his opinion the huge carousel waste the most important section of web page and user often ignore them. I verified the situation by google analytics and  heat-maps. In the end I designed four-segment banner layout to reach an effective promotional information.",
+      "results": "Results at a glance 👀",
+      "results_answer1": "New Users",
+      "results_answer2": "Avg. Session Duration",
+      "results_answer3": "Bounce Rate"
+    },
+    "goal": {
+      "title": "The problems we'd solve",
+      "goal1": "Redesign a responsive e-commercial website, and must consider experience of existing users.",
+      "goal2": " Carry out rebranding by cross departmental",
+      "goal3": "Through e-commercial website to helping local partners promote products ."
+    },
+    "empathize": {
+      "title": "Understand our user",
+      "subtitle1": "I. User interview",
+      "text1": "I conducted one-on-one interviews with different level membership<span class='text-md-bold'>to understand how user's pain points and expectation</span>",
+      "user_ordinary": "member",
+      "user_premiere": "premier member",
+      "user_manager": "sales manager",
+      "user_talk1": "The webpage is difficult to browse form desktop. Usually I use search bar to find the items, really hope there has some product info on homepage.",
+      "user_talk2": "It's inconvenience of can't track shipping status.",
+      "user_talk3": "Hope category bar can be clearly, also banners section is too small to notice.",
+      "user_talk4": "When meeting with clients it's embarrassed by showing our non support responsive web page , and the tiny banners cause low conversion rates. I'll do my best to support this revision!",
+      "subtitle2": "II. User journey map",
+      "text2": "Based on user interviews, data analysis and behaviors, we depict a customer-Journey Map.<span class='text-md-bold'>We use this persona to shared understanding, so we're all thinking and referring in the same way with our user.</span>"
+    },
+    "define": {
+      "title": "Identify current problems",
+      "text1": "<span class='text-md-bold'>Non-responsive web design</span> - Based on 80% of our visited came from mobile devices, mobile first is the right decision at the beginning, however non-responsive desktop webpage cause an unpleasant browse experience .",
+      "text2": "<span class='text-md-bold'>Information is unstructured</span> - User can't find any product information at home page, also small banners can't capture user's attention.",
+      "text3": "<span class='text-md-bold'>Lack of brand  identity</span> - We hope to bring organic food, healthy lifestyle for our consumers, so we use the strictest inspection standards. However the website is lack of brand identity, it's hard to convey our spirit to customers."
+    },
+    "ideate":{
+      "title": "Identify current problems",
+      "text": "In brainstorming meeting,<span class='text-md-bold'> we base on  brand sprity 'Stay Simple, Stay Humble' to extends brand identity, </span> which also includes color patterns and photo style, we want to create a high quality brand with healthy, local and friendly."
+    },
+    "design": {
+      "title": "Optimization and discussion ",
+      "subtitle1": "I. Information architecture",
+      "text1": "After a few rounds of evaluation as a team,<span class='text-md-bold'>we agreed to conduct in a way of page iteration.</span> In the IA picture the bright outlines are new pages and others are pages need to be redesigned. Furthermore, I marked the number for each, it will be easily to discuss.",
+      "subtitle2": "II. Wireframe",
+      "talking_bubble1": "Remove Banners!",
+      "talking_bubble2": "Whaa..Which  e-commercial website has no banners?<br/> Isn't it the way that user use to?",
+      "text2": "This story happen when I was planning wireframe, <span class='text-md-bold>CEO's opinion is opposite with user's habit.</span>after discussion I knew that in his opinion the huge carousel waste the most important section of web page and user often ignore them. And I verified the situation by google analytics and  heat-maps.<span class='text-md-bold'><br/>In the end I designed four-segment banner layout to reach an effective promotional information.</span><span class='text-md-bold'></span>",
+      "subtitle3": "III. Design System",
+      "text3": "Via the branding identity I define design system to maintain product consistency.<br/>💡:UI kits must include component state, and micro animation if it needed. It can helps engineers clarify elements and reduce modify repeatedly.",
+      "subtitle4": "IV. Prototype",
+      "text4": "Before launch we invited our coworkers who also is OwlTing market user to conduct user task,<span class='text-md-bold'> based on screen recording and heatmap analysis to modify web layout and ensure our origin users have delightful experience.</span>"
+    },
+    "result": {
+      "title": "Page Dispaly",
+      "text": "The revision plan is carried out in stages<span class='text-md-bold'>As of October 2021, the design end revision has been completed 100%; the engineering implementation has been completed 80%.</span>",
+      "mockup_title1": "Homepage browsing",
+      "mockup_text1": "Via data to arrange website content according to users prefer.",
+      "mockup_title2": "Navbar category",
+      "mockup_text2": "Display according to the categories that users are most interested.",
+      "mockup_title3": "Category page browsing",
+      "mockup_text3": "optimize hover effect to provide good user experiences.",
+      "mockup_title4": "404 page",
+      "mockup_text4": "I reconsider 404 page, is not only to showed info however it also can provide useful contents for user to keep their browsing experiences."
+    },
+    "iterate": {
+      "title": "Via data to optimize",
+      "text": "Tracking data shows that<span class='text-md-bold'> Banner section has increased CTR, and verify keep navbar for user is the right decision.</span><br/><span class='text-md-bold'>Also we uphold the user-centered principle to adjusted page sections.</span>And we found data shows that the users has batter browsing experiences and brings more CTR."
+    },
+    "app": {
+      "title": "Products caused by COVID",
+      "text": "OwlTing Market APP is a product produced by increased online shopping sales due to the outbreak of COVID-19 in May 2021.<span class='text-md-bold'> It was instructed to develop with high efficiency and unchanged current users experiences as the goal.</span>"
+    },
+    "takeaway": {
+      "title": "Feedbacks are opportunity for optimization",
+      "text1": "<span class='text-md-bold'>Break the rules - </span>Without using carousel for Banners it was a design challenge to me however it also helped me to explore a new way for layout thinking.",
+      "text2": "<span class='text-md-bold'>I feel the most when I'm also the target audience - </span>In the project, I'm not only the UI/UX designer but also a user of this product. From re-branding to development, it is most precious experiences for me. I'm so moved when I saw our product can truly help local farmers."
+    }
+  },
+  "pms_project": {
+    "title": "Design pricing function for OwlNest",
+    "project_scale_answer": "2 departments, 8 members",
+    "project_background_answer": "OwlNest is a B2B management system for hospitality, clients all over Asian and the United States.<br/>However in the early stage, the price function is been planned for B&B users ,<span class='text-md-bold'>in recent year it's hard to satisfy our new users from hotel.</span>。",
+    "overview": {
+    "challenges_title1": "It's hard to talk with end users",
+    "challenges_answer1": "Users feedbacks were always been bought by sales, so UI/UX designers rarely have opportunity to interview end users. To resolve this problem, I interviewed our colleagues in lodging department, to understand the real pain points of end users.",
+    "challenges_title2": "Having different opinion with product consultant",
+    "challenges_answer2": "In the early stageof discussion, our product consultant proposed to renovate the original process at once, but consider of user experience I insisted not affecting the current users, so I made a simple Prototype to convince product consultant.",
+    "results": "Let's see feedbacks first 👀",
+    "results_answer1": "New price setting function is super useful for a long-term setting!",
+    "result_owner1": "- User from Taipei",
+    "results_answer2": "Holiday price setting is convenient and flexible! Love it so much!",
+    "result_owner2": "- User from Hualien",
+    "results_answer3": "Compared to other systems, holiday setting is our unique selling point!",
+    "result_owner3": "- Sales manager"
+    },
+    "goal": {
+      "title": "Pain point we'd  solve",
+      "goal1": "Development a suitable price setting function for all users.",
+      "goal2": "Optimize current interface according to the feedbacks, let new and old functions coexist in the system.",
+      "goal3": "Flexible and dynamic price setting for holiday."
+    },
+    "empathize": {
+      "title": "Understand users using patterns",
+      "text": "<span class='text-md-bold'>I interview with OwlStay front desk team, and referred to the feedback of the other users.</span>I learned that the user usually set weekday and weekend price first, and than set holiday price, some hotels according to neighboring countries holidays to set room price.",
+      "step1": "Weekday",
+      "step2": "Weekend",
+      "step3": "Holiday",
+      "step4": "Others"
+    },
+    "define": {
+      "title": "Existing pain point",
+      "text": "The negative common we received the most is<span class='text-md-bold'> room price only can be set one by one, </span>this complicated and repetitive operations are easily cause wrong price setting."
+    },
+    "ideate": {
+      "title": "Brainstorming for optimize task",
+      "subtitle1": "I. Analyze current steps",
+      "text1": "<span class='text-md-bold'>Now the room prices only can be set one by one,</span> in the situation of multiple room types and multiple projects it will increase multiple times, which is a great burden for users.",
+      "subtitle2": "II. Find the spaces for optimization",
+      "text2-1": "<span class='text-md-bold'> Remove repeat steps - </span>Through user interviews I know that<span class='text-md-bold'>most users setting price start from room type, then adjust the price according to different projects. </span>So if we can simplify repeated steps, it would be easier for user to operate.",
+      "text2-2": "<span class='text-md-bold'> Easily select national holidays - </span>Current interface provides date information for national holidays ,however users cannot see it when setting room price. For this situation, we optimized date drop-down and planned the function for national holidays multiple select.",
+      "description": "Repeated steps are marked with different colors.",
+      "subtitle3": "III. Steps after optimized",
+      "text3": "Multi-select room types of project prices can be set by periods of date in the most effective way. <span class='text-md-bold'>The example shows the new way saves 4.5 times operation.</span>"
+    },
+    "design": {
+      "title": "Transform text flow into interfaces",
+      "subtitle1": "I. Wireframe",
+      "text1": "After discussing the optimization flow with team members, I transform text flows into wireframe, and discuss with engineers to modification.",
+      "subtitle2": "II. UI Library",
+      "text2": "<span class='text-md-bold'>Admin system should pays more attention to user's process of completing tasks than the visual style.</span> To avoid increase user's learning cost I used existing elements to design so user experiences can stay consistency.",
+      "subtitle3": "III. Prototype",
+      "text3": "Prototype can achieve high fidelity, also I through it to observed users operation and interaction with interfaces.<br>According to this project is a fee admin system, please forgive me can't provide a interact Prototype.s"
+    },
+    "result": {
+      "title": "Page Display",
+      "text": "The new pricing function allows users to make multiple combinations of room types and sale plans. It was planned in tab, first it can easily switch with original calendar, second it will not change the original layout, also solve the needs of users with batch pricing.<span class='text-md-bold'> We launch this new function in the calmest way without disturbing users.</span>",
+      "mockup_title1": "Setting multiple pricing",
+      "mockup_text1": "This new function can solve the problem that users need to repeat settings all the time.",
+      "mockup_title2": "Quickly setting national holidays pricing",
+      "mockup_text2": "User can directly select national holidays, through interface to  to solve the burden of user's memory.",
+      "mockup_title3": "Optimize dropdown calendar",
+      "mockup_text3": "The national holidays are also displayed on the drop-down calendar, so that users can always pay attention of pricing."
+    },
+    "iterate": {
+      "title": "According to users feedback to optimize",
+      "text": "New function brings lots of comments from users, they're satisfied with multiple select pricing which also can save lots of manpower. Those positive feedbacks are promote the second stage optimization."
+    },
+    "takeaway": {
+      "title": "Design admin system should be more careful",
+      "text": "When planning new functions for admin system, in my opinion the most important thing is have to follow the existing users experiences.<span class='text-md-bold'> Normally users don't like changes. Therefore, when planning new functions, try not to affect the operation of existing users as the highest principle.</span>"
+    }
+  },
+  "official_web_project": {
+    "project_scale_answer": "13 departments, 20 members",
+    "rd_project_owner": "RD project owner",
+    "project_background_answer": "OwlTing group was founded in 2010, with blockchain in core. Its has seven product lines, including B2B business services, B2B accommodation management services, B2C e-commerce platforms and hotels, ect.<br/>In the early stage the website did not reserve flexibility, therefore it was hard to clearly convey newest news to users it has also caused users obtain incorrect information.<span class='text-md-bold'>In addiction, the old visual style is different with group new VI system, and user's negative experiences of website, etc.</span> We decided to revision group's official website.",
+    "overview": {
+      "challenges_title1": "Launch schedule is greatly advanced",
+      "challenges_answer1": "On the eve of the  Chinese Festival holiday, I received multilingual function which has been planed in phase two has to ahead of schedule, so I immediately recruited meetings of departments to request support, we use shortest time to completed and delivered on schedule.",
+      "results": "Let's see feedbacks first 👀",
+      "results_answer1": "I'm very proud of sharing our new website with other companies",
+      "result_owner1": "- C-level colleague",
+      "results_answer2": "Job applicants said that official website introduction is very clear, there is no need to introduce more for products lines.",
+      "result_owner2": "- HR colleague",
+      "results_answer3": "When the media came to interview, we felt that they had a better understanding of OwlTing Group.",
+      "result_owner3": "- PR colleague"
+    },
+    "goal": {
+      "title": "What we want to achieve",
+      "goal1": "Refactored from the information architecture, allowing users to obtain information more easily.",
+      "goal2": "Clearly convey group's product solutions, integrate seven product's introduction across departments.",
+      "goal3": "According group's VI system to define new style for website, let it be outstanding from high-tech industry."
+    },
+    "empathize": {
+      "title": "Clarify demand and current problems",
+      "text": "The demand originated from CEO, so the team is more cautious when implement tasks.<br><span class='text-md-bold'> In this project I'm acting as UI/UX designer and project owner of engineer team. </span>And we obtained users feedbacks from interviews with colleagues and users.",
+      "user_talk1": "Our website been mocked by competitors.",
+      "user1":"Colleague A",
+      "user_talk2": "I felt embarrassed to share our official website with my friends.",
+      "user2":"Colleague B",
+      "user_talk3": "Website structure is not flexible and it will be difficult to expand and update.",
+      "user3":"Colleague C",
+      "user_talk4": "The media who interviewed us couldn't find the newest information on the official website.",
+      "user4":"Colleague D",
+      "user_talk5": "The timeline of media reports has ten years! It's barely can browse!",
+      "user5":"User A",
+      "user_talk6": "So... after browsing official website I still can't understand what does your company do.",
+      "user6":"User B"
+    },
+    "define": {
+      "title": "Identify current problems",
+      "text1": "<span class='text-md-bold'>Non clear products introduction - </span>Products introduction only has narrow narrative and external links which can't provide users enough information.",
+      "text2": "<span class='text-md-bold'>Poor interface layout - </span>Some elements will fixed of the page to block the content when browsing which makes it difficult for users to browse the page easily.",
+      "text3": "<span class='text-md-bold'>Website architecture has no flexible - </span>Without flexible website structure cause content cannot be updated frequently, resulting in incorrect or outdated information obtained by users.",
+      "text4": "<span class='text-md-bold'>Inconsistency user interface - </span>Messy page vision and page style is different from new VI system, which make group's branding hard to shape."
+    },
+    "ideate": {
+      "title": "Brainstorming for new ideas",
+      "text": "We throw out many ideas on early stage, we also discussed implement possibility with engineers. I know it might a bit too early to consider implement on this stage, however this kind of unlimited discussion it's the essence of brainstorming ."
+    },
+    "design": {
+      "title": "The sooner to discussion, the sooner goes easily",
+      "subtitle1": "I. Information architecture",
+      "text1": "I reported the revision scale with RD team and confirming Information architecture. Due to the urgency of this project, the team decide to implement in phases.",
+      "subtitle2": "II. Wirefram",
+      "text2": "This project is involve with various departments and language translation, <span class='text-md-bold'> so I realize the sooner wireframe is completed , the schedule for the entire project will be smoother.</span>。",
+      "subtitle3": "III. Existing Visual Elements",
+      "text3": "Owls and tech blues are present throughout the entire group VI system. These are a few visual examples that helped me extend baseline for further exploration.",
+      "subtitle4": "IV. Exploration",
+      "text4": "<span class='text-md-bold'>'Technology ,expertise, product diversity'</span> are the three cores that I ideated website vision style.",
+      "core1": "Technology",
+      "core2": "Expertise",
+      "core3": "Diversity",
+      "idea1": "Ideate from colors",
+      "idea2": "Ideate from product diversity",
+      "subtitle5": "V. Iterations",
+      "text5": "There is not  'perfect' for iteration,<br> however balanced with concise and professionalism is consensus, so I made an iteration to optimal page style.",
+      "subtitle6": "VI. Prototype",
+      "text6": "I used Adobe XD to simulate parallax scrolling effect for engineer., through visualization can help two of us to focus quickly and easily.",
+      "subtitle7": "VII. Assist engineers to find errors",
+      "text7": "Assist engineers to debug before launch , such as multi-language pages, various devices, all mobile platforms, social media preview etc., all need to be confirmed.<br>💡: I always compress pictures with TinyPNG, before delivering to engineers. It can helps them reduce workload."
+    },
+    "result": {
+      "title": "Page Display",
+      "mockup_title1": "Homepage",
+      "mockup_text1": "Through flying owl concept to display product diversity, this effect is very attractive.",
+      "mockup_title2": "Business introduction section",
+      "mockup_text2": "The service categories is brought out by the narrative and the background, so users can quickly understand.",
+      "mockup_title3": "Location presence animation",
+      "mockup_text3": "I used animation to show OwlTing group global presence to express the globalization."
+    },
+   "takeaway": {
+     "title": "Archiving is as important as design",
+     "text": "This revision is very successful. We got many compliments from users by unique visual style and clear product introductions.<br/> However, I should be more archived comprehensively before the revision, which I will definitely pay attention next time."
+   }
+  },
+  "about_page": {
+    "text": "I'm a UI/UX designer with basic coding skill.I have design experiences in B2C e-commerce, B2B SasS admin system, official website, etc., I always find balance between Function, Usability and Aesthetics.<br>Reasonable solution is needed in planning UX, due to there has no correct answer so you have to more ensure your though.",
+    "view_resume_cat": "view resume",
+    "steps": {
+      "title": "Timeline",
+      "web_designer": "Graphic Web Designer",
+      "visual_designer": "Graphic Designer",
+      "eu_bachelor": "EU Bachelor's degree",
+      "cd":"Commercial Design",
+      "owlting": "OwlTing Group",
+      "shopee": "Shopee pte ltd",
+      "the_diner": "theDiner",
+      "epac": "EPAC Swiss <br/> The Academy of Contemporary Arts",
+      "mcu": "Ming Chuan University"
+    },
+    "skill_tree": {
+      "title": "SkillTree",
+      "learning": "learning"
+    },
+    "nngroup": {
+      "title":"NNgroup reader, lover",
+      "text": "NNgroup is my UI/UX it's my design mentor, also I shared '10 Usability Heuristics' in engineers sharing conference."
+    },
+    "la_suisse": {
+      "title": "I was studied in Switzerland, I own french B-1 certification",
+      "text":"I was an exchange student in Switzerland for one year. After back to Taiwan I'm keep improving french thus I gained french DELF-B1 certification."
+    },
+    "side_project": {
+      "title" : "I want to implement an APP for relaxing",
+      "text": "The idea came from my training habit, I hope this APP can be an encyclopedia to help user when relaxing muscles. I design it with an App because it would be perfect if it can support scan function!"
+    }
+  }
+}
