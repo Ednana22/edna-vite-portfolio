@@ -45,7 +45,7 @@
           <p class="text-md">2015 - 2014</p>
           <div class="circle-grey mt-8 mb-8"></div>
           <p class="text-md-bold">{{ $t('about_page.steps.eu_bachelor') }}</p>
-          <p class="text-sm">{{ $t('about_page.steps.epac') }}</p>
+          <p class="text-sm" v-html="$t('about_page.steps.epac')"></p>
         </div>
         <div class="2014">
           <p class="text-md">2013 - 2010</p>
@@ -87,7 +87,7 @@
           <div class="now">
             <p class="text-md">2015 - 2014</p>
             <p class="text-md-bold">{{ $t('about_page.steps.eu_bachelor') }}</p>
-          <p class="text-sm">{{ $t('about_page.steps.epac') }}</p>
+          <p class="text-sm" v-html="$t('about_page.steps.epac')"></p>
           </div>
         </div>
         <div class="flex">

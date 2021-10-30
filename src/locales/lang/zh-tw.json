@@ -107,7 +107,7 @@
       "subtitle2": "II. Wireframe",
       "talking_bubble1": "首頁不要 Banner！",
       "talking_bubble2": "什麼！哪個電商不用輪播 Banner ? <br/> 這不就是使用者最習慣的一種版型嗎？",
-      "text2": "上述是我在做 Wireframe 時遇到的情境，<span class='text-md-bold>CEO 提出了與以往我們習慣的電商完全背離的需求</span>，經過討論才得知原來 CEO 並不是反對 Banner 而是認為巨大的輪播版位浪費了頁面最精華的部分且使用者大多會忽略順序在後方的 Banner，我也從頁面數據以及熱點分布圖驗證了此論點。<span class='text-md-bold'><br/>在嘗試了幾種非輪播版型的設計後內部一致認同現在採用四格切割版型</span>，也跨部門的達成不要給予使用者過多促銷資訊的共識。<span class='text-md-bold'>",
+      "text2": "上述是我在做 Wireframe 時遇到的情境，<span class='text-md-bold'>CEO 提出了與以往我們習慣的電商完全背離的需求，經過討論才得知原來 CEO 並不是反對 Banner 而是認為巨大的輪播版位浪費了頁面最精華的部分且使用者大多會忽略順序在後方的 Banner，我也從頁面數據以及熱點分布圖驗證了此論點。</span><br/>在嘗試了幾種非輪播版型的設計後內部一致認同現在採用四格切割版型，也跨部門的達成不要給予使用者過多促銷資訊的共識。",
       "subtitle3": "III. Design System",
       "text3": "經由腦力激盪後組員一同定義品牌再造的風格，我以之延伸並定義了介面元件來達產品是覺的一致性。<br/>💡：一定要將最終確定的 UI Kit 元件及狀態分享給工程師，這可以幫助工程端在製作 Component 時方便很多，也可減少來回修改的次數。",
       "subtitle4": "IV. Prototype",
