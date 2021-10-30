@@ -145,8 +145,8 @@
     "overview": {
     "challenges_title1": "It's hard to talk with end users",
     "challenges_answer1": "Users feedbacks were always been bought by sales, so UI/UX designers rarely have opportunity to interview end users. To resolve this problem, I interviewed our colleagues in lodging department, to understand the real pain points of end users.",
-    "challenges_title2": "與產品顧問持不同意見",
-    "challenges_answer2": "在討論優化階段產品顧問提出想把原有鋪價流程一次翻新的做法，但 UI/UX 端持盡量以不要影響到目前使用者的操作為原則。針對這點我做出簡易 Prototype 以實際操作體驗來說服產品顧問。",
+    "challenges_title2": "Having different opinion with product consultant",
+    "challenges_answer2": "In the early stageof discussion, our product consultant proposed to renovate the original process at once, but consider of user experience I insisted not affecting the current users, so I made a simple Prototype to convince product consultant.",
     "results": "Let's see feedbacks first 👀",
     "results_answer1": "New price setting function is super useful for a long-term setting!",
     "result_owner1": "- User from Taipei",
@@ -164,10 +164,10 @@
     "empathize": {
       "title": "Understand users using patterns",
       "text": "<span class='text-md-bold'>I interview with OwlStay front desk team, and referred to the feedback of the other users.</span>I learned that the user usually set weekday and weekend price first, and than set holiday price, some hotels according to neighboring countries holidays to set room price.",
-      "step1": "平日房價",
-      "step2": "假日房價",
-      "step3": "國定假日房價",
-      "step4": "鄰國連假房價"
+      "step1": "Weekday",
+      "step2": "Weekend",
+      "step3": "Holiday",
+      "step4": "Others"
     },
     "define": {
       "title": "Existing pain point",
@@ -185,31 +185,31 @@
       "text3": "Multi-select room types of project prices can be set by periods of date in the most effective way. <span class='text-md-bold'>The example shows the new way saves 4.5 times operation.</span>"
     },
     "design": {
-      "title": "將文字流程製作成介面",
+      "title": "Transform text flow into interfaces",
       "subtitle1": "I. Wireframe",
-      "text1": "與組員們一同討論優化流程後，我就會將文字流程以 Wireframe 的方式呈現出來，與工程師做初步討論並快速修改。",
+      "text1": "After discussing the optimization flow with team members, I transform text flows into wireframe, and discuss with engineers to modification.",
       "subtitle2": "II. UI Library",
-      "text2": "後台比起視覺更重視的是使用者完成任務的流程，<span class='text-md-bold'>在規劃介面時為避免使用者的學習成本增加</span>，應該遵從既有的介面及流程，並依原有的介面原件快速做出 Mockup 與團隊討論。",
+      "text2": "<span class='text-md-bold'>Admin system should pays more attention to user's process of completing tasks than the visual style.</span> To avoid increase user's learning cost I used existing elements to design so user experiences can stay consistency.",
       "subtitle3": "III. Prototype",
-      "text3": "直接做出 Prototype 來給使用者測試可達到高擬真度且更可以看出使用者對畫面的操作流程以及互動。<br>由於此專案為收費管理系統，恕無法提供 Prototpye 實作介面。"
+      "text3": "Prototype can achieve high fidelity, also I through it to observed users operation and interaction with interfaces.<br>According to this project is a fee admin system, please forgive me can't provide a interact Prototype.s"
     },
     "result": {
-      "title": "頁面展示",
-      "text": "鋪價新功能讓使用者可由多房型、多專案做多元組合的鋪價。規劃以 tab 方式與原本的月曆做切換，<span class='text-md-bold'>既不會影響原先版面也可滿足有批次鋪價需求的使用者，以最平靜不干擾使用者的方式推來推出新功能。</span>",
-      "mockup_title1": "鋪設多專案",
-      "mockup_text1": "由房型或是專案多選來鋪設價格，可以解決使用者需要一直重複設定的問題",
-      "mockup_title2": "快速設定國定假日",
-      "mockup_text2": "使用者可以直接選擇欲鋪價的國定假日，以介面呈現來解決使用者需記憶及來回比對的負擔",
-      "mockup_title3": "優化下拉月曆內容",
-      "mockup_text3": "將國定假日也呈現在下拉月曆上，讓使用者在鋪價時可隨時留意"
+      "title": "Page Display",
+      "text": "The new pricing function allows users to make multiple combinations of room types and sale plans. It was planned in tab, first it can easily switch with original calendar, second it will not change the original layout, also solve the needs of users with batch pricing.<span class='text-md-bold'> We launch this new function in the calmest way without disturbing users.</span>",
+      "mockup_title1": "Setting multiple pricing",
+      "mockup_text1": "This new function can solve the problem that users need to repeat settings all the time.",
+      "mockup_title2": "Quickly setting national holidays pricing",
+      "mockup_text2": "User can directly select national holidays, through interface to  to solve the burden of user's memory.",
+      "mockup_title3": "Optimize dropdown calendar",
+      "mockup_text3": "The national holidays are also displayed on the drop-down calendar, so that users can always pay attention of pricing."
     },
     "iterate": {
-      "title": "由使用者回饋中進行產品優化",
-      "text": "批次鋪價功能推出後獲得使旅宿業者的正面反饋，不只大量節省了人力也對國定假日可自動帶入的功能也表示是項極為方便的操作，這正向反饋也推動了第二階段鄰國國定假日的開發。<br>業務端也表示在一開始做競品分析就知道國內並沒擁有國定假日鋪價功能的旅宿管理系統，因此這也是銷售的一大賣點。</span>"
+      "title": "According to users feedback to optimize",
+      "text": "New function brings lots of comments from users, they're satisfied with multiple select pricing which also can save lots of manpower. Those positive feedbacks are promote the second stage optimization."
     },
     "takeaway": {
-      "title": "後台須顧及的層面更廣",
-      "text": "在規劃後台系統新功能時最重要的是要顧及現存使用者的習慣，<span class='text-md-bold'>使用者通常不喜歡變動，所以在規劃新功能時盡量以不要影響到目前使用者的操作為最高原則。</span><br>業務端也表示在一開始做競品分析就知道國內並沒擁有國定假日鋪價功能的旅宿管理系統，因此這也是銷售的一大賣點。</span>"
+      "title": "Design admin system should thought wider range",
+      "text": "When planning new functions for admin system, in my opinion the most important thing is have to follow the existing users experiences.<span class='text-md-bold'> Normally users don't like changes. Therefore, when planning new functions, try not to affect the operation of existing users as the highest principle.</span>"
     }
   },
   "official_web_project": {
