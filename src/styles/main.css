@@ -701,6 +701,7 @@ p {
 
 .btn {
   font-size: 16px;
+  font-family: 'roboto',sans-serif;
   background: -webkit-gradient(linear, left top, right top, from(#3b84fa), color-stop(#9c73d3), to(#e94e7c));
   background: linear-gradient(90deg, #3b84fa, #9c73d3, #e94e7c);
   -webkit-background-clip: text;
