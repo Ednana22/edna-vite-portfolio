@@ -4,7 +4,7 @@
   "common": {
     "about_me": "About",
     "projects": "Projects",
-    "market": "OwlTing Market",
+    "market": "OwlTing Market Platform",
     "pms": "OwlNest Admin System",
     "owlting_website": "OwlTing Official Website",
     "re_branding": "Rebranding",
@@ -48,7 +48,7 @@
     "title_2": "I like to solve problems via the most suitable design. 🌟",
     "title_mobile": "I'm a UI/UX Designer with basic coding skill, I like to solve problems via the most suitable design. 🌟",
     "market": {
-      "description": "Redesign OwlTing Market e-commercial website and through cross-departmental cooperation of rebranding."
+      "description": "Redesign OwlTing Market e-commerce platform and through cross-departmental cooperation of rebranding."
     },
     "pms": {
       "description": "Optimal OwlNest pricing function to achieve rapid and flexible setting experience."
@@ -58,7 +58,7 @@
     }
   },
   "market_project": {
-    "title": "Redesign OwlTing Market E-commercial Website ",
+    "title": "Redesign OwlTing Market E-Commerce Platform ",
     "project_scale_answer": "5 departments, 15 members",
     "project_background_answer": "OwlTing Market is a e-commerce platform which dedicated to promoting Taiwanese brands with 2,000+ local partners.<br />However,<span class='text-md-bold'>the website is not responsive and page layout is not conform to user's browsing habit, these inefficient browsing experience cause high bounce rate and low conversion rate,</span><br/> Department manager reported that our website often been criticized by usability and security,<span class='text-md-bold'> which cause team member to lost confidence in the product.</span>",
     "overview": {
@@ -73,9 +73,9 @@
     },
     "goal": {
       "title": "The problems we'd solve",
-      "goal1": "Redesign a responsive e-commercial website, and must consider experience of existing users.",
+      "goal1": "Redesign a responsive e-commerce platform, and must consider experience of existing users.",
       "goal2": " Carry out rebranding by cross departmental",
-      "goal3": "Through e-commercial website to helping local partners promote products ."
+      "goal3": "Through e-commerce platform to helping local partners promote products ."
     },
     "empathize": {
       "title": "Understand our user",
@@ -107,7 +107,7 @@
       "text1": "After a few rounds of evaluation as a team,<span class='text-md-bold'>we agreed to iterate by pages.</span><br>In the IA picture the bright outlines are new pages and others are pages need to be redesigned. Furthermore, I marked the number for each, it will be easily to discuss.",
       "subtitle2": "II. Wireframe",
       "talking_bubble1": "Remove Banners !",
-      "talking_bubble2": "Whaa... Which e-commercial website has no banners ?<br/> Isn't it the way that user use to ?",
+      "talking_bubble2": "Whaa... Which e-commerce platform has no banners ?<br/> Isn't it the way that user use to ?",
       "text2": "This story happen when I was planning homepage, <span class='text-md-bold'>CEO has opposite opinion with user habit. </span>After discussed I knew that in his opinion the huge carousel waste the most important section of web page. And I verified the situation by google analytics and heat-maps.<span class='text-md-bold'><br/>Eventually I designed four-segment banner layout to reach an effective promotional information.</span><span class='text-md-bold'></span>",
       "subtitle3": "III. Design System",
       "text3": "Via the branding identity I define design system to maintain product consistency.<br/>💡 : UI kits must include component state, and micro animation if it needed. It can helps engineers clarify elements and reduce modify repeatedly.",
@@ -299,7 +299,7 @@
    }
   },
   "about_page": {
-    "text": "I'm a UI/UX designer with basic coding skill. I have design experiences in B2C e-commerce, B2B SasS system, official website, etc.<br>I always chasing balance between Function, Usability and Aesthetics. Reasonable solution is always needed in planning UX, because there has no correct answer so you have to be more ensure to your though.",
+    "text": "I'm a UI/UX designer with basic coding skill. I have design experiences in B2C e-commerce platform, B2B SasS system, official website, etc.<br>I always chasing balance between Function, Usability and Aesthetics. Reasonable solution is always needed in planning UX, because there has no correct answer so you have to be more ensure to your though.",
     "view_resume_cat": "View Resume",
     "steps": {
       "title": "Timeline",
