@@ -8,6 +8,7 @@
     "deploy": "sh deploy.sh"
   },
   "dependencies": {
+    "@jambonn/vue-lazyload": "^1.0.9",
     "@vueuse/components": "^6.0.0",
     "@vueuse/core": "^6.0.0",
     "gsap": "^3.8.0",
