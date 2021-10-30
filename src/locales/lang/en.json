@@ -213,119 +213,119 @@
     }
   },
   "official_web_project": {
-    "project_scale_answer": "跨十三部門 . 約 20 人",
-    "rd_project_owner": "工程部門對外窗口",
-    "project_background_answer": "奧丁丁集團創立於 2010 年，是一間以區塊鏈技術為核心的科技公司，其產品涵蓋 B2B 商業服務、B2B 旅宿管理服務、B2C 電商平台、實體旅宿等共七大事業體。<br/>在奧丁丁集團成立初期所架設的官網頁面中並無保留太多的彈性空間，因此無法清楚的將集團近年來的資訊正確傳達給使用者，這也造成了<span class='text-md-bold'>使用者容易從網站中獲得過時且不完整的資訊</span>，再加上老舊的視覺風格與集團近年來定義的VI調性不一、使用者對網站的負面評價等等，促成了此次集團官網改版。",
+    "project_scale_answer": "13 departments, 20 members",
+    "rd_project_owner": "RD project owner",
+    "project_background_answer": "OwlTing group was founded in 2010, with blockchain in core. Its has seven product lines, including B2B business services, B2B accommodation management services, B2C e-commerce platforms and hotels, ect.<br/>In the early stage the website did not reserve flexibility, therefore it was hard to clearly convey newest news to users it has also caused users obtain incorrect information.<span class='text-md-bold'>In addiction, the old visual style is different with group new VI system, and user's negative experiences of website, etc.</span> We decided to revision group's official website.",
     "overview": {
-      "challenges_title1": "專案上線時程大幅提前",
-      "challenges_answer1": "在春節假期前夕突然收到原預計第二階段上線的多國語系功能需提前至第一階段上線，我們當下立即招開集結各部門的會議請求人力支援，以分工的方式將多語頁面迅速完成並如期交付。",
-      "results": "反饋搶先看 👀",
-      "results_answer1": "真的早該改版了！分享改版過後的新官網給其他同業時非常有面子！",
-      "result_owner1": "- 大咖同事",
-      "results_answer2": "求職者表示官網介紹十分清楚詳細，不需再為集團服務多加介紹了！",
-      "result_owner2": "- HR 部門同事",
-      "results_answer3": "外部媒體來採訪時有感受到他們對於公司體系更加瞭解也更容易進入狀況了！",
-      "result_owner3": "- 公關部門同事"
+      "challenges_title1": "Launch schedule is greatly advanced",
+      "challenges_answer1": "On the eve of the  Chinese Festival holiday, I received multilingual function which has been planed in phase two has to ahead of schedule, so I immediately recruited meetings of departments to request support, we use shortest time to completed and delivered on schedule.",
+      "results": "Let's see feedbacks first 👀",
+      "results_answer1": "I'm very proud of sharing our new website with other companies",
+      "result_owner1": "- C-level colleague",
+      "results_answer2": "Job applicants said that official website introduction is very clear, there is no need to introduce more for products lines.",
+      "result_owner2": "- HR colleague",
+      "results_answer3": "When the media came to interview, we felt that they had a better understanding of OwlTing Group.",
+      "result_owner3": "- PR colleague"
     },
     "goal": {
-      "title": "我們要達成的目標",
-      "goal1": "由資訊架構開始重構，讓使用者能更快速的獲得資訊",
-      "goal2": "清楚的傳遞集團旗下的所有產品以及介紹，跨部門進行七個事業體的資訊整合",
-      "goal3": "由集團 VI 延伸，為網站定義新風格，並使其成為同業中的亮點"
+      "title": "What we want to achieve",
+      "goal1": "Refactored from the information architecture, allowing users to obtain information more easily.",
+      "goal2": "Clearly convey group's product solutions, integrate seven product's introduction across departments.",
+      "goal3": "According group's VI system to define new style for website, let it be outstanding from high-tech industry."
     },
     "empathize": {
-      "title": "釐清需求來源及現有問題",
-      "text": "新官網代表的是整個奧丁丁集團，再加此需求源自於 CEO，因此在執行此任務時團隊更加的謹慎。<br><span class='text-md-bold'>在此次專案中我同時扮演了 UI/UX 設計師及工程部門對外窗口。</span>而我們從訪談公司同事以及使用者中訪談中獲得對舊官網的真實反饋。",
-      "user_talk1": "我們公司的官網被競業嘲笑",
-      "user1":"同事 A",
-      "user_talk2": "別人問我在哪工作，我都不好意思丟官網，只好丟 104 給他們看",
-      "user2":"同事 B",
-      "user_talk3": "網頁架構彈性小，要擴增資訊會有難度",
-      "user3":"同事 C",
-      "user_talk4": "採訪我們的媒體在官網上常常找不到需要的資訊有時還會寫錯",
-      "user4":"同事 D",
-      "user_talk5": "媒體報導時間軸有十年！怎麼都滑不完！",
-      "user5":"使用者 A",
-      "user_talk6": "所以你們公司是在做什麼的啊？",
-      "user6":"使用者 B"
+      "title": "Clarify demand and current problems",
+      "text": "The demand originated from CEO, so the team is more cautious when implement tasks.<br><span class='text-md-bold'> In this project I'm acting as UI/UX designer and project owner of engineer team. </span>And we obtained users feedbacks from interviews with colleagues and users.",
+      "user_talk1": "Our website been mocked by competitors.",
+      "user1":"Colleague A",
+      "user_talk2": "I felt embarrassed to share our official website with my friends.",
+      "user2":"Colleague B",
+      "user_talk3": "Website structure is not flexible and it will be difficult to expand and update.",
+      "user3":"Colleague C",
+      "user_talk4": "The media who interviewed us couldn't find the newest information on the official website.",
+      "user4":"Colleague D",
+      "user_talk5": "The timeline of media reports has ten years! It's barely can browse!",
+      "user5":"User A",
+      "user_talk6": "So... after browsing official website I still can't understand what does your company do.",
+      "user6":"User B"
     },
     "define": {
-      "title": "分析目前問題",
-      "text1": "<span class='text-md-bold'>各事業體介紹不清</span> -各事業體介紹除了一小段文字敘述外其餘都是外導連結，這讓使用者的無法在頁面上獲得足夠資訊且瀏覽容易被打斷。",
-      "text2": "<span class='text-md-bold'>不良介面設計</span> -瀏覽網站時會有元素固定在畫面上而擋住內容的情形，媒體報導頁更有長達十年的時間軸，不良介面設計造成不佳的瀏覽體驗。",
-      "text3": "<span class='text-md-bold'>網站架構卻乏可維護性</span> -因網站架構老舊且無後台可維護因此無法頻繁的更新內容，導致使用者獲得的資訊錯誤或已過時。",
-      "text4": "<span class='text-md-bold'>卻乏一致性的設計規劃</span> -頁面視覺凌亂且與近年來集團規劃的 VI 風格相差甚遠，導致品牌風格難以塑造。"
+      "title": "Identify current problems",
+      "text1": "<span class='text-md-bold'>Non clear products introduction - </span>Products introduction only has narrow narrative and external links which can't provide users enough information.",
+      "text2": "<span class='text-md-bold'>Poor interface layout - </span>Some elements will fixed of the page to block the content when browsing which makes it difficult for users to browse the page easily.",
+      "text3": "<span class='text-md-bold'>Website architecture has no flexible - </span>Without flexible website structure cause content cannot be updated frequently, resulting in incorrect or outdated information obtained by users.",
+      "text4": "<span class='text-md-bold'>Inconsistency user interface - </span>Messy page vision and page style is different from new VI system, which make group's branding hard to shape."
     },
     "ideate": {
-      "title": "腦力激盪出的點子",
-      "text": "在與夥伴腦力激盪討論時我們拋出了以宇宙出發的想法，因工程師與參與討論當中所以網頁互動效果的實作可能性也在討論內，雖然在腦力激當時討論網頁互動有點早，不過這樣不設限的討論正是腦力激當有趣的地方。"
+      "title": "Brainstorming for new ideas",
+      "text": "We throw out many ideas on early stage, we also discussed implement possibility with engineers. I know it might a bit too early to consider implement on this stage, however this kind of unlimited discussion it's the essence of brainstorming ."
     },
     "design": {
-      "title": "越早討論越早順利",
-      "subtitle1": "I. 資訊架構",
-      "text1": "確認資訊架構後會與工程團隊報告改版規模，由於這次專案的時辰較緊迫團隊決定分階段執行，與人資部門達成共識後決定將迫切性相對低的「企業徵才」放入改版的第二階段。",
+      "title": "The sooner to discussion, the sooner goes easily",
+      "subtitle1": "I. Information architecture",
+      "text1": "I reported the revision scale with RD team and confirming Information architecture. Due to the urgency of this project, the team decide to implement in phases.",
       "subtitle2": "II. Wirefram",
-      "text2": "規劃出 Wireframe 並確認資訊呈現無誤後，我將設計稿上傳至 Google Sheet 請各部門協助文案內容。因為牽涉到各部門的時程安排以及英日翻譯，所以<span class='text-md-bold'> Wireframe 在設計端越早完成對於整個專案的排程也會更順利</span>。",
-      "subtitle3": "III. 搜集現有元素延伸",
-      "text3": "由集團現有元素中以貫穿集團及七個事業體的貓頭鷹及 VI 科技藍光譜為發想，由藍色光譜可延伸出的科技感幫助我進一步探索官網的視覺意象。",
-      "subtitle4": "IV. 發想網站視覺",
-      "text4": "<span class='text-md-bold'>「科技產業、領域專業、產品多元性」</span>為我在發想網站視覺的三個核心要點。",
-      "core1": "科技",
-      "core2": "專業",
-      "core3": "多元",
-      "idea1": "以色彩發想",
-      "idea2": "以產品多元性發想",
-      "subtitle5": "V. 設計迭代",
-      "text5": "設計迭代沒有絕對的「完美」，以合適的設計傳達集團信念給使用者就算達到迭代目的。<br>與集團高層討論過後認為暗色宇宙系列雖然搶眼也吸睛，但缺少科技產業的簡潔、專業感，因此使用一個迭代將來修正上述問題。",
+      "text2": "This project is involve with various departments and language translation, <span class='text-md-bold'> so I realize the sooner wireframe is completed , the schedule for the entire project will be smoother.</span>。",
+      "subtitle3": "III. Existing Visual Elements",
+      "text3": "Owls and tech blues are present throughout the entire group VI system. These are a few visual examples that helped me extend baseline for further exploration.",
+      "subtitle4": "IV. Exploration",
+      "text4": "<span class='text-md-bold'>'Technology ,expertise, product diversity'</span> are the three cores that I ideated website vision style.",
+      "core1": "Technology",
+      "core2": "Expertise",
+      "core3": "Diversity",
+      "idea1": "Ideate from colors",
+      "idea2": "Ideate from product diversity",
+      "subtitle5": "V. Iterations",
+      "text5": "There is not  'perfect' for iteration,<br> however balanced with concise and professionalism is consensus, so I made an iteration to optimal page style.",
       "subtitle6": "VI. Prototype",
-      "text6": "此專案我使用 Adobe Xd 來模擬視差滾動以及滾動連帶的過場動畫，Prototype的 視覺化能幫助設計師與工程師討論時可以快速對焦，若實作時辰上有困難也可以立刻討論作出相對應調整。",
-      "subtitle7": "VII. 協助工程師抓除錯",
-      "text7": "在上線前協助工程師一同除錯，如多語系的呈現、各種裝置及雙平台手機測試、社群平台預覽效果等等，都是正式上線前需一一確認的。<br>💡 : 將素材圖壓縮好，可以幫工程師減輕一點工作量"
+      "text6": "I used Adobe XD to simulate parallax scrolling effect for engineer., through visualization can help two of us to focus quickly and easily.",
+      "subtitle7": "VII. Assist engineers to find errors",
+      "text7": "Assist engineers to debug before launch , such as multi-language pages, various devices, all mobile platforms, social media preview etc., all need to be confirmed.<br>💡: I always compress pictures with TinyPNG, before delivering to engineers. It can helps them reduce workload."
     },
     "result": {
-      "title": "成品頁面",
-      "mockup_title1": "首頁主視覺",
-      "mockup_text1": "將集團產品多元性以及貓頭鷹展翅的理念傳達給使用者，效果非常吸睛",
-      "mockup_title2": "產品簡介",
-      "mockup_text2": "由敘述及背景圖滿版圖帶出服務類別，讓使用者能迅速理解集團旗下服務",
-      "mockup_title3": "動態據點呈現",
-      "mockup_text3": "以動態圖呈現據點分佈，讓畫面更清楚地表達全球性"
+      "title": "Page Display",
+      "mockup_title1": "Homepage",
+      "mockup_text1": "Through flying owl concept to display product diversity, this effect is very attractive.",
+      "mockup_title2": "Business introduction section",
+      "mockup_text2": "The service categories is brought out by the narrative and the background, so users can quickly understand.",
+      "mockup_title3": "Location presence animation",
+      "mockup_text3": "I used animation to show OwlTing group global presence to express the globalization."
     },
    "takeaway": {
-     "title": "歸檔與設計一樣重要",
-     "text": "這次的官網改版對集團來說是非常成功的專案，符合企業風格的網站以及清晰的產品介紹是獲得最多好評的。<br>然而對於將舊頁面應在改版前做更全面的歸檔整理，這是我在往後專案中一定會留意的。"
-   }   
+     "title": "Archiving is as important as design",
+     "text": "This revision is very successful. We got many compliments from users by unique visual style and clear product introductions.<br/> However, I should be more archived comprehensively before the revision, which I will definitely pay attention next time."
+   }
   },
   "about_page": {
-    "text": "我叫魏依嫻，是一個擁有基礎前端技能並持續學習的 UI/UX 設計師，設計的產品包含 B2C 電商、B2BSasS 產品、形象官網等。工作時總是在功能與美學、通用性與工程實作中找尋最佳平衡。<br>在規劃 UX 的任何一步心中都需要有一個合理的解答，因為問題的解法很多也沒有一定正確的，所以你需要更清楚自己的解法。",
-    "view_resume_cat": "履歷瀏覽",
+    "text": "I'm a UI/UX designer with basic coding skill.I have design experiences in B2C e-commerce, B2B SasS admin system, official website, etc., I always find balance between Function, Usability and Aesthetics.<br>Reasonable solution is needed in planning UX, due to there has no correct answer so you have to more ensure your though.",
+    "view_resume_cat": "view resume",
     "steps": {
-      "title": "人生沒有白走的路，每一步都算數",
-      "web_designer": "網頁視覺設計師",
-      "visual_designer": "視覺設計師",
-      "eu_bachelor": "歐盟繪畫學士",
-      "cd":"商業設計學系",
-      "owlting": "歐簿客科技",
-      "shopee": "新加坡商蝦皮娛樂電商",
-      "the_diner": "樂子餐飲集團",
-      "epac": "瑞士 EPAC 當代藝術學院",
-      "mcu": "銘傳大學"
+      "title": "Timeline",
+      "web_designer": "Graphic Web Designer",
+      "visual_designer": "Graphic Designer",
+      "eu_bachelor": "EU Bachelor's degree",
+      "cd":"Commercial Design",
+      "owlting": "OwlTing Group",
+      "shopee": "Shopee pte ltd",
+      "the_diner": "theDiner",
+      "epac": "EPAC Swiss <br/> The Academy of Contemporary Arts",
+      "mcu": "Ming Chuan University"
     },
     "skill_tree": {
-      "title": "技能樹",
-      "learning": "學習中"
+      "title": "SkillTree",
+      "learning": "learning"
     },
     "nngroup": {
-      "title":"定期閱讀 NNgroup",
-      "text": "跟著大師走可以少走很多冤枉路，我也利用工程部技術交流會與同事們分享十大易用性的重要與實作。"
+      "title":"NNgroup reader, lover",
+      "text": "NNgroup is my UI/UX it's my design mentor, also I shared '10 Usability Heuristics' in engineers sharing conference."
     },
     "la_suisse": {
-      "title": "留學瑞士一年，擁有法文中級證書",
-      "text":"在大四時留學瑞士一年並取得歐盟美術學士證書。回台灣花了三年的時間到台大進修部進修法文，在 2019 年取得法文 B1 鑑定證書，非常想再訪瑞士跟當時的同學當面用法文聊天。"
+      "title": "I was studied in Switzerland, I own french B-1 certification",
+      "text":"I was an exchange student in Switzerland for one year. After back to Taiwan I'm keep improving french thus I gained french DELF-B1 certification."
     },
     "side_project": {
-      "title" : "最想完成的 Side Project 是一款筋絡 APP",
-      "text": "想做筋絡 APP 源自於重訓完使用筋膜槍放鬆的習慣，但常常會忘記該施力的穴道及強度，因此希望此款 APP 可以像客製化百科一樣來幫助使用者，為什麼是 APP 不是 Web？因為我還規劃了局部掃描穴位的功能，如果你對這個 APP 有興趣歡迎與我聯繫！"
+      "title" : "I want to implement an APP for relaxing",
+      "text": "The idea came from my training habit, I hope this APP can be an encyclopedia to help user when relaxing muscles. I design it with an App because it would be perfect if it can support scan function!"
     }
   }
 }
