@@ -61,12 +61,12 @@
           </h2>
           <div class="feedback row">
             <div class="col-lg-4 content-pr-8 mb-16">
-              <div class="border-thinner border-radius-4 shadow-sm p-8">
-                <div class="text-sm-bold">
+              <div class="border-thinner border-radius-4 shadow-sm p-8 h-full">
+                <div class="text-sm-bold flex flex-col h-full">
                   ⭐⭐⭐⭐⭐
                   <br />
                     {{ $t('official_web_project.overview.results_answer1') }}
-                  <p class="text-sm">
+                  <p class="text-sm mt-auto">
                     {{ $t('official_web_project.overview.result_owner1') }}
                   </p>
                 </div>
@@ -74,11 +74,11 @@
             </div>
             <div class="col-lg-4 content-pr-8 mb-16">
               <div class="border-thinner border-radius-4 shadow-sm p-8">
-                <div class="text-sm-bold">
+                <div class="text-sm-bold flex flex-col h-full">
                   ⭐⭐⭐⭐⭐
                   <br />
                     {{ $t('official_web_project.overview.results_answer2') }}
-                  <p class="text-sm">
+                  <p class="text-sm mt-auto">
                     {{ $t('official_web_project.overview.result_owner2') }}
                   </p>
                 </div>
@@ -86,11 +86,11 @@
             </div>
             <div class="col-lg-4 content-pr-8">
               <div class="border-thinner border-radius-4 shadow-sm p-8">
-                <div class="text-sm-bold">
+                <div class="text-sm-bold flex flex-col h-full">
                   ⭐⭐⭐⭐⭐
                   <br />
                     {{ $t('official_web_project.overview.results_answer3') }}
-                <p class="text-sm">
+                <p class="text-sm mt-auto">
                     {{ $t('official_web_project.overview.result_owner3') }}
                   </p>
                 </div>
@@ -308,7 +308,7 @@
         <div class="container font-color-lighter">
           <div class="content mt-16 mb-16">
             <div class="project-title">
-              <div class="title-group col">
+              <div class="title-group col-5">
                 <h4 class="mr-8">5</h4>
                 <div class="">
                   <h3 class="mb-8">{{ $t('page_elevator.design') }}</h3>

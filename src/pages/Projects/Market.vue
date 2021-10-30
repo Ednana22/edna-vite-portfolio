@@ -591,7 +591,7 @@
       </section>
       <section id="step-9" class="9takeaway container text-md mb-60">
         <div class="content">
-          <div class="project-title">
+          <div class="project-title col-5">
             <div class="title-group">
               <h4 class="mr-8">9</h4>
               <div class="">
