@@ -10,6 +10,7 @@ import i18n from './locales'
 const app = createApp(App)
 
 app
+  .use(i18n)
   .use(VueLazyload)
   .use(VueClickAway)
   .use(Router)

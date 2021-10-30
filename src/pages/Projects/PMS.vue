@@ -238,7 +238,7 @@
                   </ul>
                 </div>
                 <div class="col-md-7 text-align-center content-pl-48">
-                  <dev class="text-align-initial">
+                  <div class="text-align-initial">
                     <figure class="figure">
                       <img
                         src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/brainstorming2.png"
@@ -248,7 +248,7 @@
                       />
                       <div class="text-sm mt-8">{{ $t('pms_project.ideate.description') }}</div>
                     </figure>
-                  </dev>
+                  </div>
                 </div>
               </div>
               <div class="soluction row">
@@ -480,53 +480,57 @@
 
 <script>
 import PageElevator from '../../components/PageElevator.vue'
+import { useI18n } from 'vue-i18n'
+import { computed } from 'vue';
 
 export default {
   name: "projectPMS",
   components: {
     PageElevator
   },
-  data () {
-    return {
-      anchors: [
-        {
-          name: '總覽',
-          id: '#overall'
-        },        
-        {
-          name: '目標',
-          id: '#step-1'
-        },
-        {
-          name: '理解',
-          id: '#step-2'
-        },
-        {
-          name: '定義',
-          id: '#step-3'
-        },
-        {
-          name: '思考',
-          id: '#step-4'
-        },
-        {
-          name: '設計過程',
-          id: '#step-5'
-        },
-        {
-          name: '成果',
-          id: '#step-6'
-        },
-        {
-          name: '迭代',
-          id: '#step-7'
-        },
-        {
-          name: '反思',
-          id: '#step-8'
-        }
-      ]
-    }
+  setup () {
+    const { t } = useI18n()
+
+    const anchors = computed(() => [
+      {
+        name: t('page_elevator.overview'),
+        id: '#overall'
+      },
+      {
+        name: t('page_elevator.goal'),
+        id: '#step-1'
+      },
+      {
+        name: t('page_elevator.empathize'),
+        id: '#step-2'
+      },
+      {
+        name: t('page_elevator.define'),
+        id: '#step-3'
+      },
+      {
+        name: t('page_elevator.ideate'),
+        id: '#step-4'
+      },
+      {
+        name: t('page_elevator.design'),
+        id: '#step-5'
+      },
+      {
+        name: t('page_elevator.result'),
+        id: '#step-6'
+      },
+      {
+        name: t('page_elevator.iterate'),
+        id: '#step-7'
+      },
+      {
+        name: t('page_elevator.takeaway'),
+        id: '#step-8'
+      }
+    ])
+
+    return { anchors }
   }
 };
 </script>

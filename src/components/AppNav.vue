@@ -52,23 +52,23 @@
             <ul>
               <li>
                 <router-link :to="{ name: 'Home' }" @click="detectIsSamePage('Home')">
-                  <h4>{{ $t('projects') }}</h4>
+                  <h4>{{ $t('common.projects') }}</h4>
                 </router-link>
                 <ul class="sub_item">
                   <li>
-                    <router-link :to="{ name: 'ProjectMarket' }" @click="detectIsSamePage('ProjectMarket')">{{ $t('market') }}</router-link>
+                    <router-link :to="{ name: 'ProjectMarket' }" @click="detectIsSamePage('ProjectMarket')">{{ $t('common.market') }}</router-link>
                   </li>
                   <li>
-                    <router-link :to="{ name: 'ProjectPMS' }" @click="detectIsSamePage('ProjectPMS')">{{ $t('pms') }}</router-link>
+                    <router-link :to="{ name: 'ProjectPMS' }" @click="detectIsSamePage('ProjectPMS')">{{ $t('common.pms') }}</router-link>
                   </li>
                   <li>
-                    <router-link :to="{ name: 'ProjectWeb' }" @click="detectIsSamePage('ProjectWeb')">{{ $t('officialWebSite') }}</router-link>
+                    <router-link :to="{ name: 'ProjectWeb' }" @click="detectIsSamePage('ProjectWeb')">{{ $t('common.owlting_website') }}</router-link>
                   </li>
                 </ul>
               </li>
               <li>
                 <router-link :to="{ name: 'About' }" @click="detectIsSamePage('About')">
-                  <h4>{{ $t('aboutMe') }}</h4>
+                  <h4>{{ $t('common.about_me') }}</h4>
                 </router-link>
               </li>
             </ul>

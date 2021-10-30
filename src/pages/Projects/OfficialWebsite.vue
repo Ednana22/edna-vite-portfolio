@@ -735,49 +735,53 @@
 
 <script>
 import PageElevator from '../../components/PageElevator.vue'
+import { useI18n } from 'vue-i18n'
+import { computed } from 'vue';
 
 export default {
   name: "projectWeb",
   components: {
     PageElevator
   },
-  data () {
-    return {
-      anchors: [
-        {
-          name: '總覽',
-          id: '#overall'
-        },
-        {
-          name: '目標',
-          id: '#step-1'
-        },
-        {
-          name: '理解',
-          id: '#step-2'
-        },
-        {
-          name: '定義',
-          id: '#step-3'
-        },
-        {
-          name: '思考',
-          id: '#step-4'
-        },
-        {
-          name: '設計過程',
-          id: '#step-5'
-        },
-        {
-          name: '成果',
-          id: '#step-6'
-        },
-        {
-          name: '反思',
-          id: '#step-7'
-        }
-      ]
-    }
+  setup () {
+    const { t } = useI18n()
+
+    const anchors = computed(() => [
+      {
+        name: t('page_elevator.overview'),
+        id: '#overall'
+      },
+      {
+        name: t('page_elevator.goal'),
+        id: '#step-1'
+      },
+      {
+        name: t('page_elevator.empathize'),
+        id: '#step-2'
+      },
+      {
+        name: t('page_elevator.define'),
+        id: '#step-3'
+      },
+      {
+        name: t('page_elevator.ideate'),
+        id: '#step-4'
+      },
+      {
+        name: t('page_elevator.design'),
+        id: '#step-5'
+      },
+      {
+        name: t('page_elevator.result'),
+        id: '#step-6'
+      },
+      {
+        name: t('page_elevator.takeaway'),
+        id: '#step-7'
+      }
+    ])
+
+    return { anchors }
   }
 };
 </script>
