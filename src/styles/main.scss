@@ -11,9 +11,9 @@ body {
 }
 
 body {
-    &.is_locked {
-        overflow: hidden;
-    }
+  &.is_locked {
+    overflow: hidden;
+  }
 }
 
 ///BOOTSTRAP RESET
@@ -671,8 +671,8 @@ h1 {
     font-size: 16px;
     font-weight: 400;
     line-height: 2.2;
-    text-align: justify;
-    text-justify: auto;
+    // text-align: justify;
+    // text-justify: auto;
     font-family: sans-serif,'Roboto';
     -webkit-font-smoothing: antialiased;
     @media (max-width: 576px) {
@@ -683,8 +683,8 @@ h1 {
     font-size: 16px;
     line-height: 2.2;
     font-weight: 600;
-    text-align: justify;
-    text-justify: auto;
+    // text-align: justify;
+    // text-justify: auto;
     font-family: sans-serif,'Roboto';
     -webkit-font-smoothing: antialiased;
     @media (max-width: 576px) {
