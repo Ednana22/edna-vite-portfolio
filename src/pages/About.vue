@@ -7,9 +7,7 @@
     </div>
     <section class="about container">
       <h1>Hi! I'm Edna</h1>
-      <p class="text-md mb-24">
-        {{ $t('about_page.text') }}
-      </p>
+      <p class="text-md mb-24" v-html="$t('about_page.text')"></p>
       <div class="res mb-8 col-sm-6">
         <figure class="figure mr-8">
           <img

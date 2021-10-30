@@ -34,9 +34,7 @@
         <section id="overall" class="overall container text-md">
           <div class="background mb-48">
             <h2 class="mb-16"> {{ $t('common.project_background') }}</h2>
-            <p class="text-md mb-8">
-              {{ $t('pms_project.project_background_answer') }}
-            </p>
+            <p class="text-md mb-8" v-html="$t('pms_project.project_background_answer')"></p>
           </div>
           <div class="task mb-48">
             <h2 class="mb-16">{{ $t('common.challenges') }}</h2>
@@ -147,9 +145,7 @@
                   </div>
                 </div>
               </div>
-              <p class="text-md">
-                {{ $t('pms_project.empathize.text') }}
-              </p>
+              <p class="text-md" v-html="$t('pms_project.empathize.text')"></p>
             </div>
             <div class="col-md-7 content-pl-48 text-align-center">
               <div class="text-sm-bold plan_border mb-8">{{ $t('pms_project.empathize.step1') }}</div>
@@ -174,9 +170,7 @@
                   </div>
                 </div>
               </div>
-              <p class="text-md">
-                {{ $t('pms_project.define.text') }}
-              </p>
+              <p class="text-md" v-html="$t('pms_project.define.text')"></p>
             </div>
             <div class="col-md-7 content-pl-48">
               <figure class="figure border-thin border-radius-4">
@@ -204,9 +198,7 @@
               <div class="analyze row mb-80">
                 <div class="col-md-5 content-pr-48 mb-48">
                   <h5 class="mb-16">{{ $t('pms_project.ideate.subtitle1') }}</h5>
-                  <p class="text-md">
-                    {{ $t('pms_project.ideate.text1') }}
-                  </p>
+                  <p class="text-md" v-html="$t('pms_project.ideate.text1')"></p>
                 </div>
                 <div class="col-md-7 text-align-center content-pl-48">
                   <figure class="figure">
@@ -225,20 +217,16 @@
                   <ul>
                     <div class="flex mb-24">
                       <span class="mr-8">•</span>
-                      <li>
-                        {{ $t('pms_project.ideate.text2-1') }}
-                      </li>
+                      <li v-html="$t('pms_project.ideate.text2-1')"></li>
                     </div>
                     <div class="flex">
                       <span class="mr-8">•</span>
-                      <li>
-                        {{ $t('pms_project.ideate.text2-2') }}
-                      </li>
+                      <li v-html="$t('pms_project.ideate.text2-2')"></li>
                     </div>
                   </ul>
                 </div>
-                <div class="col-md-7 text-align-center content-pl-48">
-                  <div class="text-align-initial">
+                <div class="col-md-7 content-pl-48">
+                  <div style="width: fit-content; margin: auto">
                     <figure class="figure">
                       <img
                         src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/brainstorming2.png"
@@ -246,17 +234,15 @@
                         style="width: 450px"
                         alt="..."
                       />
-                      <div class="text-sm mt-8">{{ $t('pms_project.ideate.description') }}</div>
                     </figure>
+                    <div class="text-sm mt-8">{{ $t('pms_project.ideate.description') }}</div>
                   </div>
                 </div>
               </div>
               <div class="soluction row">
                 <div class="col-md-5 content-pr-48 mb-48">
                   <h5 class="mb-16">{{ $t('pms_project.ideate.subtitle3') }}</h5>
-                  <p class="text-md">
-                    {{ $t('pms_project.ideate.text3') }}
-                  </p>
+                  <p class="text-md" v-html="$t('pms_project.ideate.text3')"></p>
                 </div>
                 <div class="col-md-7 text-align-center content-pl-48">
                   <figure class="figure">
@@ -303,9 +289,7 @@
             <div class="2mockup row content mb-80">
               <div class="col-md-5 content-pr-48 mb-48">
                 <h5 class="mb-16">{{ $t('pms_project.design.subtitle2') }}</h5>
-                <p class="text-md">
-                  {{ $t('pms_project.design.text2') }}
-                </p>
+                <p class="text-md" v-html="$t('pms_project.design.text2')"></p>
               </div>
               <div class="col-md-7 content-pl-48">
                 <figure class="figure">
@@ -320,9 +304,7 @@
             <div class="3prototype row content">
               <div class="col-md-5 content-pr-48 mb-48">
                 <h5 class="mb-16">{{ $t('pms_project.design.subtitle3') }}</h5>
-                <p class="text-md">
-                  {{ $t('pms_project.design.text3') }}
-                </p>
+                <p class="text-md" v-html="$t('pms_project.design.text3')"></p>
               </div>
               <div class="col-md-7 content-pl-48">
                 <img
@@ -348,9 +330,7 @@
               </div>
             </div>
             <div class="col-md-5 content-pr-48">
-              <p class="text-md mb-48">
-                {{ $t('pms_project.result.text') }}
-              </p>
+              <p class="text-md mb-48" v-html="$t('pms_project.result.text')"></p>
             </div>
             <div class="col-md-9 mb-80">
               <h5 class="mb-16">{{ $t('pms_project.result.mockup_title1') }}</h5>
@@ -398,9 +378,7 @@
                 </div>
               </div>
             </div>
-            <p class="text-md">
-              {{ $t('pms_project.iterate.text') }}
-            </p>
+            <p class="text-md" v-html="$t('pms_project.iterate.text')"></p>
           </div>
         </section>
         <section id="step-8" class="8takeaway container text-md mb-60">
@@ -414,9 +392,7 @@
                 </div>
               </div>
             </div>
-            <p class="text-md">
-              {{ $t('pms_project.takeaway.text') }}
-            </p>
+            <p class="text-md" v-html="$t('pms_project.takeaway.text')"></p>
           </div>
         </section>
         <section class="more-project bg-blue-lightest pt-80">

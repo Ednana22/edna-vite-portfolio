@@ -41,9 +41,7 @@
       <section id="overall" class="overall container text-md">
         <div class="background mb-48">
           <h2 class="mb-16"> {{ $t('common.project_background') }}</h2>
-          <p>
-            {{ $t('official_web_project.project_background_answer') }}
-          </p>
+          <p v-html="$t('official_web_project.project_background_answer')"></p>
         </div>
         <div class="task mb-48">
           <h2 class="mb-16">{{ $t('common.challenges') }}</h2>
@@ -147,12 +145,10 @@
                 </div>
               </div>
             </div>
-            <p class="text-md">
-              {{ $t('official_web_project.empathize.text') }}
-            </p>
+            <p class="text-md" v-html="$t('official_web_project.empathize.text')"></p>
           </div>
           <div class="col-md-7 content-pl-48">
-            <div class="user-talk text-align-center flex-center flex-end">
+            <div class="user-talk text-align-left flex-center flex-end">
               <div class="talk-dialog mb-24 mr-16">
                 {{ $t('official_web_project.empathize.user_talk1') }}
               </div>
@@ -195,7 +191,7 @@
               </div>
             </div>
             <div class="user-talk text-align-left flex-center flex-end">
-              <div class="talk-dialog mb-24 ml-16" style="width: 300px">
+              <div class="talk-dialog mb-24 mr-16">
                 {{ $t('official_web_project.empathize.user_talk4') }}
               </div>
               <div class="memoji text-align-center">
@@ -223,7 +219,7 @@
               </div>
             </div>
             <div class="user-talk text-align-left flex-center flex-start">
-              <div class="memoji text-align-center">
+              <div class="memoji text-align-center flex-shrink">
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/userB.png"
                   class="figure-img img-fluid"
@@ -232,7 +228,7 @@
                 />
                 <p class="text-sm color_grey-light">{{ $t('official_web_project.empathize.user6') }}</p>
               </div>
-              <div class="talk-dialog mb-24 mr-16">
+              <div class="talk-dialog mb-24 ml-16">
                 {{ $t('official_web_project.empathize.user_talk6') }}
               </div>
             </div>
@@ -254,28 +250,19 @@
             <ul class="text-md">
               <div class="flex mb-24">
                 <span class="mr-8">•</span>
-                <li>
-                  {{ $t('official_web_project.define.text1') }}
-                </li>
+                <li v-html="$t('official_web_project.define.text1')"></li>
               </div>
               <div class="flex mb-24">
                 <span class="mr-8">•</span>
-                <li>
-                  {{ $t('official_web_project.define.text2') }}
-                </li>
+                <li v-html="$t('official_web_project.define.text2')"></li>
               </div>
               <div class="flex mb-24">
                 <span class="mr-8">•</span>
-                <li>
-                  {{ $t('official_web_project.define.text3') }}
-                </li>
+                <li v-html="$t('official_web_project.define.text3')"></li>
               </div>
               <div class="flex mb-8">
                 <span class="mr-8">•</span>
-                <li>
-                  {{ $t('official_web_project.define.text4') }}
-
-                </li>
+                <li v-html="$t('official_web_project.define.text4')"></li>
               </div>
             </ul>
           </div>
@@ -352,9 +339,7 @@
               <h5 class="mb-16">{{ $t('official_web_project.design.subtitle2') }}</h5>
               <div class="row">
                 <div class="col-md-5 content-pr-48 mb-48">
-                  <p class="text-md">
-                    {{ $t('official_web_project.design.text2') }}
-                  </p>
+                  <p class="text-md" v-html="$t('official_web_project.design.text2')"></p>
                 </div>
                 <div class="col-md-7 content-pl-48">
                   <figure class="figure">
@@ -424,9 +409,7 @@
               <h5 class="mb-16">{{ $t('official_web_project.design.subtitle4') }}</h5>
             <div class="thinking row mb-60">
               <div class="col-md-5 content-pr-48 bg-grey-darkest mb-48">
-                <p class="text-md">
-                  {{ $t('official_web_project.design.text4') }}
-                </p>
+                <p class="text-md" v-html="$t('official_web_project.design.text4')"></p>
               </div>
               <div class="col-md-7 content-pr-48">
                   <div class="flex-center through-line">
@@ -530,9 +513,7 @@
           <div class="iterate row content mb-80">
             <div class="col-md-5 content-pr-48 mb-48">
               <h5 class="mb-16">{{ $t('official_web_project.design.subtitle5') }}</h5>
-              <p class="text-md">
-                {{ $t('official_web_project.design.text5') }}
-              </p>
+              <p class="text-md" v-html="$t('official_web_project.design.text5')"></p>
             </div>
             <div class="row">
               <div class="col-sm-6 content-pr-8 mb-16">
@@ -582,9 +563,7 @@
               <h5 class="mb-16">{{ $t('official_web_project.design.subtitle7') }}</h5>
             <div class="row">
               <div class="col-md-5 content-pr-48 mb-48">
-                <p class="text-md">
-                  {{ $t('official_web_project.design.text7') }}
-                </p>
+                <p class="text-md" v-html="$t('official_web_project.design.text7')"></p>
               </div>
               <div class="col-md-7 content-pl-48">
                 <figure class="figure">
@@ -668,9 +647,7 @@
                 </div>
               </div>
             </div>
-            <p class="text-md">
-              {{ $t('official_web_project.takeaway.text') }}
-            </p>
+            <p class="text-md" v-html="$t('official_web_project.takeaway.text')"></p>
           </div>
         </div>
       </section>

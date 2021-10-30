@@ -378,6 +378,9 @@ p {
 .flex {
   display: flex;
 }
+.flex-shrink{
+  flex-shrink: 0;
+}
 .items-center {
   align-items: center;
 }

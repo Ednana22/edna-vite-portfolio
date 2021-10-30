@@ -43,9 +43,7 @@
       <section id="overall" class="overall container text-md">
         <div class="background mb-48">
           <h2 class="mb-16"> {{ $t('common.project_background') }}</h2>
-          <p>
-            {{ $t('market_project.project_background_answer') }}
-          </p>
+          <p v-html="$t('market_project.project_background_answer')"></p>
         </div>
         <div class="task mb-48">
           <h2 class="mb-16">{{ $t('common.challenges') }}</h2>
@@ -143,9 +141,7 @@
         <div class="user-talk row content mb-80">
           <div class="col-md-5 content-pr-48 mb-48">
             <h5 class="mb-16">{{ $t('market_project.empathize.subtitle1') }}</h5>
-            <p>
-              {{ $t('market_project.empathize.text1') }}
-            </p>
+            <p v-html="$t('market_project.empathize.text1')"></p>
           </div>
           <div class="col-md-7 content-pl-48">
             <div class="talking-bobble mb-16">
@@ -237,9 +233,7 @@
         <div class="user-talk row content">
           <div class="col-md-5 content-pr-48 mb-48">
             <h5 class="mb-16">{{ $t('market_project.empathize.subtitle2') }}</h5>
-            <p>
-              {{ $t('market_project.empathize.text2') }}
-            </p>
+            <p v-html="$t('market_project.empathize.text2')"></p>
           </div>
           <div class="col-md-7 content-pl-48">
             <figure class="figure">
@@ -267,21 +261,15 @@
             <ul class="text-md">
               <div class="flex mb-24">
                 <span class="mr-8">•</span>
-                <li>
-                    {{ $t('market_project.define.text1') }}
-                </li>
+                <li v-html="$t('market_project.define.text1')"></li>
               </div>
               <div class="flex mb-24">
                 <span class="mr-8">•</span>
-                <li>
-                    {{ $t('market_project.define.text2') }}
-                </li>
+                <li v-html="$t('market_project.define.text2')"></li>
               </div>
               <div class="flex">
                 <span class="mr-8">•</span>
-                <li>
-                    {{ $t('market_project.define.text3') }}
-                </li>
+                <li v-html="$t('market_project.define.text3')"></li>
               </div>
             </ul>
           </div>
@@ -308,9 +296,7 @@
                 </div>
               </div>
             </div>
-            <p class="text-md">
-              {{ $t('market_project.ideate.text') }}
-            </p>
+            <p class="text-md" v-html="$t('market_project.ideate.text')"></p>
           </div>
           <div class="col-md-7 flex-center content-pl-48">
             <figure class="figure">
@@ -342,9 +328,7 @@
                 {{ $t('market_project.design.subtitle1') }}
               </h5>
               <div class="row">
-                <p class="text-md col-md-5 content-pr-48 mb-48">
-                  {{ $t('market_project.design.text1') }}
-                </p>
+                <p class="text-md col-md-5 content-pr-48 mb-48" v-html="$t('market_project.design.text1')"></p>
                 <figure class="figure col-md-7 content-pl-48">
                   <img
                     src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/ia.png"
@@ -380,14 +364,10 @@
                     width="60"
                   />
                 </div>
-                <div class="talk-dialog ml-8">
-                  {{ $t('market_project.design.talking_bubble2') }}
-                </div>
+                <div class="talk-dialog ml-8" v-html="$t('market_project.design.talking_bubble2')"></div>
               </div>
               <div class="row">
-                <p class="col-md-5 text-md content-pr-48 mb-48">
-                  {{ $t('market_project.design.text2') }}
-                </p>
+                <p class="col-md-5 text-md content-pr-48 mb-48" v-html="$t('market_project.design.text2')"></p>
                 <div class="col-md-7 content-pl-48">
                   <div class="mb-16">
                     <div class="flex">
@@ -433,9 +413,7 @@
                 {{ $t('market_project.design.subtitle3') }}
               </h5>
               <div class="row">
-                <p class="text-md col-md-5 content-pr-48 mb-48">
-                  {{ $t('market_project.design.text3') }}
-                </p>
+                <p class="text-md col-md-5 content-pr-48 mb-48" v-html="$t('market_project.design.text3')"></p>
                 <figure class="figure col-md-7 content-pl-48">
                   <img
                     src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/UI+kit.png"
@@ -451,9 +429,7 @@
               </h5>
               <div class="row">
                 <div class="col-md-5 content-pr-48 mb-48">
-                  <p class="text-md mb-24">
-                  {{ $t('market_project.design.text4') }}
-                  </p>
+                  <p class="text-md mb-24" v-html="$t('market_project.design.text4')"></p>
                   <a target="_blank" href="https://www.figma.com/proto/KZODm2NGxinG76KXApm5QX/Edna-portfolio?node-id=848%3A4496&scaling=min-zoom&page-id=848%3A1808&starting-point-node-id=848%3A4496" class="a-white">
                     <img alt="Xd icon" src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/figma-icon.png" class="" data-v-64193183="" height="30">
                       {{ $t('common.prototype_cta') }}<i class="las la-long-arrow-alt-right ml-4"></i>
@@ -488,9 +464,7 @@
             </div>
             <div class="row">
               <div class="col-md-5 content-pr-48 mb-48">
-                <p class="text-md mb-24">
-                  {{ $t('market_project.result.text') }}
-                </p>
+                <p class="text-md mb-24" v-html="$t('market_project.result.text')"></p>
                   <a target="_blank" href="https://www.owlting.com/market/" class="a-white">
                     🌟 {{ $t('common.view_project_cta') }}<i class="las la-long-arrow-alt-right ml-4"></i>
                   </a>
@@ -571,9 +545,7 @@
                 </div>
               </div>
             </div>
-            <p class="text-md mb-48">
-              {{ $t('market_project.iterate.text') }}
-            </p>
+            <p class="text-md mb-48" v-html="$t('market_project.iterate.text')"></p>
           </div>
           <figure class="figure col-md-7 content-pl-48 flex-center">
             <img
@@ -596,9 +568,7 @@
                 </div>
               </div>
             </div>
-            <p class="text-md mb-48">
-              {{ $t('market_project.app.text') }}
-            </p>
+            <p class="text-md mb-48" v-html="$t('market_project.app.text')"></p>
             <div class="">
               <div class="d-flex">
                 <a target="_blank" href="https://itunes.apple.com/app/id1564061027" class="mr-16" data-v-64193183="">
@@ -634,15 +604,11 @@
             <ul>
               <div class="flex mb-24">
                 <span class="mr-8">•</span>
-                <li>
-                  {{ $t('market_project.takeaway.text1') }}
-                </li>
+                <li v-html="$t('market_project.takeaway.text1')"></li>
               </div>
               <div class="flex">
                 <span class="mr-8">•</span>
-                <li>
-                  {{ $t('market_project.takeaway.text2') }}
-                </li>
+                <li v-html="$t('market_project.takeaway.text2')"></li>
               </div>
             </ul>
           </div>
