@@ -130,13 +130,13 @@
           <div class="col-lg-4 content-pl-48">
             <h3>{{ $t('common.pms') }}</h3>
             <div class="text-md-bold mb-24">
-              {{ $t('common.ux_research') }}
-              <span class="font-color-lighter"> | </span>
-              {{ $t('common.ui_design') }}
-              <span class="font-color-lighter"> | </span>
               {{ $t('common.b2b') }}
               <span class="font-color-lighter"> | </span>
               {{ $t('common.saas') }}
+              <span class="font-color-lighter"> | </span>
+              {{ $t('common.ux_research') }}
+              <span class="font-color-lighter"> | </span>
+              {{ $t('common.ui_design') }}
             </div>
             <div class="text-md">
               {{ $t('home.pms.description') }}
@@ -174,13 +174,13 @@
           <div class="col-lg-4 content-pl-48">
             <h3>{{ $t('common.owlting_website') }}</h3>
             <div class="text-md-bold mb-24">
+              {{ $t('common.official_website') }}
+              <span class="font-color-lighter"> | </span>
               {{ $t('common.refactor_website') }}
               <span class="font-color-lighter"> | </span>
               {{ $t('common.ux_research') }}
               <span class="font-color-lighter"> | </span>
               {{ $t('common.ui_design') }}
-              <span class="font-color-lighter"> | </span>
-              {{ $t('common.official_website') }}
             </div>
             <div class="text-md">
               {{ $t('home.official_website.description') }}
@@ -257,7 +257,7 @@ export default {
       duration: .5,
       delay: 1,
       ease: 'expo',
-      stagger: .8
+      stagger: .6
     })
   }
 };

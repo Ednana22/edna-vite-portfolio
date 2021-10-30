@@ -16,8 +16,6 @@
           {{ $t('common.ux_research') }}
           .
           {{ $t('common.ui_design') }}
-          .
-          {{ $t('common.user_testing') }}
         </p>
         <p class="text-md line-height-sm mb-8">
           {{ $t('common.project_scale') }}
@@ -159,7 +157,7 @@
                   />
                 </figure>
                 <span class="emoji-position">😕</span>
-                <div class="name">
+                <div class="name mt-auto">
                   <p class="text-sm">Cindy Wu</p>
                   <p class="text-sm color_grey-light">{{ $t('market_project.empathize.user_ordinary') }}</p>
                 </div>
@@ -180,7 +178,7 @@
                   />
                 </figure>
                 <span class="emoji-position">😫</span>
-                <div class="name">
+                <div class="name mt-auto">
                   <p class="text-sm">Vincent Chang</p>
                   <p class="text-sm color_grey-light">{{ $t('market_project.empathize.user_ordinary') }}</p>
                 </div>
@@ -201,7 +199,7 @@
                   />
                 </figure>
                 <span class="emoji-position">😧</span>
-                <div class="name">
+                <div class="name mt-auto">
                   <p class="text-sm">Lily text</p>
                   <p class="text-sm color_grey-light">{{ $t('market_project.empathize.user_ordinary') }}</p>
                 </div>
@@ -222,7 +220,7 @@
                   />
                 </figure>
                 <span class="emoji-position">👏</span>
-                <div class="name">
+                <div class="name mt-auto">
                   <p class="text-sm">Joyce Chen</p>
                   <p class="text-sm color_grey-light">{{ $t('market_project.empathize.user_manager') }}</p>
                 </div>
@@ -564,7 +562,7 @@
                 <h4 class="mr-8">8</h4>
                 <div class="">
                   <h3 class="mb-8">{{ $t('page_elevator.app') }}</h3>
-                  <h2>{{ $t('market_project.result.title') }}</h2>
+                  <h2>{{ $t('market_project.app.title') }}</h2>
                 </div>
               </div>
             </div>

@@ -1,21 +1,21 @@
 {
   "zh-tw": "中文",
-  "en": "En",
+  "en": "English",
   "common": {
     "about_me": "About",
     "projects": "Projects",
     "market": "OwlTing Market",
     "pms": "OwlNest Admin System",
     "owlting_website": "OwlTing Official Website",
-    "re_branding": "Rebreading",
+    "re_branding": "Rebranding",
     "website": "Redesign",
-    "app": "App Design",
-    "ux_research": "UX research",
-    "ui_design": "UI design",
+    "app": "App",
+    "ux_research": "UX Research",
+    "ui_design": "UI Design",
     "b2b": "B2B",
     "saas": "SaaS",
     "user_testing": "User testing",
-    "refactor_website": "Refactor website",
+    "refactor_website": "Refactor Website",
     "official_website": "Official Website",
     "lear_more_cta": "View the case study",
     "project_includes": "Project Includes",
@@ -23,10 +23,10 @@
     "my_role": "My Role",
     "project_background": "Project Background",
     "challenges": "Challenges and Solutions",
-    "uiux_designer": "UI / UX Designer",
-    "prototype_cta": "view prototype",
-    "more_project": "More projects",
-    "view_project_cta": "view project"
+    "uiux_designer": "UI/UX Designer",
+    "prototype_cta": "View Prototype",
+    "more_project": "More Projects",
+    "view_project_cta": "View Project"
   },
   "page_elevator": {
     "overview": "Overall",
@@ -41,32 +41,32 @@
     "takeaway": "Takeaway"
   },
   "meeting": {
-    "title": "Thanks for browsing my website, Feel free to chat with me! ⭐ "
+    "title": "Hey ! Thanks for browsing my website, Feel free to chat with me ! ⭐ "
   },
   "home": {
     "title_1": "I'm a UI/UX Designer with basic coding skill.",
     "title_2": "I like to solve problems via the most suitable design. 🌟",
     "title_mobile": "I'm a UI/UX Designer with basic coding skill, I like to solve problems via the most suitable design. 🌟",
     "market": {
-      "description": "Redesign Owlting Market e-commercial website and through cross-departmental cooperation of rebranding."
+      "description": "Redesign OwlTing Market e-commercial website and through cross-departmental cooperation of rebranding."
     },
     "pms": {
-      "description": "Optimal OwlNest pricing function to achieve rapid and flexible setting goal."
+      "description": "Optimal OwlNest pricing function to achieve rapid and flexible setting experience."
     },
     "official_website": {
-      "description": "Redesigning Official website, from information architecture to user experiences, the goal is show more structured information to user."
+      "description": "Redesigning website experiences, the goal is show more structured information to user."
     }
   },
   "market_project": {
     "title": "Redesign OwlTing Market E-commercial Website ",
     "project_scale_answer": "5 departments, 15 members",
-    "project_background_answer": "OwlTing Market is a e-commerce platform which dedicated to promoting Taiwanese brands with 2,000+ local partners.<br />However,<span class='text-md-bold'>the website is not responsive and page layout is not conform to user's browsing experiences,  these inefficient browsing experience cause high bounce rate and low conversion rate,</span><br/> also department manager reported that our website often been criticized by usability and security,<span class='text-md-bold'> which cause team member to lost confidence in the product.</span>",
+    "project_background_answer": "OwlTing Market is a e-commerce platform which dedicated to promoting Taiwanese brands with 2,000+ local partners.<br />However,<span class='text-md-bold'>the website is not responsive and page layout is not conform to user's browsing habit, these inefficient browsing experience cause high bounce rate and low conversion rate,</span><br/> Department manager reported that our website often been criticized by usability and security,<span class='text-md-bold'> which cause team member to lost confidence in the product.</span>",
     "overview": {
-      "challenges_title1": "Adjustment structure is too complicated",
-      "challenges_answer1": "In this refactoring we adjust not only the UI interfaces, UX flow and front-end framework, but also involves back-end date structure, which made this refactoring become very complicated. So in early stage of planning, I discussed the revision scale with engineers through information architecture, and we decided to apply pages iterate to refactoring the website.",
+      "challenges_title1": "Website structure is complicated to refactor",
+      "challenges_answer1": "In this refactoring we adjust not only the UX flow and front-end framework, but also involves back-end date structure, which made this refactoring become very complicated. So in early stage I discussed the revision scale with engineers through information architecture, in the end we decided iterate by pages.",
       "challenges_title2": "Having different opinion with CEO",
-      "challenges_answer2": "REMOVE THE BANNER SECTION! This is how CEO said about homepage, in his opinion the huge carousel waste the most important section of web page and user often ignore them. I verified the situation by google analytics and  heat-maps. In the end I designed four-segment banner layout to reach an effective promotional information.",
-      "results": "Results at a glance 👀",
+      "challenges_answer2": "REMOVE THE BANNER SECTION ! This is how CEO said about homepage, in his opinion the huge carousel waste the most important section of web page and user often ignore them. I verified the situation by google analytics and heat-maps. Eventually I designed four-segment banner layout to reach an effective promotional information.",
+      "results": "Let's see the results first 👀",
       "results_answer1": "New Users",
       "results_answer2": "Avg. Session Duration",
       "results_answer3": "Bounce Rate"
@@ -80,64 +80,64 @@
     "empathize": {
       "title": "Understand our user",
       "subtitle1": "I. User interview",
-      "text1": "I conducted one-on-one interviews with different level membership<span class='text-md-bold'>to understand how user's pain points and expectation</span>",
-      "user_ordinary": "member",
-      "user_premiere": "premier member",
-      "user_manager": "sales manager",
+      "text1": "I conducted one-on-one interviews with different level members <span class='text-md-bold'>to understand users pain point and their expectation.</span>",
+      "user_ordinary": "Member",
+      "user_premiere": "Premier member",
+      "user_manager": "Sales manager",
       "user_talk1": "The webpage is difficult to browse form desktop. Usually I use search bar to find the items, really hope there has some product info on homepage.",
       "user_talk2": "It's inconvenience of can't track shipping status.",
       "user_talk3": "Hope category bar can be clearly, also banners section is too small to notice.",
       "user_talk4": "When meeting with clients it's embarrassed by showing our non support responsive web page , and the tiny banners cause low conversion rates. I'll do my best to support this revision!",
       "subtitle2": "II. User journey map",
-      "text2": "Based on user interviews, data analysis and behaviors, we depict a customer-Journey Map.<span class='text-md-bold'>We use this persona to shared understanding, so we're all thinking and referring in the same way with our user.</span>"
+      "text2": "Based on user interviews, data analysis, we depict a customer-journey map.<span class='text-md-bold'>We use this persona to shared understanding,</span> so we're all thinking and referring in the same way with our user."
     },
     "define": {
       "title": "Identify current problems",
       "text1": "<span class='text-md-bold'>Non-responsive web design</span> - Based on 80% of our visited came from mobile devices, mobile first is the right decision at the beginning, however non-responsive desktop webpage cause an unpleasant browse experience .",
       "text2": "<span class='text-md-bold'>Information is unstructured</span> - User can't find any product information at home page, also small banners can't capture user's attention.",
-      "text3": "<span class='text-md-bold'>Lack of brand  identity</span> - We hope to bring organic food, healthy lifestyle for our consumers, so we use the strictest inspection standards. However the website is lack of brand identity, it's hard to convey our spirit to customers."
+      "text3": "<span class='text-md-bold'>Lack of brand  identity</span> - We hope to bring organic food, healthy lifestyle for our consumers, however the website is lack of brand identity so it's hard to convey our spirit to customers."
     },
     "ideate":{
-      "title": "Identify current problems",
-      "text": "In brainstorming meeting,<span class='text-md-bold'> we base on  brand sprity 'Stay Simple, Stay Humble' to extends brand identity, </span> which also includes color patterns and photo style, we want to create a high quality brand with healthy, local and friendly."
+      "title": "Ideate brand identity",
+      "text": "In brainstorming <span class='text-md-bold'>we base on brand sprity 'Stay Simple, Stay Humble' to ideate brand identity, </span> which also includes color patterns and photo style, we want to create a brand with healthy, local and friendly."
     },
     "design": {
       "title": "Optimization and discussion ",
       "subtitle1": "I. Information architecture",
-      "text1": "After a few rounds of evaluation as a team,<span class='text-md-bold'>we agreed to conduct in a way of page iteration.</span> In the IA picture the bright outlines are new pages and others are pages need to be redesigned. Furthermore, I marked the number for each, it will be easily to discuss.",
+      "text1": "After a few rounds of evaluation as a team,<span class='text-md-bold'>we agreed to iterate by pages.</span><br>In the IA picture the bright outlines are new pages and others are pages need to be redesigned. Furthermore, I marked the number for each, it will be easily to discuss.",
       "subtitle2": "II. Wireframe",
-      "talking_bubble1": "Remove Banners!",
-      "talking_bubble2": "Whaa..Which  e-commercial website has no banners?<br/> Isn't it the way that user use to?",
-      "text2": "This story happen when I was planning wireframe, <span class='text-md-bold>CEO's opinion is opposite with user's habit.</span>after discussion I knew that in his opinion the huge carousel waste the most important section of web page and user often ignore them. And I verified the situation by google analytics and  heat-maps.<span class='text-md-bold'><br/>In the end I designed four-segment banner layout to reach an effective promotional information.</span><span class='text-md-bold'></span>",
+      "talking_bubble1": "Remove Banners !",
+      "talking_bubble2": "Whaa... Which e-commercial website has no banners ?<br/> Isn't it the way that user use to ?",
+      "text2": "This story happen when I was planning homepage, <span class='text-md-bold'>CEO has opposite opinion with user habit. </span>After discussed I knew that in his opinion the huge carousel waste the most important section of web page. And I verified the situation by google analytics and heat-maps.<span class='text-md-bold'><br/>Eventually I designed four-segment banner layout to reach an effective promotional information.</span><span class='text-md-bold'></span>",
       "subtitle3": "III. Design System",
-      "text3": "Via the branding identity I define design system to maintain product consistency.<br/>💡:UI kits must include component state, and micro animation if it needed. It can helps engineers clarify elements and reduce modify repeatedly.",
+      "text3": "Via the branding identity I define design system to maintain product consistency.<br/>💡 : UI kits must include component state, and micro animation if it needed. It can helps engineers clarify elements and reduce modify repeatedly.",
       "subtitle4": "IV. Prototype",
       "text4": "Before launch we invited our coworkers who also is OwlTing market user to conduct user task,<span class='text-md-bold'> based on screen recording and heatmap analysis to modify web layout and ensure our origin users have delightful experience.</span>"
     },
     "result": {
-      "title": "Page Dispaly",
-      "text": "The revision plan is carried out in stages<span class='text-md-bold'>As of October 2021, the design end revision has been completed 100%; the engineering implementation has been completed 80%.</span>",
+      "title": "Page Display",
+      "text": "This revision is carried out by pages iterated. <span class='text-md-bold'>As of October 2021, the design revision has been completed 100%; the engineering implementation has been completed 80%.</span>",
       "mockup_title1": "Homepage browsing",
-      "mockup_text1": "Via data to arrange website content according to users prefer.",
+      "mockup_text1": "According to user's preference to arrange website content",
       "mockup_title2": "Navbar category",
-      "mockup_text2": "Display according to the categories that users are most interested.",
+      "mockup_text2": "Category is been ordered by users preference.",
       "mockup_title3": "Category page browsing",
-      "mockup_text3": "optimize hover effect to provide good user experiences.",
+      "mockup_text3": "Optimize hover effect to provide an ease user experience.",
       "mockup_title4": "404 page",
-      "mockup_text4": "I reconsider 404 page, is not only to showed info however it also can provide useful contents for user to keep their browsing experiences."
+      "mockup_text4": "I reconsider 404 page, is can be not only a page to showed info but also can provide useful contents for user to keep browsing."
     },
     "iterate": {
       "title": "Via data to optimize",
-      "text": "Tracking data shows that<span class='text-md-bold'> Banner section has increased CTR, and verify keep navbar for user is the right decision.</span><br/><span class='text-md-bold'>Also we uphold the user-centered principle to adjusted page sections.</span>And we found data shows that the users has batter browsing experiences and brings more CTR."
+      "text": "Tracking data shows that<span class='text-md-bold'> Banner section has increased CTR, and verify keep navbar for user is the right decision.</span><br><span class='text-md-bold'>Also, we uphold the user-centered principle to adjusted page sections, </span>after that we found data shows that the users has batter browsing experiences and brings more CTR."
     },
     "app": {
-      "title": "Products caused by COVID",
-      "text": "OwlTing Market APP is a product produced by increased online shopping sales due to the outbreak of COVID-19 in May 2021.<span class='text-md-bold'> It was instructed to develop with high efficiency and unchanged current users experiences as the goal.</span>"
+      "title": "Product caused by COVID",
+      "text": "OwlTing Market APP is produced by increased online shopping sales due to the outbreak of COVID-19 in May 2021.<span class='text-md-bold'> It was instructed to develop with high efficiency and unchanged current users experiences as the goal.</span>"
     },
     "takeaway": {
       "title": "Feedbacks are opportunity for optimization",
-      "text1": "<span class='text-md-bold'>Break the rules - </span>Without using carousel for Banners it was a design challenge to me however it also helped me to explore a new way for layout thinking.",
-      "text2": "<span class='text-md-bold'>I feel the most when I'm also the target audience - </span>In the project, I'm not only the UI/UX designer but also a user of this product. From re-branding to development, it is most precious experiences for me. I'm so moved when I saw our product can truly help local farmers."
+      "text1": "<span class='text-md-bold'>Break the rules - </span>Without using carousel for banners it was a challenge for me, however it also helped me to explore a new way for design.",
+      "text2": "<span class='text-md-bold'>I feel the most when I'm also the target audience - </span>In the project, I'm not only the UI/UX designer but also a user. From rebranding to development, it is the most precious experience for me. I feel so proud when I saw our product can truly help local farmers."
     }
   },
   "pms_project": {
@@ -299,8 +299,8 @@
    }
   },
   "about_page": {
-    "text": "I'm a UI/UX designer with basic coding skill.I have design experiences in B2C e-commerce, B2B SasS admin system, official website, etc., I always find balance between Function, Usability and Aesthetics.<br>Reasonable solution is needed in planning UX, due to there has no correct answer so you have to more ensure your though.",
-    "view_resume_cat": "view resume",
+    "text": "I'm a UI/UX designer with basic coding skill. I have design experiences in B2C e-commerce, B2B SasS system, official website, etc.<br>I always chasing balance between Function, Usability and Aesthetics. Reasonable solution is always needed in planning UX, because there has no correct answer so you have to be more ensure to your though.",
+    "view_resume_cat": "View Resume",
     "steps": {
       "title": "Timeline",
       "web_designer": "Graphic Web Designer",
@@ -309,21 +309,21 @@
       "cd":"Commercial Design",
       "owlting": "OwlTing Group",
       "shopee": "Shopee pte ltd",
-      "the_diner": "theDiner",
-      "epac": "EPAC Swiss <br/> The Academy of Contemporary Arts",
+      "the_diner": "the Diner",
+      "epac": "EPAC Switzerland <br/> The Academy of Contemporary Arts",
       "mcu": "Ming Chuan University"
     },
     "skill_tree": {
-      "title": "SkillTree",
+      "title": "Skill Tree",
       "learning": "learning"
     },
     "nngroup": {
       "title":"NNgroup reader, lover",
-      "text": "NNgroup is my UI/UX it's my design mentor, also I shared '10 Usability Heuristics' in engineers sharing conference."
+      "text": "NNgroup is like my UI/UX design mentor, also I advocated '10 Usability Heuristics' in our engineers sharing conference."
     },
     "la_suisse": {
-      "title": "I was studied in Switzerland, I own french B-1 certification",
-      "text":"I was an exchange student in Switzerland for one year. After back to Taiwan I'm keep improving french thus I gained french DELF-B1 certification."
+      "title": "Exchange student in Switzerland, I own French B1 certification",
+      "text":"I was an exchange student in Switzerland for one year. After back to Taiwan I keep improving my French, eventually I gained french DELF - B1 certification."
     },
     "side_project": {
       "title" : "I want to implement an APP for relaxing",
