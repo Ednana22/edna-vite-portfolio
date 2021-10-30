@@ -4,7 +4,7 @@
 html,
 body {
     scroll-behavior: unset !important;
-    font-family: 'Noto Sans TC', sans-serif;   
+    font-family: 'Noto Sans TC', 'Zen+Maru+Gothic',sans-serif;   
     // *{
     //     color: $color_grey-dark;
     // } 
@@ -106,7 +106,6 @@ section {
 
 ///CONTAINER
 .container {
-  font-family: sans-serif;
   @media (max-width: 2680px) {
     max-width: 1100px;
   }
@@ -623,25 +622,22 @@ h1 {
     font-size: 28px;
     font-weight: 600;
     -webkit-font-smoothing: antialiased;
-    font-family: sans-serif,'Roboto';    
     @media (max-width: 576px) {
       font-size: 24px;
     }
   }
   h2 {
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     margin: 0px;
     -webkit-font-smoothing: antialiased;
-    font-family: sans-serif,'Roboto';
     @media (max-width: 576px) {
       font-size: 17px;
     }
   }
   h3 {
     font-size: 14px;
-    font-weight: 600;
-    font-family: sans-serif,'Roboto';
+    font-weight: 500;
     -webkit-font-smoothing: antialiased;
   }
   h4{
@@ -662,7 +658,6 @@ h1 {
     margin: 0px;
     line-height: 1.4;
     -webkit-font-smoothing: antialiased;
-    font-family: sans-serif,'Roboto';
     @media (max-width: 576px) {
       font-size: 16px;
     }
@@ -673,7 +668,6 @@ h1 {
     line-height: 2.2;
     // text-align: justify;
     // text-justify: auto;
-    font-family: sans-serif,'Roboto';
     -webkit-font-smoothing: antialiased;
     @media (max-width: 576px) {
         font-size: 15px;
@@ -682,10 +676,9 @@ h1 {
 .text-md-bold {
     font-size: 16px;
     line-height: 2.2;
-    font-weight: 600;
+    font-weight: 500;
     // text-align: justify;
     // text-justify: auto;
-    font-family: sans-serif,'Roboto';
     -webkit-font-smoothing: antialiased;
     @media (max-width: 576px) {
         font-size: 15px;
@@ -694,13 +687,11 @@ h1 {
 .text-sm {
     font-size: 14px;
     font-weight: 400;
-    font-family: sans-serif,'Roboto';
     -webkit-font-smoothing: antialiased;
 }
 .text-sm-bold {
     font-size: 14px;
-    font-weight: 600;
-    font-family: sans-serif,'Roboto';
+    font-weight: 500;
     -webkit-font-smoothing: antialiased;
 }
 .line-height-sm {
