@@ -1,9 +1,5 @@
 import { createWebHistory, createRouter } from 'vue-router'
 import Home from './pages/Home.vue'
-import About from './pages/About.vue'
-import ProjectMarket from './pages/Projects/Market.vue'
-import ProjectWeb from './pages/Projects/OfficialWebsite.vue'
-import ProjectPMS from './pages/Projects/PMS.vue'
 
 const router = createRouter({
     history: createWebHistory(),
@@ -19,22 +15,22 @@ const router = createRouter({
         {
             path: '/about',
             name: 'About',
-            component: About
+            component: import(/* webpackChunkName: 'About' */ './pages/About.vue')
         },
         {
             path: '/market',
             name: 'ProjectMarket',
-            component: ProjectMarket
+            component: import(/* webpackChunkName: 'Market' */ './pages/Projects/Market.vue')
         },
         {
             path: '/official-website',
             name: 'ProjectWeb',
-            component: ProjectWeb
+            component: import(/* webpackChunkName: 'OfficialWebsite' */ './pages/Projects/OfficialWebsite.vue')
         },
         {
             path: '/pms',
             name: 'ProjectPMS',
-            component: ProjectPMS
+            component: import(/* webpackChunkName: 'PMS' */ './pages/Projects/PMS.vue')
         }
     ]
 })
