@@ -14,7 +14,7 @@
             <li class="is-dropdown">
               <span v-click-away="handleDropDownOutside" class="is-nav-link hover-effect mr-32" @click.capture="isDropDownOpen = !isDropDownOpen">
                 {{ $t('common.projects') }}
-                <i class="las" :class="isDropDownOpen ? 'la-angle-up' : 'la-angle-down'"></i>
+                <i class="las ml-1.68" :class="isDropDownOpen ? 'la-angle-up' : 'la-angle-down'"></i>
                 <ul v-show="isDropDownOpen" class="is-dropdown__context">
                   <li>
                     <router-link :to="{ name: 'ProjectMarket' }">{{ $t('common.market') }}</router-link>
@@ -33,8 +33,9 @@
             </li>
             <li class="is-dropdown flex items-center locale-dropdown">
               <span v-click-away="handleLocaleDropDownOutside" class="is-nav-link hover-effect ml-32" @click.capture="isLocaleDropDownOpen = !isLocaleDropDownOpen">
+                <i class="las la-language text-xl mr-1.68"></i>
                 {{ $t(locale) }}
-                <i class="las" :class="isLocaleDropDownOpen ? 'la-angle-up' : 'la-angle-down'"></i>
+                <i class="las ml-1" :class="isLocaleDropDownOpen ? 'la-angle-up' : 'la-angle-down'"></i>
                 <ul v-show="isLocaleDropDownOpen" class="is-dropdown__context">
                   <li class="px-3 py-1" @click="onLocaleChange('zh-tw')">{{ $t('zh-tw') }}</li>
                   <li class="px-3 py-1" @click="onLocaleChange('en')">{{ $t('en') }}</li>

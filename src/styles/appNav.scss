@@ -39,12 +39,13 @@
     }
   }
   .is-nav-link {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     padding: .5rem;
     cursor: pointer;
     color: $color_grey-dark;
     text-decoration: none;
-    .las{
+    .las.la-angle-up, .las.la-angle-down{
       font-size: 14px;
     }
   }
