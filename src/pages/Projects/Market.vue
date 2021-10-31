@@ -180,7 +180,7 @@
                 <span class="emoji-position">😫</span>
                 <div class="name mt-auto">
                   <p class="text-sm">Vincent Chang</p>
-                  <p class="text-sm color_grey-light">{{ $t('market_project.empathize.user_ordinary') }}</p>
+                  <p class="text-sm color_grey-light">{{ $t('market_project.empathize.user_premiere') }}</p>
                 </div>
               </div>
             </div>
