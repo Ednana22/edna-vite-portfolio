@@ -306,7 +306,7 @@
         <div class="container font-color-lighter">
           <div class="content mt-16 mb-16">
             <div class="project-title">
-              <div class="title-group col-5">
+              <div class="title-group">
                 <h4 class="mr-8">5</h4>
                 <div class="">
                   <h3 class="mb-8">{{ $t('page_elevator.design') }}</h3>

@@ -863,6 +863,7 @@ main {
 h1 {
   font-size: 28px;
   font-weight: 500;
+  font-family: 'Roboto' ,sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -909,7 +910,7 @@ h4 {
 
 h5 {
   font-size: 17px;
-  font-weight: 600;
+  font-weight: 500;
   font-family: 'roboto',sans-serif;
   margin: 0px;
   line-height: 1.4;

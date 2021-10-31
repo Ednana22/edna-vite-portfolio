@@ -1,0 +1,375 @@
+.gradient-border {
+  position: relative;
+  border-radius: var(--borderWidth);
+  padding: 0px;
+}
+
+@media (max-width: 2680px) {
+  .gradient-border {
+    --borderWidth: 8px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .gradient-border {
+    --borderWidth: 8px;
+  }
+}
+
+@media (max-width: 576px) {
+  .gradient-border {
+    --borderWidth: 6px;
+  }
+}
+
+.gradient-border:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #f8f8f8, #edeff1, #ffffff);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  background-size: 300% 300%;
+  -webkit-box-shadow: 24px 20px 30px -20px rgba(120, 120, 171, 0.581);
+          box-shadow: 24px 20px 30px -20px rgba(120, 120, 171, 0.581);
+}
+
+.container-hero {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Roboto','Noto Sans TC',sans-serif;
+  color: #25252e;
+}
+
+@media (max-width: 2680px) {
+  .container-hero {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container-hero {
+    max-width: 700px;
+  }
+}
+
+.container {
+  font-family: 'Roboto','Noto Sans TC',sans-serif;
+}
+
+@media (max-width: 2680px) {
+  .container {
+    max-width: 1100px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 800px;
+    padding-right: 24px !important;
+    padding-left: 24px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-right: 24px !important;
+    padding-left: 24px !important;
+  }
+}
+
+@media (max-width: 2680px) {
+  section {
+    padding: 80px 0px 80px 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 80px 0px 80px 0px;
+  }
+}
+
+@media (max-width: 576px) {
+  section {
+    padding: 60px 0x 60px 0px;
+  }
+}
+
+.kv-web {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 992px) {
+  .kv-web {
+    display: none;
+  }
+}
+
+.kv-web .memoji {
+  width: 140px;
+  position: relative;
+}
+
+.kv-web .coffee {
+  position: absolute;
+  width: 120px;
+  left: -140px;
+  bottom: 85px;
+}
+
+.kv-web .work {
+  position: absolute;
+  width: 140px;
+  top: -70px;
+  left: -50px;
+}
+
+.kv-web .devices {
+  position: absolute;
+  width: 120px;
+  right: -100px;
+  top: -30px;
+}
+
+.kv-web .speak {
+  position: absolute;
+  width: 100px;
+  right: -130px;
+  bottom: 60px;
+}
+
+@media (min-width: 992px) {
+  .kv-mobile {
+    display: none;
+  }
+}
+
+.kv-mobile .figure {
+  margin-left: auto;
+  max-width: 400px;
+}
+
+h1 {
+  font-size: 20px;
+  line-height: 2.2;
+  font-weight: 400;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 18px;
+    line-height: 2;
+  }
+}
+
+@media (max-width: 576px) {
+  .h1-w {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .h1-m {
+    display: none;
+  }
+}
+
+h2 {
+  font-size: 66px;
+  font-family: 'Rubik', 'Roboto';
+  font-weight: 300;
+  overflow: hidden;
+}
+
+@media (max-width: 992px) {
+  h2 {
+    font-size: 56px;
+  }
+}
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 48px;
+    font-weight: 400;
+  }
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto',sans-serif;
+}
+
+.project {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.market-device-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.market-device-section .web {
+  margin-right: 32px;
+  background-image: url(https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/market-web-hp.gif);
+}
+
+.market-device-section .mobile {
+  background-image: url(https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/market-m-hp-short.png);
+}
+
+@media (max-width: 2680px) {
+  .market-device-section .web {
+    width: 1000px;
+    height: 440px;
+  }
+  .market-device-section .mobile {
+    width: 300px;
+    height: 280px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .market-device-section .web {
+    width: 900px;
+    height: 420px;
+  }
+  .market-device-section .mobile {
+    width: 260px;
+    height: 270px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .market-device-section .web {
+    width: 800px;
+    height: 350px;
+  }
+  .market-device-section .mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 990px) {
+  .market-device-section .web {
+    width: 800px;
+    height: 440px;
+  }
+  .market-device-section .mobile {
+    display: block;
+    width: 240px;
+    height: 310px;
+  }
+}
+
+@media (max-width: 768px) {
+  .market-device-section .web {
+    width: 800px;
+    height: 420px;
+  }
+  .market-device-section .mobile {
+    width: 280px;
+    height: 320px;
+  }
+}
+
+@media (max-width: 516px) {
+  .market-device-section .web {
+    display: none;
+  }
+  .market-device-section .mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 516px) {
+  .market-device-section, .pms-device-section, .official-web-device-section {
+    display: none;
+  }
+}
+
+.display-on-mobile {
+  display: none;
+}
+
+@media (max-width: 516px) {
+  .display-on-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.img-container {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+span {
+  -webkit-transform: translate(0, 100%);
+          transform: translate(0, 100%);
+}
+
+.reveal {
+  display: block;
+  -webkit-animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s forwards;
+          animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s forwards;
+}
+
+@-webkit-keyframes reveal {
+  0% {
+    -webkit-transform: translate(0, 100%);
+            transform: translate(0, 100%);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+
+@keyframes reveal {
+  0% {
+    -webkit-transform: translate(0, 100%);
+            transform: translate(0, 100%);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+/*# sourceMappingURL=home.css.map */

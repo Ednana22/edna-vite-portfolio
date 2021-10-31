@@ -567,7 +567,7 @@
               </div>
             </div>
             <p class="text-md mb-48" v-html="$t('market_project.app.text')"></p>
-            <div class="">
+            <div class="mb-48">
               <div class="d-flex">
                 <a target="_blank" href="https://itunes.apple.com/app/id1564061027" class="mr-16" data-v-64193183="">
                   <img alt="從App Store下載APP" src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/appstore.png" class="badges" data-v-64193183="" height="40">
@@ -589,8 +589,8 @@
       </section>
       <section id="step-9" class="9takeaway container text-md mb-60">
         <div class="content">
-          <div class="project-title col-5">
-            <div class="title-group">
+          <div class="project-title col">
+            <div class="title-group ">
               <h4 class="mr-8">9</h4>
               <div class="">
                   <h3 class="mb-8">{{ $t('page_elevator.takeaway') }}</h3>
