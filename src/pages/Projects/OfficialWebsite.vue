@@ -3,7 +3,7 @@
     <PageElevator :anchors="anchors" />
     <main class="project-official-website">
       <section class="title container">
-        <h1 class="mb-24">{{ $t('common.owlting_website') }}</h1>
+        <h1 class="mb-24">{{ $t('official_web_project.title') }}</h1>
         <p class="text-md line-height-sm mb-8">
           {{ $t('common.project_includes') }}
           <span class="font-color-light"> | </span>

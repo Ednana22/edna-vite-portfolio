@@ -141,7 +141,7 @@
     }
   },
   "pms_project": {
-    "title": "Design pricing function for OwlNest",
+    "title": "Design pricing function for OwlNest admin system",
     "project_scale_answer": "2 departments, 8 members",
     "project_background_answer": "OwlNest is a B2B property management system for hospitality, clients all over Asian and the United States.<br/>However, the pricing function was been planned in the early stage of the system is relatively simple and cannot achieve effective and flexible price setting.<span class='text-md-bold'> In recent year it's hard to satisfy our new users from hotel.</span>。",
     "overview": {
@@ -215,6 +215,7 @@
     }
   },
   "official_web_project": {
+    "title": "Redesign OwlTing Official Website",
     "project_scale_answer": "13 departments, 20 members",
     "rd_project_owner": "RD team project owner",
     "project_background_answer": "OwlTing group was founded in 2010, with blockchain in core. Its has seven product lines, including B2B business services, B2B hotel management service, B2C e-commerce platforms and hotels, ect.<br/> Current website is not reserve flexibility for update, <span class='text-md-bold'> so it's hard to convey our new information to users.</span> In addiction, <span class='text-md-bold'> the old visual style is different with new VI system, </span>all the reasons contributed the website revision.",
