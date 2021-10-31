@@ -96,6 +96,7 @@ import { UseWindowSize } from '@vueuse/components'
 import { useWindowSize } from '@vueuse/core'
 import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
+import { useStorage } from '@vueuse/core'
 
 const state = reactive({ count: 0 })
 
@@ -135,9 +136,11 @@ const detectIsSamePage = direction => {
   }
 }
 
+const storageLang = useStorage('edna_lang')
 const { locale } = useI18n()
 const onLocaleChange = lang => {
   locale.value = lang
+  storageLang.value = lang
 }
 </script>
 
