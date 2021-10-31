@@ -12,8 +12,6 @@
           {{ $t('common.ux_research') }}
           .
           {{ $t('common.ui_design') }}
-          .
-          {{ $t('common.refactor_website') }}
         </p>
         <p class="text-md line-height-sm mb-8">
           {{ $t('common.project_scale') }}
@@ -63,10 +61,10 @@
             <div class="col-lg-4 content-pr-8 mb-16">
               <div class="border-thinner border-radius-4 shadow-sm p-8 h-full">
                 <div class="text-sm-bold flex flex-col h-full">
-                  ⭐⭐⭐⭐⭐
+                  ⭐ ⭐ ⭐ ⭐ ⭐
                   <br />
                     {{ $t('official_web_project.overview.results_answer1') }}
-                  <p class="text-sm mt-auto">
+                  <p class="text-sm mt-16">
                     {{ $t('official_web_project.overview.result_owner1') }}
                   </p>
                 </div>
@@ -75,10 +73,10 @@
             <div class="col-lg-4 content-pr-8 mb-16">
               <div class="border-thinner border-radius-4 shadow-sm p-8">
                 <div class="text-sm-bold flex flex-col h-full">
-                  ⭐⭐⭐⭐⭐
+                  ⭐ ⭐ ⭐ ⭐ ⭐
                   <br />
                     {{ $t('official_web_project.overview.results_answer2') }}
-                  <p class="text-sm mt-auto">
+                  <p class="text-sm mt-16">
                     {{ $t('official_web_project.overview.result_owner2') }}
                   </p>
                 </div>
@@ -87,10 +85,10 @@
             <div class="col-lg-4 content-pr-8">
               <div class="border-thinner border-radius-4 shadow-sm p-8">
                 <div class="text-sm-bold flex flex-col h-full">
-                  ⭐⭐⭐⭐⭐
+                  ⭐ ⭐ ⭐ ⭐ ⭐
                   <br />
                     {{ $t('official_web_project.overview.results_answer3') }}
-                <p class="text-sm mt-auto">
+                <p class="text-sm mt-16">
                     {{ $t('official_web_project.overview.result_owner3') }}
                   </p>
                 </div>
@@ -149,7 +147,7 @@
           </div>
           <div class="col-md-7 content-pl-48">
             <div class="user-talk text-align-left flex-center flex-end">
-              <div class="talk-dialog mb-24 mr-16">
+              <div class="talk-dialog mb-24 mr-16" style="width: 300px">
                 {{ $t('official_web_project.empathize.user_talk1') }}
               </div>
               <div class="memoji text-align-center">
@@ -177,7 +175,7 @@
               </div>
             </div>
             <div class="user-talk text-align-left flex-center flex-end">
-              <div class="talk-dialog mb-24 mr-16">
+              <div class="talk-dialog mb-24 mr-16" style="width: 300px">
                 {{ $t('official_web_project.empathize.user_talk3') }}
               </div>
               <div class="memoji text-align-center">
@@ -191,7 +189,7 @@
               </div>
             </div>
             <div class="user-talk text-align-left flex-center flex-end">
-              <div class="talk-dialog mb-24 mr-16">
+              <div class="talk-dialog mb-24 mr-16" style="width: 300px">
                 {{ $t('official_web_project.empathize.user_talk4') }}
               </div>
               <div class="memoji text-align-center">
@@ -228,7 +226,7 @@
                 />
                 <p class="text-sm color_grey-light">{{ $t('official_web_project.empathize.user6') }}</p>
               </div>
-              <div class="talk-dialog mb-24 ml-16">
+              <div class="talk-dialog mb-24 ml-16" style="width: 300px">
                 {{ $t('official_web_project.empathize.user_talk6') }}
               </div>
             </div>

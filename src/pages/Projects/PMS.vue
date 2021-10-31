@@ -60,37 +60,37 @@
               {{ $t('pms_project.overview.results') }}
             </h2>
             <div class="feedback row">
-              <div class="col-md-4 content-pr-8 mb-16">
+              <div class="col-lg-4 content-pr-8 mb-16">
                 <div class="border-thinner border-radius-4 shadow-sm p-8">
                   <div class="text-sm-bold">
-                    ⭐⭐⭐⭐⭐
+                    ⭐ ⭐ ⭐ ⭐ ⭐
                     <br />
                     {{ $t('pms_project.overview.results_answer1') }}
-                    <p class="text-sm">
+                    <p class="text-sm mt-16">
                       {{ $t('pms_project.overview.result_owner1') }}
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="col-md-4 content-pr-8 mb-16">
+              <div class="col-lg-4 content-pr-8 mb-16">
                 <div class="border-thinner border-radius-4 shadow-sm p-8">
                   <div class="text-sm-bold">
-                    ⭐⭐⭐⭐⭐
+                    ⭐ ⭐ ⭐ ⭐ ⭐
                     <br />
                     {{ $t('pms_project.overview.results_answer2') }}
-                    <p class="text-sm">
+                    <p class="text-sm mt-16">
                       {{ $t('pms_project.overview.result_owner2') }}
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="col-md-4 content-pr-8">
+              <div class="col-lg-4 content-pr-8">
                 <div class="border-thinner border-radius-4 shadow-sm p-8">
                   <div class="text-sm-bold">
-                    ⭐⭐⭐⭐⭐
+                    ⭐ ⭐ ⭐ ⭐ ⭐
                     <br />
                     {{ $t('pms_project.overview.results_answer3') }}
-                    <p class="text-sm">
+                    <p class="text-sm mt-16">
                       {{ $t('pms_project.overview.result_owner3') }}
                     </p>
                   </div>
@@ -113,7 +113,7 @@
             <div class="title-group">
               <h4 class="mr-8">1</h4>
               <div>
-                <h3 class="mb-6">{{ $t('page_elevator.goal') }}</h3>
+                <h3 class="mb-8">{{ $t('page_elevator.goal') }}</h3>
                 <h2>{{ $t('pms_project.goal.title') }}</h2>
               </div>
             </div>
@@ -140,7 +140,7 @@
                 <div class="title-group">
                   <h4 class="mr-8">2</h4>
                   <div class="">
-                    <h3 class="mb-6">{{ $t('page_elevator.empathize') }}</h3>
+                    <h3 class="mb-8">{{ $t('page_elevator.empathize') }}</h3>
                     <h2>{{ $t('pms_project.empathize.title') }}</h2>
                   </div>
                 </div>
@@ -165,7 +165,7 @@
                 <div class="title-group">
                   <h4 class="mr-8">3</h4>
                   <div class="">
-                    <h3 class="mb-6">{{ $t('page_elevator.define') }}</h3>
+                    <h3 class="mb-8">{{ $t('page_elevator.define') }}</h3>
                     <h2>{{ $t('pms_project.define.title') }}</h2>
                   </div>
                 </div>
@@ -190,7 +190,7 @@
                 <div class="title-group">
                   <h4 class="mr-8">4</h4>
                   <div class="">
-                    <h3 class="mb-6">{{ $t('page_elevator.ideate') }}</h3>
+                    <h3 class="8">{{ $t('page_elevator.ideate') }}</h3>
                     <h2>{{ $t('pms_project.ideate.title') }}</h2>
                   </div>
                 </div>
@@ -264,7 +264,7 @@
               <div class="title-group">
                 <h4 class="mr-8">5</h4>
                 <div class="">
-                  <h3 class="mb-6">{{ $t('page_elevator.design') }}</h3>
+                  <h3 class="mb-8">{{ $t('page_elevator.design') }}</h3>
                   <h2>{{ $t('pms_project.design.title') }}</h2>
                 </div>
               </div>
@@ -323,7 +323,7 @@
                 <div class="title-group">
                   <h4 class="mr-8">6</h4>
                   <div class="">
-                    <h3 class="mb-6">{{ $t('page_elevator.result') }}</h3>
+                    <h3 class="mb-8">{{ $t('page_elevator.result') }}</h3>
                     <h2>{{ $t('pms_project.result.title') }}</h2>
                   </div>
                 </div>
@@ -373,7 +373,7 @@
               <div class="title-group">
                 <h4 class="mr-8">7</h4>
                 <div class="">
-                  <h3 class="mb-6">{{ $t('page_elevator.iterate') }}</h3>
+                  <h3 class="8">{{ $t('page_elevator.iterate') }}</h3>
                   <h2>{{ $t('pms_project.iterate.title') }}</h2>
                 </div>
               </div>
@@ -387,7 +387,7 @@
               <div class="title-group">
                 <h4 class="mr-8">8</h4>
                 <div class="">
-                  <h3 class="mb-6">{{ $t('page_elevator.takeaway') }}</h3>
+                  <h3 class="mb-8">{{ $t('page_elevator.takeaway') }}</h3>
                   <h2>{{ $t('pms_project.takeaway.title') }}</h2>
                 </div>
               </div>
