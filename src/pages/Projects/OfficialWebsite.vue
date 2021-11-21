@@ -65,7 +65,7 @@
                   <br />
                   {{ $t('official_web_project.overview.results_answer1') }}
                   <p class="text-sm mt-16">
-                    {{ $t('pms_project.overview.result_owner1') }}
+                    {{ $t('official_web_project.overview.result_owner1') }}
                   </p>
                 </div>
               </div>
