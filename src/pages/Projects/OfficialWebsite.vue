@@ -59,23 +59,23 @@
           </h2>
           <div class="feedback row">
             <div class="col-lg-4 content-pr-8 mb-16">
-              <div class="border-thinner border-radius-4 shadow-sm p-8 h-full">
-                <div class="text-sm-bold flex flex-col h-full">
+              <div class="border-thinner border-radius-4 shadow-sm p-8">
+                <div class="text-sm-bold">
                   ⭐ ⭐ ⭐ ⭐ ⭐
                   <br />
-                    {{ $t('official_web_project.overview.results_answer1') }}
+                  {{ $t('official_web_project.overview.results_answer1') }}
                   <p class="text-sm mt-16">
-                    {{ $t('official_web_project.overview.result_owner1') }}
+                    {{ $t('pms_project.overview.result_owner1') }}
                   </p>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 content-pr-8 mb-16">
               <div class="border-thinner border-radius-4 shadow-sm p-8">
-                <div class="text-sm-bold flex flex-col h-full">
+                <div class="text-sm-bold">
                   ⭐ ⭐ ⭐ ⭐ ⭐
                   <br />
-                    {{ $t('official_web_project.overview.results_answer2') }}
+                  {{ $t('official_web_project.overview.results_answer2') }}
                   <p class="text-sm mt-16">
                     {{ $t('official_web_project.overview.result_owner2') }}
                   </p>
@@ -84,11 +84,11 @@
             </div>
             <div class="col-lg-4 content-pr-8">
               <div class="border-thinner border-radius-4 shadow-sm p-8">
-                <div class="text-sm-bold flex flex-col h-full">
+                <div class="text-sm-bold">
                   ⭐ ⭐ ⭐ ⭐ ⭐
                   <br />
-                    {{ $t('official_web_project.overview.results_answer3') }}
-                <p class="text-sm mt-16">
+                  {{ $t('official_web_project.overview.results_answer3') }}
+                  <p class="text-sm mt-16">
                     {{ $t('official_web_project.overview.result_owner3') }}
                   </p>
                 </div>
