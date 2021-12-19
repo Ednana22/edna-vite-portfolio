@@ -7,12 +7,15 @@ import 'uno.css'
 
 import './styles/main.scss'
 import i18n from './locales'
+// import LoadingImage from './assets/loading.gif'
 
 const app = createApp(App)
 
 app
   .use(i18n)
-  .use(VueLazyload)
+  .use(VueLazyload, {
+    // loading: LoadingImage
+  })
   .use(VueClickAway)
   .use(Router)
   .mount('#app')

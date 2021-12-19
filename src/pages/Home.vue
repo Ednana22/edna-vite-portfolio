@@ -103,7 +103,7 @@
             <div class="display-on-mobile mt-32">
               <figure class="figure gradient-border">
                 <img
-                  src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/market-web-hp.gif"
+                  v-lazy="'https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/market-web-hp.gif'"
                   class="figure-img img-fluid"
                   alt="..."
                 />
@@ -120,7 +120,7 @@
             <div class="pms-device-section mb-56">
               <figure class="figure">
                 <img
-                  src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/pms-homepage.gif"
+                  v-lazy="'https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/pms-homepage.gif'"
                   class="figure-img img-fluid"
                   alt="..."
                 />
@@ -147,7 +147,7 @@
             <div class="display-on-mobile mt-32">
               <figure class="figure">
                 <img
-                  src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/pms-homepage.gif"
+                  v-lazy="'https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/pms-homepage.gif'"
                   class="figure-img img-fluid"
                   alt="..."
                 />
@@ -164,7 +164,7 @@
             <div class="official-web-device-section mb-56">
               <figure class="figure gradient-border">
                 <img
-                  src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/website-homepage.gif"
+                  v-lazy="'https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/website-homepage.gif'"
                   class="figure-img img-fluid"
                   alt="..."
                 />
@@ -191,7 +191,7 @@
             <div class="display-on-mobile mt-32">
               <figure class="figure gradient-border">
                 <img
-                  src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/website-homepage.gif"
+                  v-lazy="'https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/website-homepage.gif'"
                   class="figure-img img-fluid"
                   alt="..."
                 />

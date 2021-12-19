@@ -549,7 +549,7 @@
               <div class="col-md-7 content-pl-48">
                 <figure class="figure pad_border">
                   <img
-                    src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/website-prototype2.gif"
+                    v-lazy="'https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/website-prototype2.gif'"
                     class="figure-img img-fluid border-radius-4"
                     alt="..."
                   />
@@ -600,7 +600,7 @@
             <div class="col-md-9 mb-80">
               <h5 class="mb-16">{{ $t('official_web_project.result.mockup_title1') }}</h5>
               <img
-                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/mockup-banner.gif"
+                v-lazy="'https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/mockup-banner.gif'"
                 class="figure-img img-fluid border-radius-16 shadow"
                 alt="..."
               />
@@ -611,7 +611,7 @@
             <div class="col-md-9 ml-auto mb-80">
               <h5 class="mb-16">{{ $t('official_web_project.result.mockup_title2') }}</h5>
               <img
-                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/mockup-carousel.gif"
+                v-lazy="'https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/mockup-carousel.gif'"
                 class="figure-img img-fluid border-radius-16 shadow"
                 alt="..."
               />
@@ -622,7 +622,7 @@
             <div class="col-md-9">
               <h5 class="mb-16">{{ $t('official_web_project.result.mockup_title3') }}</h5>
               <img
-                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/mockup-global.gif"
+                v-lazy="'https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/mockup-global.gif'"
                 class="figure-img img-fluid border-radius-16 shadow"
                 alt="..."
               />
