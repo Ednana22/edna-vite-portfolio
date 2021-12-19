@@ -435,7 +435,7 @@
                 </div>
                 <figure class="figure col-md-7 content-pl-48">
                   <img
-                    src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/prototype.gif"
+                    v-lazy="'https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/prototype.gif'"
                     class="figure-img img-fluid border-radius-4"
                     alt="..."
                   />
@@ -488,7 +488,7 @@
           <div class="col-md-9 mb-80">
             <h5 class="mb-16">{{ $t('market_project.result.mockup_title1') }}</h5>
             <img
-              src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/mockup-homepage.gif"
+              v-lazy="'https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/mockup-homepage.gif'"
               class="figure-img img-fluid border-radius-16 shadow mb-16"
               alt="..."
             />
@@ -510,7 +510,7 @@
           <div class="col-md-9 mb-80">
             <h5 class="mb-16">{{ $t('market_project.result.mockup_title3') }}</h5>
             <img
-              src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/mockup-category.gif"
+              v-lazy="'https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/mockup-category.gif'"
               class="figure-img img-fluid border-radius-16 shadow mb-16"
               alt="..."
             />

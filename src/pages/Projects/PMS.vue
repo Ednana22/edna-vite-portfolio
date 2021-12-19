@@ -175,7 +175,7 @@
             <div class="col-md-7 content-pl-48">
               <figure class="figure border-thin border-radius-4">
                 <img
-                  src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/painpoint.gif"
+                  v-lazy="'https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/painpoint.gif'"
                   class="figure-img img-fluid border-radius-4"
                   alt="..."
                 />
