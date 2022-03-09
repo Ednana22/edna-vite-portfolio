@@ -16,7 +16,7 @@
             alt="..."
           />
         </figure>
-        <a href="https://drive.google.com/file/d/1NFNcFEzZj7I_Punp-17jKKBReY3QVjeK/view?usp=sharing" target="_blank">{{ $t('about_page.view_resume_cat') }}
+        <a href="https://drive.google.com/file/d/1N42amp-Y2vsG5DNKBX8NyqKEszIfRMuS/view?usp=sharing" target="_blank">{{ $t('about_page.view_resume_cat') }}
         </a>
       </div>
     </section>

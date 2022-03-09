@@ -24,7 +24,7 @@
     "my_role": "專案角色",
     "project_background": "專案背景",
     "challenges": "專案挑戰與決策",
-    "uiux_designer": "UI / UX 設計師",
+    "uiux_designer": "UI/UX 設計師",
     "prototype_cta": "點此操作",
     "more_project": "更多設計專案",
     "view_project_cta": "前往成品網站"
@@ -59,7 +59,7 @@
     }
   },
   "market_project": {
-    "title": "奧丁丁市集電商網站改版",
+    "title": "奧丁丁市集改版",
     "project_scale_answer": "跨 5 部門 . 約 15 人",
     "project_background_answer": "奧丁丁市集專注於推廣在地商家與台灣小農，平台涵蓋上千項嚴選商品累計合作逾兩千名小農及中小型商家。 <br />然而<span class='text-md-bold'>網站不支援響應式、頁面模式不符合使用者的瀏覽習慣及低效的瀏覽體驗直接造成了高跳出率與低轉化率。</span><br/>公司內部業務經理則反映<span class='text-md-bold'>網站經常被合作商質疑可用性與安全性</span>，導致團隊對產品提不起信心。",
     "overview": {
@@ -89,7 +89,7 @@
       "user_talk2": "下單後無法從頁面得知出貨狀態有點困擾。",
       "user_talk3": "很希望分類可以再好找一點，有時候 Banner 會有折扣碼，但字滿小的要特別留意。",
       "user_talk4": "跟客戶們開會時都是用電腦網頁，造成缺點直接暴露出來的窘境。主打商品 Banner 區域太小，點閱率及轉換率都無法發揮最佳效果。非常希望推動改版！",
-      "subtitle2": "II. 使用者地圖模擬",
+      "subtitle2": "II. 使用者旅程地圖",
       "text2": "根據使用者訪談、研究結果以及網站用戶數據分析，我們分析使用者的行為以及相似性，並創建出與使用者輪廓相仿的人物誌。此角色幫助團隊在規劃產品時有<span class='text-md-bold'>更明確的方向也對使用者產生了同理心，</span>團隊更重視使用者所遇到的問題。"
     },
     "define": {
@@ -117,7 +117,7 @@
     },
     "result": {
       "title": "頁面展示",
-      "text": "此次改版計畫是以頁面分階段迭代方式進行，<span class='text-md-bold'>截至 2021 年 10 月設計端改版完成 100 %；工程實作完成 70% 。</span>",
+      "text": "此次改版計畫是以頁面分階段迭代方式進行，<span class='text-md-bold'>截至 2021 年 10 月設計端改版完成 100%；工程實作完成 70% 。</span>",
       "mockup_title1": "首頁瀏覽",
       "mockup_text1": "參考數據以使用者的喜好做內容區域的排序",
       "mockup_title2": "Navbar 產品分類",
