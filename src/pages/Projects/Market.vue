@@ -485,7 +485,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-9 mb-80">
+          <div class="col-md-10 mb-80 mr-auto">
             <h5 class="mb-16">{{ $t('market_project.result.mockup_title1') }}</h5>
             <img
               v-lazy="'https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/mockup-homepage.gif'"
@@ -496,7 +496,7 @@
               {{ $t('market_project.result.mockup_text1') }}
             </p>
           </div>
-          <div class="col-md-9 mb-80 ml-auto">
+          <div class="col-md-10 mb-80 ml-auto">
             <h5 class="mb-16">{{ $t('market_project.result.mockup_title2') }}</h5>
             <img
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/mockup-homepage.png"
@@ -507,7 +507,7 @@
               {{ $t('market_project.result.mockup_text2') }}
             </p>
           </div>
-          <div class="col-md-9 mb-80">
+          <div class="col-md-10 mb-80 mr-auto">
             <h5 class="mb-16">{{ $t('market_project.result.mockup_title3') }}</h5>
             <img
               v-lazy="'https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/mockup-category.gif'"
@@ -518,7 +518,7 @@
               {{ $t('market_project.result.mockup_text3') }}
             </p>
           </div>
-          <div class="col-md-9 ml-auto">
+          <div class="col-md-10 ml-auto">
             <h5 class="mb-16">{{ $t('market_project.result.mockup_title4') }}</h5>
             <img
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/mockup-404.png"
