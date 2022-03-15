@@ -3,9 +3,9 @@ import zhTw from './lang/zh-tw.json'
 import en from './lang/en.json'
 
 import { useStorage } from '@vueuse/core'
-const lang = useStorage('edna_lang')
+const lang = useStorage('edna_lang') || navigator.language.toLowerCase()
 
-if (!lang.value) lang.value = 'zh-tw'
+if (lang.value !== 'zh-tw') lang.value = 'en'
 
 const i18n = createI18n({
   locale: lang.value,
