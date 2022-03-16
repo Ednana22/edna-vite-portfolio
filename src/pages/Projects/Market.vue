@@ -510,7 +510,7 @@
           <div class="col-md-10 mb-80 mr-auto">
             <h5 class="mb-16">{{ $t('market_project.result.mockup_title3') }}</h5>
             <img
-              v-lazy="'https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/mockup-category.png'"
+              v-lazy="'https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/mockup-hover.png'"
               class="figure-img img-fluid border-radius-16 shadow mb-16"
               alt="..."
             />
