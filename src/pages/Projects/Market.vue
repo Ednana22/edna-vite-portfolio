@@ -485,49 +485,47 @@
               </div>
             </div>
           </div>
-          <div class="col-md-10 mb-80 mr-auto">
-            <h5 class="mb-16">{{ $t('market_project.result.mockup_title1') }}</h5>
+          <div class="col-md-12 mb-80 mr-auto">
             <img
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/mockup-home.png"
               class="figure-img img-fluid border-radius-16 shadow mb-16"
               alt="..."
             />
-            <p class="text-md mb-16">
-              {{ $t('market_project.result.mockup_text1') }}
-            </p>
+            <h5 class="mt-16">
+              {{ $t('market_project.result.mockup_title1') }}  - {{ $t('market_project.result.mockup_text1') }}
+            </h5>
           </div>
-          <div class="col-md-10 mb-80 ml-auto">
-            <h5 class="mb-16">{{ $t('market_project.result.mockup_title2') }}</h5>
+          <div class="col-md-12 mb-80 ml-auto">
             <img
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/mockup-category.png"
               class="figure-img img-fluid border-radius-16 shadow mb-16"
               alt="..."
             />
-            <p class="text-md mb-16">
-              {{ $t('market_project.result.mockup_text2') }}
-            </p>
+            <h5 class="mt-16">
+              {{ $t('market_project.result.mockup_title2') }}  - {{ $t('market_project.result.mockup_text2') }}
+            </h5>
           </div>
-          <div class="col-md-10 mb-80 mr-auto">
-            <h5 class="mb-16">{{ $t('market_project.result.mockup_title3') }}</h5>
+          <div class="col-md-12 mb-80 mr-auto">
             <img
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/mockup-hover.png"
               class="figure-img img-fluid border-radius-16 shadow mb-16"
               alt="..."
             />
+            <h5 class="mt-16">
+              {{ $t('market_project.result.mockup_title3') }} - {{ $t('market_project.result.mockup_text3') }}
+            </h5>
             <p class="text-md mb-16">
-              {{ $t('market_project.result.mockup_text3') }}
             </p>
           </div>
-          <div class="col-md-10 ml-auto">
-            <h5 class="mb-16">{{ $t('market_project.result.mockup_title4') }}</h5>
+          <div class="col-md-12 ml-auto">
             <img
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/mockup-404.png"
               class="figure-img img-fluid border-radius-16 shadow mb-16"
               alt="..."
             />
-            <p class="text-md mb-16">
-              {{ $t('market_project.result.mockup_text4') }}
-            </p>
+            <h5 class="mt-16">
+              {{ $t('market_project.result.mockup_title4') }} - {{ $t('market_project.result.mockup_text4') }}
+            </h5>
           </div>
         </div>
       </section>
