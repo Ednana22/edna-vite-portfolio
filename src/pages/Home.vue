@@ -103,7 +103,7 @@
             <div class="display-on-mobile mt-32">
               <figure class="figure gradient-border">
                 <img
-                  v-lazy="'https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/market-web-hp.gif'"
+                  v-lazy="'https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/website-homepage.png'"
                   class="figure-img img-fluid"
                   alt="..."
                 />
@@ -120,7 +120,7 @@
             <div class="pms-device-section mb-56">
               <figure class="figure">
                 <img
-                  v-lazy="'https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/pms-homepage.gif'"
+                  v-lazy="'https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/pms-homepage.png'"
                   class="figure-img img-fluid"
                   alt="..."
                 />
@@ -147,7 +147,7 @@
             <div class="display-on-mobile mt-32">
               <figure class="figure">
                 <img
-                  v-lazy="'https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/pms-homepage.gif'"
+                  v-lazy="'https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/pms-homepage.png'"
                   class="figure-img img-fluid"
                   alt="..."
                 />
@@ -157,7 +157,7 @@
         </div>
       </div>
     </section>
-    <section class="offcial-web border-bottom">
+    <section class="official-web border-bottom">
       <div class="container">
         <div class="row project">
           <div class="col-lg-8 content-pr-48">
