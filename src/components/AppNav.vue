@@ -12,7 +12,7 @@
         <div v-if="width > mobileMenuEdgeSize" class="app-nav__actions">
           <ul>
             <li class="is-dropdown">
-              <span v-click-away="handleDropDownOutside" class="is-nav-link hover-effect mr-32" @click.capture="isDropDownOpen = !isDropDownOpen">
+              <span v-click-away="handleDropDownOutside" class="is-nav-link hover-effect mr-8" @click.capture="isDropDownOpen = !isDropDownOpen">
                 {{ $t('common.projects') }}
                 <i class="las ml-1.68" :class="isDropDownOpen ? 'la-angle-up' : 'la-angle-down'"></i>
                 <ul v-show="isDropDownOpen" class="is-dropdown__context">
@@ -32,7 +32,7 @@
               <router-link class="is-nav-link hover-effect" :to="{ name: 'About' }">{{ $t('common.about_me') }}</router-link>
             </li>
             <li class="is-dropdown flex items-center locale-dropdown">
-              <span v-click-away="handleLocaleDropDownOutside" class="is-nav-link hover-effect ml-32" @click.capture="isLocaleDropDownOpen = !isLocaleDropDownOpen">
+              <span v-click-away="handleLocaleDropDownOutside" class="is-nav-link hover-effect ml-8" @click.capture="isLocaleDropDownOpen = !isLocaleDropDownOpen">
                 <i class="las la-language text-xl mr-1.68"></i>
                 {{ $t(locale) }}
                 <i class="las ml-1" :class="isLocaleDropDownOpen ? 'la-angle-up' : 'la-angle-down'"></i>
