@@ -332,38 +332,35 @@
             <div class="col-md-5 content-pr-48">
               <p class="text-md mb-48" v-html="$t('pms_project.result.text')"></p>
             </div>
-            <div class="col-md-9 mb-80">
-              <h5 class="mb-16">{{ $t('pms_project.result.mockup_title1') }}</h5>
+            <div class="col-md-12 mb-80">
               <img
                 src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/mutipul-plans-chose.png"
                 class="figure-img img-fluid border-radius-16 shadow mb-16"
                 alt="..."
               />
-              <p class="text-md mb-16">
-                {{ $t('pms_project.result.mockup_text1') }}
-              </p>
+              <h5 class="mt-16">
+                {{ $t('pms_project.result.mockup_title1') }} - {{ $t('pms_project.result.mockup_text1')}}
+              </h5>
             </div>
-            <div class="col-md-9 mb-80 ml-auto">
-              <h5 class="mb-16">{{ $t('pms_project.result.mockup_title2') }}</h5>
+            <div class="col-md-12 mb-80 ml-auto">
               <img
                 src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/nationai-holiday.png"
                 class="figure-img img-fluid border-radius-16 shadow mb-16"
                 alt="..."
               />
-              <p class="text-md mb-16">
-                {{ $t('pms_project.result.mockup_text2') }}
-              </p>
+              <h5 class="mt-16">
+                {{ $t('pms_project.result.mockup_title2') }} - {{ $t('pms_project.result.mockup_text2') }}
+              </h5>
             </div>
-            <div class="col-md-9">
-              <h5 class="mb-16">{{ $t('pms_project.result.mockup_title3') }}</h5>
+            <div class="col-md-12">
               <img
                 src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/price_calendar.png"
                 class="figure-img img-fluid border-radius-16 shadow mb-16"
                 alt="..."
               />
-              <p class="text-md mb-16">
-                {{ $t('pms_project.result.mockup_text3') }}
-              </p>
+              <h5 class="mt-16">
+                {{ $t('pms_project.result.mockup_title3') }} - {{ $t('pms_project.result.mockup_text3') }}
+              </h5>
             </div>
           </div>
         </section>
