@@ -329,7 +329,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-5 content-pr-48">
+            <div class="col-md-12 content-pr-48">
               <p class="text-md mb-48" v-html="$t('pms_project.result.text')"></p>
             </div>
             <div class="col-md-12 mb-80">
