@@ -27,6 +27,63 @@
         </div>
       </div>
     </section>
+
+    <section class="language container">
+      <h2 class="mb-16">
+        {{ $t('about_page.language.title') }}
+      </h2>
+      <div class="row">
+        <div class="zh col-md-4 flex items-center mb-16">
+          <img
+            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/ZH.png"
+            class="figure-img img-fluid mr-16"
+            style="width: 70px"
+            alt="..."
+          />
+        <div class="content">
+          <p class="text-md-bold">
+            {{ $t('about_page.language.ZH') }}
+          </p>
+          <p class="text-sm">
+            {{ $t('about_page.language.ZH-description') }}
+          </p>
+        </div>
+        </div>
+        <div class="en col-md-4 flex items-center mb-16">
+          <img
+            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/EN.png"
+            class="figure-img img-fluid mr-16"
+            style="width: 70px"
+            alt="..."
+          />
+        <div class="content">
+          <p class="text-md-bold">
+            {{ $t('about_page.language.EN') }}
+          </p>
+          <p class="text-sm">
+            {{ $t('about_page.language.EN-description') }}
+          </p>
+        </div>
+        </div>
+        <div class="ZH col-md-4 flex items-center">
+          <img
+            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/FR.png"
+            class="figure-img img-fluid mr-16"
+            style="width: 70px"
+            alt="..."
+          />
+        <div class="content">
+          <p class="text-md-bold">
+            {{ $t('about_page.language.FR') }}
+          </p>
+          <p class="text-sm">
+            {{ $t('about_page.language.FR-description') }}
+          </p>
+        </div>
+        </div>
+      </div>
+    </section>
+
     <section class="time_line-h container">
       <h2 class="mb-16">{{ $t('about_page.steps.title') }}</h2>
       <div class="timeline-h flex space-between">
@@ -107,7 +164,7 @@
         </div>
       </div>
     </section>
-    <section class="skil_tree container">
+    <section class="skill_tree container">
       <h2 class="mb-16">{{ $t('about_page.skill_tree.title') }}</h2>
       <div class="row mb-48">
         <div class="col-xl-2 col-md-3 col-4 text-align-center">
@@ -229,155 +286,34 @@
         </div>
         <div class="col-md-6 flex-center column content-pl-48">
           <figure class="figure mb-16 flex-center">
-            <img
-              src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/nngroup.png"
-              class="figure-img img-fluid"
-              width="200px"
-              alt="..."
-            />
+           <img
+            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/nngroup.png"
+            class="figure-img img-fluid mr-16"
+            style="width: 200px"
+            alt="..."
+          />
           </figure>
-          <div class="emoji flex-center">
-            <figure class="figure">
-              <img
-                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/heart.png"
-                class="figure-img img-fluid mr-24"
-                width="40px"
-                alt="..."
-              />
-            </figure>
-            <figure class="figure">
-              <img
-                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/chicken.png"
-                class="figure-img img-fluid mr-24"
-                width="40px"
-                alt="..."
-              />
-            </figure>
-            <figure class="figure">
-              <img
-                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/soup.png"
-                class="figure-img img-fluid"
-                width="40px"
-                alt="..."
-              />
-            </figure>
-          </div>
         </div>
       </div>
     </section>
-    <section class="switzerland container">
+    <section class="Obsidian container">
       <div class="row mb-48">
         <div class="col-md-6 content-pr-48 mb-48">
-          <h2 class="mb-16">{{ $t('about_page.la_suisse.title') }}</h2>
-          <p class="text-md">
-             {{ $t('about_page.la_suisse.text') }}
+          <h2 class="mb-16">
+            {{ $t('about_page.obsidian.title') }}
+          </h2>
+          <p class="text-md" v-html="$t('about_page.obsidian.text')">
           </p>
         </div>
         <div class="col-md-6 flex-center column content-pl-48">
-          <figure class="figure mb-24 flex-center">
-            <img
-              src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/swiss-flag.png"
-              class="figure-img img-fluid"
-              width="90px"
-              alt="..."
-            />
+          <figure class="figure mb-16 flex-center">
+           <img
+            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/Obsidian.png"
+            class="figure-img img-fluid mr-16"
+            style="width: 240px"
+            alt="..."
+          />
           </figure>
-          <div class="emoji flex-center">
-            <figure class="figure">
-              <img
-                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/book.png"
-                class="figure-img img-fluid mr-24"
-                width="40px"
-                alt="..."
-              />
-            </figure>
-            <figure class="figure">
-              <img
-                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/artist-palette.png"
-                class="figure-img img-fluid mr-24"
-                width="40px"
-                alt="..."
-              />
-            </figure>
-            <figure class="figure">
-              <img
-                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/student.png"
-                class="figure-img img-fluid mr-24"
-                width="40px"
-                alt="..."
-              />
-            </figure>
-            <figure class="figure">
-              <img
-                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/speech-balloon.png"
-                class="figure-img img-fluid mr-24"
-                width="40px"
-                alt="..."
-              />
-            </figure>
-            <figure class="figure">
-              <img
-                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/france.png"
-                class="figure-img img-fluid mr-24"
-                width="40px"
-                alt="..."
-              />
-            </figure>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="side_project container">
-      <div class="row">
-        <div class="col-md-6 content-pr-48 mb-48">
-          <h2 class="mb-16">{{ $t('about_page.side_project.title') }}</h2>
-          <p class="text-md">
-            {{ $t('about_page.side_project.text') }}
-          </p>
-        </div>
-        <div class="col-md-6 flex-center column content-pl-48">
-          <figure class="figure mb-24 flex-center">
-            <img
-              src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/app-icon.png"
-              class="figure-img img-fluid"
-              width="90px"
-              alt="..."
-            />
-          </figure>
-          <div class="emoji flex-center">
-            <figure class="figure">
-              <img
-                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/muscle.png"
-                class="figure-img img-fluid mr-24"
-                width="40px"
-                alt="..."
-              />
-            </figure>
-            <figure class="figure">
-              <img
-                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/relex-w.png"
-                class="figure-img img-fluid mr-24"
-                width="40px"
-                alt="..."
-              />
-            </figure>
-            <figure class="figure">
-              <img
-                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/relex-m.png"
-                class="figure-img img-fluid mr-24"
-                width="40px"
-                alt="..."
-              />
-            </figure>
-            <figure class="figure">
-              <img
-                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/phone.png"
-                class="figure-img img-fluid mr-24"
-                width="40px"
-                alt="..."
-              />
-            </figure>
-          </div>
         </div>
       </div>
     </section>

@@ -100,7 +100,7 @@
     "ideate":{
       "title": "Ideate brand identity",
       "text": "In brainstorming <span class='text-md-bold'>we base on brand sprity 'Stay Simple, Stay Humble' to ideate brand identity, </span> which also includes color patterns and photo style, we want to create a brand with healthy, local and friendly."
-    },
+    }
     "design": {
       "title": "Optimization and discussion ",
       "subtitle1": "I. Information architecture",
@@ -302,6 +302,15 @@
   "about_page": {
     "text": "I'm a UI/UX designer with basic coding skill. I have design experiences in B2C e-commerce platform, B2B SaaS system, official website, etc.<br>I always chasing balance between Function, Usability and Aesthetics. Reasonable solution is always needed in planning UX, because there has no correct answer so you have to be more ensure to your though.",
     "view_resume_cat": "View Resume",
+    "language":{
+      "title":"I speak",
+      "ZH":"Chinese",
+      "ZH-description":"Native Speaker",
+      "EN":"English",
+      "EN-description":"As an exchange student in Switzerland for one year, communicate in English throughout the year",
+      "FR":"French",
+      "FR-description":"Upper-intermediate level, DELF B1 certification"
+    },
     "steps": {
       "title": "Timeline",
       "web_designer": "Graphic Web Designer",
@@ -315,20 +324,16 @@
       "mcu": "Ming Chuan University"
     },
     "skill_tree": {
-      "title": "Skill Tree",
+      "title": "My Skill Tree",
       "learning": "learning"
     },
     "nngroup": {
       "title":"NNgroup reader, lover",
-      "text": "NNgroup is like my UI/UX design mentor, also I advocated '10 Usability Heuristics' in our engineers sharing conference."
+      "text": "NNgroup is like my UI/UX design mentor, also I was sharing '10 Usability Heuristics' in our engineers sharing conference."
     },
-    "la_suisse": {
-      "title": "Exchange student in Switzerland, I own French B1 certification",
-      "text":"I was an exchange student in Switzerland for one year. After back to Taiwan I keep improving my French, eventually I gained french DELF - B1 certification."
-    },
-    "side_project": {
-      "title" : "I want to implement an APP for relaxing",
-      "text": "The idea came from my training habit, I hope this APP can be an encyclopedia to help user when relaxing muscles. I design it with an App because it would be perfect if it can support scan function!"
+    "obsidian": {
+      "title": "I use Obsidian to made Zettelkasten method",
+      "text":"I use Obsidian to note what I have learned, and apply Zettelkasten method to disassemble and reconnect the knowledge, which helps me to think multi-dimensionally from a higher-level."
     }
   }
 }
