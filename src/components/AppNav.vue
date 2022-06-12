@@ -114,7 +114,7 @@ const { width } = useWindowSize()
 watch(
   () => isDropDownOpen.value,
   val => {
-    const body = document.querySelector('body') 
+    const body = document.querySelector('body')
     const isMobile = width.value < mobileMenuEdgeSize
     val && isMobile
       ? body.classList.add('is_locked')
