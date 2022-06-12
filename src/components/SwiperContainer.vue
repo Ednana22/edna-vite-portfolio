@@ -1,17 +1,17 @@
 <template>
-<div class="swiper-container">
-  <div class="swiper-navigation-container text-right mb-16">
+<div class="swiper-container relative">
+  <div class="swiper-navigation-container flex justify-end mb-16 -mt-11">
     <button
-      class="swiper-navigation__prev mr-16 transition hover:-translate-x-1"
+      class="swiper-navigation__prev mr-16 transition p-2 hover:-translate-x-1"
       :class="{ disabled: swiperInstance?.isBeginning }"
       @click="handlePrev">
-      <i class="las la-long-arrow-alt-left"></i>
+      <i class="las la-long-arrow-alt-left text-[#36363C]"></i>
     </button>
     <button
-      class="swiper-navigation__next transition hover:translate-x-1"
+      class="swiper-navigation__next transition p-2 hover:translate-x-1"
       :class="{ disabled: swiperInstance?.isEnd }"
       @click="handleNext">
-      <i class="las la-long-arrow-alt-right"></i>
+      <i class="las la-long-arrow-alt-right text-[#36363C]"></i>
     </button>
   </div>
   <swiper

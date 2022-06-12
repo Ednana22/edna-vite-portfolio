@@ -202,12 +202,12 @@
       </div>
     </section>
 
-    <section class="coworkers">
-      <div class="container mb-48 text-center">
+    <!-- <section class="coworkers">
+      <div class="container mb-48">
         <h3>合作過的夥伴</h3>
         <SwiperContainer />
       </div>
-    </section>
+    </section> -->
 
     <section class="connect-section">
       <div class="container">
