@@ -65,7 +65,7 @@
           </p>
         </div>
         </div>
-        <div class="ZH col-md-4 flex items-center">
+        <div class="fr col-md-4 flex items-center ">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/FR.png"
             class="figure-img img-fluid mr-16"
