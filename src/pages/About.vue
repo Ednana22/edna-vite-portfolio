@@ -2,12 +2,7 @@
   <main class="page-about mt-0">
     <section class="about container">
       <div class="row mt-40">
-        <div class="img col-md-5 content-pr-48">
-          <figure class="figure col-12">
-            <div class="pic border-radius-4"></div>
-          </figure>
-        </div>
-        <div class="col-md-7 content-pl-48">
+        <div class="col-md-7 mb-24 content-pr-48">
           <h1 class="mb-24">HELLO ! I'm Edna</h1>
           <p class="text-md mb-16" v-html="$t('about_page.text')">
           </p>
@@ -25,6 +20,11 @@
             </a>
           </div>
         </div>
+        <div class="img col-md-5 content-pl-48">
+          <figure class="figure col-12">
+            <div class="pic border-radius-4"></div>
+          </figure>
+        </div>
       </div>
     </section>
 
@@ -33,11 +33,11 @@
         {{ $t('about_page.language.title') }}
       </h2>
       <div class="row">
-        <div class="zh col-md-4 flex items-center mb-16">
+        <div class="zh col-lg-4 flex items-start mb-16">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/ZH.png"
             class="figure-img img-fluid mr-16"
-            style="width: 70px"
+            style="width: 54px; height: 54px;"
             alt="..."
           />
         <div class="content">
@@ -49,11 +49,11 @@
           </p>
         </div>
         </div>
-        <div class="en col-md-4 flex items-center mb-16">
+        <div class="en col-lg-4 flex items-start mb-16 ">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/EN.png"
             class="figure-img img-fluid mr-16"
-            style="width: 70px"
+            style="width: 54px; height: 54px;"
             alt="..."
           />
         <div class="content">
@@ -65,11 +65,11 @@
           </p>
         </div>
         </div>
-        <div class="fr col-md-4 flex items-center ">
+        <div class="fr col-lg-4 flex items-start ">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/FR.png"
             class="figure-img img-fluid mr-16"
-            style="width: 70px"
+            style="width: 54px; height: 54px;"
             alt="..."
           />
         <div class="content">
