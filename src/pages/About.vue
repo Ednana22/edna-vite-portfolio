@@ -1,23 +1,30 @@
 <template>
   <main class="page-about mt-0">
-    <div class="banner">
-      <figure class="figure col-12">
-        <div class="pic"></div>
-      </figure>
-    </div>
     <section class="about container">
-      <h1>HELLO ! I'm Edna</h1>
-      <p class="text-md mb-24" v-html="$t('about_page.text')"></p>
-      <div class="res mb-8 col-sm-6">
-        <figure class="figure mr-8">
-          <img
-            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/icon-resume.svg"
-            class="figure-img img-fluid"
-            alt="..."
-          />
-        </figure>
-        <a href="https://drive.google.com/file/d/1N42amp-Y2vsG5DNKBX8NyqKEszIfRMuS/view?usp=sharing" target="_blank">{{ $t('about_page.view_resume_cat') }}
-        </a>
+      <div class="row mt-40">
+        <div class="img col-md-5 content-pr-48">
+          <figure class="figure col-12">
+            <div class="pic border-radius-4"></div>
+          </figure>
+        </div>
+        <div class="col-md-7 content-pl-48">
+          <h1 class="mb-24">HELLO ! I'm Edna</h1>
+          <p class="text-md mb-16" v-html="$t('about_page.text')">
+          </p>
+          <p class="text-md mb-24" v-html="$t('about_page.text2')">
+          </p>
+          <div class="res mb-8 col-sm-6">
+            <figure class="figure mr-8">
+              <img
+                src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/icon-resume.svg"
+                class="figure-img img-fluid"
+                alt="..."
+              />
+            </figure>
+            <a href="https://drive.google.com/file/d/1N42amp-Y2vsG5DNKBX8NyqKEszIfRMuS/view?usp=sharing" target="_blank">{{ $t('about_page.view_resume_cat') }}
+            </a>
+          </div>
+        </div>
       </div>
     </section>
     <section class="time_line-h container">
