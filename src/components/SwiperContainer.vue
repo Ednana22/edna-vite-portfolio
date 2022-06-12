@@ -1,16 +1,34 @@
 <template>
+<div class="swiper-container">
+  <div class="swiper-navigation-container text-right mb-16">
+    <button
+      class="swiper-navigation__prev mr-16 transition hover:-translate-x-1"
+      :class="{ disabled: swiperInstance?.isBeginning }"
+      @click="handlePrev">
+      <i class="las la-long-arrow-alt-left"></i>
+    </button>
+    <button
+      class="swiper-navigation__next transition hover:translate-x-1"
+      :class="{ disabled: swiperInstance?.isEnd }"
+      @click="handleNext">
+      <i class="las la-long-arrow-alt-right"></i>
+    </button>
+  </div>
   <swiper
     ref="swiper"
     :modules="modules"
     :slides-per-view="slidesPerView"
     :space-between="24"
     autoHeight
+    :navigation="{
+      prevEl: '.swiper-navigation__prev',
+      nextEl: '.swiper-navigation__next'
+    }"
     :pagination="{
-      clickable: true,
       el: '.swiper-pagination-container'
     }"
     :scrollbar="{ draggable: true }"
-    class="mx-4">
+    @swiper="onSwiper">
     <swiper-slide
       v-for="(reviewer, index) in reviews"
       :key="index">
@@ -28,13 +46,14 @@
     </swiper-slide>
   </swiper>
   <div class="text-center mt-4 swiper-pagination-container"></div>
+</div>
 </template>
 <script>
   import { Swiper, SwiperSlide } from 'swiper/vue'
   import { useWindowSize } from '@vueuse/core'
-  import 'swiper/css'
-  import { computed } from 'vue'
+  import { computed, ref } from 'vue'
   import { Pagination, Scrollbar, A11y } from 'swiper'
+  import 'swiper/css'
   import 'swiper/css/navigation'
   import 'swiper/css/pagination'
 
@@ -108,11 +127,43 @@
         }
       })
 
+      const swiperInstance= ref(null)
+      const onSwiper = (swiper) => {
+        swiperInstance.value = swiper
+      }
+
+      const handlePrev = () => {
+        swiperInstance.value.slidePrev()
+      }
+      const handleNext = () => {
+        swiperInstance.value.slideNext()
+      }
+
+      const currentIndex = computed(() => {
+        return swiperInstance.value?.activeIndex
+      })
+
       return {
+        swiperInstance,
         reviews,
         slidesPerView,
-        modules: [Pagination, Scrollbar, A11y]
+        modules: [Pagination, Scrollbar, A11y],
+        onSwiper,
+        handlePrev,
+        handleNext,
+        currentIndex
       }
     }
   };
 </script>
+
+<style lang="scss" scoped>
+.swiper-navigation-container {
+  button {
+    @apply bg-transparent border-none text-2xl;
+    &.disabled {
+      @apply opacity-50 select-none pointer-events-none;
+    }
+  }
+}
+</style>
