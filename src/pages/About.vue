@@ -217,8 +217,7 @@
       <div class="row mb-48">
         <div class="col-md-6 content-pr-48 mb-48">
           <h2 class="mb-16">{{ $t('about_page.nngroup.title') }}</h2>
-          <p class="text-md">
-            {{ $t('about_page.nngroup.text') }}
+          <p class="text-md" v-html="$t('about_page.nngroup.text')">
           </p>
         </div>
         <div class="col-md-6 flex-center column content-pl-48">
