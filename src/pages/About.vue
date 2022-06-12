@@ -167,7 +167,7 @@
     <section class="skill_tree container">
       <h2 class="mb-16">{{ $t('about_page.skill_tree.title') }}</h2>
       <div class="row mb-48">
-        <div class="col-xl-2 col-md-3 col-4 text-align-center">
+        <div class="col-xl-2 col-md-3 col-4 mb-16 text-align-center">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/figma.png"
             class="figure-img img-fluid"
@@ -176,7 +176,7 @@
           />
           <p class="text-sm-bold text-align-center">Figma</p>
         </div>
-        <div class="col-xl-2 col-md-3 col-4 text-align-center">
+        <div class="col-xl-2 col-md-3 col-4 mb-16 text-align-center">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/sketch.png"
             class="figure-img img-fluid"
@@ -185,7 +185,7 @@
           />
           <p class="text-sm-bold text-align-center">Sketch</p>
         </div>
-        <div class="col-xl-2 col-md-3 col-4 text-align-center">
+        <div class="col-xl-2 col-md-3 col-4 mb-16 text-align-center">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/HTML.png"
             class="figure-img img-fluid"
@@ -194,7 +194,7 @@
           />
           <p class="text-sm-bold text-align-center">HTML</p>
         </div>
-        <div class="col-xl-2 col-md-3 col-4 text-align-center">
+        <div class="col-xl-2 col-md-3 col-4 mb-16 text-align-center">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/CSS.png"
             class="figure-img img-fluid"
@@ -203,7 +203,7 @@
           />
           <p class="text-sm-bold text-align-center">CSS</p>
         </div>
-        <div class="col-xl-2 col-md-3 col-4 text-align-center">
+        <div class="col-xl-2 col-md-3 col-4 mb-16 text-align-center">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/JavaScript.png"
             class="figure-img img-fluid"
@@ -212,7 +212,7 @@
           />
           <p class="text-sm-bold text-align-center">JavaScript ( {{ $t('about_page.skill_tree.learning') }} )</p>
         </div>
-        <div class="col-xl-2 col-md-3 col-4 text-align-center">
+        <div class="col-xl-2 col-md-3 col-4 mb-16 text-align-center">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/Sass.png"
             class="figure-img img-fluid"
@@ -221,7 +221,7 @@
           />
           <p class="text-sm-bold text-align-center">Sass</p>
         </div>
-        <div class="col-xl-2 col-md-3 col-4 text-align-center">
+        <div class="col-xl-2 col-md-3 col-4 mb-16 text-align-center">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/Bootstrap.png"
             class="figure-img img-fluid"
@@ -230,7 +230,7 @@
           />
           <p class="text-sm-bold text-align-center">Bootstrap</p>
         </div>
-        <div class="col-xl-2 col-md-3 col-4 text-align-center">
+        <div class="col-xl-2 col-md-3 col-4 mb-16 text-align-center">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/Photoshop.png"
             class="figure-img img-fluid"
@@ -239,7 +239,7 @@
           />
           <p class="text-sm-bold text-align-center">Photoshop</p>
         </div>
-        <div class="col-xl-2 col-md-3 col-4 text-align-center">
+        <div class="col-xl-2 col-md-3 col-4 mb-16 text-align-center">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/Illustrator.png"
             class="figure-img img-fluid"
@@ -248,7 +248,7 @@
           />
           <p class="text-sm-bold text-align-center">Illustrator</p>
         </div>
-        <div class="col-xl-2 col-md-3 col-4 text-align-center">
+        <div class="col-xl-2 col-md-3 col-4 mb-16 text-align-center">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/Adobe+Xd.png"
             class="figure-img img-fluid"
@@ -257,7 +257,7 @@
           />
           <p class="text-sm-bold text-align-center">Adobe Xd</p>
         </div>
-        <div class="col-xl-2 col-md-3 col-4 text-align-center">
+        <div class="col-xl-2 col-md-3 col-4 mb-16 text-align-center">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/After+Effect.png"
             class="figure-img img-fluid"
@@ -266,7 +266,7 @@
           />
           <p class="text-sm-bold text-align-center">After Effect</p>
         </div>
-        <div class="col-xl-2 col-md-3 col-4 text-align-center">
+        <div class="col-xl-2 col-md-3 col-4 mb-16 text-align-center">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/premiere.png"
             class="figure-img img-fluid"
