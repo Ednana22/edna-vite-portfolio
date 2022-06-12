@@ -366,7 +366,7 @@
           </div>
         </section>
         <section id="step-7" class="7iterate container text-md mt-60">
-          <div class="col-md-5 content-pr-48">
+          <div class="col-md-12 content-pr-48">
             <div class="project-title">
               <div class="title-group">
                 <h4 class="mr-8">7</h4>
@@ -380,7 +380,7 @@
           </div>
         </section>
         <section id="step-8" class="8takeaway container text-md mb-60">
-          <div class="col-md-5 content-pr-48">
+          <div class="col-md-12 content-pr-48">
             <div class="project-title">
               <div class="title-group">
                 <h4 class="mr-8">8</h4>
