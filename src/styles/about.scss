@@ -34,14 +34,14 @@ h1{
       &::after{
         content: "";
         width: 100%;
-        border-top: 1px solid $color_grey-light;
+        border-top: 1px solid $color_grey-lighter;
         position: absolute;
         top: 46px;
       }
-  }  
+  }
 }
 .time_line-v {
-  @media (min-width:768px) {    
+  @media (min-width:768px) {
     display: none
   }
   .timeline-v{
@@ -50,7 +50,7 @@ h1{
         content: "";
         height: 100%;
         left: 3px;
-        border-left: 1px solid $color_grey-light;
+        border-left: 1px solid $color_grey-lighter;
         position: absolute;
         top: 16px;
       }

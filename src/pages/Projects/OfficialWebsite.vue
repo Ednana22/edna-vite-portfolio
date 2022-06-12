@@ -30,7 +30,7 @@
         <figure class="figure col-md-12">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/official_website-hero.png"
-            class="figure-img img-fluid"
+            class="figure-img img-fluid border-radius-4"
             alt="..."
           />
           <div class="bnanner"></div>

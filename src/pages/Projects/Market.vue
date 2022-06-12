@@ -32,7 +32,7 @@
         <figure class="figure col-mb-12">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/market-hero.png"
-            class="figure-img img-fluid"
+            class="figure-img img-fluid border-radius-4"
             alt="..."
           />
           <div class="bnanner"></div>

@@ -32,12 +32,12 @@
       <h2 class="mb-16">
         {{ $t('about_page.language.title') }}
       </h2>
-      <div class="row">
-        <div class="zh col-md-4 flex items-center mb-16">
+      <div class="row ">
+        <div class="zh col-lg-4 flex flex-start mb-16">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/ZH.png"
             class="figure-img img-fluid mr-16"
-            style="width: 70px"
+            style="width: 60px; height:60px"
             alt="..."
           />
         <div class="content">
@@ -49,11 +49,11 @@
           </p>
         </div>
         </div>
-        <div class="en col-md-4 flex items-center mb-16">
+        <div class="en col-lg-4 flex flex-start mb-16">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/EN.png"
             class="figure-img img-fluid mr-16"
-            style="width: 70px"
+            style="width: 60px; height:60px"
             alt="..."
           />
         <div class="content">
@@ -65,11 +65,11 @@
           </p>
         </div>
         </div>
-        <div class="fr col-md-4 flex items-center ">
+        <div class="fr col-lg-4 flex flex-start ">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/FR.png"
             class="figure-img img-fluid mr-16"
-            style="width: 70px"
+            style="width: 60px; height:60px"
             alt="..."
           />
         <div class="content">
