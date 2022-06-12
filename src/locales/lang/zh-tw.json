@@ -190,11 +190,12 @@
     "design": {
       "title": "UI Design",
       "subtitle1": "I. Wireframe",
-      "text1": "我將文字流程轉化為 Wireframe 方便與工程師做初步討論、修改。",
+      "text1": "將文字流程轉化為 Wireframe 方便與工程師做初步討論、修改。",
       "subtitle2": "II. Design System 確保產品一致性",
       "text2": "後台比起視覺更重視的是使用者完成任務的流程，<span class='text-md-bold'>設計與工程師遵從 Design System 可確保產品的一致性與標準化。</span>",
       "subtitle3": "III. Prototype",
-      "text3": "做出 Prototype 來給使用者測試可達到高擬真度且更可以看出使用者對畫面的操作流程以及互動。<br>由於此專案為收費管理系統，恕無法提供 Prototpye 實作介面。"
+      "text3": "做出 Prototype 來給使用者測試可達到高擬真度且更可以看出使用者對畫面的操作流程以及互動。",
+      "text3-2": "由於此專案為收費管理系統，恕無法提供操作介面 🙇‍♀️。"
     },
     "result": {
       "title": "頁面展示",

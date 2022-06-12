@@ -305,6 +305,7 @@
               <div class="col-md-5 content-pr-48 mb-48">
                 <h5 class="mb-16">{{ $t('pms_project.design.subtitle3') }}</h5>
                 <p class="text-md" v-html="$t('pms_project.design.text3')"></p>
+                <p class="text-sm mt-16" v-html="$t('pms_project.design.text3-2')"></p>
               </div>
               <div class="col-md-7 content-pl-48">
                 <img

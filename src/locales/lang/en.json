@@ -193,7 +193,8 @@
       "subtitle2": "II. Reuse the UI library",
       "text2": "<span class='text-md-bold'>Admin system should pays more attention to user's process of completing tasks than the visual style.</span> To avoid increase user's learning cost I used existing elements to design and keep the consistency.",
       "subtitle3": "III. Prototype",
-      "text3": "Prototype can achieve high fidelity, also I through it to observed users operation and interaction with interfaces.<br>According to this project is a fee admin system, please forgive me can't provide a interact Prototype."
+      "text3": "Prototype can achieve high fidelity, also I through it to observed users operation and interaction with interfaces.",
+      "text3-2": "According to this project is charged admin system, please forgive me can't provide an interact Prototype. 🙇‍♀️ "
     },
     "result": {
       "title": "Page Display",
