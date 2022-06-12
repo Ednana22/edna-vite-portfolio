@@ -509,7 +509,7 @@
             </div>
           </div>
           <div class="iterate row content mb-80">
-            <div class="col-md-5 content-pr-48 mb-48">
+            <div class="col-md-12 content-pr-48 mb-48">
               <h5 class="mb-16">{{ $t('official_web_project.design.subtitle5') }}</h5>
               <p class="text-md" v-html="$t('official_web_project.design.text5')"></p>
             </div>
@@ -590,7 +590,9 @@
                 </div>
               </div>
             </div>
-            <div class="row">
+            <div class="">
+              <p class="text-md mb-24" v-html="$t('official_web_project.result.text')"></p>
+
               <div class=" col-md-12 content-pr-48 mb-48">
                 <a target="_blank" href="https://www.owlting.com/market/" class="a-white">
                   🌟 {{ $t('common.view_project_cta') }}<i class="las la-long-arrow-alt-right ml-4"></i>
@@ -631,7 +633,7 @@
         </div>
       </section>
       <section id="step-7" class="7takeaway container text-md mt-60 mb-60">
-        <div class="col-md-5 content-pr-48">
+        <div class="col-md-12 content-pr-48">
           <div class="row">
             <div class="project-title">
               <div class="title-group">
