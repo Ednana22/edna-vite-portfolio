@@ -277,6 +277,12 @@
         </div>
       </div>
     </section>
+    <!-- <section class="coworkers">
+      <div class="container mb-48">
+        <h2>合作伙伴們說</h2>
+        <SwiperContainer />
+      </div>
+    </section> -->
     <section class="NNgroup container">
       <div class="row mb-48">
         <div class="col-md-6 content-pr-48 mb-48">
@@ -317,6 +323,12 @@
         </div>
       </div>
     </section>
+    <!-- <section class="books">
+      <div class="container mb-48">
+        <h2>深深影響我的書</h2>
+        <SwiperContainer />
+      </div>
+    </section> -->
     <section class="connect-section">
       <div class="container">
         <div class="connection-area">
@@ -356,7 +368,31 @@
 </template>
 
 <script>
-export default {};
+import { gsap } from 'gsap'
+import ScrollTrigger from "gsap/ScrollTrigger"
+import SwiperContainer from '../components/SwiperContainer.vue'
+
+gsap.registerPlugin(ScrollTrigger)
+
+export default {
+  name: "Home",
+  components: {
+    SwiperContainer
+  },
+  mounted () {
+    const bubbles = document.querySelectorAll('.memoji .figure')
+    gsap.to(bubbles, {
+      scrollTrigger: {
+        trigger: '.memoji'
+      },
+      scale: 1,
+      duration: .5,
+      delay: 1,
+      ease: 'expo',
+      stagger: .6
+    })
+  }
+};
 </script>
 
 <style lang="scss" src="../styles/about.scss"></style>

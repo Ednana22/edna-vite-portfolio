@@ -301,15 +301,29 @@
                 </figure>
               </div>
             </div>
-            <div class="3prototype row content">
+            <div class="3prototype row content mb-80">
               <div class="col-md-5 content-pr-48 mb-48">
                 <h5 class="mb-16">{{ $t('pms_project.design.subtitle3') }}</h5>
                 <p class="text-md" v-html="$t('pms_project.design.text3')"></p>
                 <p class="text-sm mt-16" v-html="$t('pms_project.design.text3-2')"></p>
               </div>
-              <div class="col-md-7 content-pl-48">
+              <div class="col-md-7 content-pl-48 text-align-center">
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/prototype.png"
+                  class="figure-img img-fluid"
+                  style="width: 400px;"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <div class="4usability_test, row content">
+              <div class="col-md-5 content-pr-48 mb-48">
+                <h5 class="mb-16">{{ $t('pms_project.design.subtitle4') }}</h5>
+                <p class="text-md" v-html="$t('pms_project.design.text4')"></p>
+              </div>
+              <div class="col-md-7 content-pl-48 text-align-center">
+                <img
+                  src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/Usability+Testing.png"
                   class="figure-img img-fluid"
                   alt="..."
                 />
