@@ -9,7 +9,14 @@
       <div class="flex-center">
       </div>
       <p class="text-sm text-align-center font-color-light">Copyright © EdnaWei, All Rights Reserved.</p>
-  </div>  
+  </div>
+
+  <!-- photo preview -->
+  <vue-easy-lightbox
+    :visible="photoState.visible"
+    :imgs="photoState.imgs"
+    :index="index"
+    @hide="handleHide" />
 </template>
 
 <script setup>
@@ -17,6 +24,7 @@ import AppNav from './components/AppNav.vue'
 import { useRoute } from 'vue-router'
 import { shallowRef, watch, computed } from 'vue'
 import { useI18n } from 'vue-i18n'
+import { state as photoState, close } from './store/photoPreview'
 
 const { locale } = useI18n()
 const langStyles = computed(() => {
@@ -40,6 +48,10 @@ watch(
     document.title = titleMap.value[toName] || 'Edna Wei\'s Portfolio'
   }
 )
+
+const handleHide = () => {
+  close()
+}
 </script>
 
 <style>
