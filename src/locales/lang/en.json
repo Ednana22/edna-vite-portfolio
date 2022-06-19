@@ -25,7 +25,7 @@
     "challenges": "Challenges and Solutions",
     "uiux_designer": "UI/UX Designer",
     "prototype_cta": "View Prototype",
-    "more_project": "More Projects",
+    "more_project": "More Works",
     "view_project_cta": "View Project"
   },
   "page_elevator": {
@@ -193,7 +193,10 @@
       "subtitle2": "II. Reuse the UI library",
       "text2": "<span class='text-md-bold'>Admin system should pays more attention to user's process of completing tasks than the visual style.</span> To avoid increase user's learning cost I used existing elements to design and keep the consistency.",
       "subtitle3": "III. Prototype",
-      "text3": "Prototype can achieve high fidelity, also I through it to observed users operation and interaction with interfaces.<br>According to this project is a fee admin system, please forgive me can't provide a interact Prototype."
+      "text3": "Prototype can achieve high fidelity, also I through it to observed users operation and interaction with interfaces.",
+      "text3-2": "According to this project is charged admin system, please forgive me can't provide an interact Prototype. 🙇‍♀️ ",
+      "subtitle4": "IV. Usability Testing",
+      "text4": "We invited users to operate the new version. Through observation, recording and collecting feedbacks.Total included hold 6 usability tests, and 2 iterations."
     },
     "result": {
       "title": "Page Display",
@@ -287,6 +290,7 @@
     },
     "result": {
       "title": "Page Display",
+      "text":"This revision is very successful. We got many compliments by unique visual style and clear introductions.",
       "mockup_title1": "Homepage",
       "mockup_text1": "Through flying owl concept to display product diversity, it's very attractive.",
       "mockup_title2": "Business introduction section",
@@ -296,7 +300,7 @@
     },
    "takeaway": {
      "title": "Archive is as important as create",
-     "text": "This revision is very successful. We got many compliments by unique visual style and clear introductions.<br/> However, I should archived comprehensively before the revision, which I will definitely pay attention next time."
+     "text": "I have learned is I should archived comprehensively before the revision, which I will definitely pay attention next time."
    }
   },
   "about_page": {
