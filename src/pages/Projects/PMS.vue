@@ -212,7 +212,7 @@
                 </div>
               </div>
               <div class="improve row mb-80">
-                <div class="col-md-5 content-pr-48 mb-48">
+                <div class="col-md-12 content-pr-48 mb-48">
                   <h5 class="mb-16">{{ $t('pms_project.ideate.subtitle2') }}</h5>
                   <ul>
                     <div class="flex mb-24">
@@ -225,21 +225,32 @@
                     </div>
                   </ul>
                 </div>
-                <div class="col-md-7 content-pl-48">
+                <div class="col-md-12 mb-40">
                   <div style="width: fit-content; margin: auto">
                     <figure class="figure">
                       <img
-                        src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/brainstorming2.png"
+                        src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/PMS-Flow.png"
                         class="figure-img img-fluid"
-                        style="width: 450px"
+                        style="width:"
                         alt="..."
                       />
                     </figure>
-                    <div class="text-sm mt-8">{{ $t('pms_project.ideate.description') }}</div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div style="width: fit-content; margin: auto">
+                    <figure class="figure">
+                      <img
+                        src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/PMS-Flow2.png"
+                        class="figure-img img-fluid"
+                        style="width:"
+                        alt="..."
+                      />
+                    </figure>
                   </div>
                 </div>
               </div>
-              <div class="soluction row">
+              <div class="solution row">
                 <div class="col-md-5 content-pr-48 mb-48">
                   <h5 class="mb-16">{{ $t('pms_project.ideate.subtitle3') }}</h5>
                   <p class="text-md" v-html="$t('pms_project.ideate.text3')"></p>
@@ -258,7 +269,7 @@
             </div>
           </div>
         </section>
-        <section id="step-5" class="5design-procress bg-grey-darkest text-md adjust-pt-dark-bg">
+        <section id="step-5" class="5design-process bg-grey-darkest text-md adjust-pt-dark-bg">
           <div class="container font-color-lighter">
             <div class="project-title">
               <div class="title-group">
