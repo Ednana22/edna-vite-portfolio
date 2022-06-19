@@ -83,7 +83,6 @@
         </div>
       </div>
     </section>
-
     <section class="time_line-h container">
       <h2 class="mb-16">{{ $t('about_page.steps.title') }}</h2>
       <div class="timeline-h flex space-between">
