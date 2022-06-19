@@ -25,7 +25,7 @@
       nextEl: '.swiper-navigation__next'
     }"
     :pagination="{
-      el: '.swiper-pagination-container'
+      el: '.swiper-pagination-container__coworkers'
     }"
     :scrollbar="{ draggable: true }"
     @swiper="onSwiper">
@@ -45,7 +45,7 @@
       </div>
     </swiper-slide>
   </swiper>
-  <div class="text-center mt-4 swiper-pagination-container"></div>
+  <div class="text-center mt-4 swiper-pagination-container__coworkers"></div>
 </div>
 </template>
 <script>
