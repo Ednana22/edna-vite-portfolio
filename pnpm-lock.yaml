@@ -11,6 +11,7 @@ specifiers:
   unocss: ^0.4.7
   vite: ^2.6.13
   vue: ^3.2.20
+  vue-easy-lightbox: ^1.4.1
   vue-i18n: ^9.2.0-beta.16
   vue-router: ^4.0.12
   vue3-click-away: ^1.2.1
@@ -22,6 +23,7 @@ dependencies:
   gsap: 3.8.0
   sass: 1.43.4
   vue: 3.2.20
+  vue-easy-lightbox: 1.4.1_vue@3.2.20
   vue-i18n: 9.2.0-beta.16_vue@3.2.20
   vue-router: 4.0.12_vue@3.2.20
   vue3-click-away: 1.2.1
@@ -794,6 +796,15 @@ packages:
     peerDependenciesMeta:
       '@vue/composition-api':
         optional: true
+    dependencies:
+      vue: 3.2.20
+    dev: false
+
+  /vue-easy-lightbox/1.4.1_vue@3.2.20:
+    resolution: {integrity: sha512-bZHepAokLwiy77qLx45n3WxnLRg4M2gcffpu2Q/H71C7UgSxxXgAmbJdIrtOFni0VwA1rFxkfBBP1Ajn9FY2OA==}
+    engines: {node: '>=10.13.0'}
+    peerDependencies:
+      vue: ^3.0.0
     dependencies:
       vue: 3.2.20
     dev: false
