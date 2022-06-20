@@ -76,6 +76,7 @@
         <div class="row project">
           <div class="col-lg-8 content-pr-48">
             <div class="market-device-section mb-56">
+              <div class="img-container web gradient-border"></div>
               <div class="img-container mobile gradient-border"></div>
             </div>
           </div>
