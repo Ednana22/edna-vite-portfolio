@@ -76,7 +76,6 @@
         <div class="row project">
           <div class="col-lg-8 content-pr-48">
             <div class="market-device-section mb-56">
-              <div v-preview:bg class="img-container web gradient-border"></div>
               <div class="img-container mobile gradient-border"></div>
             </div>
           </div>
@@ -102,7 +101,6 @@
             <div class="display-on-mobile mt-32">
               <figure class="figure gradient-border">
                 <img
-                  v-preview
                   v-lazy="'https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/website-homepage.png'"
                   class="figure-img img-fluid"
                   alt="..."
@@ -120,7 +118,6 @@
             <div class="pms-device-section mb-56">
               <figure class="figure">
                 <img
-                  v-preview
                   v-lazy="'https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/pms-homepage.png'"
                   class="figure-img img-fluid"
                   alt="..."
@@ -148,7 +145,6 @@
             <div class="display-on-mobile mt-32">
               <figure class="figure">
                 <img
-                  v-preview
                   v-lazy="'https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/pms-homepage.png'"
                   class="figure-img img-fluid"
                   alt="..."
@@ -166,7 +162,6 @@
             <div class="official-web-device-section mb-56">
               <figure class="figure gradient-border">
                 <img
-                  v-preview
                   v-lazy="'https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/website-homepage.gif'"
                   class="figure-img img-fluid"
                   alt="..."
@@ -194,7 +189,6 @@
             <div class="display-on-mobile mt-32">
               <figure class="figure gradient-border">
                 <img
-                  v-preview
                   v-lazy="'https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/website-homepage.gif'"
                   class="figure-img img-fluid"
                   alt="..."
@@ -215,7 +209,6 @@
             <div class="mail mb-8 col-sm-6 content-pl-48 mobile-mb-24">
               <figure class="figure mr-8">
                 <img
-                  v-preview
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/icon-mail.svg"
                   class="figure-img img-fluid"
                   alt="..."
@@ -226,7 +219,6 @@
             <div class="linkedin mb-8 col-sm-6 content-pl-48">
               <figure class="figure mr-8">
                 <img
-                  v-preview
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/icon-linkedin.svg"
                   class="figure-img img-fluid"
                   alt="..."
