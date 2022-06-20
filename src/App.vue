@@ -13,6 +13,7 @@
 
   <!-- photo preview -->
   <vue-easy-lightbox
+    class="img-previewer"
     :visible="photoState.visible"
     :imgs="photoState.imgs"
     :index="index"
@@ -55,4 +56,9 @@ const handleHide = () => {
 </script>
 
 <style>
+.img-previewer .vel-img-wrapper {
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px 2px rgba(0, 0, 0, .3);
+}
 </style>
