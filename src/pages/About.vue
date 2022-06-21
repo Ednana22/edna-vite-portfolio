@@ -2,12 +2,7 @@
   <main class="page-about mt-0">
     <section class="about container">
       <div class="row mt-40">
-        <div class="img col-md-5 content-pr-48">
-          <figure class="figure col-12">
-            <div class="pic border-radius-4"></div>
-          </figure>
-        </div>
-        <div class="col-md-7 content-pl-48">
+        <div class="col-md-7 mb-24 content-pr-48">
           <h1 class="mb-24">HELLO ! I'm Edna</h1>
           <p class="text-md mb-16" v-html="$t('about_page.text')">
           </p>
@@ -25,6 +20,11 @@
             </a>
           </div>
         </div>
+        <div class="img col-md-5 content-pl-48">
+          <figure class="figure col-12">
+            <div class="pic border-radius-4"></div>
+          </figure>
+        </div>
       </div>
     </section>
 
@@ -32,12 +32,12 @@
       <h2 class="mb-16">
         {{ $t('about_page.language.title') }}
       </h2>
-      <div class="row ">
-        <div class="zh col-lg-4 flex flex-start mb-16">
+      <div class="row">
+        <div class="zh col-lg-4 flex items-start mb-16">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/ZH.png"
             class="figure-img img-fluid mr-16"
-            style="width: 60px; height:60px"
+            style="width: 54px; height: 54px;"
             alt="..."
           />
         <div class="content">
@@ -49,11 +49,11 @@
           </p>
         </div>
         </div>
-        <div class="en col-lg-4 flex flex-start mb-16">
+        <div class="en col-lg-4 flex items-start mb-16 ">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/EN.png"
             class="figure-img img-fluid mr-16"
-            style="width: 60px; height:60px"
+            style="width: 54px; height: 54px;"
             alt="..."
           />
         <div class="content">
@@ -65,11 +65,11 @@
           </p>
         </div>
         </div>
-        <div class="fr col-lg-4 flex flex-start ">
+        <div class="fr col-lg-4 flex items-start ">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/FR.png"
             class="figure-img img-fluid mr-16"
-            style="width: 60px; height:60px"
+            style="width: 54px; height: 54px;"
             alt="..."
           />
         <div class="content">
@@ -83,7 +83,6 @@
         </div>
       </div>
     </section>
-
     <section class="time_line-h container">
       <h2 class="mb-16">{{ $t('about_page.steps.title') }}</h2>
       <div class="timeline-h flex space-between">
@@ -167,7 +166,7 @@
     <section class="skill_tree container">
       <h2 class="mb-16">{{ $t('about_page.skill_tree.title') }}</h2>
       <div class="row mb-48">
-        <div class="col-xl-2 col-md-3 col-4 text-align-center">
+        <div class="col-xl-2 col-md-3 col-4 mb-16 text-align-center">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/figma.png"
             class="figure-img img-fluid"
@@ -176,7 +175,7 @@
           />
           <p class="text-sm-bold text-align-center">Figma</p>
         </div>
-        <div class="col-xl-2 col-md-3 col-4 text-align-center">
+        <div class="col-xl-2 col-md-3 col-4 mb-16 text-align-center">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/sketch.png"
             class="figure-img img-fluid"
@@ -185,7 +184,7 @@
           />
           <p class="text-sm-bold text-align-center">Sketch</p>
         </div>
-        <div class="col-xl-2 col-md-3 col-4 text-align-center">
+        <div class="col-xl-2 col-md-3 col-4 mb-16 text-align-center">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/HTML.png"
             class="figure-img img-fluid"
@@ -194,7 +193,7 @@
           />
           <p class="text-sm-bold text-align-center">HTML</p>
         </div>
-        <div class="col-xl-2 col-md-3 col-4 text-align-center">
+        <div class="col-xl-2 col-md-3 col-4 mb-16 text-align-center">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/CSS.png"
             class="figure-img img-fluid"
@@ -203,7 +202,7 @@
           />
           <p class="text-sm-bold text-align-center">CSS</p>
         </div>
-        <div class="col-xl-2 col-md-3 col-4 text-align-center">
+        <div class="col-xl-2 col-md-3 col-4 mb-16 text-align-center">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/JavaScript.png"
             class="figure-img img-fluid"
@@ -212,7 +211,7 @@
           />
           <p class="text-sm-bold text-align-center">JavaScript ( {{ $t('about_page.skill_tree.learning') }} )</p>
         </div>
-        <div class="col-xl-2 col-md-3 col-4 text-align-center">
+        <div class="col-xl-2 col-md-3 col-4 mb-16 text-align-center">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/Sass.png"
             class="figure-img img-fluid"
@@ -221,7 +220,7 @@
           />
           <p class="text-sm-bold text-align-center">Sass</p>
         </div>
-        <div class="col-xl-2 col-md-3 col-4 text-align-center">
+        <div class="col-xl-2 col-md-3 col-4 mb-16 text-align-center">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/Bootstrap.png"
             class="figure-img img-fluid"
@@ -230,7 +229,7 @@
           />
           <p class="text-sm-bold text-align-center">Bootstrap</p>
         </div>
-        <div class="col-xl-2 col-md-3 col-4 text-align-center">
+        <div class="col-xl-2 col-md-3 col-4 mb-16 text-align-center">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/Photoshop.png"
             class="figure-img img-fluid"
@@ -239,7 +238,7 @@
           />
           <p class="text-sm-bold text-align-center">Photoshop</p>
         </div>
-        <div class="col-xl-2 col-md-3 col-4 text-align-center">
+        <div class="col-xl-2 col-md-3 col-4 mb-16 text-align-center">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/Illustrator.png"
             class="figure-img img-fluid"
@@ -248,7 +247,7 @@
           />
           <p class="text-sm-bold text-align-center">Illustrator</p>
         </div>
-        <div class="col-xl-2 col-md-3 col-4 text-align-center">
+        <div class="col-xl-2 col-md-3 col-4 mb-16 text-align-center">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/Adobe+Xd.png"
             class="figure-img img-fluid"
@@ -257,7 +256,7 @@
           />
           <p class="text-sm-bold text-align-center">Adobe Xd</p>
         </div>
-        <div class="col-xl-2 col-md-3 col-4 text-align-center">
+        <div class="col-xl-2 col-md-3 col-4 mb-16 text-align-center">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/After+Effect.png"
             class="figure-img img-fluid"
@@ -266,7 +265,7 @@
           />
           <p class="text-sm-bold text-align-center">After Effect</p>
         </div>
-        <div class="col-xl-2 col-md-3 col-4 text-align-center">
+        <div class="col-xl-2 col-md-3 col-4 mb-16 text-align-center">
           <img
             src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/premiere.png"
             class="figure-img img-fluid"
@@ -277,6 +276,12 @@
         </div>
       </div>
     </section>
+    <!-- <section class="coworkers">
+      <div class="container mb-48">
+        <h2>合作伙伴們說</h2>
+        <SwiperContainer />
+      </div>
+    </section> -->
     <section class="NNgroup container">
       <div class="row mb-48">
         <div class="col-md-6 content-pr-48 mb-48">
@@ -317,6 +322,12 @@
         </div>
       </div>
     </section>
+    <!-- <section class="books">
+      <div class="container mb-48">
+        <h2>深深影響我的書</h2>
+        <SwiperContainer />
+      </div>
+    </section> -->
     <section class="connect-section">
       <div class="container">
         <div class="connection-area">
@@ -356,7 +367,31 @@
 </template>
 
 <script>
-export default {};
+import { gsap } from 'gsap'
+import ScrollTrigger from "gsap/ScrollTrigger"
+import SwiperContainer from '../components/SwiperContainer.vue'
+
+gsap.registerPlugin(ScrollTrigger)
+
+export default {
+  name: "Home",
+  components: {
+    SwiperContainer
+  },
+  mounted () {
+    const bubbles = document.querySelectorAll('.memoji .figure')
+    gsap.to(bubbles, {
+      scrollTrigger: {
+        trigger: '.memoji'
+      },
+      scale: 1,
+      duration: .5,
+      delay: 1,
+      ease: 'expo',
+      stagger: .6
+    })
+  }
+};
 </script>
 
 <style lang="scss" src="../styles/about.scss"></style>

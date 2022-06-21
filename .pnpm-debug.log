@@ -3,12 +3,20 @@
     "selected": 1
   },
   "1 error pnpm": {
-    "code": "ERR_PNPM_NO_SCRIPT",
+    "code": "ELIFECYCLE",
+    "errno": "ENOENT",
+    "syscall": "spawn",
+    "file": "sh",
+    "pkgid": "edna-portfolio@0.0.0",
+    "stage": "dev",
+    "script": "vite",
+    "pkgname": "edna-portfolio",
     "err": {
-      "name": "Error",
-      "message": "Missing script: install",
-      "code": "ERR_PNPM_NO_SCRIPT",
-      "stack": "Error: Missing script: install\n    at Object.handler (/Users/edna/.nvm/versions/node/v14.17.5/lib/node_modules/pnpm/dist/pnpm.cjs:122921:15)\n    at async /Users/edna/.nvm/versions/node/v14.17.5/lib/node_modules/pnpm/dist/pnpm.cjs:126966:20\n    at async run (/Users/edna/.nvm/versions/node/v14.17.5/lib/node_modules/pnpm/dist/pnpm.cjs:126941:34)\n    at async runPnpm (/Users/edna/.nvm/versions/node/v14.17.5/lib/node_modules/pnpm/dist/pnpm.cjs:127151:5)\n    at async /Users/edna/.nvm/versions/node/v14.17.5/lib/node_modules/pnpm/dist/pnpm.cjs:127143:7"
+      "name": "pnpm",
+      "message": "edna-portfolio@0.0.0 dev: `vite`\nspawn ENOENT",
+      "code": "ELIFECYCLE",
+      "stack": "pnpm: edna-portfolio@0.0.0 dev: `vite`\nspawn ENOENT\n    at ChildProcess.<anonymous> (/Users/unickhow/.nvm/versions/node/v16.14.2/pnpm-global/5/node_modules/.pnpm/pnpm@7.2.1/node_modules/pnpm/dist/pnpm.cjs:93917:22)\n    at ChildProcess.emit (node:events:526:28)\n    at maybeClose (node:internal/child_process:1092:16)\n    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)"
     }
-  }
+  },
+  "2 warn pnpm:global": " Local package.json exists, but node_modules missing, did you mean to install?"
 }
