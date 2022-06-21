@@ -236,6 +236,7 @@
           <div class="col-md-7 content-pl-48">
             <figure class="figure">
               <img
+                v-preview
                 src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/user-journey_W.png"
                 class="figure-img img-fluid border-radius-4 shadow-sm"
                 alt="..."
@@ -274,6 +275,7 @@
           <div class="col-md-7 flex-center content-pl-48">
             <figure class="figure">
               <img
+                v-preview
                 src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/old-version.png"
                 class="figure-img img-fluid border-radius-4"
                 alt="..."
@@ -299,6 +301,7 @@
           <div class="col-md-7 flex-center content-pl-48">
             <figure class="figure">
               <img
+                v-preview
                 src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/brainstorming.png"
                 class="figure-img img-fluid border-radius-4 shadow-sm"
                 alt="..."
@@ -329,6 +332,7 @@
                 <p class="text-md col-md-5 content-pr-48 mb-48" v-html="$t('market_project.design.text1')"></p>
                 <figure class="figure col-md-7 content-pl-48">
                   <img
+                    v-preview
                     src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/ia.png"
                     class="figure-img img-fluid"
                     alt="..."
@@ -414,6 +418,7 @@
                 <p class="text-md col-md-5 content-pr-48 mb-48" v-html="$t('market_project.design.text3')"></p>
                 <figure class="figure col-md-7 content-pl-48">
                   <img
+                    v-preview
                     src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/UI+kit.png"
                     class="figure-img img-fluid"
                     alt="..."
@@ -435,6 +440,7 @@
                 </div>
                 <figure class="figure col-md-7 content-pl-48">
                   <img
+                    v-preview
                     v-lazy="'https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/prototype.png'"
                     class="figure-img img-fluid border-radius-4"
                     alt="..."
@@ -545,6 +551,7 @@
           </div>
           <figure class="figure col-md-7 content-pl-48 flex-center">
             <img
+              v-preview
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/heat-map.png"
               class="figure-img img-fluid"
               alt="..."
@@ -578,6 +585,7 @@
           </div>
           <figure class="figure col-md-7 content-pl-48">
             <img
+              v-preview
               src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/market/market-app.png"
               class="figure-img img-fluid border-radius-4 shadow-sm"
               alt="..."

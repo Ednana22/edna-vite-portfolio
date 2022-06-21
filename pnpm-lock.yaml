@@ -13,6 +13,7 @@ specifiers:
   unocss: ^0.38.2
   vite: ^2.6.13
   vue: ^3.2.20
+  vue-easy-lightbox: ^1.4.1
   vue-i18n: ^9.2.0-beta.16
   vue-router: ^4.0.12
   vue3-click-away: ^1.2.1
@@ -25,6 +26,7 @@ dependencies:
   sass: 1.52.3
   swiper: 8.2.3
   vue: 3.2.37
+  vue-easy-lightbox: 1.4.1_vue@3.2.20
   vue-i18n: 9.2.0-beta.36_vue@3.2.37
   vue-router: 4.0.16_vue@3.2.37
   vue3-click-away: 1.2.4
@@ -1225,6 +1227,15 @@ packages:
         optional: true
     dependencies:
       vue: 3.2.37
+    dev: false
+
+  /vue-easy-lightbox/1.4.1_vue@3.2.20:
+    resolution: {integrity: sha512-bZHepAokLwiy77qLx45n3WxnLRg4M2gcffpu2Q/H71C7UgSxxXgAmbJdIrtOFni0VwA1rFxkfBBP1Ajn9FY2OA==}
+    engines: {node: '>=10.13.0'}
+    peerDependencies:
+      vue: ^3.0.0
+    dependencies:
+      vue: 3.2.20
     dev: false
 
   /vue-i18n/9.2.0-beta.36_vue@3.2.37:
