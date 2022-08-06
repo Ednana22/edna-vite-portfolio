@@ -98,8 +98,6 @@ import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { useStorage } from '@vueuse/core'
 
-const state = reactive({ count: 0 })
-
 const isDropDownOpen = ref(false)
 const handleDropDownOutside = () => (isDropDownOpen.value = false)
 

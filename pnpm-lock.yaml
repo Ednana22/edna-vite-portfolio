@@ -5,8 +5,8 @@ specifiers:
   '@unocss/transformer-directives': ^0.38.2
   '@vitejs/plugin-vue': ^1.9.4
   '@vue/compiler-sfc': ^3.2.20
-  '@vueuse/components': ^6.7.4
-  '@vueuse/core': ^6.7.4
+  '@vueuse/components': ^6.9.2
+  '@vueuse/core': ^9.1.0
   gsap: ^3.8.0
   sass: ^1.43.4
   swiper: ^8.2.3
@@ -21,12 +21,12 @@ specifiers:
 dependencies:
   '@jambonn/vue-lazyload': 1.0.9_vue@3.2.37
   '@vueuse/components': 6.9.2_vue@3.2.37
-  '@vueuse/core': 6.9.2_vue@3.2.37
+  '@vueuse/core': 9.1.0_vue@3.2.37
   gsap: 3.10.4
   sass: 1.52.3
   swiper: 8.2.3
   vue: 3.2.37
-  vue-easy-lightbox: 1.4.1_vue@3.2.20
+  vue-easy-lightbox: 1.4.1_vue@3.2.37
   vue-i18n: 9.2.0-beta.36_vue@3.2.37
   vue-router: 4.0.16_vue@3.2.37
   vue3-click-away: 1.2.4
@@ -165,6 +165,10 @@ packages:
       estree-walker: 2.0.2
       picomatch: 2.3.1
     dev: true
+
+  /@types/web-bluetooth/0.0.15:
+    resolution: {integrity: sha512-w7hEHXnPMEZ+4nGKl/KDRVpxkwYxYExuHOYXyzIzCDzEZ9ZCGMAewulr9IqJu2LR4N37fcnb1XVeuZ09qgOxhA==}
+    dev: false
 
   /@unocss/cli/0.38.2:
     resolution: {integrity: sha512-9piPujcrHZbd3CEEghdhnGKAMVRzk70op9VEB9s3sxEqEpgomwHvGkTnDlOey4z4bHqgKWnkAteaLvQbUP/L5w==}
@@ -417,6 +421,22 @@ packages:
       vue-demi: 0.13.1_vue@3.2.37
     dev: false
 
+  /@vueuse/core/9.1.0_vue@3.2.37:
+    resolution: {integrity: sha512-BIroqvXEqt826aE9r3K5cox1zobuPuAzdYJ36kouC2TVhlXvFKIILgFVWrpp9HZPwB3aLzasmG3K87q7TSyXZg==}
+    dependencies:
+      '@types/web-bluetooth': 0.0.15
+      '@vueuse/metadata': 9.1.0
+      '@vueuse/shared': 9.1.0_vue@3.2.37
+      vue-demi: 0.13.1_vue@3.2.37
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+    dev: false
+
+  /@vueuse/metadata/9.1.0:
+    resolution: {integrity: sha512-8OEhlog1iaAGTD3LICZ8oBGQdYeMwByvXetOtAOZCJOzyCRSwqwdggTsmVZZ1rkgYIEqgUBk942AsAPwM21s6A==}
+    dev: false
+
   /@vueuse/shared/6.9.2_vue@3.2.37:
     resolution: {integrity: sha512-lAiMh6XROs0kSKVd0Yb/6GKoQMxC1fYrFDi6opvQWISPtcqRNluRrQxLUZ3WTI78ovtoKRLktjhkFAtydcfFDg==}
     peerDependencies:
@@ -430,6 +450,15 @@ packages:
     dependencies:
       vue: 3.2.37
       vue-demi: 0.13.1_vue@3.2.37
+    dev: false
+
+  /@vueuse/shared/9.1.0_vue@3.2.37:
+    resolution: {integrity: sha512-pB/3njQu4tfJJ78ajELNda0yMG6lKfpToQW7Soe09CprF1k3QuyoNi1tBNvo75wBDJWD+LOnr+c4B5HZ39jY/Q==}
+    dependencies:
+      vue-demi: 0.13.1_vue@3.2.37
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
     dev: false
 
   /anymatch/3.1.2:
@@ -1229,13 +1258,13 @@ packages:
       vue: 3.2.37
     dev: false
 
-  /vue-easy-lightbox/1.4.1_vue@3.2.20:
+  /vue-easy-lightbox/1.4.1_vue@3.2.37:
     resolution: {integrity: sha512-bZHepAokLwiy77qLx45n3WxnLRg4M2gcffpu2Q/H71C7UgSxxXgAmbJdIrtOFni0VwA1rFxkfBBP1Ajn9FY2OA==}
     engines: {node: '>=10.13.0'}
     peerDependencies:
       vue: ^3.0.0
     dependencies:
-      vue: 3.2.20
+      vue: 3.2.37
     dev: false
 
   /vue-i18n/9.2.0-beta.36_vue@3.2.37:
