@@ -146,7 +146,7 @@
     "project_scale_answer": "跨 2 部門 . 約 8 人",
     "project_background_answer": "OwlNest 是一款為旅宿業打造的 B2B 三合一整合型訂房系統，用戶遍及亞洲、美洲等國家已累積達上千家。<br/><span class='text-md-bold'>然而系統早期所規劃的鋪價功能較簡易且無法達到有效又彈性的房價設定，已逐漸無法應付旅館業市場的拓展。</span>",
     "overview": {
-    "challenges_title1": "無法與真實與用者進行訪談",
+    "challenges_title1": "無法與真實使用者進行訪談",
     "challenges_answer1": "此產品向來都是由業務端帶回使用者反饋並發起優化的需求，因此 UI/UX 設計師很少有機會與真實使用者接觸。為了解決此問題我訪談了集團旗下的 OwlStay 實體旅宿部門的同事以及第一線與使用者接觸的銷售業務瞭解使用者在操作上的真實痛點。",
     "challenges_title2": "與產品顧問持不同意見",
     "challenges_answer2": "在討論優化時產品顧問提出想把原有鋪價流程一次翻新的做法，但我建議盡量以不要影響到目前使用者的操作為原則。針對這點我做出簡易 Prototype 以 A/B Test 來說服產品顧問。",
