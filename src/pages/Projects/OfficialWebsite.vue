@@ -594,7 +594,7 @@
               <p class="text-md mb-24" v-html="$t('official_web_project.result.text')"></p>
 
               <div class=" col-md-12 content-pr-48 mb-48">
-                <a target="_blank" href="https://www.owlting.com/market/" class="a-white">
+                <a target="_blank" href="https://www.owlting.com" class="a-white">
                   🌟 {{ $t('common.view_project_cta') }}<i class="las la-long-arrow-alt-right ml-4"></i>
                 </a>
               </div>
