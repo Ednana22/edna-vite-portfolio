@@ -28,28 +28,28 @@
                 class="figure-img img-fluid mt-80"
                 alt="..."
               />
-              <figure gure class="coffee figure flex-center">
+              <figure class="coffee figure flex-center">
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/coffee.png"
                   class="figure-img img-fluid"
                   alt="..."
                 />
               </figure>
-              <figure gure class="work figure flex-center">
+              <figure class="work figure flex-center">
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/work.png"
                   class="figure-img img-fluid"
                   alt="..."
                 />
               </figure>
-              <figure gure class="devices figure flex-center">
+              <figure class="devices figure flex-center">
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/devices.png"
                   class="figure-img img-fluid"
                   alt="..."
                 />
               </figure>
-              <figure gure class="speak figure flex-center">
+              <figure class="speak figure flex-center">
                 <img
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/speech+bubble.png"
                   class="figure-img img-fluid"
@@ -62,8 +62,7 @@
           <div class="kv-mobile col-md-6">
               <figure class="figure">
                 <img
-                  src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/hero.png
-"
+                  src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/homepage/hero.png"
                   class="figure-img img-fluid"
                   alt="..."
                 />
