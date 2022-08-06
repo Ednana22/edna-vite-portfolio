@@ -267,6 +267,7 @@
           <div class="col-md-7 flex-center content-pl-48">
             <figure class="figure">
               <img
+                v-preview
                 src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/%E8%88%8A%E5%AE%98%E7%B6%B2.png"
                 class="figure-img img-fluid border-radius-4 shadow-sm"
                 alt="..."
@@ -294,6 +295,7 @@
           <div  class="col-md-7 flex-center content-pl-48">
             <figure class="figure">
               <img
+                v-preview
                 src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/official-web-brainstorming.png"
                 class="figure-img img-fluid shadow-sm border-radius-4"
                 alt="..."
@@ -325,6 +327,7 @@
                 <div class="col-md-7 content-pl-48">
                   <figure class="figure">
                     <img
+                      v-preview
                       src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/ia.png"
                       class="figure-img img-fluid"
                       alt="..."
@@ -342,6 +345,7 @@
                 <div class="col-md-7 content-pl-48">
                   <figure class="figure">
                     <img
+                      v-preview
                       src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/wireframe.png"
                       class="figure-img img-fluid border-radius-4"
                       alt="..."
@@ -517,6 +521,7 @@
               <div class="col-sm-6 content-pr-8 mb-16">
                 <figure class="figure">
                   <img
+                    v-preview
                     src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/homepage-dark.png"
                     class="figure-img img-fluid border-radius-4"
                     alt="..."
@@ -526,6 +531,7 @@
               <div class="col-sm-6 content-pl-8">
                 <figure class="figure">
                   <img
+                    v-preview
                     src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/official-web/homepage-light.png"
                     class="figure-img img-fluid border-radius-4"
                     alt="..."
@@ -594,7 +600,7 @@
               <p class="text-md mb-24" v-html="$t('official_web_project.result.text')"></p>
 
               <div class=" col-md-12 content-pr-48 mb-48">
-                <a target="_blank" href="https://www.owlting.com/market/" class="a-white">
+                <a target="_blank" href="https://www.owlting.com" class="a-white">
                   🌟 {{ $t('common.view_project_cta') }}<i class="las la-long-arrow-alt-right ml-4"></i>
                 </a>
               </div>
