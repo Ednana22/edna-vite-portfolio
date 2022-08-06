@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "@jambonn/vue-lazyload": "^1.0.9",
-    "@vueuse/components": "^6.7.4",
-    "@vueuse/core": "^6.7.4",
+    "@vueuse/components": "^6.9.2",
+    "@vueuse/core": "^9.1.0",
     "gsap": "^3.8.0",
     "sass": "^1.43.4",
     "swiper": "^8.2.3",
