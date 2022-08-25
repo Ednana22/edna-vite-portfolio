@@ -143,7 +143,7 @@
   "pms_project": {
     "title": "Design pricing function for OwlNest admin system",
     "project_scale_answer": "2 departments, 8 members",
-    "project_background_answer": "OwlNest is a B2B property management system for hospitality, clients all over Asian and the United States.<br/>However, the pricing function was been planned in the early stage of the system is relatively simple and cannot achieve effective and flexible price setting.<span class='text-md-bold'> In recent year it's hard to satisfy our new users from hotel.</span>。",
+    "project_background_answer": "OwlNest is a B2B property management system for hospitality, clients all over Asian and the United States.<br/>However, the pricing function was been planned in the early stage of the system is relatively simple and cannot achieve effective and flexible price setting.<span class='text-md-bold'> In recent year it's hard to satisfy our new users from hotel.</span>",
     "overview": {
     "challenges_title1": "It's hard to talk with end users",
     "challenges_answer1": "In this project, our users feedbacks were always been bought by sales, UI/UX designer rarely have opportunity to interview end users. To resolve this problem, I interviewed our colleagues in OwlStay ( OwlTing house brand of hostels ), to understand the real pain points of end users.",
