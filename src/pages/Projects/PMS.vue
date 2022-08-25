@@ -229,6 +229,7 @@
                   <div style="width: fit-content; margin: auto">
                     <figure class="figure">
                       <img
+                        v-preview
                         src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/PMS-Flow.png"
                         class="figure-img img-fluid"
                         style="width:"
