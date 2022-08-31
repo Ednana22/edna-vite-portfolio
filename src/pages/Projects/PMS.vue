@@ -175,6 +175,7 @@
             <div class="col-md-7 content-pl-48">
               <figure class="figure border-thin border-radius-4">
                 <img
+                  v-preview
                   v-lazy="'https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/painpoint.png'"
                   class="figure-img img-fluid border-radius-4"
                   alt="..."
@@ -203,6 +204,7 @@
                 <div class="col-md-7 text-align-center content-pl-48">
                   <figure class="figure">
                     <img
+                      v-preview
                       src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/brainstorming1.png"
                       class="figure-img img-fluid"
                       style="width: 450px"
@@ -242,6 +244,7 @@
                   <div style="width: fit-content; margin: auto">
                     <figure class="figure">
                       <img
+                        v-preview
                         src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/PMS-Flow2.png"
                         class="figure-img img-fluid"
                         style="width:"
@@ -259,6 +262,7 @@
                 <div class="col-md-7 text-align-center content-pl-48">
                   <figure class="figure">
                     <img
+                      v-preview
                       src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/brainstorming3.png"
                       class="figure-img img-fluid"
                       style="width: 450px"
@@ -291,6 +295,7 @@
               <div class="col-md-7 content-pl-48">
                 <figure class="figure">
                   <img
+                    v-preview
                     src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/wireframe.jpg"
                     class="figure-img img-fluid border-radius-4"
                     alt="..."
@@ -306,6 +311,7 @@
               <div class="col-md-7 content-pl-48">
                 <figure class="figure">
                   <img
+                    v-preview
                     src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/UI+library.png"
                     class="figure-img img-fluid"
                     alt="..."
@@ -321,6 +327,7 @@
               </div>
               <div class="col-md-7 content-pl-48 text-align-center">
                 <img
+                  v-preview
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/prototype.png"
                   class="figure-img img-fluid"
                   style="width: 400px;"
@@ -335,6 +342,7 @@
               </div>
               <div class="col-md-7 content-pl-48 text-align-center">
                 <img
+                  v-preview
                   src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/Usability+Testing.png"
                   class="figure-img img-fluid"
                   alt="..."
@@ -361,6 +369,7 @@
             </div>
             <div class="col-md-12 mb-80">
               <img
+                v-preview
                 src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/mutipul-plans-chose.png"
                 class="figure-img img-fluid border-radius-16 shadow mb-16"
                 alt="..."
@@ -371,6 +380,7 @@
             </div>
             <div class="col-md-12 mb-80 ml-auto">
               <img
+                v-preview
                 src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/nationai-holiday.png"
                 class="figure-img img-fluid border-radius-16 shadow mb-16"
                 alt="..."
@@ -381,6 +391,7 @@
             </div>
             <div class="col-md-12">
               <img
+                v-preview
                 src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/PMS/price_calendar.png"
                 class="figure-img img-fluid border-radius-16 shadow mb-16"
                 alt="..."
