@@ -60,7 +60,7 @@
   "market_project": {
     "title": "Redesign OwlTing Market E-Commerce Platform ",
     "project_scale_answer": "5 departments, 15 members",
-    "project_background_answer": "OwlTing Market is a e-commerce platform which dedicated to promoting Taiwanese brands with 2,000+ local partners.<br />However,<span class='text-md-bold'>the website is not responsive and page layout is not conform to user's browsing habit, these inefficient browsing experience cause high bounce rate and low conversion rate,</span><br/> Department manager reported that our website often been criticized by usability and security,<span class='text-md-bold'> which cause team member to lost confidence in the product.</span>",
+    "project_background_answer": "OwlTing Market is a e-commerce platform which dedicated to promoting Taiwanese brands with 2,000+ local partners.<br />However, <span class='text-md-bold'>the website is not responsive and page layout is not conform to user's browsing habit, these inefficient browsing experience cause high bounce rate and low conversion rate.</span><br/> Department manager reported that our website often been criticized by usability and security,<span class='text-md-bold'> which cause team member to lost confidence in the product.</span>",
     "overview": {
       "challenges_title1": "Website structure is complicated to refactor",
       "challenges_answer1": "In this refactoring we adjust not only the UX flow and front-end framework, but also involves back-end date structure, which made this refactoring become very complicated. So in early stage I discussed the revision scale with engineers through information architecture, in the end we decided iterate by pages.",

@@ -87,7 +87,7 @@
       <h2 class="mb-16">{{ $t('about_page.steps.title') }}</h2>
       <div class="timeline-h flex space-between">
         <div class="now">
-          <p class="text-md">now - 2018</p>
+          <p class="text-md">Present - 2018</p>
           <div class="circle-grey mt-8 mb-8"></div>
           <p class="text-md-bold">{{ $t('common.uiux_designer') }}</p>
           <p class="text-sm">{{ $t('about_page.steps.owlting') }}</p>
@@ -111,7 +111,7 @@
           <p class="text-sm" v-html="$t('about_page.steps.epac')"></p>
         </div>
         <div class="2014">
-          <p class="text-md">2013 - 2010</p>
+          <p class="text-md">2014 - 2011</p>
           <div class="circle-grey mt-8 mb-8"></div>
           <p class="text-md-bold">{{ $t('about_page.steps.cd') }}</p>
           <p class="text-sm">{{ $t('about_page.steps.mcu') }}</p>
