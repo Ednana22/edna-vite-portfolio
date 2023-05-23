@@ -31,6 +31,11 @@ const router = createRouter({
             path: '/pms',
             name: 'ProjectPMS',
             component: () => import(/* webpackChunkName: 'PMS' */ './pages/Projects/PMS.vue')
+        },
+        {
+            path: '/:pathMatch(.*)*',
+            name: 'NotFound',
+            redirect: '/'
         }
     ]
 })

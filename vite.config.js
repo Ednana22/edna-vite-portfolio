@@ -17,7 +17,8 @@ export default defineConfig({
         about: resolve(__dirname, 'about.html'),
         market: resolve(__dirname, 'market.html'),
         'official-website': resolve(__dirname, 'official-website.html'),
-        pms: resolve(__dirname, 'pms.html')
+        pms: resolve(__dirname, 'pms.html'),
+        '404': resolve(__dirname, '404.html')
       }
     }
   }
