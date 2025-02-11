@@ -86,35 +86,35 @@
     <section class="time_line-h container">
       <h2 class="mb-16">{{ $t('about_page.steps.title') }}</h2>
       <div class="timeline-h flex space-between">
-        <div class="now">
-          <p class="text-md">Present - 2018</p>
-          <div class="circle-grey mt-8 mb-8"></div>
-          <p class="text-md-bold">{{ $t('common.uiux_designer') }}</p>
-          <p class="text-sm">{{ $t('about_page.steps.owlting') }}</p>
-        </div>
-        <div class="2018">
-          <p class="text-md">2018 - 2017</p>
-          <div class="circle-grey mt-8 mb-8"></div>
-          <p class="text-md-bold">{{ $t('about_page.steps.web_designer') }}</p>
-          <p class="text-sm">{{ $t('about_page.steps.shopee') }}</p>
-        </div>
-        <div class="2015">
-          <p class="text-md">2017 - 2015</p>
-          <div class="circle-grey mt-8 mb-8"></div>
-          <p class="text-md-bold">{{ $t('about_page.steps.visual_designer') }}</p>
-          <p class="text-sm">{{ $t('about_page.steps.the_diner') }}</p>
-        </div>
         <div class="2014">
-          <p class="text-md">2015 - 2014</p>
+          <p class="text-md">2014 - 2015</p>
           <div class="circle-grey mt-8 mb-8"></div>
           <p class="text-md-bold">{{ $t('about_page.steps.eu_bachelor') }}</p>
           <p class="text-sm" v-html="$t('about_page.steps.epac')"></p>
         </div>
-        <div class="2014">
-          <p class="text-md">2014 - 2011</p>
+        <div class="2015">
+          <p class="text-md">2015 - 2017</p>
           <div class="circle-grey mt-8 mb-8"></div>
-          <p class="text-md-bold">{{ $t('about_page.steps.cd') }}</p>
-          <p class="text-sm">{{ $t('about_page.steps.mcu') }}</p>
+          <p class="text-md-bold">{{ $t('about_page.steps.visual_designer') }}</p>
+          <p class="text-sm">{{ $t('about_page.steps.the_diner') }}</p>
+        </div>
+        <div class="2018">
+          <p class="text-md">2017 - 2018</p>
+          <div class="circle-grey mt-8 mb-8"></div>
+          <p class="text-md-bold">{{ $t('about_page.steps.web_designer') }}</p>
+          <p class="text-sm">{{ $t('about_page.steps.shopee') }}</p>
+        </div>
+        <div class="2022">
+          <p class="text-md">2018 - 2022</p>
+          <div class="circle-grey mt-8 mb-8"></div>
+          <p class="text-md-bold">{{ $t('common.uiux_designer') }}</p>
+          <p class="text-sm">{{ $t('about_page.steps.owlting') }}</p>
+        </div>
+        <div class="now">
+          <p class="text-md">2022 - Present</p>
+          <div class="circle-grey mt-8 mb-8"></div>
+          <p class="text-md-bold">{{ $t('common.uiux_designer') }}</p>
+          <p class="text-sm">{{ $t('about_page.steps.cirrus') }}</p>
         </div>
       </div>
     </section>
@@ -124,41 +124,41 @@
         <div class="flex mb-24">
           <div class="circle-grey mt-14 mr-16"></div>
           <div class="now">
-            <p class="text-md">now - 2018</p>
+            <p class="text-md">2022 - now</p>
+            <p class="text-md-bold">{{ $t('common.uiux_designer') }}</p>
+          <p class="text-sm">{{ $t('about_page.steps.cirrus') }}</p>
+          </div>
+        </div>
+        <div class="flex mb-24">
+          <div class="circle-grey mt-14 mr-16"></div>
+          <div class="2022">
+            <p class="text-md">2018 - 2022</p>
             <p class="text-md-bold">{{ $t('common.uiux_designer') }}</p>
             <p class="text-sm">{{ $t('about_page.steps.owlting') }}</p>
           </div>
         </div>
         <div class="flex mb-24">
           <div class="circle-grey mt-14 mr-16"></div>
-          <div class="now">
-            <p class="text-md">2018 - 2016</p>
+          <div class="2018">
+            <p class="text-md">2017 - 2018</p>
             <p class="text-md-bold">{{ $t('about_page.steps.web_designer') }}</p>
-          <p class="text-sm">{{ $t('about_page.steps.shopee') }}</p>
+            <p class="text-sm">{{ $t('about_page.steps.shopee') }}</p>
           </div>
         </div>
         <div class="flex mb-24">
           <div class="circle-grey mt-14 mr-16"></div>
-          <div class="now">
-            <p class="text-md">2016 - 2015</p>
+          <div class="2015">
+            <p class="text-md">2015 - 2017</p>
             <p class="text-md-bold">{{ $t('about_page.steps.visual_designer') }}</p>
-          <p class="text-sm">{{ $t('about_page.steps.the_diner') }}</p>
+            <p class="text-sm">{{ $t('about_page.steps.the_diner') }}</p>
           </div>
         </div>
         <div class="flex mb-24">
           <div class="circle-grey mt-14 mr-16"></div>
-          <div class="now">
-            <p class="text-md">2015 - 2014</p>
+          <div class="2014">
+            <p class="text-md">2014 - 2015</p>
             <p class="text-md-bold">{{ $t('about_page.steps.eu_bachelor') }}</p>
-          <p class="text-sm" v-html="$t('about_page.steps.epac')"></p>
-          </div>
-        </div>
-        <div class="flex">
-          <div class="circle-grey mt-14 mr-16"></div>
-          <div class="now">
-            <p class="text-md">2013 - 2010</p>
-            <p class="text-md-bold">{{ $t('about_page.steps.cd') }}</p>
-          <p class="text-sm">{{ $t('about_page.steps.mcu') }}</p>
+            <p class="text-sm" v-html="$t('about_page.steps.epac')"></p>
           </div>
         </div>
       </div>
@@ -291,12 +291,12 @@
         </div>
         <div class="col-md-6 flex-center column content-pl-48">
           <figure class="figure mb-16 flex-center">
-           <img
-            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/nngroup.png"
-            class="figure-img img-fluid mr-16"
-            style="width: 200px"
-            alt="..."
-          />
+            <img
+              src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/nngroup.png"
+              class="figure-img img-fluid mr-16"
+              style="width: 200px"
+              alt="..."
+            />
           </figure>
         </div>
       </div>
@@ -312,12 +312,12 @@
         </div>
         <div class="col-md-6 flex-center column content-pl-48">
           <figure class="figure mb-16 flex-center">
-           <img
-            src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/Obsidian.png"
-            class="figure-img img-fluid mr-16"
-            style="width: 240px"
-            alt="..."
-          />
+            <img
+              src="https://ednasportfolio.s3.ap-northeast-1.amazonaws.com/about/Obsidian.png"
+              class="figure-img img-fluid mr-16"
+              style="width: 240px"
+              alt="..."
+            />
           </figure>
         </div>
       </div>
